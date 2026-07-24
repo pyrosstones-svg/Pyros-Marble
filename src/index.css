@@ -13,6 +13,11 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
+  /* Transparent bg-neutral-900 override */
+  .bg-neutral-900 {
+    background-color: rgba(23, 23, 23, 0) !important;
+  }
+
   /* Custom input styling for premium light forms */
   input, select, textarea {
     @apply bg-[#FFFFFF] border-[#E5E7EB] text-[#1C1C21] text-sm focus:ring-1 focus:ring-[#D4AF37]/50 focus:border-[#D4AF37] focus:outline-none transition-all placeholder-[#8E8E93]/60 rounded-md;

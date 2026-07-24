@@ -108,7 +108,7 @@ export default function Hero({ onExploreClick }) {
           </div>
 
           {/* Marble Block Image Card right under review text */}
-          <div className="w-full aspect-[16/10] sm:aspect-[16/9] rounded-2xl overflow-hidden border border-white/20 shadow-2xl relative group bg-neutral-900 mt-4">
+          <div className="w-full aspect-[16/10] sm:aspect-[16/9] rounded-2xl overflow-hidden border border-white/20 shadow-2xl relative group bg-transparent mt-4">
             <img 
               src="/marbal image.webp" 
               alt="Marble Block Slab Specimen" 
