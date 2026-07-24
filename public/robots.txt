@@ -1,0 +1,7 @@
+# Robots.txt for Pyros Surfaces - Marble Exporter from India & Indian Granite Supplier
+User-agent: *
+Allow: /
+
+# Host & Sitemap Directive
+Host: https://www.pyrosstones.com
+Sitemap: https://www.pyrosstones.com/sitemap.xml

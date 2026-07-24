@@ -1,0 +1,293 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+  }
+  
+  body {
+    @apply bg-[#FAF9F6] text-[#1C1C21] font-inter text-base leading-relaxed;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Custom input styling for premium light forms */
+  input, select, textarea {
+    @apply bg-[#FFFFFF] border-[#E5E7EB] text-[#1C1C21] text-sm md:text-base focus:ring-1 focus:ring-[#D4AF37]/50 focus:border-[#D4AF37] focus:outline-none transition-all placeholder-[#8E8E93]/60 rounded-md;
+  }
+}
+
+@layer utilities {
+  /* Typography scale boost for readability */
+  .text-readable-body {
+    font-size: 1.05rem;
+    line-height: 1.75;
+  }
+
+  .text-readable-sub {
+    font-size: 0.925rem;
+    line-height: 1.6;
+  }
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .scrollbar-none {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+}
+
+/* Custom animated transitions */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes kenBurns {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.06);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-kenBurns {
+  animation: kenBurns 25s ease-in-out infinite alternate;
+}
+
+/* Intersection Observer Scroll Reveal Classes */
+.reveal {
+  opacity: 0;
+  transition: opacity 0.85s cubic-bezier(0.25, 1, 0.5, 1), transform 0.85s cubic-bezier(0.25, 1, 0.5, 1);
+  will-change: transform, opacity;
+}
+
+.reveal-slide-up {
+  transform: translateY(40px);
+}
+
+.reveal-slide-down {
+  transform: translateY(-40px);
+}
+
+.reveal-slide-left {
+  transform: translateX(-40px);
+}
+
+.reveal-slide-right {
+  transform: translateX(40px);
+}
+
+.reveal-scale-up {
+  transform: scale(0.95);
+}
+
+.reveal-scale-down {
+  transform: scale(1.05);
+}
+
+/* When the intersection observer detects visibility, add this class */
+.reveal-active {
+  opacity: 1 !important;
+  transform: translate(0) scale(1) !important;
+}
+
+/* Staggered Delay Utilities */
+.delay-75 { transition-delay: 75ms; }
+.delay-100 { transition-delay: 100ms; }
+.delay-150 { transition-delay: 150ms; }
+.delay-200 { transition-delay: 200ms; }
+.delay-250 { transition-delay: 250ms; }
+.delay-300 { transition-delay: 300ms; }
+.delay-350 { transition-delay: 350ms; }
+.delay-400 { transition-delay: 400ms; }
+.delay-450 { transition-delay: 450ms; }
+.delay-500 { transition-delay: 500ms; }
+.delay-600 { transition-delay: 600ms; }
+.delay-700 { transition-delay: 700ms; }
+.delay-800 { transition-delay: 800ms; }
+.delay-900 { transition-delay: 900ms; }
+.delay-1000 { transition-delay: 1000ms; }
+
+/* Light glassmorphism styling */
+.glass-light {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.glass-dark {
+  background: rgba(15, 15, 20, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Animated cargo track lines */
+@keyframes dash {
+  to {
+    stroke-dashoffset: -40;
+  }
+}
+
+.animate-dash {
+  animation: dash 3s linear infinite;
+}
+
+/* Luxury Gloss/Glass reflection swipe hover effect */
+.gloss-shine-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.gloss-shine-card::after {
+  content: '';
+  position.absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  transform: skewX(-25deg);
+  transition: none;
+  pointer-events: none;
+}
+
+.gloss-shine-card:hover::after {
+  left: 125%;
+  transition: all 0.75s ease-in-out;
+}
+
+/* Pulsing gold glow */
+@keyframes goldGlow {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(212, 175, 55, 0.2);
+    border-color: rgba(212, 175, 55, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
+    border-color: rgba(212, 175, 55, 0.6);
+  }
+}
+
+.animate-goldGlow {
+  animation: goldGlow 3s ease-in-out infinite;
+}
+
+/* Custom slow spin for circular rotating badge */
+@keyframes spin-slow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 15s linear infinite;
+}
+
+/* Progress Bar smooth fill transition */
+.progress-bar-fill {
+  transition: width 1.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Pulse slow for text and lighting overlays */
+@keyframes pulse-slow {
+  0%, 100% { opacity: 0.8; }
+  50% { opacity: 0.95; }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 3s ease-in-out infinite;
+}
+
+/* Looping Partner Marquee Animation */
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 25s linear infinite;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* 3D Card Hover Depth System */
+.card-3d {
+  perspective: 1200px;
+  transform-style: preserve-3d;
+}
+
+.card-3d-inner {
+  transform-style: preserve-3d;
+  transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1), box-shadow 0.6s cubic-bezier(0.25, 1, 0.5, 1), border-color 0.6s ease;
+}
+
+.card-3d:hover .card-3d-inner {
+  transform: rotateX(7deg) rotateY(-7deg) translateY(-6px);
+  box-shadow: 0 30px 60px -15px rgba(28, 28, 33, 0.5), 0 0 25px rgba(212, 175, 55, 0.25);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+/* Inner elements 3D Z-axis translation offsets */
+.translate-3d-icon {
+  transform: translateZ(20px);
+  transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.translate-3d-title {
+  transform: translateZ(15px);
+  transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.translate-3d-desc {
+  transform: translateZ(10px);
+  transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.card-3d:hover .translate-3d-icon {
+  transform: translateZ(45px) scale(1.08);
+}
+
+.card-3d:hover .translate-3d-title {
+  transform: translateZ(35px);
+}
+
+.card-3d:hover .translate-3d-desc {
+  transform: translateZ(25px);
+}
