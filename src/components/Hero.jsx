@@ -8,15 +8,12 @@ export default function Hero({ onExploreClick }) {
       className="relative min-h-screen flex items-center text-white pt-28 pb-20 overflow-hidden bg-neutral-950"
     >
 
-      {/* Cinematic Looping Background Video */}
+      {/* Hero Background Marble Block Image */}
       <div className="absolute inset-0 z-0 overflow-hidden select-none pointer-events-none">
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          className="w-full h-full object-cover opacity-60 scale-102"
-          src="https://demo.awaikenthemes.com/assets/videos/tilux-hero-video.mp4"
+        <img
+          src="/marbal image.webp"
+          alt="Pyros Marble & Granite Banner"
+          className="w-full h-full object-cover opacity-65 scale-102"
         />
       </div>
 
