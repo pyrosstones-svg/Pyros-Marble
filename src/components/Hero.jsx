@@ -69,46 +69,8 @@ export default function Hero({ onExploreClick }) {
             Pyros is India's leading exporter of premium, hand-picked <strong className="text-white font-semibold">Marble, Granite, Quartzite, and Quartz slabs</strong>. Engineered to pass stringent US/UK quality benchmarks and tailored for luxury projects across Arab nations.
           </p>
 
-          <hr className="border-white/10 w-full" />
-
-          {/* Luxury Client Review Widget */}
-          <div className="flex flex-wrap items-center gap-6">
-
-            {/* Overlay Avatars */}
-            <div className="flex -space-x-3">
-              {[
-                { name: 'US', bg: 'bg-[#D4AF37]/20 text-[#D4AF37] border-[#D4AF37]/45' },
-                { name: 'UK', bg: 'bg-neutral-800 text-white border-white/20' },
-                { name: 'AE', bg: 'bg-[#D4AF37]/20 text-[#D4AF37] border-[#D4AF37]/45' },
-                { name: 'SA', bg: 'bg-neutral-800 text-white border-white/20' }
-              ].map((av, idx) => (
-                <div
-                  key={idx}
-                  className={`w-10 h-10 rounded-full border-2 ${av.bg} flex items-center justify-center text-[10px] font-bold tracking-widest font-mono shadow-md shrink-0`}
-                >
-                  {av.name}
-                </div>
-              ))}
-              <div className="w-10 h-10 rounded-full border-2 border-[#D4AF37] bg-[#D4AF37] text-black flex items-center justify-center text-[11px] font-bold shrink-0 shadow-md">
-                5★
-              </div>
-            </div>
-
-            {/* Review text */}
-            <div className="space-y-1">
-              <div className="flex items-center gap-1 text-[#D4AF37]">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-4 h-4 fill-current" />
-                ))}
-              </div>
-              <p className="text-xs font-semibold text-white/90">Trusted by Global Stone Buyers</p>
-              <p className="text-[10px] text-white/60 font-mono">100+ Commercial Projects Shipped</p>
-            </div>
-
-          </div>
-
-          {/* Marble Block Image Card right under review text */}
-          <div className="w-full aspect-[16/10] sm:aspect-[16/9] rounded-2xl overflow-hidden border border-white/20 shadow-2xl relative group bg-transparent mt-4">
+          {/* Marble Block Image Card */}
+          <div className="w-full aspect-[16/10] sm:aspect-[16/9] rounded-2xl overflow-hidden border border-white/20 shadow-2xl relative group bg-transparent mt-2">
             <img 
               src="/marbal image.webp" 
               alt="Marble Block Slab Specimen" 
