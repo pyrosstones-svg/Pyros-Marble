@@ -5,33 +5,21 @@
 @layer base {
   html {
     scroll-behavior: smooth;
-    font-size: 16px;
   }
   
   body {
-    @apply bg-[#FAF9F6] text-[#1C1C21] font-inter text-base leading-relaxed;
+    @apply bg-[#FAF9F6] text-[#1C1C21] font-inter;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
 
   /* Custom input styling for premium light forms */
   input, select, textarea {
-    @apply bg-[#FFFFFF] border-[#E5E7EB] text-[#1C1C21] text-sm md:text-base focus:ring-1 focus:ring-[#D4AF37]/50 focus:border-[#D4AF37] focus:outline-none transition-all placeholder-[#8E8E93]/60 rounded-md;
+    @apply bg-[#FFFFFF] border-[#E5E7EB] text-[#1C1C21] text-sm focus:ring-1 focus:ring-[#D4AF37]/50 focus:border-[#D4AF37] focus:outline-none transition-all placeholder-[#8E8E93]/60 rounded-md;
   }
 }
 
 @layer utilities {
-  /* Typography scale boost for readability */
-  .text-readable-body {
-    font-size: 1.05rem;
-    line-height: 1.75;
-  }
-
-  .text-readable-sub {
-    font-size: 0.925rem;
-    line-height: 1.6;
-  }
-
   /* Hide scrollbar for Chrome, Safari and Opera */
   .scrollbar-none::-webkit-scrollbar {
     display: none;
@@ -220,7 +208,7 @@
   50% { opacity: 0.95; }
 }
 
-.animate-pulse-slow {
+.animate-[#D4AF37] {
   animation: pulse-slow 3s ease-in-out infinite;
 }
 
@@ -270,7 +258,7 @@
   transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
-.translate-3d-title {
+.translate-3d-[#D4AF37] {
   transform: translateZ(15px);
   transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
 }
