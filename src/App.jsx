@@ -1175,8 +1175,7 @@ export default function App() {
             <div>
               <h4 className="font-outfit text-[11px] tracking-widest uppercase text-white font-bold pb-2 border-b border-white/5 mb-3">Official Hotlines</h4>
               <ul className="space-y-2 font-light text-neutral-300">
-                <li>Logistics Desk: <a href="tel:+919672111191" className="text-white hover:text-[#D4AF37] transition-colors font-semibold">+91 96721 11191</a></li>
-                <li>Sales Desk: <a href="tel:+917891111557" className="text-white hover:text-[#D4AF37] transition-colors font-semibold">+91 78911 11557</a></li>
+                <li>Export & Sales Desk: <a href="tel:+919672111191" className="text-white hover:text-[#D4AF37] transition-colors font-semibold">+91 96721 11191</a></li>
                 <li>Email: <a href="mailto:info@pyrosstones.com" className="text-white hover:text-[#D4AF37] transition-colors font-semibold">info@pyrosstones.com</a></li>
               </ul>
 
@@ -1194,7 +1193,7 @@ export default function App() {
               <div className="flex items-center gap-3">
                 {/* WhatsApp */}
                 <a
-                  href="https://wa.me/917891111557"
+                  href="https://wa.me/919672111191"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-9 h-9 rounded-full bg-neutral-900 border border-neutral-800 text-[#25D366] hover:bg-[#25D366] hover:text-white flex items-center justify-center transition-all duration-300 hover:-translate-y-1 shadow-md"
@@ -1207,7 +1206,7 @@ export default function App() {
 
                 {/* Instagram */}
                 <a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/pyrosstone/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-9 h-9 rounded-full bg-neutral-900 border border-neutral-800 text-[#E4405F] hover:bg-[#E4405F] hover:text-white flex items-center justify-center transition-all duration-300 hover:-translate-y-1 shadow-md"
@@ -1218,24 +1217,13 @@ export default function App() {
 
                 {/* Facebook */}
                 <a
-                  href="https://facebook.com"
+                  href="https://www.facebook.com/profile.php?id=61592202994629"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-9 h-9 rounded-full bg-neutral-900 border border-neutral-800 text-[#1877F2] hover:bg-[#1877F2] hover:text-white flex items-center justify-center transition-all duration-300 hover:-translate-y-1 shadow-md"
                   title="Facebook"
                 >
                   <Facebook className="w-4 h-4" />
-                </a>
-
-                {/* LinkedIn */}
-                <a
-                  href="https://linkedin.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-9 h-9 rounded-full bg-neutral-900 border border-neutral-800 text-[#0077B5] hover:bg-[#0077B5] hover:text-white flex items-center justify-center transition-all duration-300 hover:-translate-y-1 shadow-md"
-                  title="LinkedIn"
-                >
-                  <Linkedin className="w-4 h-4" />
                 </a>
               </div>
             </div>

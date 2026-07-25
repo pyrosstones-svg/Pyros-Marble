@@ -100,9 +100,11 @@ export default function Contact() {
                     <Phone className="w-5 h-5 text-[#D4AF37]" />
                   </div>
                   <div className="flex flex-col">
-                    <span className="text-[10px] uppercase tracking-wider text-[#4E4E59] font-semibold">Direct Desks & Hotlines</span>
-                    <a href="tel:+919672111191" className="text-sm font-semibold text-[#1C1C21] mt-1 hover:text-[#D4AF37] transition-colors">Logistics: +91 96721 11191</a>
-                    <a href="tel:+917891111557" className="text-sm font-semibold text-[#1C1C21] mt-0.5 hover:text-[#D4AF37] transition-colors">Sales Desk: +91 78911 11557</a>
+                    <span className="text-[10px] uppercase tracking-wider text-[#4E4E59] font-semibold">Direct Desk & WhatsApp</span>
+                    <a href="tel:+919672111191" className="text-sm font-semibold text-[#1C1C21] mt-1 hover:text-[#D4AF37] transition-colors">Call: +91 96721 11191</a>
+                    <a href="https://wa.me/919672111191" target="_blank" rel="noopener noreferrer" className="text-xs font-semibold text-[#25D366] mt-1 hover:underline flex items-center gap-1">
+                      <span>Chat on WhatsApp</span> &rarr;
+                    </a>
                   </div>
                 </div>
 
