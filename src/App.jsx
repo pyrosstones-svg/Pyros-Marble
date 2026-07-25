@@ -719,7 +719,7 @@ export default function App() {
                       image: '/secure_lashing.png'
                     }
                   ].map((item, idx) => (
-                    <div key={idx} className="card-3d shrink-0 snap-center min-w-[220px] lg:min-w-0 w-[72vw] lg:w-full h-[380px]">
+                    <div key={idx} className="card-3d shrink-0 snap-center min-w-[220px] lg:min-w-0 w-[72vw] lg:w-full h-auto lg:h-[410px]">
                       <div
                         className="card-3d-inner bg-white border border-[#EADCC9] p-6 rounded-2xl flex flex-col justify-between h-full shadow-sm hover:border-[#D4AF37]/50 transition-all duration-300 group"
                       >
@@ -728,10 +728,10 @@ export default function App() {
                             {item.step}
                           </span>
                           <div className="w-8 h-0.5 bg-[#D4AF37]/30 group-hover:w-16 transition-all duration-500 mt-2" />
-                          <h3 className="font-outfit text-xs font-bold text-[#1C1C21] mt-4 uppercase tracking-wider block translate-3d-title">
+                          <h3 className="font-outfit text-sm font-bold text-[#1C1C21] mt-4 uppercase tracking-wider block translate-3d-title">
                             {item.title}
                           </h3>
-                          <p className="font-inter text-[11px] text-[#8E8E93] leading-relaxed font-light mt-2 block translate-3d-desc">
+                          <p className="font-inter text-xs sm:text-sm text-[#4E4E59] leading-relaxed font-normal mt-2 block translate-3d-desc">
                             {item.desc}
                           </p>
                         </div>
