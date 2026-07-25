@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { X, Send, CheckCircle, Package, Globe, Phone, Mail, User, MessageSquare, ChevronDown } from 'lucide-react';
+import { stones } from '../data/stoneData';
 
 export default function EnquiryModal({ isOpen, onClose, defaultProduct = '' }) {
   const [form, setForm] = useState({
@@ -76,7 +77,7 @@ export default function EnquiryModal({ isOpen, onClose, defaultProduct = '' }) {
           country: form.country,
           product: form.product,
           quantity_sqm: form.quantity || 'N/A',
-          notes: form.notes || 'No extra notes'
+          notes: form.message || 'No extra notes'
         })
       });
     } catch (err) {
@@ -89,19 +90,11 @@ export default function EnquiryModal({ isOpen, onClose, defaultProduct = '' }) {
   const inputClass = (field) =>
     `w-full bg-white border ${errors[field] ? 'border-red-500' : 'border-[#E2E8F0]'} rounded-lg px-4 py-3 font-inter text-sm text-[#1C1C21] placeholder-[#8E8E93]/60 focus:outline-none focus:ring-2 focus:ring-[#D4AF37]/20 focus:border-[#D4AF37] transition-all`;
 
+  const allProductNames = Array.from(new Set(stones.map(s => s.name))).sort((a, b) => a.localeCompare(b));
   const products = [
-    'Indian Carrara White Marble',
-    'Absolute Black Granite',
-    'Titanium Gold Quartzite',
-    'Indian Statuario Marble',
-    'Black Galaxy Granite',
-    'Steel Grey Granite',
-    'Taj Mahal Quartzite',
-    'Calacatta Quartz',
-    'Indian Lilac Marble',
-    'Teakwood Sandstone',
-    'Kota Blue Limestone',
-    'Other / Custom Requirement',
+    'General Inquiry / All Products',
+    ...allProductNames,
+    'Custom Specification / Other'
   ];
 
   return (
