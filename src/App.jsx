@@ -366,8 +366,27 @@ export default function App() {
                       Designed for premium living, built for everyday life
                     </h2>
                     <p className="font-inter text-sm text-[#4E4E59] leading-relaxed font-light">
-                      Pyros is India's leading exporter of premium natural stones under the Rising Exports Group. We utilize automated Italian diamond cutting technology to calibrate thickness tolerance down to a precise ±1mm.
+                      Pyros is India's premier natural stone manufacturer and exporter under the Rising Exports Group, headquartered in Udaipur, Rajasthan. We operate automated Italian gangsaw processing lines and multi-head line polishers to engineer 20mm & 30mm calibrated marble, granite, quartzite, and sandstone slabs for luxury architectural projects worldwide.
                     </p>
+                    <p className="font-inter text-sm text-[#4E4E59] leading-relaxed font-light">
+                      From direct block sourcing at exclusive Rajasthan and South Indian quarry sites to ISPM-15 compliant seaworthy wooden A-frame container lashing, every shipment undergoes multi-point quality inspection to ensure uniform coloration, 95+ gloss luster, and strict dimensional accuracy.
+                    </p>
+                    
+                    {/* Key Feature Highlights */}
+                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2">
+                      <div className="p-3 bg-white/70 border border-[#EADCC9] rounded-lg">
+                        <span className="font-outfit text-xs font-bold text-[#1C1C21] block">20mm & 30mm</span>
+                        <span className="font-inter text-[11px] text-[#8E8E93]">Gangsaw Calibrated Slabs</span>
+                      </div>
+                      <div className="p-3 bg-white/70 border border-[#EADCC9] rounded-lg">
+                        <span className="font-outfit text-xs font-bold text-[#1C1C21] block">ISPM-15 Crated</span>
+                        <span className="font-inter text-[11px] text-[#8E8E93]">Seaworthy Container Lashing</span>
+                      </div>
+                      <div className="p-3 bg-white/70 border border-[#EADCC9] rounded-lg">
+                        <span className="font-outfit text-xs font-bold text-[#1C1C21] block">Port Direct</span>
+                        <span className="font-inter text-[11px] text-[#8E8E93]">Mundra & Chennai Gateways</span>
+                      </div>
+                    </div>
                   </div>
 
                   {/* Dynamic Progress Bars */}
