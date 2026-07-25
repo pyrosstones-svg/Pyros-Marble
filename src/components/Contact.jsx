@@ -230,6 +230,7 @@ export default function Contact() {
               </div>
             )}
           </div>
+        </div>
 
         {/* Clean Keyword SEO Tag Cloud */}
         <div className="mt-16 pt-8 border-t border-[#E5E7EB] text-center max-w-5xl mx-auto">
