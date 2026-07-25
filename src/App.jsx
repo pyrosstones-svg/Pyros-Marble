@@ -1254,6 +1254,23 @@ export default function App() {
         defaultProduct={enquiryProduct}
       />
 
+      {/* Sticky Floating WhatsApp Button in Bottom-Left */}
+      <a
+        href="https://wa.me/919672111191?text=Hello%20Pyros%20Surfaces,%20I%20would%20like%20to%20inquire%20about%20your%20marble%20and%20granite%20slabs."
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 left-6 z-50 group flex items-center gap-2.5 bg-[#25D366] hover:bg-[#20ba5a] text-white p-3.5 sm:px-4 sm:py-3 rounded-full shadow-[0_10px_25px_rgba(37,211,102,0.4)] hover:shadow-[0_15px_30px_rgba(37,211,102,0.6)] transition-all duration-300 hover:scale-105 active:scale-95"
+        title="Chat on WhatsApp (+91 96721 11191)"
+        aria-label="Chat on WhatsApp"
+      >
+        <svg className="w-6 h-6 fill-current shrink-0" viewBox="0 0 24 24">
+          <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.42 9.863-9.864.001-2.637-1.03-5.114-2.905-6.989-1.873-1.874-4.36-2.907-7.011-2.907-5.441 0-9.866 4.422-9.869 9.866-.001 1.848.49 3.655 1.425 5.247l-.93 3.398 3.484-.914z" />
+        </svg>
+        <span className="hidden sm:inline font-inter text-xs font-bold tracking-wider uppercase pr-1">
+          WhatsApp Us
+        </span>
+      </a>
+
     </div>
   );
 }
