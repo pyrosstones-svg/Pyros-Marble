@@ -931,7 +931,7 @@ export default function App() {
             </section>
 
             {/* SECTION 4: Global Reach / Interactive World Map */}
-            <section className="py-24 bg-neutral-900 text-white border-y border-neutral-800 overflow-hidden">
+            <section className="py-24 bg-[#1C1C21] text-white border-y border-neutral-800 overflow-hidden">
               <div className="max-w-7xl mx-auto px-6">
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
                   <div className="lg:col-span-4 space-y-6 reveal reveal-slide-left">
