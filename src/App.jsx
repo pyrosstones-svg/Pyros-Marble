@@ -1254,12 +1254,12 @@ export default function App() {
         defaultProduct={enquiryProduct}
       />
 
-      {/* Sticky Floating WhatsApp Button in Bottom-Left */}
+      {/* Sticky Floating WhatsApp Button in Bottom-Right */}
       <a
         href="https://wa.me/919672111191?text=Hello%20Pyros%20Surfaces,%20I%20would%20like%20to%20inquire%20about%20your%20marble%20and%20granite%20slabs."
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-6 left-6 z-50 group flex items-center gap-2.5 bg-[#25D366] hover:bg-[#20ba5a] text-white p-3.5 sm:px-4 sm:py-3 rounded-full shadow-[0_10px_25px_rgba(37,211,102,0.4)] hover:shadow-[0_15px_30px_rgba(37,211,102,0.6)] transition-all duration-300 hover:scale-105 active:scale-95"
+        className="fixed bottom-6 right-6 z-50 group flex items-center gap-2.5 bg-[#25D366] hover:bg-[#20ba5a] text-white p-3.5 sm:px-4 sm:py-3 rounded-full shadow-[0_10px_25px_rgba(37,211,102,0.4)] hover:shadow-[0_15px_30px_rgba(37,211,102,0.6)] transition-all duration-300 hover:scale-105 active:scale-95"
         title="Chat on WhatsApp (+91 96721 11191)"
         aria-label="Chat on WhatsApp"
       >
