@@ -360,10 +360,10 @@ export default function App() {
                 <div className="lg:col-span-7 space-y-8 text-left reveal reveal-slide-right delay-200">
                   <div className="space-y-4">
                     <span className="font-outfit text-xs tracking-widest text-[#D4AF37] uppercase font-bold block">
-                      About Our Company
+                      Indian Stone Manufacturing
                     </span>
                     <h2 className="font-cormorant text-3xl sm:text-5xl font-medium text-[#1C1C21] leading-tight">
-                      Designed for premium living, built for everyday life
+                      Precision Calibrated Marble & Granite Slabs
                     </h2>
                     <p className="font-inter text-sm text-[#4E4E59] leading-relaxed font-light">
                       Pyros is India's premier natural stone manufacturer and exporter under the Rising Exports Group, headquartered in Udaipur, Rajasthan. We operate automated Italian gangsaw processing lines and multi-head line polishers to engineer 20mm & 30mm calibrated marble, granite, quartzite, and sandstone slabs for luxury architectural projects worldwide.
@@ -417,10 +417,10 @@ export default function App() {
                 {/* Title */}
                 <div className="text-center mb-16 max-w-3xl mx-auto reveal reveal-slide-up">
                   <span className="font-outfit text-xs tracking-[0.25em] text-[#D4AF37] uppercase font-bold block mb-2">
-                    Premium Slabs
+                    Natural Stone Collections
                   </span>
                   <h2 className="font-cormorant text-4xl sm:text-5xl font-medium text-[#1C1C21]">
-                    Discover Our Premium Stone Collections
+                    Export Quality Marble & Granite Slabs
                   </h2>
                 </div>
 
@@ -607,8 +607,8 @@ export default function App() {
                 {/* Heading */}
                 <div className="flex justify-between items-end mb-16 gap-6 reveal reveal-slide-up">
                   <div className="text-left max-w-2xl">
-                    <span className="font-outfit text-xs tracking-[0.25em] text-[#D4AF37] uppercase font-bold block mb-2">Indian Dispatch Hubs</span>
-                    <h2 className="font-cormorant text-4xl sm:text-5xl font-medium text-[#1C1C21]">Our Primary Departure Ports</h2>
+                    <span className="font-outfit text-xs tracking-[0.25em] text-[#D4AF37] uppercase font-bold block mb-2">Indian Export Gateways</span>
+                    <h2 className="font-cormorant text-4xl sm:text-5xl font-medium text-[#1C1C21]">Direct Container Shipments via Mundra & Chennai</h2>
                     <p className="font-inter text-sm text-[#4E4E59] leading-relaxed font-light mt-4 hidden sm:block">
                       We coordinate FCL shipments through India's premier container ports. Select a port below to view active stone cargo exports, specific images, and file inquiries.
                     </p>
@@ -652,8 +652,8 @@ export default function App() {
                 {/* Header */}
                 <div className="flex justify-between items-end mb-16 gap-6 reveal reveal-slide-up">
                   <div className="text-left max-w-2xl">
-                    <span className="font-outfit text-xs tracking-[0.25em] text-[#D4AF37] uppercase font-bold block mb-2">How We Work</span>
-                    <h2 className="font-cormorant text-4xl sm:text-5xl font-medium text-[#1C1C21]">Our Processing Journey</h2>
+                    <span className="font-outfit text-xs tracking-[0.25em] text-[#D4AF37] uppercase font-bold block mb-2">Production Standards</span>
+                    <h2 className="font-cormorant text-4xl sm:text-5xl font-medium text-[#1C1C21]">Five-Stage Slab Processing & Surface Calibration</h2>
                     <p className="font-inter text-sm text-[#4E4E59] leading-relaxed font-light mt-4 hidden sm:block">
                       We maintain absolute calibration, veining integrity, and polishing luster levels throughout our five production stages.
                     </p>
@@ -954,9 +954,9 @@ export default function App() {
               <div className="max-w-7xl mx-auto px-6">
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
                   <div className="lg:col-span-4 space-y-6 reveal reveal-slide-left">
-                    <span className="font-outfit text-xs tracking-[0.25em] text-[#D4AF37] uppercase font-bold block">Global Export Footprint</span>
+                    <span className="font-outfit text-xs tracking-[0.25em] text-[#D4AF37] uppercase font-bold block">Global Supply Network</span>
                     <h2 className="font-cormorant text-4xl sm:text-5xl font-medium tracking-wide text-white leading-tight">
-                      International Delivery Markets
+                      Direct Cargo Shipments to Saudi Arabia, GCC & Global Ports
                     </h2>
                     <p className="font-inter text-sm text-neutral-300 leading-relaxed font-light">
                       Pyros surfaces are selected by premium luxury builders worldwide. We supply container-load shipments directly from our Udaipur head offices to major sea terminals in the United States, Europe/UK, and the Arab Gulf countries.

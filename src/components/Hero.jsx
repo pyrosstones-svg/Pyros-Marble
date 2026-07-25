@@ -32,14 +32,14 @@ export default function Hero({ onExploreClick }) {
           {/* Export Tagline Badge */}
           <div className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full border border-[#D4AF37]/35 bg-[#D4AF37]/10 text-[#D4AF37] font-inter text-xs tracking-[0.25em] uppercase font-bold shadow-lg shadow-black/30">
             <Container className="w-3.5 h-3.5" />
-            Global Export Partner: India &rarr; USA, UK, GCC
+            Direct Manufacturer & Natural Stone Exporter from India
           </div>
 
           {/* Luxury Split Headline */}
           <h1 className="font-cormorant text-5xl sm:text-7xl lg:text-8xl font-medium tracking-wide leading-[1.08] text-white">
-            Crafting the World's <br />
+            India's Finest Natural <br />
             <span className="font-serif italic text-transparent bg-clip-text bg-gradient-to-r from-white via-[#F3F4F6] to-[#D4AF37]">
-              Finest Stone Surfaces
+              Marble & Granite Slabs
             </span>
           </h1>
 
