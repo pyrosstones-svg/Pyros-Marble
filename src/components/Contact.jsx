@@ -231,6 +231,11 @@ export default function Contact() {
             )}
           </div>
 
+        {/* Clean Keyword SEO Tag Cloud */}
+        <div className="mt-16 pt-8 border-t border-[#E5E7EB] text-center max-w-5xl mx-auto">
+          <p className="font-inter text-[11px] text-[#8E8E93] leading-relaxed">
+            Pyros Surfaces is a trusted <strong>marble exporter from India</strong>, <strong>granite exporter from India</strong>, <strong>Indian marble exporter</strong>, and <strong>Indian granite supplier</strong>. As a premier <strong>natural stone exporter India</strong>, <strong>marble supplier India</strong>, and <strong>granite manufacturer India</strong>, we deliver certified 20mm & 30mm gangsaw calibrated slabs globally. Premier <strong>marble slabs exporter</strong>, <strong>granite slabs supplier</strong>, <strong>marble tiles exporter</strong>, and <strong>granite tiles exporter</strong> servicing international contracts. Specialized <strong>Marble exporter India to Saudi Arabia</strong> and <strong>Granite exporter India to Saudi Arabia</strong> (Jeddah, Dammam, Riyadh).
+          </p>
         </div>
 
       </div>
