@@ -153,7 +153,7 @@ export default function Header({ activeSection, setActiveSection }) {
       </div>
 
       {/* Mobile Menu Drawer */}
-      <div className={`fixed inset-x-0 bottom-0 top-[73px] bg-[#1C1C21]/98 backdrop-blur-lg z-40 flex flex-col px-8 py-12 md:hidden transition-all duration-300 border-t border-white/10 overflow-y-auto ${
+      <div className={`fixed inset-x-0 bottom-0 top-[73px] bg-[#17171C] z-40 flex flex-col px-8 py-12 md:hidden transition-all duration-300 border-t border-[#D4AF37]/30 shadow-2xl overflow-y-auto ${
         isOpen ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-full pointer-events-none'
       }`}>
         <div className="flex flex-col gap-8">
