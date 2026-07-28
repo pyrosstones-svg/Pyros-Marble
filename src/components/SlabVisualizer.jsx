@@ -3,7 +3,7 @@ import { stones } from '../data/stoneData';
 import { Award, Layers, Sparkles, Droplets, Scale, Building, ChefHat, Bath, Maximize2, ZoomIn, Info } from 'lucide-react';
 
 export default function SlabVisualizer() {
-  const [selectedStone, setSelectedStone] = useState(stones[0]); // Default to Indian Carrara
+  const [selectedStone, setSelectedStone] = useState(stones[0]);
   const [selectedScene, setSelectedScene] = useState('kitchen'); // kitchen, lobby, bathroom
   const [isZoomed, setIsZoomed] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState('all');

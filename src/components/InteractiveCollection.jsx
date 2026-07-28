@@ -8,13 +8,13 @@ export default function InteractiveCollection() {
     {
       id: 0,
       title: 'Luxury Marble Slabs',
-      name: 'Italian Statuario & Lilac White',
+      name: 'Maharaja White & Alpinus White',
       application: 'Lobby Book-Matched Cladding & Fireplaces',
       specifications: [
         { label: 'Gloss Level', value: '95+ Luster rating' },
         { label: 'Slab Thickness', value: '20mm / 30mm calibrated' },
         { label: 'Water Porosity', value: '< 0.04% hydrophobic' },
-        { label: 'Sourcing Hub', value: 'Carrara (IT) / Udaipur (IN)' }
+        { label: 'Sourcing Hub', value: 'Udaipur (IN) / Kishangarh (IN)' }
       ],
       stoneCloseUp: 'https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=600&auto=format&fit=crop',
       interiorMockup: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop',

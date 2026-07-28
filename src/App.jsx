@@ -220,7 +220,7 @@ export default function App() {
 
   // Featured Stones on Homepage
   const featuredStones = stones.filter(s =>
-    s.id === 'indian-carrara' || s.id === 'absolute-black' || s.id === 'titanium-gold'
+    s.id === 'maharaja-white-north' || s.id === 'absolute-black-south' || s.id === 'titanium-gold'
   );
 
   return (
@@ -1206,7 +1206,7 @@ export default function App() {
 
                 {/* Instagram */}
                 <a
-                  href="https://www.instagram.com/pyrosstone/"
+                  href="https://www.instagram.com/pyros_stones"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-9 h-9 rounded-full bg-neutral-900 border border-neutral-800 text-[#E4405F] hover:bg-[#E4405F] hover:text-white flex items-center justify-center transition-all duration-300 hover:-translate-y-1 shadow-md"

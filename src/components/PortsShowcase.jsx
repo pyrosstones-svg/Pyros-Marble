@@ -12,7 +12,7 @@ const portsList = [
     desc: 'Primary export clearing hub for Rajasthan white marble, sandstone, quartzite, and engineered quartz slabs with 24/7 container gate clearance.',
     badge: 'North & West India Hub',
     highlights: ['Marble & Quartz Slabs', '24/7 Gate Clearance', 'Direct USA & Europe Routes'],
-    stoneIds: ['indian-carrara', 'indian-statuario', 'indian-lilac', 'indian-pistachio', 'teakwood-sandstone', 'kota-blue', 'taj-mahal', 'calacatta-quartz']
+    stoneIds: ['maharaja-white-north', 'crystalo-white-north', 'teakwood-sandstone', 'kota-blue', 'taj-mahal', 'calacatta-quartz']
   },
   { 
     id: 'chennai',

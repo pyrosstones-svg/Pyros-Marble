@@ -1,6 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { Shield, Award, Clock, Users, CheckCircle, HelpCircle, ArrowRight, Layers, Sparkles, Ship, Landmark, Quote, Globe, X } from 'lucide-react';
-import PortsShowcase from './PortsShowcase';
 
 // Intersection Observer based progress bar component
 function ProgressBar({ label, percentage, icon: Icon }) {
@@ -340,15 +339,6 @@ export default function AboutUs() {
               </div>
             ))}
           </div>
-        </div>
-
-        {/* Departure Ports Showcase Section */}
-        <div className="border-t border-[#E5E7EB] pt-16 mb-28 reveal reveal-slide-up">
-          <h3 className="font-outfit text-xs tracking-[0.25em] text-[#D4AF37] uppercase font-bold text-center mb-2">Indian Dispatch Hubs</h3>
-          <h4 className="font-cormorant text-center text-3xl sm:text-4xl font-medium text-[#1C1C21] mb-12">
-            Our Primary Departure Ports
-          </h4>
-          <PortsShowcase />
         </div>
 
         {/* Final brand slogan block */}
