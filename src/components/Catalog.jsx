@@ -24,7 +24,14 @@ export default function Catalog({ initialCategory = 'all', onCategoryChange, onS
 
   // Filter stone list
   const filteredStones = stones.filter(stone => {
-    const matchesCategory = selectedCategory === 'all' || stone.category === selectedCategory;
+    const matchesCategory = selectedCategory === 'all'
+      || stone.category === selectedCategory
+      || (selectedCategory === 'sandstone' && (stone.category === 'sandstone' || stone.category === 'natural' || /sandstone/i.test(stone.name)))
+      || (selectedCategory === 'slate' && (stone.category === 'slate' || /slate/i.test(stone.name)))
+      || (selectedCategory === 'limestone' && (stone.category === 'limestone' || /limestone|kota/i.test(stone.name)))
+      || (selectedCategory === 'wall-cladding' && (stone.category === 'wall-cladding' || /cladding|grooving|panel|3d|hydro/i.test(stone.name)))
+      || (selectedCategory === 'porcelain' && (stone.category === 'porcelain' || /porcelain/i.test(stone.name)))
+      || (selectedCategory === 'natural' && (stone.category === 'natural' || /sandstone|slate|limestone|kota/i.test(stone.name)));
     const matchesSearch = stone.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
                           stone.origin.toLowerCase().includes(searchQuery.toLowerCase());
     return matchesCategory && matchesSearch;
@@ -91,11 +98,11 @@ export default function Catalog({ initialCategory = 'all', onCategoryChange, onS
                 className="group relative bg-white rounded-lg overflow-hidden border border-[#E5E7EB] hover:border-[#D4AF37]/50 transition-all duration-500 hover:-translate-y-1 shadow-sm hover:shadow-md gloss-shine-card"
               >
                 {/* Stone Image */}
-                <div className="aspect-[4/3] w-full overflow-hidden relative">
+                <div className="aspect-[4/3] w-full overflow-hidden relative bg-neutral-100">
                   <img 
                     src={stone.image} 
                     alt={stone.name} 
-                    className="w-full h-full object-cover group-hover:scale-105 transition-all duration-700 brightness-[0.95] group-hover:brightness-100" 
+                    className="w-full h-full object-cover object-center scale-[1.25] group-hover:scale-[1.35] transition-all duration-700 brightness-[0.98] group-hover:brightness-100" 
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/45 to-transparent opacity-80" />
                   

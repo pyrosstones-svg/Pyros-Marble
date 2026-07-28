@@ -96,7 +96,7 @@ export default function SlabVisualizer() {
                       <img 
                         src={stone.image} 
                         alt={stone.name} 
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover object-center scale-[1.08]"
                       />
                       <div className="absolute inset-0 bg-black/10 hover:bg-transparent transition-colors" />
                     </button>

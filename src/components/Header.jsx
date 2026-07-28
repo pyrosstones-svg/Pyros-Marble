@@ -27,9 +27,14 @@ export default function Header({ activeSection, setActiveSection }) {
   ];
 
   const productCategories = [
-    { id: 'all', name: 'All Collections' },
-    { id: 'quartzite', name: 'Quartz & Quartzite' },
-    { id: 'natural', name: 'Sandstone & Slate' }
+    { id: 'marble', name: 'Marble' },
+    { id: 'granite', name: 'Granite' },
+    { id: 'sandstone', name: 'Sandstone' },
+    { id: 'slate', name: 'Slate Stone' },
+    { id: 'limestone', name: 'Limestone' },
+    { id: 'quartzite', name: 'Quartzite' },
+    { id: 'wall-cladding', name: 'Wall Cladding' },
+    { id: 'porcelain', name: 'Porcelain' }
   ];
 
   const handleNavClick = (id) => {
@@ -85,7 +90,7 @@ export default function Header({ activeSection, setActiveSection }) {
                   </button>
                   
                   {/* Dropdown Menu */}
-                  <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-52 bg-white border border-neutral-100 rounded-lg shadow-xl py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-2 group-hover:translate-y-0 z-50">
+                  <div className="absolute top-full left-1/2 -translate-x-1/2 mt-1 w-56 bg-[#FAF9F6] border border-[#EADCC9] rounded-lg shadow-xl py-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-2 group-hover:translate-y-0 z-50 overflow-hidden">
                     {productCategories.map((cat) => (
                       <button
                         key={cat.id}
@@ -93,10 +98,10 @@ export default function Header({ activeSection, setActiveSection }) {
                           e.stopPropagation();
                           handleCategoryClick(cat.id);
                         }}
-                        className="w-full text-left px-5 py-2.5 text-xs text-[#4E4E59] hover:bg-[#FAF9F6] hover:text-[#D4AF37] font-inter tracking-wider uppercase transition-colors flex items-center justify-between"
+                        className="w-full text-left px-5 py-3 text-xs text-[#1C1C21] hover:bg-white hover:text-[#D4AF37] font-inter font-medium tracking-wide transition-colors border-b border-[#EADCC9]/40 last:border-b-0 flex items-center justify-between group/item"
                       >
-                        {cat.name}
-                        <span className="text-[8px] text-neutral-300">✦</span>
+                        <span>{cat.name}</span>
+                        <span className="text-[10px] text-[#D4AF37] opacity-0 group-hover/item:opacity-100 transition-opacity">→</span>
                       </button>
                     ))}
                   </div>
