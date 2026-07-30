@@ -42,19 +42,18 @@ export default function Header({ activeSection, setActiveSection }) {
     setIsOpen(false);
     if (id === 'hero') {
       window.location.hash = '#/';
+    } else if (id === 'catalog') {
+      window.location.hash = '#/marble';
     } else {
       window.location.hash = `#/${id}`;
     }
   };
 
   const handleCategoryClick = (catId) => {
-    setActiveSection('catalog');
+    const target = catId || 'marble';
+    setActiveSection(target);
     setIsOpen(false);
-    if (catId === 'all') {
-      window.location.hash = '#/catalog';
-    } else {
-      window.location.hash = `#/catalog/${catId}`;
-    }
+    window.location.hash = `#/${target}`;
   };
 
   const useLightText = true; // Always light text as background is dark obsidian

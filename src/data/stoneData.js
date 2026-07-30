@@ -1,9 +1,5 @@
 export const stoneCategories = [
   {
-    "id": "all",
-    "name": "All Collections"
-  },
-  {
     "id": "marble",
     "name": "Marble"
   },

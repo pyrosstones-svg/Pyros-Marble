@@ -11,6 +11,14 @@ import CallToAction from './components/CallToAction';
 import PortsShowcase from './components/PortsShowcase';
 import EnquiryModal from './components/EnquiryModal';
 import InteractiveCollection from './components/InteractiveCollection';
+import MarblePage from './components/MarblePage';
+import GranitePage from './components/GranitePage';
+import QuartzitePage from './components/QuartzitePage';
+import SandstonePage from './components/SandstonePage';
+import SlatePage from './components/SlatePage';
+import LimestonePage from './components/LimestonePage';
+import WallCladdingPage from './components/WallCladdingPage';
+import PorcelainPage from './components/PorcelainPage';
 import { stones } from './data/stoneData';
 import { ArrowUp, Ship, Heart, Shield, Globe, Award, CheckCircle, Package, ArrowRight, Layers, Mountain, Hammer, Sparkles, Search, Quote, Star, ChevronLeft, ChevronRight, Instagram, Facebook, Linkedin, Calendar, Clock, Target, Eye } from 'lucide-react';
 
@@ -177,15 +185,27 @@ export default function App() {
         setCurrentPage('product');
       } else if (hash === '#/about-us' || hash === '#about-us') {
         setCurrentPage('about-us');
+      } else if (hash === '#/marble' || hash === '#/catalog/marble') {
+        setCurrentPage('marble');
+      } else if (hash === '#/granite' || hash === '#/catalog/granite') {
+        setCurrentPage('granite');
+      } else if (hash === '#/quartzite' || hash === '#/catalog/quartzite') {
+        setCurrentPage('quartzite');
+      } else if (hash === '#/sandstone' || hash === '#/catalog/sandstone') {
+        setCurrentPage('sandstone');
+      } else if (hash === '#/slate' || hash === '#/catalog/slate') {
+        setCurrentPage('slate');
+      } else if (hash === '#/limestone' || hash === '#/catalog/limestone') {
+        setCurrentPage('limestone');
+      } else if (hash === '#/wall-cladding' || hash === '#/catalog/wall-cladding') {
+        setCurrentPage('wall-cladding');
+      } else if (hash === '#/porcelain' || hash === '#/catalog/porcelain') {
+        setCurrentPage('porcelain');
       } else if (hash.startsWith('#/catalog') || hash.startsWith('#catalog')) {
         const cleanHash = hash.replace(/^#\/?/, '');
         const parts = cleanHash.split('/');
-        if (parts.length > 1 && parts[1]) {
-          setCatalogCategory(parts[1]);
-        } else {
-          setCatalogCategory('all');
-        }
-        setCurrentPage('catalog');
+        const cat = (parts.length > 1 && parts[1] && parts[1] !== 'all') ? parts[1] : 'marble';
+        setCurrentPage(cat);
       } else if (hash === '#/blog' || hash === '#blog') {
         setCurrentPage('blog');
       } else if (hash === '#/contact' || hash === '#contact') {
@@ -1089,12 +1109,17 @@ export default function App() {
           <AboutUs />
         )}
 
+        {currentPage === 'marble' && <MarblePage />}
+        {currentPage === 'granite' && <GranitePage />}
+        {currentPage === 'quartzite' && <QuartzitePage />}
+        {currentPage === 'sandstone' && <SandstonePage />}
+        {currentPage === 'slate' && <SlatePage />}
+        {currentPage === 'limestone' && <LimestonePage />}
+        {currentPage === 'wall-cladding' && <WallCladdingPage />}
+        {currentPage === 'porcelain' && <PorcelainPage />}
+
         {currentPage === 'catalog' && (
-          <Catalog
-            initialCategory={catalogCategory}
-            onCategoryChange={setCatalogCategory}
-            onSelectForCalculator={handleSelectForCalculator}
-          />
+          <MarblePage />
         )}
 
         {currentPage === 'contact' && (

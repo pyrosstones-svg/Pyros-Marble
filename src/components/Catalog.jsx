@@ -2,12 +2,14 @@ import React, { useState, useEffect } from 'react';
 import { stones, stoneCategories } from '../data/stoneData';
 import { Search, Eye } from 'lucide-react';
 
-export default function Catalog({ initialCategory = 'all', onCategoryChange, onSelectForCalculator }) {
-  const [selectedCategory, setSelectedCategory] = useState(initialCategory);
+export default function Catalog({ initialCategory = 'marble', onCategoryChange, onSelectForCalculator }) {
+  const activeCategory = (initialCategory === 'all' || !initialCategory) ? 'marble' : initialCategory;
+  const [selectedCategory, setSelectedCategory] = useState(activeCategory);
   const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
-    setSelectedCategory(initialCategory);
+    const validCat = (initialCategory === 'all' || !initialCategory) ? 'marble' : initialCategory;
+    setSelectedCategory(validCat);
   }, [initialCategory]);
 
   const handleCategorySelect = (catId) => {
@@ -15,17 +17,23 @@ export default function Catalog({ initialCategory = 'all', onCategoryChange, onS
     if (onCategoryChange) {
       onCategoryChange(catId);
     }
-    if (catId === 'all') {
-      window.location.hash = '#/catalog';
-    } else {
-      window.location.hash = `#/catalog/${catId}`;
-    }
+    window.location.hash = `#/catalog/${catId}`;
   };
 
-  // Filter stone list
+  const categoryTitles = {
+    marble: 'Luxury Marble Slabs Collection',
+    granite: 'Premium Granite Slabs Collection',
+    sandstone: 'Natural Sandstone & Pavers Collection',
+    slate: 'Architectural Slate Stone Collection',
+    limestone: 'Calibrated Limestone & Kota Stone',
+    quartzite: 'Exquisite Quartzite & Quartz Slabs',
+    'wall-cladding': '3D Wall Cladding & Textured Panels',
+    porcelain: 'Large Format Porcelain Slabs'
+  };
+
+  // Filter stone list by active category page
   const filteredStones = stones.filter(stone => {
-    const matchesCategory = selectedCategory === 'all'
-      || stone.category === selectedCategory
+    const matchesCategory = stone.category === selectedCategory
       || (selectedCategory === 'sandstone' && (stone.category === 'sandstone' || stone.category === 'natural' || /sandstone/i.test(stone.name)))
       || (selectedCategory === 'slate' && (stone.category === 'slate' || /slate/i.test(stone.name)))
       || (selectedCategory === 'limestone' && (stone.category === 'limestone' || /limestone|kota/i.test(stone.name)))
@@ -44,9 +52,9 @@ export default function Catalog({ initialCategory = 'all', onCategoryChange, onS
         {/* Title Section */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 border-b border-[#E5E7EB] pb-8">
           <div>
-            <span className="font-outfit text-xs tracking-[0.25em] text-[#D4AF37] uppercase font-semibold mb-2 block">Premium Collections</span>
+            <span className="font-outfit text-xs tracking-[0.25em] text-[#D4AF37] uppercase font-semibold mb-2 block">Category Catalog</span>
             <h2 className="font-cormorant text-4xl sm:text-5xl font-medium tracking-wide text-[#1C1C21]">
-              Exquisite Stone Gallery
+              {categoryTitles[selectedCategory] || `${selectedCategory.toUpperCase()} Collection`}
             </h2>
           </div>
           <p className="font-inter text-xs sm:text-sm text-[#4E4E59] max-w-md mt-4 md:mt-0 font-light leading-relaxed">
