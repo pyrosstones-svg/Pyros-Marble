@@ -12,7 +12,7 @@ import PortsShowcase from './components/PortsShowcase';
 import EnquiryModal from './components/EnquiryModal';
 import InteractiveCollection from './components/InteractiveCollection';
 import { stones } from './data/stoneData';
-import { ArrowUp, Ship, Heart, Shield, Globe, Award, CheckCircle, Package, ArrowRight, Layers, Mountain, Hammer, Sparkles, Search, Quote, Star, ChevronLeft, ChevronRight, Instagram, Facebook, Linkedin, Calendar, Clock } from 'lucide-react';
+import { ArrowUp, Ship, Heart, Shield, Globe, Award, CheckCircle, Package, ArrowRight, Layers, Mountain, Hammer, Sparkles, Search, Quote, Star, ChevronLeft, ChevronRight, Instagram, Facebook, Linkedin, Calendar, Clock, Target, Eye } from 'lucide-react';
 
 // Premium Animated Counter Component
 function AnimatedCounter({ value, duration = 1500, suffix = "" }) {

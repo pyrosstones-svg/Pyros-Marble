@@ -102,7 +102,7 @@ export default function Catalog({ initialCategory = 'all', onCategoryChange, onS
                   <img 
                     src={stone.image} 
                     alt={stone.name} 
-                    className="w-full h-full object-cover object-center scale-[1.25] group-hover:scale-[1.35] transition-all duration-700 brightness-[0.98] group-hover:brightness-100" 
+                    className="w-full h-full object-cover object-center group-hover:scale-105 transition-all duration-700 brightness-[0.98] group-hover:brightness-100" 
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/45 to-transparent opacity-80" />
                   

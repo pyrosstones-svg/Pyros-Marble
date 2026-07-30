@@ -117,7 +117,7 @@ export default function ProductDetails({ stoneId, onBack }) {
               <img 
                 src={activeImage} 
                 alt={currentStone.name} 
-                className="w-full h-full object-cover object-center scale-[1.25] group-hover:scale-[1.35] transition-all duration-500" 
+                className="w-full h-full object-cover object-center group-hover:scale-105 transition-all duration-500" 
               />
               <span className="absolute bottom-4 left-4 bg-black/80 backdrop-blur-md px-3.5 py-1.5 rounded-lg text-[10px] tracking-wider uppercase font-bold text-[#D4AF37] border border-white/10 shadow-md">
                 Finish: {selectedFinish}
@@ -125,24 +125,40 @@ export default function ProductDetails({ stoneId, onBack }) {
             </div>
           </div>
 
-          {/* Right Column: Title, Rich Description, Buttons */}
+          {/* Right Column: Title, Targeted Keywords, Rich Description, Buttons */}
           <div className="lg:col-span-6 flex flex-col justify-between space-y-6">
             <div>
-              <span className="text-[10px] text-[#D4AF37] tracking-[0.25em] uppercase font-bold block mb-2">
-                Pyros Surfaces Worldwide · Export Grade
-              </span>
-              <h1 className="font-cormorant text-4xl sm:text-5xl font-semibold mb-5 text-[#1C1C21] leading-tight">
+              <div className="flex flex-wrap items-center gap-2 mb-2">
+                <span className="text-[10px] text-[#D4AF37] tracking-[0.25em] uppercase font-bold">
+                  Pyros Surfaces Worldwide · Export Grade
+                </span>
+                <span className="px-2 py-0.5 bg-[#D4AF37]/15 text-[#D4AF37] rounded text-[9px] font-mono font-bold uppercase">
+                  SASO & SABER Certified
+                </span>
+              </div>
+
+              <h1 className="font-cormorant text-4xl sm:text-5xl font-semibold mb-4 text-[#1C1C21] leading-tight">
                 {currentStone.name}
               </h1>
-              <p className="font-inter text-sm text-[#4E4E59] leading-relaxed mb-6 font-light">
-                {currentStone.name} from {currentStone.origin} features a rich natural surface with elegant flow patterns and exceptional density ({currentStone.density}). This premium {currentStone.category} is exported for luxury feature walls, countertops, executive flooring, and bathroom surfaces. Pyros Marble supplies {currentStone.name} in polished, honed, leathered, and brushed finishes in gangsaw slabs and calibrated tile formats.
-              </p>
+
+              {/* Rich Multi-Paragraph Description */}
+              <div className="space-y-3 font-inter text-xs text-[#4E4E59] leading-relaxed font-light mb-6 border-l-2 border-[#D4AF37] pl-4">
+                <p>
+                  <strong className="text-[#1C1C21] font-semibold">{currentStone.name}</strong> is a premier grade natural {currentStone.category} directly extracted from exclusive quarry reserves in <strong className="text-[#1C1C21] font-semibold">{currentStone.origin}</strong>. Celebrated for its unique veining, natural structural integrity, and high mineral density ({currentStone.density}), this surface brings timeless architectural elegance to luxury commercial developments, high-end residential villas, and hospitality landmarks.
+                </p>
+                <p>
+                  Processed in automated Udaipur and Kishangarh manufacturing facilities, every slab of {currentStone.name} undergoes Italian gangsaw cutting with strict <strong className="text-[#1C1C21] font-semibold">±1mm thickness calibration tolerance</strong> in standard 20mm and 30mm profiles. Slabs are reinforced with fiberglass net backing and polished using 24-head automated line polishers to achieve an extraordinary <strong className="text-[#1C1C21] font-semibold">95+ Gloss Luster finish</strong>.
+                </p>
+                <p>
+                  Pyros Marble exports {currentStone.name} with complete B2B compliance including SASO / SABER certificates for Saudi Arabia (Jeddah, Dammam, Yanbu Ports), UAE (Jebel Ali), Qatar, USA, and UK. Packed in ISPM-15 compliant fumigated wooden A-frame crates for zero-breakage international freight.
+                </p>
+              </div>
 
               {/* Action Buttons: Get a Quote & WhatsApp */}
               <div className="flex flex-wrap items-center gap-4 pt-2">
                 <button
                   onClick={handleOpenQuote}
-                  className="px-6 py-3 bg-[#C82333] hover:bg-[#b01c2b] text-white text-xs tracking-wider uppercase font-bold rounded-lg shadow-md transition-all flex items-center gap-2 hover:-translate-y-0.5"
+                  className="px-6 py-3.5 bg-[#D4AF37] hover:bg-[#b59228] text-black text-xs tracking-wider uppercase font-bold rounded-lg shadow-md transition-all flex items-center gap-2 hover:-translate-y-0.5 cursor-pointer"
                 >
                   <Send className="w-4 h-4" />
                   Get a Quote
@@ -152,10 +168,10 @@ export default function ProductDetails({ stoneId, onBack }) {
                   href={`https://wa.me/919672111191?text=${whatsappMessage}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-6 py-3 bg-[#25D366] hover:bg-[#20bd5a] text-white text-xs tracking-wider uppercase font-bold rounded-lg shadow-md transition-all flex items-center gap-2 hover:-translate-y-0.5"
+                  className="px-6 py-3.5 bg-[#25D366] hover:bg-[#20bd5a] text-white text-xs tracking-wider uppercase font-bold rounded-lg shadow-md transition-all flex items-center gap-2 hover:-translate-y-0.5 cursor-pointer"
                 >
                   <MessageSquare className="w-4 h-4 fill-current" />
-                  WhatsApp
+                  WhatsApp Direct Inquiry
                 </a>
               </div>
             </div>
@@ -168,89 +184,92 @@ export default function ProductDetails({ stoneId, onBack }) {
             
             {/* Left Column: Product Technical Specs */}
             <div className="space-y-4 text-xs font-inter text-[#4E4E59]">
-              <h3 className="font-outfit text-sm font-bold uppercase tracking-wider text-[#1C1C21] border-b border-[#E5E7EB] pb-3">
-                Technical Specifications
+              <h3 className="font-outfit text-sm font-bold uppercase tracking-wider text-[#1C1C21] border-b border-[#E5E7EB] pb-3 flex items-center justify-between">
+                <span>Technical Specifications</span>
+                <span className="text-[10px] font-mono text-[#D4AF37] bg-[#FAF9F6] border border-[#EADCC9] px-2 py-0.5 rounded">ISO 9001 Certified</span>
               </h3>
               
               <div className="py-1.5 border-b border-[#E5E7EB]/60 flex flex-col sm:flex-row sm:justify-between gap-1">
-                <span className="font-semibold text-[#1C1C21]">Origin:</span>
+                <span className="font-semibold text-[#1C1C21]">Quarry Origin:</span>
                 <span>{currentStone.origin}</span>
               </div>
 
               <div className="py-1.5 border-b border-[#E5E7EB]/60 flex flex-col sm:flex-row sm:justify-between gap-1">
-                <span className="font-semibold text-[#1C1C21]">Colour & Pattern:</span>
-                <span className="text-right">Natural stone veining with uniform coloration and high luster rating</span>
+                <span className="font-semibold text-[#1C1C21]">Material Category:</span>
+                <span className="uppercase font-bold text-[#D4AF37]">{currentStone.category}</span>
               </div>
 
               <div className="py-1.5 border-b border-[#E5E7EB]/60 flex flex-col sm:flex-row sm:justify-between gap-1">
-                <span className="font-semibold text-[#1C1C21]">Finish:</span>
-                <span>Polished · Honed · Leathered · Brushed</span>
+                <span className="font-semibold text-[#1C1C21]">Density & Absorption:</span>
+                <span className="font-mono">{currentStone.density} · Water Abs. {currentStone.waterAbsorption}</span>
               </div>
 
               <div className="py-1.5 border-b border-[#E5E7EB]/60 flex flex-col sm:flex-row sm:justify-between gap-1">
-                <span className="font-semibold text-[#1C1C21]">Thickness:</span>
-                <span className="font-mono font-bold text-[#1C1C21]">20 mm · 30 mm</span>
+                <span className="font-semibold text-[#1C1C21]">Available Finishes:</span>
+                <span>High Gloss · Polished · Honed · Leathered · Brushed</span>
               </div>
 
               <div className="py-1.5 border-b border-[#E5E7EB]/60 flex flex-col sm:flex-row sm:justify-between gap-1">
-                <span className="font-semibold text-[#1C1C21]">Formats:</span>
-                <span className="font-mono">Slabs (240×120 cm) · Tiles (60×60, 60×30, 30×30 cm)</span>
+                <span className="font-semibold text-[#1C1C21]">Standard Thickness:</span>
+                <span className="font-mono font-bold text-[#1C1C21]">20 mm & 30 mm Gangsaw (Tolerance ±1mm)</span>
               </div>
 
               <div className="py-1.5 border-b border-[#E5E7EB]/60 flex flex-col sm:flex-row sm:justify-between gap-1">
-                <span className="font-semibold text-[#1C1C21]">Applications:</span>
-                <span>Feature Walls · Countertops · Flooring · Bathroom Surfaces</span>
+                <span className="font-semibold text-[#1C1C21]">Export Formats:</span>
+                <span className="font-mono">Gangsaw Slabs (240-300 × 120-190 cm) · Tiles (60×60, 60×30 cm)</span>
               </div>
 
               <div className="py-1.5 flex flex-col sm:flex-row sm:justify-between gap-1">
-                <span className="font-semibold text-[#1C1C21]">HS Code:</span>
+                <span className="font-semibold text-[#1C1C21]">Customs HS Code:</span>
                 <span className="font-mono font-bold text-[#1C1C21]">{hsCode}</span>
               </div>
             </div>
 
             {/* Right Column: Export Checkpoints with Checkmarks ✓ */}
             <div className="space-y-4 text-xs font-inter text-[#1C1C21]">
-              <h3 className="font-outfit text-sm font-bold uppercase tracking-wider text-[#1C1C21] border-b border-[#E5E7EB] pb-3">
-                Quality & Export Standards
+              <h3 className="font-outfit text-sm font-bold uppercase tracking-wider text-[#1C1C21] border-b border-[#E5E7EB] pb-3 flex items-center justify-between">
+                <span>Quality Assurance & Export Standard</span>
+                <span className="text-[10px] font-mono text-[#D4AF37] bg-[#FAF9F6] border border-[#EADCC9] px-2 py-0.5 rounded">100% Export Grade</span>
               </h3>
 
               <div className="space-y-3.5 pt-1">
                 <div className="flex items-start gap-3">
-                  <span className="text-[#1C1C21] font-bold text-sm leading-none">✓</span>
-                  <span>Available in polished, honed, leathered, and brushed finishes</span>
+                  <span className="text-[#D4AF37] font-bold text-sm leading-none">✓</span>
+                  <span><strong>Italian Gangsaw Slicing:</strong> Uniform 20mm & 30mm slab calibration (±1mm).</span>
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <span className="text-[#1C1C21] font-bold text-sm leading-none">✓</span>
-                  <span>Gangsaw slabs and calibrated tiles supplied in bulk</span>
+                  <span className="text-[#D4AF37] font-bold text-sm leading-none">✓</span>
+                  <span><strong>24-Head Line Polish:</strong> Superior mirror shine with 95+ Gloss Luster rating.</span>
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <span className="text-[#1C1C21] font-bold text-sm leading-none">✓</span>
-                  <span>Secure ISPM-15 wooden crate packaging for safe international freight</span>
+                  <span className="text-[#D4AF37] font-bold text-sm leading-none">✓</span>
+                  <span><strong>ISPM-15 Wooden Crates:</strong> Fumigated seaworthy A-frame packaging with steel strapping.</span>
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <span className="text-[#1C1C21] font-bold text-sm leading-none">✓</span>
-                  <span>Full export documentation — commercial invoice, BL, COO, packing list</span>
+                  <span className="text-[#D4AF37] font-bold text-sm leading-none">✓</span>
+                  <span><strong>SASO & SABER Approved:</strong> Full trade compliance for Saudi Arabia & GCC imports.</span>
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <span className="text-[#1C1C21] font-bold text-sm leading-none">✓</span>
-                  <span>Minimum order: 20 MT (approx. 1 × 20ft container)</span>
+                  <span className="text-[#D4AF37] font-bold text-sm leading-none">✓</span>
+                  <span><strong>Min Order & Delivery:</strong> 1 × 20ft container load (~20-27 Tons depending on port limit).</span>
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <span className="text-[#1C1C21] font-bold text-sm leading-none">✓</span>
-                  <span>Shipped from {recommendedPort}</span>
+                  <span className="text-[#D4AF37] font-bold text-sm leading-none">✓</span>
+                  <span><strong>Departure Gateways:</strong> Fast-track clearance via {recommendedPort}.</span>
                 </div>
               </div>
             </div>
           </div>
 
           {/* Bottom Trust Banner */}
-          <div className="mt-8 pt-6 border-t border-[#E5E7EB] text-center text-xs text-[#4E4E59] font-medium">
-            Trusted by importers, architects and contractors across 45+ countries. Get a quote within 24 hours.
+          <div className="mt-8 pt-6 border-t border-[#E5E7EB] text-center text-xs text-[#4E4E59] font-medium flex flex-col sm:flex-row items-center justify-center gap-4">
+            <span>🛡️ Trusted by natural stone importers, architects & contractors in 45+ countries.</span>
+            <span className="text-[#D4AF37] font-bold">Formal FOB/CIF Quote within 24 Hours.</span>
           </div>
         </div>
 
@@ -373,6 +392,56 @@ export default function ProductDetails({ stoneId, onBack }) {
           </div>
         </div>
 
+        {/* PRODUCT SPECIFIC B2B SEO FAQ SECTION */}
+        <div className="bg-white border border-[#E5E7EB] rounded-2xl p-8 shadow-sm mb-16">
+          <div className="text-center mb-8">
+            <span className="font-outfit text-xs tracking-[0.25em] text-[#D4AF37] uppercase font-bold block mb-1">
+              B2B Trade & Export FAQs
+            </span>
+            <h3 className="font-cormorant text-2xl sm:text-4xl font-medium text-[#1C1C21]">
+              Frequently Asked Questions About {currentStone.name}
+            </h3>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-xs text-[#4E4E59]">
+            <div className="p-5 bg-[#FAF9F6] border border-[#EADCC9]/50 rounded-xl space-y-2">
+              <h4 className="font-outfit font-bold text-[#1C1C21] text-sm flex items-center gap-2">
+                <span className="text-[#D4AF37]">Q:</span> What thickness & slab sizes are available for {currentStone.name}?
+              </h4>
+              <p className="font-light leading-relaxed">
+                Pyros Marble supplies {currentStone.name} in standard Italian gangsaw calibrated thicknesses of <strong>20mm and 30mm</strong> with a strict ±1mm tolerance. Standard gangsaw slab sizes range from 240-300 cm length by 120-190 cm height. We also process custom cut-to-size floor tiles (60×60 cm, 60×30 cm) for major commercial projects.
+              </p>
+            </div>
+
+            <div className="p-5 bg-[#FAF9F6] border border-[#EADCC9]/50 rounded-xl space-y-2">
+              <h4 className="font-outfit font-bold text-[#1C1C21] text-sm flex items-center gap-2">
+                <span className="text-[#D4AF37]">Q:</span> Is SASO / SABER certification provided for Saudi Arabia exports?
+              </h4>
+              <p className="font-light leading-relaxed">
+                Yes, 100%. All {currentStone.name} shipments exported to Saudi Arabia come with complete <strong>SASO and SABER certificate compliance</strong>, factory quality inspection reports, Certificate of Origin (COO), and direct container dispatch to Jeddah Islamic Port, Dammam Port, or Yanbu Port.
+              </p>
+            </div>
+
+            <div className="p-5 bg-[#FAF9F6] border border-[#EADCC9]/50 rounded-xl space-y-2">
+              <h4 className="font-outfit font-bold text-[#1C1C21] text-sm flex items-center gap-2">
+                <span className="text-[#D4AF37]">Q:</span> How is {currentStone.name} packaged for ocean container freight?
+              </h4>
+              <p className="font-light leading-relaxed">
+                Every slab is polished, backed with fiberglass reinforcement mesh, and packed into heavy-duty <strong>ISPM-15 compliant fumigated wooden A-frame crates</strong>. Slabs are protected with plastic sheeting, foam corner guards, and bound with high-tensile steel strapping for zero-breakage transit.
+              </p>
+            </div>
+
+            <div className="p-5 bg-[#FAF9F6] border border-[#EADCC9]/50 rounded-xl space-y-2">
+              <h4 className="font-outfit font-bold text-[#1C1C21] text-sm flex items-center gap-2">
+                <span className="text-[#D4AF37]">Q:</span> What is the Minimum Order Quantity (MOQ) and lead time?
+              </h4>
+              <p className="font-light leading-relaxed">
+                The standard export MOQ is <strong>1 × 20ft container load</strong> (approx. 400-450 sqm in 20mm or 270-300 sqm in 30mm). Production and gangsaw slab calibration lead time is typically 10 to 14 days, followed by port container lashing and ocean freight booking.
+              </p>
+            </div>
+          </div>
+        </div>
+
         {/* Alternative Finishes Section */}
         {alternativeFinishes.length > 0 && (
           <div className="mt-20 pt-16 border-t border-[#E5E7EB]">
@@ -398,7 +467,7 @@ export default function ProductDetails({ stoneId, onBack }) {
                       <img
                         src={variant.image}
                         alt={variant.name}
-                        className="w-full h-full object-cover object-center scale-[1.25] group-hover:scale-[1.35] transition-transform duration-500"
+                        className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                       />
                     </div>
                     <div className="p-4 flex flex-col justify-between">

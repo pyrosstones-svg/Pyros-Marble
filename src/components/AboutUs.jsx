@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react';
-import { Shield, Award, Clock, Users, CheckCircle, HelpCircle, ArrowRight, Layers, Sparkles, Ship, Landmark, Quote, Globe, X } from 'lucide-react';
+import { Shield, Award, Clock, Users, CheckCircle, HelpCircle, ArrowRight, Layers, Sparkles, Ship, Landmark, Quote, Globe, X, Target, Eye, Compass, CheckCircle2 } from 'lucide-react';
 
 // Intersection Observer based progress bar component
 function ProgressBar({ label, percentage, icon: Icon }) {
@@ -319,6 +319,125 @@ export default function AboutUs() {
             </div>
           </div>
         )}
+
+        {/* Mission & Vision Section */}
+        <div className="mb-28 reveal reveal-slide-up">
+          <div className="flex flex-col items-center text-center mb-16">
+            <span className="font-outfit text-xs tracking-[0.25em] text-[#D4AF37] uppercase font-bold mb-2">
+              Our Core Purpose & Future Direction
+            </span>
+            <h2 className="font-cormorant text-3xl sm:text-5xl font-medium text-[#1C1C21]">
+              Mission & Vision
+            </h2>
+            <div className="w-20 h-0.5 bg-[#D4AF37] mt-4 rounded-full" />
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {/* Our Mission Card */}
+            <div className="bg-white border border-[#EADCC9] rounded-2xl p-8 sm:p-10 shadow-lg hover:shadow-2xl transition-all duration-500 relative overflow-hidden group">
+              {/* Background Ambient Glow */}
+              <div className="absolute top-0 right-0 w-36 h-36 bg-gradient-to-bl from-[#D4AF37]/15 to-transparent rounded-bl-full pointer-events-none group-hover:scale-125 transition-transform duration-500" />
+              
+              <div className="flex items-center gap-4 mb-6 relative z-10">
+                <div className="w-14 h-14 rounded-xl bg-[#1C1C21] text-[#D4AF37] flex items-center justify-center shadow-md border border-[#D4AF37]/30 group-hover:bg-[#D4AF37] group-hover:text-black transition-colors duration-300">
+                  <Target className="w-7 h-7" />
+                </div>
+                <div>
+                  <span className="text-[10px] font-mono tracking-[0.2em] text-[#D4AF37] font-bold uppercase block">OUR MISSION</span>
+                  <h3 className="font-cormorant text-2xl sm:text-3xl font-bold text-[#1C1C21]">Crafting Precision & Trust</h3>
+                </div>
+              </div>
+
+              <p className="font-inter text-sm text-[#4E4E59] leading-relaxed font-light mb-6 border-b border-[#EADCC9]/60 pb-6 relative z-10">
+                To source, process, and export India's finest natural marble, granite, quartz, and architectural surfaces to international developers and architects—ensuring uncompromised Italian-grade precision, transparent pricing, and 100% reliable export fulfillment.
+              </p>
+
+              <div className="space-y-4 font-inter text-xs text-[#4E4E59] relative z-10">
+                <div className="flex items-start gap-3 p-3 rounded-lg bg-[#FAF9F6] border border-[#EADCC9]/40">
+                  <div className="w-5 h-5 rounded-full bg-[#D4AF37]/20 text-[#1C1C21] flex items-center justify-center shrink-0 mt-0.5 font-bold">
+                    <CheckCircle2 className="w-3.5 h-3.5 text-[#D4AF37]" />
+                  </div>
+                  <div>
+                    <strong className="text-[#1C1C21] font-semibold block mb-0.5">Quarry-Direct Excellence</strong>
+                    <span>Hand-picked premium blocks directly sourced from Rajasthan & South Indian quarries.</span>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3 p-3 rounded-lg bg-[#FAF9F6] border border-[#EADCC9]/40">
+                  <div className="w-5 h-5 rounded-full bg-[#D4AF37]/20 text-[#1C1C21] flex items-center justify-center shrink-0 mt-0.5 font-bold">
+                    <CheckCircle2 className="w-3.5 h-3.5 text-[#D4AF37]" />
+                  </div>
+                  <div>
+                    <strong className="text-[#1C1C21] font-semibold block mb-0.5">Italian Cutting & Polish Standard</strong>
+                    <span>±1mm gangsaw thickness calibration and 95+ gloss luster polish rating.</span>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3 p-3 rounded-lg bg-[#FAF9F6] border border-[#EADCC9]/40">
+                  <div className="w-5 h-5 rounded-full bg-[#D4AF37]/20 text-[#1C1C21] flex items-center justify-center shrink-0 mt-0.5 font-bold">
+                    <CheckCircle2 className="w-3.5 h-3.5 text-[#D4AF37]" />
+                  </div>
+                  <div>
+                    <strong className="text-[#1C1C21] font-semibold block mb-0.5">Global Export Compliance</strong>
+                    <span>ISPM-15 fumigated wooden crating, SASO/SABER certification, and port clearance speed.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Our Vision Card */}
+            <div className="bg-[#1C1C21] text-white border border-neutral-800 rounded-2xl p-8 sm:p-10 shadow-xl hover:shadow-2xl transition-all duration-500 relative overflow-hidden group">
+              {/* Background Ambient Glow */}
+              <div className="absolute top-0 right-0 w-36 h-36 bg-gradient-to-bl from-[#D4AF37]/25 to-transparent rounded-bl-full pointer-events-none group-hover:scale-125 transition-transform duration-500" />
+              
+              <div className="flex items-center gap-4 mb-6 relative z-10">
+                <div className="w-14 h-14 rounded-xl bg-[#D4AF37] text-black flex items-center justify-center shadow-md border border-white/20 group-hover:bg-white group-hover:text-black transition-colors duration-300">
+                  <Eye className="w-7 h-7" />
+                </div>
+                <div>
+                  <span className="text-[10px] font-mono tracking-[0.2em] text-[#D4AF37] font-bold uppercase block">OUR VISION</span>
+                  <h3 className="font-cormorant text-2xl sm:text-3xl font-bold text-white">Global Industry Leadership</h3>
+                </div>
+              </div>
+
+              <p className="font-inter text-sm text-neutral-300 leading-relaxed font-light mb-6 border-b border-white/10 pb-6 relative z-10">
+                To establish Pyros Stones as the world's most trusted partner for natural & engineered stone solutions—pioneering surface innovation, sustainable quarrying practices, and establishing Udaipur as the global capital for luxury stone craftsmanship.
+              </p>
+
+              <div className="space-y-4 font-inter text-xs text-neutral-300 relative z-10">
+                <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-white/10">
+                  <div className="w-5 h-5 rounded-full bg-[#D4AF37]/20 text-[#D4AF37] flex items-center justify-center shrink-0 mt-0.5 font-bold">
+                    <Sparkles className="w-3.5 h-3.5 text-[#D4AF37]" />
+                  </div>
+                  <div>
+                    <strong className="text-white font-semibold block mb-0.5">50+ Global Destinations</strong>
+                    <span>Expanding export corridors across North America, Europe, Saudi Arabia, UAE & Asia.</span>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-white/10">
+                  <div className="w-5 h-5 rounded-full bg-[#D4AF37]/20 text-[#D4AF37] flex items-center justify-center shrink-0 mt-0.5 font-bold">
+                    <Sparkles className="w-3.5 h-3.5 text-[#D4AF37]" />
+                  </div>
+                  <div>
+                    <strong className="text-white font-semibold block mb-0.5">Architectural Innovation</strong>
+                    <span>Continuous development of book-matched marble slabs, ultra-thin veneers, and rare quartz.</span>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-white/10">
+                  <div className="w-5 h-5 rounded-full bg-[#D4AF37]/20 text-[#D4AF37] flex items-center justify-center shrink-0 mt-0.5 font-bold">
+                    <Sparkles className="w-3.5 h-3.5 text-[#D4AF37]" />
+                  </div>
+                  <div>
+                    <strong className="text-white font-semibold block mb-0.5">Sustainable Stewardship</strong>
+                    <span>Zero-water waste processing, responsible quarrying, and carbon-reduced logistics.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
         {/* 4 Pillars values grid */}
         <div className="border-t border-[#E5E7EB] pt-16 mb-28">

@@ -192,7 +192,7 @@ export default function PortsShowcase() {
               <img 
                 src={stone.image} 
                 alt={stone.name} 
-                className="absolute inset-0 w-full h-full object-cover object-center scale-[1.25] group-hover:scale-[1.35] transition-transform duration-700 z-0" 
+                className="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 z-0" 
               />
               
               {/* Gradient Overlay for high-contrast legibility */}

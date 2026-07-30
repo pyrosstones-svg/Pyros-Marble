@@ -226,11 +226,11 @@ export default function SlabVisualizer() {
               
               {/* Scene View 1: Zoomed Slab view */}
               {isZoomed ? (
-                <div className="absolute inset-0 z-0 animate-fadeIn">
+                <div className="absolute inset-0 z-0 animate-fadeIn bg-neutral-950 flex items-center justify-center p-2">
                   <img 
                     src={selectedStone.image} 
                     alt={selectedStone.name} 
-                    className="w-full h-full object-cover object-center animate-pulse-slow"
+                    className="w-full h-full object-contain object-center animate-pulse-slow"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/30" />
                   
