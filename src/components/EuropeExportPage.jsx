@@ -36,96 +36,67 @@ export default function EuropeExportPage({ onNavigate }) {
 
       {/* ─── BANNER ─── */}
       <div className="bg-[#1C1C21] text-white pt-28 pb-16 px-6 border-b border-[#D4AF37]/30 relative overflow-hidden">
-        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-10">
+        <div className="max-w-4xl mx-auto flex flex-col items-center text-center gap-6">
 
-          <div className="space-y-4 max-w-2xl text-left">
-            <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#D4AF37]/15 border border-[#D4AF37]/40 rounded-md text-[#D4AF37] text-xs font-mono font-bold tracking-widest uppercase">
-              🇪🇺 Antwerp · Hamburg · Rotterdam · Genoa
-            </div>
-
-            <h1 className="font-cormorant text-4xl sm:text-6xl font-semibold leading-tight">
-              Marble Exporter from India to Europe
-            </h1>
-            <p className="font-outfit text-xl sm:text-2xl text-[#D4AF37] font-semibold leading-snug">
-              Granite Exporter from India to European Union
-            </p>
-
-            <p className="font-inter text-sm sm:text-base text-neutral-300 font-light leading-relaxed">
-              Pyros Surfaces is India's trusted <strong className="text-white">natural stone exporter India</strong> for EU markets — supplying stone importers in Germany, Netherlands, Belgium, France, Italy, and Spain with quarry-direct Indian marble slabs, granite slabs, and calibrated stone tiles under the EU-India GSP trade framework.
-            </p>
-
-            <div className="flex flex-wrap gap-4 pt-2">
-              <span className="text-xs font-mono text-[#D4AF37] flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4" /> EU GSP Origin Compliant
-              </span>
-              <span className="text-xs font-mono text-neutral-300 flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4 text-[#D4AF37]" /> REACH Documentation
-              </span>
-              <span className="text-xs font-mono text-neutral-300 flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4 text-[#D4AF37]" /> ISPM-15 Crated Bundles
-              </span>
-            </div>
-
-            <button onClick={handleEnquire} className="mt-2 inline-flex items-center gap-2 px-7 py-3.5 bg-[#D4AF37] hover:bg-[#B58D1E] text-black font-outfit text-sm font-bold uppercase tracking-wider rounded-lg shadow-xl transition-all">
-              Request Europe Export Quote <ArrowRight className="w-4 h-4" />
-            </button>
+          <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#D4AF37]/15 border border-[#D4AF37]/40 rounded-md text-[#D4AF37] text-xs font-mono font-bold tracking-widest uppercase">
+            🇪🇺 Antwerp · Hamburg · Rotterdam · Genoa
           </div>
 
-          <div className="w-full lg:w-96 bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-md space-y-4 text-left">
-            <h3 className="font-outfit text-xs font-bold text-[#D4AF37] uppercase tracking-widest">Europe B2B Export Specifications</h3>
-            <div className="space-y-2.5 text-xs text-neutral-300">
-              <div className="flex justify-between border-b border-white/10 pb-1.5">
-                <span className="text-neutral-400">Transit (Nhava Sheva → AMS):</span>
-                <span className="font-bold text-white">18–22 Days</span>
-              </div>
-              <div className="flex justify-between border-b border-white/10 pb-1.5">
-                <span className="text-neutral-400">Slab Thickness:</span>
-                <span className="font-bold text-white">20mm, 30mm Gangsaw</span>
-              </div>
-              <div className="flex justify-between border-b border-white/10 pb-1.5">
-                <span className="text-neutral-400">Trade Regime:</span>
-                <span className="font-bold text-[#D4AF37]">EU-India GSP (Zero / Low Duty)</span>
-              </div>
-              <div className="flex justify-between border-b border-white/10 pb-1.5">
-                <span className="text-neutral-400">Compliance:</span>
-                <span className="font-bold text-white">REACH / DoP on Request</span>
-              </div>
-              <div className="flex justify-between">
-                <span className="text-neutral-400">Export MOQ:</span>
-                <span className="font-bold text-white">1 × 20ft FCL (~450 Sqm)</span>
-              </div>
-            </div>
-          </div>
+          <h1 className="font-cormorant text-4xl sm:text-6xl font-semibold leading-tight">
+            Marble Exporter from India to Europe
+          </h1>
+
+          <button onClick={handleEnquire} className="inline-flex items-center gap-2 px-7 py-3.5 bg-[#D4AF37] hover:bg-[#B58D1E] text-black font-outfit text-sm font-bold uppercase tracking-wider rounded-lg shadow-xl transition-all">
+            Request Europe Export Quote <ArrowRight className="w-4 h-4" />
+          </button>
         </div>
       </div>
 
-      {/* ─── EU Country Supply Grid ─── */}
+
+      {/* ─── European Stone Applications Section ─── */}
       <div className="max-w-7xl mx-auto px-6 py-20">
         <div className="text-center mb-14">
-          <span className="font-mono text-xs text-[#D4AF37] font-bold uppercase tracking-widest">Country-by-Country Stone Supply</span>
+          <span className="font-mono text-xs text-[#D4AF37] font-bold uppercase tracking-widest">
+            European Architectural Applications
+          </span>
           <h2 className="font-cormorant text-4xl sm:text-5xl font-semibold text-[#1C1C21] mt-2">
-            Serving Key European Stone Markets
+            Where Indian Stone is Specified in Europe
           </h2>
+          <p className="font-inter text-base text-[#52525C] mt-4 max-w-3xl mx-auto leading-relaxed">
+            As a leading <strong className="text-[#1C1C21]">marble exporter from India</strong> and <strong className="text-[#1C1C21]">granite slabs supplier</strong>, Pyros Surfaces supplies European architects, interior designers, and stone fabricators across key sector applications.
+          </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {[
-            { flag: "🇩🇪", country: "Germany", city: "Hamburg, Frankfurt", supply: "30mm gangsaw marble slabs for luxury residential interiors and commercial office towers. Preferred as Indian granite supplier in German bathroom tile market." },
-            { flag: "🇳🇱", country: "Netherlands", city: "Rotterdam, Amsterdam", supply: "White marble slabs and Absolute Black granite for Dutch luxury apartment and hotel renovation. Rotterdam is our primary FCL discharge port." },
-            { flag: "🇧🇪", country: "Belgium", city: "Antwerp, Brussels", supply: "60x60 and 80x80cm calibrated granite tiles for Belgian public infrastructure and interior designer specifications. Antwerp Port — India's gateway to EU." },
-            { flag: "🇫🇷", country: "France", city: "Paris, Lyon", supply: "Premium Makrana white marble slabs for Parisian luxury interior renovation, grand hotel lobbies, and French architect-specified flooring." },
-            { flag: "🇮🇹", country: "Italy", city: "Genoa, Milan", supply: "Gangsaw slabs and bookmatched panels to Italian importers and stone fabricators. Genoa Port discharge for Northern Italy stone processing hubs." },
-            { flag: "🇪🇸", country: "Spain", city: "Barcelona, Madrid", supply: "Granite tiles exporter for Spanish coastal hospitality and residential villa projects. Barcelona Port for Iberian Peninsula distribution." }
+            {
+              title: "Luxury Hospitality & Hotels",
+              city: "Paris · Milan · Amsterdam",
+              desc: "Gangsaw white marble slabs and bookmatched feature wall panels specified for luxury hotel lobbies, reception desks, and spa wellness suites."
+            },
+            {
+              title: "Commercial Facades",
+              city: "Frankfurt · Hamburg · Brussels",
+              desc: "High-performance South Indian granite gangsaw slabs processed for exterior rain-screen wall cladding and commercial office towers."
+            },
+            {
+              title: "High-End Residential Interiors",
+              city: "Munich · Madrid · Antwerp",
+              desc: "Calibrated 20mm & 30mm marble tiles and polished kitchen countertop slabs for luxury residential villas and urban apartments."
+            },
+            {
+              title: "Public Infrastructure & Plazas",
+              city: "Berlin · Rotterdam · Barcelona",
+              desc: "Heavy-duty flamed and honed granite floor tiles for high-footfall European public plazas, railway terminals, and civic monuments."
+            }
           ].map((item, i) => (
             <div key={i} className="bg-white border border-[#E5E0D5] rounded-2xl p-7 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 group">
-              <div className="flex items-center gap-3 mb-4">
-                <span className="text-3xl">{item.flag}</span>
-                <div>
-                  <h3 className="font-outfit text-lg font-bold text-[#1C1C21] group-hover:text-[#D4AF37] transition-colors">{item.country}</h3>
-                  <p className="text-xs text-neutral-400 font-mono">{item.city}</p>
-                </div>
+              <div className="w-10 h-10 rounded-lg bg-[#D4AF37]/10 text-[#D4AF37] flex items-center justify-center mb-4">
+                <CheckCircle2 className="w-5 h-5 text-[#D4AF37]" />
               </div>
-              <p className="font-inter text-sm text-[#52525C] leading-relaxed">{item.supply}</p>
+              <span className="text-[10px] font-mono text-[#D4AF37] uppercase tracking-wider block mb-1 font-bold">{item.city}</span>
+              <h3 className="font-outfit text-lg font-bold text-[#1C1C21] mb-2 group-hover:text-[#D4AF37] transition-colors">{item.title}</h3>
+              <p className="font-inter text-sm text-[#52525C] leading-relaxed">{item.desc}</p>
             </div>
           ))}
         </div>
@@ -153,7 +124,70 @@ export default function EuropeExportPage({ onNavigate }) {
               <div key={i} className="bg-white/5 border border-white/10 rounded-xl p-6 hover:border-[#D4AF37]/40 transition-colors">
                 <item.icon className="w-6 h-6 text-[#D4AF37] mb-3" />
                 <h4 className="font-outfit text-sm font-bold text-white mb-2">{item.title}</h4>
-                <p className="text-xs text-neutral-300 leading-relaxed">{item.body}</p>
+                <p className="text-sm text-neutral-300 leading-relaxed">{item.body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* ─── Keyword-Rich Content Section ─── */}
+      <div className="bg-white border-t border-[#E2D9CC] py-20 px-6">
+        <div className="max-w-7xl mx-auto">
+          {/* Intro Block */}
+          <div className="max-w-4xl mx-auto text-center mb-14">
+            <span className="font-mono text-xs text-[#D4AF37] font-bold uppercase tracking-widest">
+              Marble Exporter India to Europe — Granite Exporter India to Europe
+            </span>
+            <h2 className="font-cormorant text-4xl sm:text-5xl font-semibold text-[#1C1C21] mt-3 mb-5 leading-tight">
+              Premium Natural Stone Exports for European Importers & Architects
+            </h2>
+            <p className="font-inter text-base text-[#52525C] leading-relaxed mb-4">
+              Pyros Surfaces is a trusted <strong className="text-[#1C1C21]">marble exporter from India</strong> and premier <strong className="text-[#1C1C21]">granite exporter from India</strong> supplying stone importers in Germany, Netherlands, Belgium, France, Italy, and Spain. As a verified <strong className="text-[#1C1C21]">Indian marble exporter</strong> and <strong className="text-[#1C1C21]">Indian granite supplier</strong>, we export EUR.1 certified GSP natural stone slabs directly to major EU ports.
+            </p>
+            <p className="font-inter text-base text-[#52525C] leading-relaxed">
+              Functioning as a certified <strong className="text-[#1C1C21]">natural stone exporter India</strong> and <strong className="text-[#1C1C21]">marble supplier India</strong>, Pyros operates Italian gangsaw lines producing 20mm and 30mm slabs. Our factory is a recognized <strong className="text-[#1C1C21]">granite manufacturer India</strong> providing full REACH compliance documentation and ISPM-15 fumigated wooden packaging.
+            </p>
+          </div>
+
+          {/* 6-Card Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
+            {[
+              {
+                cat: "Marble Slabs Exporter",
+                title: "White Marble Slabs for EU Luxury Interiors",
+                body: "As a dedicated marble slabs exporter to Europe, Pyros supplies 20mm & 30mm Italian-gangsaw Kishangarh white marble and Makrana slabs for Parisian luxury apartments and German boutique hotel lobbies."
+              },
+              {
+                cat: "Granite Slabs Supplier",
+                title: "Black & Grey Granite Gangsaw Slabs",
+                body: "Our granite slabs supplier operations export Absolute Black, Steel Grey, and Viscon White gangsaw slabs with 95+ gloss polish for Dutch and Belgian architectural stone processors."
+              },
+              {
+                cat: "Marble Tiles Exporter",
+                title: "Calibrated Marble Tiles for EU Renovations",
+                body: "As a marble tiles exporter to European contractors, we manufacture 60x60cm and 80x80cm polished and honed marble tiles with ±0.5mm precision for Italian and Spanish villa renovations."
+              },
+              {
+                cat: "Granite Tiles Exporter",
+                title: "Granite Tiles for European Plazas",
+                body: "Our granite tiles exporter line produces flamed, honed, and polished granite tiles for German public plazas, Antwerp urban promenades, and French outdoor patio developments."
+              },
+              {
+                cat: "Marble Exporter India to Europe",
+                title: "GSP Duty-Benefited White Marble Supply",
+                body: "Pyros is a certified marble exporter India to Europe delivering direct ocean containers to Antwerp (18–22 days), Rotterdam, and Hamburg with EUR.1 certificates of origin for EU GSP tariff benefits."
+              },
+              {
+                cat: "Granite Exporter India to Europe",
+                title: "REACH Compliant Indian Granite Exports",
+                body: "As a granite exporter India to Europe, we supply stone importers across Northern and Southern Europe with REACH-compliant documentation and ISPM-15 certified A-frame container lashing."
+              }
+            ].map((item, i) => (
+              <div key={i} className="bg-[#FAF9F6] border border-[#E5E0D5] rounded-2xl p-7 hover:shadow-md hover:-translate-y-1 transition-all duration-300 group">
+                <span className="text-[10px] font-mono text-[#D4AF37] font-bold uppercase tracking-widest block mb-2">{item.cat}</span>
+                <h3 className="font-outfit text-lg font-bold text-[#1C1C21] mb-3 group-hover:text-[#D4AF37] transition-colors">{item.title}</h3>
+                <p className="font-inter text-sm text-[#52525C] leading-relaxed">{item.body}</p>
               </div>
             ))}
           </div>

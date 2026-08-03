@@ -223,37 +223,6 @@ export default function AustraliaExportPage({ onNavigate }) {
               </div>
             ))}
           </div>
-
-          {/* Why Choose Pyros */}
-          <div className="bg-[#1C1C21] rounded-2xl p-10 text-white">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-              <div>
-                <span className="font-mono text-xs text-[#D4AF37] font-bold uppercase tracking-widest">Why Australian Buyers Choose Pyros</span>
-                <h3 className="font-cormorant text-3xl sm:text-4xl font-semibold text-white mt-3 mb-5">
-                  Quarry-Direct Indian Stone — ECTA Certified for Australia
-                </h3>
-                <p className="font-inter text-sm text-neutral-300 leading-relaxed">
-                  As a full-service <strong className="text-white">marble supplier India</strong> and <strong className="text-white">granite manufacturer India</strong>, Pyros provides Australian buyers the lowest FOB India pricing combined with the highest quality: ±0.5mm calibration, 95+ GU gloss, and complete DAFF biosecurity documentation.
-                </p>
-              </div>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {[
-                  { label: "Indian Marble Exporter", value: "Kishangarh, Makrana Quarries" },
-                  { label: "Indian Granite Supplier", value: "South India — Black, Grey, Gold" },
-                  { label: "Natural Stone Exporter India", value: "ECTA Origin Certified" },
-                  { label: "Marble Supplier India", value: "20mm & 30mm Gangsaw Slabs" },
-                  { label: "Granite Manufacturer India", value: "South Indian Block Extraction" },
-                  { label: "DAFF Compliance", value: "ISPM-15 All Shipments" }
-                ].map((row, i) => (
-                  <div key={i} className="bg-white/5 border border-white/10 rounded-xl p-4 hover:border-[#D4AF37]/40 transition-colors">
-                    <span className="text-[10px] font-mono text-[#D4AF37] uppercase tracking-wider block mb-1">{row.label}</span>
-                    <span className="font-outfit text-sm font-bold text-white">{row.value}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-
         </div>
       </div>
 
@@ -286,7 +255,7 @@ export default function AustraliaExportPage({ onNavigate }) {
       {/* ─── SEO Tags ─── */}
       <div className="py-10 border-t border-[#E2D9CC] text-center px-6">
         <div className="flex flex-wrap justify-center gap-2 max-w-5xl mx-auto">
-          {["marble exporter from India","granite exporter from India","Indian marble exporter","Indian granite supplier","natural stone exporter India","marble supplier India","granite manufacturer India","marble slabs exporter","granite slabs supplier","marble tiles exporter","granite tiles exporter","Marble exporter India to Australia","Granite exporter India to Australia"].map((tag, i) => (
+          {["marble exporter from India", "granite exporter from India", "Indian marble exporter", "Indian granite supplier", "natural stone exporter India", "marble supplier India", "granite manufacturer India", "marble slabs exporter", "granite slabs supplier", "marble tiles exporter", "granite tiles exporter", "Marble exporter India to Australia", "Granite exporter India to Australia"].map((tag, i) => (
             <span key={i} className="px-3.5 py-1.5 rounded-full bg-white border border-[#E2D9CC] text-xs font-medium text-[#4E4E59] hover:border-[#D4AF37] transition-colors">{tag}</span>
           ))}
         </div>

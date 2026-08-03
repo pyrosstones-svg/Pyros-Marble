@@ -36,66 +36,19 @@ export default function USAExportPage({ onNavigate }) {
 
       {/* ─── BANNER ─── */}
       <div className="bg-[#1C1C21] text-white pt-28 pb-16 px-6 border-b border-[#D4AF37]/30 relative overflow-hidden">
-        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-10">
+        <div className="max-w-4xl mx-auto flex flex-col items-center text-center gap-6">
 
-          <div className="space-y-4 max-w-2xl text-left">
-            <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#D4AF37]/15 border border-[#D4AF37]/40 rounded-md text-[#D4AF37] text-xs font-mono font-bold tracking-widest uppercase">
-              🇺🇸 Los Angeles · New York · Houston Ports
-            </div>
-
-            <h1 className="font-cormorant text-4xl sm:text-6xl font-semibold leading-tight">
-              Marble Exporter from India to USA
-            </h1>
-            <p className="font-outfit text-xl sm:text-2xl text-[#D4AF37] font-semibold leading-snug">
-              Granite Exporter from India to United States
-            </p>
-
-            <p className="font-inter text-sm sm:text-base text-neutral-300 font-light leading-relaxed">
-              Pyros Surfaces is a certified <strong className="text-white">Indian marble exporter</strong> and <strong className="text-white">natural stone exporter India</strong> for the US market — supplying American stone importers, kitchen and bath distributors, tile showrooms, and general contractors with quarry-direct pricing on Rajasthan marble and South Indian granite.
-            </p>
-
-            <div className="flex flex-wrap gap-4 pt-2">
-              <span className="text-xs font-mono text-[#D4AF37] flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4" /> CBP-Compliant Documentation
-              </span>
-              <span className="text-xs font-mono text-neutral-300 flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4 text-[#D4AF37]" /> 4 US Coast Ports Served
-              </span>
-              <span className="text-xs font-mono text-neutral-300 flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4 text-[#D4AF37]" /> No China Tariff Risk
-              </span>
-            </div>
-
-            <button onClick={handleEnquire} className="mt-2 inline-flex items-center gap-2 px-7 py-3.5 bg-[#D4AF37] hover:bg-[#B58D1E] text-black font-outfit text-sm font-bold uppercase tracking-wider rounded-lg shadow-xl transition-all">
-              Request USA Import Quote <ArrowRight className="w-4 h-4" />
-            </button>
+          <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#D4AF37]/15 border border-[#D4AF37]/40 rounded-md text-[#D4AF37] text-xs font-mono font-bold tracking-widest uppercase">
+            🇺🇸 Los Angeles · New York · Houston Ports
           </div>
 
-          <div className="w-full lg:w-96 bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-md space-y-4 text-left">
-            <h3 className="font-outfit text-xs font-bold text-[#D4AF37] uppercase tracking-widest">USA B2B Import Specifications</h3>
-            <div className="space-y-2.5 text-xs text-neutral-300">
-              <div className="flex justify-between border-b border-white/10 pb-1.5">
-                <span className="text-neutral-400">Transit (Mundra → LA/LB):</span>
-                <span className="font-bold text-white">20–22 Days</span>
-              </div>
-              <div className="flex justify-between border-b border-white/10 pb-1.5">
-                <span className="text-neutral-400">HTS Code (Marble Slabs):</span>
-                <span className="font-bold text-white">2515.12 / 6802.91</span>
-              </div>
-              <div className="flex justify-between border-b border-white/10 pb-1.5">
-                <span className="text-neutral-400">Tariff Advantage:</span>
-                <span className="font-bold text-[#D4AF37]">Zero Section 301 Risk</span>
-              </div>
-              <div className="flex justify-between border-b border-white/10 pb-1.5">
-                <span className="text-neutral-400">Loading Port:</span>
-                <span className="font-bold text-white">Mundra / Nhava Sheva</span>
-              </div>
-              <div className="flex justify-between">
-                <span className="text-neutral-400">Export MOQ:</span>
-                <span className="font-bold text-white">1 × 20ft FCL (~450 Sqm)</span>
-              </div>
-            </div>
-          </div>
+          <h1 className="font-cormorant text-4xl sm:text-6xl font-semibold leading-tight">
+            Marble Exporter from India to USA
+          </h1>
+
+          <button onClick={handleEnquire} className="inline-flex items-center gap-2 px-7 py-3.5 bg-[#D4AF37] hover:bg-[#B58D1E] text-black font-outfit text-sm font-bold uppercase tracking-wider rounded-lg shadow-xl transition-all">
+            Request USA Import Quote <ArrowRight className="w-4 h-4" />
+          </button>
         </div>
       </div>
 
@@ -144,7 +97,7 @@ export default function USAExportPage({ onNavigate }) {
                   </div>
                   <div>
                     <h4 className="font-outfit text-sm font-bold text-[#1C1C21] mb-1">{item.title}</h4>
-                    <p className="font-inter text-xs text-[#52525C] leading-relaxed">{item.body}</p>
+                    <p className="font-inter text-sm text-[#52525C] leading-relaxed">{item.body}</p>
                   </div>
                 </div>
               ))}
@@ -153,25 +106,64 @@ export default function USAExportPage({ onNavigate }) {
         </div>
       </div>
 
-      {/* ─── USA Port Table ─── */}
-      <div className="bg-[#1C1C21] text-white py-16 px-6">
+
+      {/* ─── Keyword-Rich Content Section ─── */}
+      <div className="bg-white border-t border-[#E2D9CC] py-20 px-6">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-10">
-            <span className="font-mono text-xs text-[#D4AF37] font-bold uppercase tracking-widest">Direct Ocean Freight</span>
-            <h2 className="font-cormorant text-3xl sm:text-4xl font-semibold text-white mt-2">USA Destination Ports & Transit Times</h2>
+          {/* Intro Block */}
+          <div className="max-w-4xl mx-auto text-center mb-14">
+            <span className="font-mono text-xs text-[#D4AF37] font-bold uppercase tracking-widest">
+              Marble Exporter India to USA — Granite Exporter India to USA
+            </span>
+            <h2 className="font-cormorant text-4xl sm:text-5xl font-semibold text-[#1C1C21] mt-3 mb-5 leading-tight">
+              Direct Indian Natural Stone Supply for American Importers & Distributors
+            </h2>
+            <p className="font-inter text-base text-[#52525C] leading-relaxed mb-4">
+              Pyros Surfaces is a premier <strong className="text-[#1C1C21]">marble exporter from India</strong> and leading <strong className="text-[#1C1C21]">granite exporter from India</strong> supplying US stone distributors, kitchen &amp; bath showrooms, and general contractors. As a verified <strong className="text-[#1C1C21]">Indian marble exporter</strong> and <strong className="text-[#1C1C21]">Indian granite supplier</strong>, we export zero-tariff Section 301 natural stone slabs across US East, West, and Gulf Coast ports.
+            </p>
+            <p className="font-inter text-base text-[#52525C] leading-relaxed">
+              Operating as a trusted <strong className="text-[#1C1C21]">natural stone exporter India</strong> and <strong className="text-[#1C1C21]">marble supplier India</strong>, Pyros produces 20mm and 30mm Italian gangsaw slabs. Our factory is an established <strong className="text-[#1C1C21]">granite manufacturer India</strong> providing full US CBP compliance, ISPM-15 phytosanitary wood packaging, and commercial HTS tariff classification.
+            </p>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
+
+          {/* 6-Card Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
             {[
-              { port: "Los Angeles / Long Beach", region: "West Coast", transit: "20–22 Days" },
-              { port: "New York / Newark", region: "East Coast", transit: "25–28 Days" },
-              { port: "Houston", region: "Gulf Coast", transit: "22–25 Days" },
-              { port: "Seattle", region: "Pacific Northwest", transit: "18–20 Days" }
-            ].map((p, i) => (
-              <div key={i} className="bg-white/5 border border-white/10 rounded-xl p-6 hover:border-[#D4AF37]/40 transition-colors">
-                <MapPin className="w-4 h-4 text-[#D4AF37] mb-3" />
-                <p className="font-outfit text-sm font-bold text-white leading-snug">{p.port}</p>
-                <p className="text-xs text-neutral-400 mt-1">{p.region}</p>
-                <p className="text-xs font-mono text-[#D4AF37] mt-3 font-bold">{p.transit}</p>
+              {
+                cat: "Marble Slabs Exporter",
+                title: "White Marble Slabs for US Showrooms",
+                body: "As a marble slabs exporter for the US market, Pyros delivers 20mm & 30mm gangsaw Kishangarh White and Makrana marble slabs to tile and stone distributors in California, Texas, Florida, and New York."
+              },
+              {
+                cat: "Granite Slabs Supplier",
+                title: "Black & Steel Grey Countertop Slabs",
+                body: "Our granite slabs supplier operations supply Absolute Black, Steel Grey, and Titanium Gold gangsaw slabs with mirror polish for US kitchen countertop fabricators and commercial developers."
+              },
+              {
+                cat: "Marble Tiles Exporter",
+                title: "Calibrated Marble Tiles — US Trade",
+                body: "As a marble tiles exporter to American builders, we supply 12x12, 18x18, and 24x24 inch (30x30 to 60x60cm) calibrated marble floor and wall tiles with ±0.5mm precision for US interior renovation."
+              },
+              {
+                cat: "Granite Tiles Exporter",
+                title: "Granite Tiles for US Commercial Flooring",
+                body: "Our granite tiles exporter line manufactures flamed, honed, and polished granite tiles for US commercial shopping plazas, office complex lobbies, and outdoor hotel plazas."
+              },
+              {
+                cat: "Marble Exporter India to USA",
+                title: "CBP Compliant US White Marble Shipments",
+                body: "Pyros is a trusted marble exporter India to USA delivering ocean FCL containers directly to Los Angeles/Long Beach (20–22 days) and New York/Newark (25–28 days) with complete origin docs."
+              },
+              {
+                cat: "Granite Exporter India to USA",
+                title: "Zero-Tariff Indian Granite Supply",
+                body: "As a granite exporter India to USA, we offer US stone buyers a distinct tariff advantage over Chinese stone imports with full Section 301 exemption and factory-direct pricing."
+              }
+            ].map((item, i) => (
+              <div key={i} className="bg-[#FAF9F6] border border-[#E5E0D5] rounded-2xl p-7 hover:shadow-md hover:-translate-y-1 transition-all duration-300 group">
+                <span className="text-[10px] font-mono text-[#D4AF37] font-bold uppercase tracking-widest block mb-2">{item.cat}</span>
+                <h3 className="font-outfit text-lg font-bold text-[#1C1C21] mb-3 group-hover:text-[#D4AF37] transition-colors">{item.title}</h3>
+                <p className="font-inter text-sm text-[#52525C] leading-relaxed">{item.body}</p>
               </div>
             ))}
           </div>

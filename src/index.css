@@ -15,8 +15,8 @@
 
   /* Subtle font size boost strictly for paragraph text */
   p {
-    font-size: 0.965rem;
-    line-height: 1.65;
+    font-size: 1.05rem;
+    line-height: 1.7;
   }
 
   /* Custom input styling for premium light forms */

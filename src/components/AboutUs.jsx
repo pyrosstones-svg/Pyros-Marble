@@ -146,7 +146,7 @@ export default function AboutUs() {
               <p className="font-inter text-sm text-[#4E4E59] leading-relaxed font-light">
                 At Pyros Stones, we believe every stone tells a story. Formed over millions of years by nature, each slab possesses a unique character, texture, and identity. Our purpose is to preserve that natural beauty while transforming it into world-class materials that inspire remarkable architectural and interior spaces.
               </p>
-              <p className="font-inter text-xs text-neutral-500 leading-relaxed font-light">
+              <p className="font-inter text-sm text-[#4E4E59] leading-relaxed font-light">
                 We specialize in delivering exceptional marble, granite, quartz, porcelain, onyx, limestone, sandstone, travertine, slate, and a comprehensive range of stone solutions that embody elegance, durability, and timeless appeal.
               </p>
             </div>
@@ -453,8 +453,8 @@ export default function AboutUs() {
                 <div className="w-8 h-8 rounded-lg bg-[#D4AF37]/10 text-[#D4AF37] flex items-center justify-center font-mono text-xs font-bold">
                   {p.step}
                 </div>
-                <h4 className="font-outfit text-sm font-bold text-[#1C1C21]">{p.title}</h4>
-                <p className="font-inter text-xs text-[#4E4E59] leading-relaxed font-light">{p.desc}</p>
+                <h4 className="font-outfit text-base font-bold text-[#1C1C21]">{p.title}</h4>
+                <p className="font-inter text-sm text-[#4E4E59] leading-relaxed font-light">{p.desc}</p>
               </div>
             ))}
           </div>
@@ -473,7 +473,7 @@ export default function AboutUs() {
             <h3 className="font-cormorant text-2xl sm:text-4xl font-bold tracking-wide">
               Timeless Spaces Across The World
             </h3>
-            <p className="font-inter text-xs text-neutral-300 leading-relaxed font-light">
+            <p className="font-inter text-sm text-neutral-300 leading-relaxed font-light">
               Today, Pyros Stones proudly represents the craftsmanship and heritage of India's stone industry on the international stage. Our vision is to become one of the world's most trusted names in premium stone exports by consistently delivering excellence in quality, service, and reliability.
             </p>
             <p className="font-cormorant text-base italic text-[#D4AF37] border-t border-white/10 pt-6">

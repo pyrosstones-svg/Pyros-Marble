@@ -36,66 +36,19 @@ export default function UAEExportPage({ onNavigate }) {
 
       {/* ─── BANNER ─── */}
       <div className="bg-[#1C1C21] text-white pt-28 pb-16 px-6 border-b border-[#D4AF37]/30 relative overflow-hidden">
-        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-10">
+        <div className="max-w-4xl mx-auto flex flex-col items-center text-center gap-6">
 
-          <div className="space-y-4 max-w-2xl text-left">
-            <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#D4AF37]/15 border border-[#D4AF37]/40 rounded-md text-[#D4AF37] text-xs font-mono font-bold tracking-widest uppercase">
-              🇦🇪 Jebel Ali Direct — UAE Stone Export Desk
-            </div>
-
-            <h1 className="font-cormorant text-4xl sm:text-6xl font-semibold leading-tight">
-              Marble Exporter India to UAE
-            </h1>
-            <p className="font-outfit text-xl sm:text-2xl text-[#D4AF37] font-semibold leading-snug">
-              Granite Exporter India to UAE — Dubai, Abu Dhabi, Sharjah
-            </p>
-
-            <p className="font-inter text-sm sm:text-base text-neutral-300 font-light leading-relaxed">
-              Pyros Surfaces is a premium <strong className="text-white">Indian marble exporter</strong> and <strong className="text-white">granite manufacturer India</strong>, supplying Dubai Expo City, D33 economy projects, Abu Dhabi Corniche developments, and luxury hotel fit-outs across the United Arab Emirates.
-            </p>
-
-            <div className="flex flex-wrap gap-4 pt-2">
-              <span className="text-xs font-mono text-[#D4AF37] flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4" /> 5–6 Days to Jebel Ali
-              </span>
-              <span className="text-xs font-mono text-neutral-300 flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4 text-[#D4AF37]" /> UAE Municipality Compliant
-              </span>
-              <span className="text-xs font-mono text-neutral-300 flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4 text-[#D4AF37]" /> ESMA Certified
-              </span>
-            </div>
-
-            <button onClick={handleEnquire} className="mt-2 inline-flex items-center gap-2 px-7 py-3.5 bg-[#D4AF37] hover:bg-[#B58D1E] text-black font-outfit text-sm font-bold uppercase tracking-wider rounded-lg shadow-xl transition-all">
-              Request UAE Export Quote <ArrowRight className="w-4 h-4" />
-            </button>
+          <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#D4AF37]/15 border border-[#D4AF37]/40 rounded-md text-[#D4AF37] text-xs font-mono font-bold tracking-widest uppercase">
+            🇦🇪 Jebel Ali Direct — UAE Stone Export Desk
           </div>
 
-          <div className="w-full lg:w-96 bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-md space-y-4 text-left">
-            <h3 className="font-outfit text-xs font-bold text-[#D4AF37] uppercase tracking-widest">UAE B2B Export Specifications</h3>
-            <div className="space-y-2.5 text-xs text-neutral-300">
-              <div className="flex justify-between border-b border-white/10 pb-1.5">
-                <span className="text-neutral-400">Transit (Mundra → Jebel Ali):</span>
-                <span className="font-bold text-white">5–6 Days</span>
-              </div>
-              <div className="flex justify-between border-b border-white/10 pb-1.5">
-                <span className="text-neutral-400">Available Thickness:</span>
-                <span className="font-bold text-white">18mm, 20mm, 30mm</span>
-              </div>
-              <div className="flex justify-between border-b border-white/10 pb-1.5">
-                <span className="text-neutral-400">Certification:</span>
-                <span className="font-bold text-[#D4AF37]">ESMA / UAE Muni Compliant</span>
-              </div>
-              <div className="flex justify-between border-b border-white/10 pb-1.5">
-                <span className="text-neutral-400">Loading Port:</span>
-                <span className="font-bold text-white">Mundra / Nhava Sheva, India</span>
-              </div>
-              <div className="flex justify-between">
-                <span className="text-neutral-400">Export MOQ:</span>
-                <span className="font-bold text-white">1 × 20ft FCL (~450 Sqm)</span>
-              </div>
-            </div>
-          </div>
+          <h1 className="font-cormorant text-4xl sm:text-6xl font-semibold leading-tight">
+            Marble Exporter India to UAE
+          </h1>
+
+          <button onClick={handleEnquire} className="inline-flex items-center gap-2 px-7 py-3.5 bg-[#D4AF37] hover:bg-[#B58D1E] text-black font-outfit text-sm font-bold uppercase tracking-wider rounded-lg shadow-xl transition-all">
+            Request UAE Export Quote <ArrowRight className="w-4 h-4" />
+          </button>
         </div>
       </div>
 
@@ -141,34 +94,64 @@ export default function UAEExportPage({ onNavigate }) {
         </div>
       </div>
 
-      {/* ─── Dark Band: UAE Port Details ─── */}
-      <div className="bg-[#1C1C21] text-white py-16 px-6">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div>
-            <span className="font-mono text-xs text-[#D4AF37] font-bold uppercase tracking-widest">Sea Freight Logistics</span>
-            <h2 className="font-cormorant text-3xl sm:text-4xl font-semibold text-white mt-3 mb-5">
-              Fastest Sea Route: India to UAE Natural Stone
+
+      {/* ─── Keyword-Rich Content Section ─── */}
+      <div className="bg-white border-t border-[#E2D9CC] py-20 px-6">
+        <div className="max-w-7xl mx-auto">
+          {/* Intro Block */}
+          <div className="max-w-4xl mx-auto text-center mb-14">
+            <span className="font-mono text-xs text-[#D4AF37] font-bold uppercase tracking-widest">
+              Marble Exporter India to UAE — Granite Exporter India to UAE
+            </span>
+            <h2 className="font-cormorant text-4xl sm:text-5xl font-semibold text-[#1C1C21] mt-3 mb-5 leading-tight">
+              India's Leading Natural Stone Exporter for Dubai & UAE Developments
             </h2>
-            <p className="font-inter text-sm text-neutral-300 leading-relaxed">
-              As a <strong className="text-white">marble supplier India</strong> and <strong className="text-white">granite manufacturer India</strong>, our Mundra and Nhava Sheva loading ports are the closest departure points to UAE. This shortest shipping lane means faster delivery, lower freight costs, and reduced transit insurance for all UAE buyers.
+            <p className="font-inter text-base text-[#52525C] leading-relaxed mb-4">
+              Pyros Surfaces is a trusted <strong className="text-[#1C1C21]">marble exporter from India</strong> and premier <strong className="text-[#1C1C21]">granite exporter from India</strong> supplying luxury real estate in Dubai, Abu Dhabi, and Sharjah. As an established <strong className="text-[#1C1C21]">Indian marble exporter</strong> and <strong className="text-[#1C1C21]">Indian granite supplier</strong>, we deliver Italian gangsaw 20mm and 30mm slabs directly to Jebel Ali Port in 5–6 days.
             </p>
-            <button onClick={handleEnquire} className="mt-6 inline-flex items-center gap-2 px-6 py-3 bg-[#D4AF37] hover:bg-[#B58D1E] text-black font-outfit text-sm font-bold uppercase tracking-wider rounded-lg transition-all">
-              Get Freight Quote <Ship className="w-4 h-4" />
-            </button>
+            <p className="font-inter text-base text-[#52525C] leading-relaxed">
+              Functioning as a certified <strong className="text-[#1C1C21]">natural stone exporter India</strong> and <strong className="text-[#1C1C21]">marble supplier India</strong>, Pyros produces mirror-polished slabs and calibrated tiles. Our factory is a recognized <strong className="text-[#1C1C21]">granite manufacturer India</strong> with full ESMA and UAE Municipality compliance documentation.
+            </p>
           </div>
 
-          <div className="grid grid-cols-2 gap-4">
+          {/* 6-Card Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
             {[
-              { port: "Jebel Ali", city: "Dubai", days: "5–6 Days" },
-              { port: "Khalifa Port", city: "Abu Dhabi", days: "6–7 Days" },
-              { port: "Khorfakkan Port", city: "Sharjah", days: "4–5 Days" },
-              { port: "Saqr Port", city: "Ras Al Khaimah", days: "5–6 Days" }
-            ].map((p, i) => (
-              <div key={i} className="bg-white/5 border border-white/10 rounded-xl p-5 hover:border-[#D4AF37]/40 transition-colors">
-                <MapPin className="w-4 h-4 text-[#D4AF37] mb-2" />
-                <p className="font-outfit text-sm font-bold text-white">{p.port}</p>
-                <p className="text-xs text-neutral-400">{p.city}</p>
-                <p className="text-xs font-mono text-[#D4AF37] mt-2 font-bold">{p.days}</p>
+              {
+                cat: "Marble Slabs Exporter",
+                title: "White Marble Slabs — Dubai Lobbies",
+                body: "As a marble slabs exporter to the UAE, Pyros supplies 20mm & 30mm Kishangarh White and Makrana marble gangsaw slabs for luxury hotel lobbies in Dubai Marina and Downtown Dubai towers."
+              },
+              {
+                cat: "Granite Slabs Supplier",
+                title: "Black & Steel Grey Granite Slabs",
+                body: "Our granite slabs supplier unit exports Absolute Black, Black Galaxy, and Steel Grey gangsaw slabs with ±1mm calibration for UAE commercial tower facades and hotel reception counters."
+              },
+              {
+                cat: "Marble Tiles Exporter",
+                title: "Calibrated Marble Floor Tiles",
+                body: "As a marble tiles exporter to UAE contractors, we manufacture 60x60cm and 80x80cm polished and honed marble tiles for Abu Dhabi luxury villa developments and Ras Al Khaimah resorts."
+              },
+              {
+                cat: "Granite Tiles Exporter",
+                title: "Granite Tiles for UAE Plazas",
+                body: "Our granite tiles exporter line produces 30x30, 60x60, and 60x120cm flamed and polished granite tiles for Sharjah commercial plazas and Dubai promenade outdoor landscaping."
+              },
+              {
+                cat: "Marble Exporter India to UAE",
+                title: "Fast 5-Day Jebel Ali Marble Delivery",
+                body: "Pyros operates as a top marble exporter India to UAE, offering rapid 5–6 day ocean shipping from Mundra to Jebel Ali Port with ISPM-15 wooden A-frames and ESMA certification."
+              },
+              {
+                cat: "Granite Exporter India to UAE",
+                title: "Granite Supply — Abu Dhabi & Sharjah",
+                body: "As a granite exporter India to UAE, Pyros fulfills multi-container FCL contracts for commercial building contractors in Khalifa Port Abu Dhabi and Sharjah industrial parks."
+              }
+            ].map((item, i) => (
+              <div key={i} className="bg-[#FAF9F6] border border-[#E5E0D5] rounded-2xl p-7 hover:shadow-md hover:-translate-y-1 transition-all duration-300 group">
+                <span className="text-[10px] font-mono text-[#D4AF37] font-bold uppercase tracking-widest block mb-2">{item.cat}</span>
+                <h3 className="font-outfit text-lg font-bold text-[#1C1C21] mb-3 group-hover:text-[#D4AF37] transition-colors">{item.title}</h3>
+                <p className="font-inter text-sm text-[#52525C] leading-relaxed">{item.body}</p>
               </div>
             ))}
           </div>

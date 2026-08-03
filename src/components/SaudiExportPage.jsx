@@ -36,73 +36,22 @@ export default function SaudiExportPage({ onNavigate }) {
 
       {/* ─── BANNER — Same structure as MarblePage ─── */}
       <div className="bg-[#1C1C21] text-white pt-28 pb-16 px-6 border-b border-[#D4AF37]/30 relative overflow-hidden">
-        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-10">
+        <div className="max-w-4xl mx-auto flex flex-col items-center text-center gap-6">
 
-          {/* Left: Title + keywords + badges */}
-          <div className="space-y-4 max-w-2xl text-left">
-            <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#D4AF37]/15 border border-[#D4AF37]/40 rounded-md text-[#D4AF37] text-xs font-mono font-bold tracking-widest uppercase">
-              🇸🇦 SASO & SABER Verified — KSA Export Desk
-            </div>
-
-            <h1 className="font-cormorant text-4xl sm:text-6xl font-semibold leading-tight">
-              Marble Exporter India to Saudi Arabia
-            </h1>
-            <p className="font-outfit text-xl sm:text-2xl text-[#D4AF37] font-semibold leading-snug">
-              Granite Exporter India to Saudi Arabia
-            </p>
-
-            <p className="font-inter text-sm sm:text-base text-neutral-300 font-light leading-relaxed">
-              Pyros Surfaces is a certified <strong className="text-white">Indian marble exporter</strong> and <strong className="text-white">Indian granite supplier</strong> supplying Vision 2030 mega-projects — NEOM, Red Sea Global, Qiddiya — and commercial developments in Riyadh, Jeddah, and Dammam.
-            </p>
-
-            <div className="flex flex-wrap gap-4 pt-2">
-              <span className="text-xs font-mono text-[#D4AF37] flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4 text-[#D4AF37]" /> SASO & SABER Certified
-              </span>
-              <span className="text-xs font-mono text-neutral-300 flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4 text-[#D4AF37]" /> ISPM-15 Wooden Crates
-              </span>
-              <span className="text-xs font-mono text-neutral-300 flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4 text-[#D4AF37]" /> 26.5 MT Max Container
-              </span>
-            </div>
-
-            <button
-              onClick={handleEnquire}
-              className="mt-2 inline-flex items-center gap-2 px-7 py-3.5 bg-[#D4AF37] hover:bg-[#B58D1E] text-black font-outfit text-sm font-bold uppercase tracking-wider rounded-lg shadow-xl transition-all"
-            >
-              Request KSA Export Quote <ArrowRight className="w-4 h-4" />
-            </button>
+          <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#D4AF37]/15 border border-[#D4AF37]/40 rounded-md text-[#D4AF37] text-xs font-mono font-bold tracking-widest uppercase">
+            🇸🇦 SASO & SABER Verified — KSA Export Desk
           </div>
 
-          {/* Right: KSA Specs Card */}
-          <div className="w-full lg:w-96 bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-md space-y-4 text-left">
-            <h3 className="font-outfit text-xs font-bold text-[#D4AF37] uppercase tracking-widest">
-              KSA B2B Export Specifications
-            </h3>
-            <div className="space-y-2.5 text-xs text-neutral-300">
-              <div className="flex justify-between border-b border-white/10 pb-1.5">
-                <span className="text-neutral-400">Gangsaw Thickness:</span>
-                <span className="font-bold text-white">20mm & 30mm Slabs</span>
-              </div>
-              <div className="flex justify-between border-b border-white/10 pb-1.5">
-                <span className="text-neutral-400">Container Max Load:</span>
-                <span className="font-bold text-white">26.5 Metric Tons</span>
-              </div>
-              <div className="flex justify-between border-b border-white/10 pb-1.5">
-                <span className="text-neutral-400">Certification:</span>
-                <span className="font-bold text-[#D4AF37]">SASO / SABER Approved</span>
-              </div>
-              <div className="flex justify-between border-b border-white/10 pb-1.5">
-                <span className="text-neutral-400">Loading Port:</span>
-                <span className="font-bold text-white">Mundra / Tuticorin, India</span>
-              </div>
-              <div className="flex justify-between">
-                <span className="text-neutral-400">Export MOQ:</span>
-                <span className="font-bold text-white">1 × 20ft FCL (~450 Sqm)</span>
-              </div>
-            </div>
-          </div>
+          <h1 className="font-cormorant text-4xl sm:text-6xl font-semibold leading-tight">
+            Marble Exporter India to Saudi Arabia
+          </h1>
+
+          <button
+            onClick={handleEnquire}
+            className="inline-flex items-center gap-2 px-7 py-3.5 bg-[#D4AF37] hover:bg-[#B58D1E] text-black font-outfit text-sm font-bold uppercase tracking-wider rounded-lg shadow-xl transition-all"
+          >
+            Request KSA Export Quote <ArrowRight className="w-4 h-4" />
+          </button>
         </div>
       </div>
 
@@ -134,33 +83,6 @@ export default function SaudiExportPage({ onNavigate }) {
         </div>
       </div>
 
-      {/* ─── SECTION 2: Saudi Arabia Port Table ─── */}
-      <div className="bg-[#1C1C21] text-white py-16 px-6">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-10">
-            <span className="font-mono text-xs text-[#D4AF37] font-bold uppercase tracking-widest">Direct Sea Freight</span>
-            <h2 className="font-cormorant text-3xl sm:text-4xl font-semibold text-white mt-2">Saudi Arabia Destination Ports</h2>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {[
-              { port: "Jeddah Islamic Port", region: "Western Province", transit: "7 Days", cert: "SASO / SABER" },
-              { port: "King Abdulaziz Port Dammam", region: "Eastern Province", transit: "9 Days", cert: "SASO / SABER" },
-              { port: "Yanbu Commercial Port", region: "Al Madinah Region", transit: "8 Days", cert: "SASO / SABER" }
-            ].map((p, i) => (
-              <div key={i} className="bg-white/5 border border-white/10 rounded-xl p-6 hover:border-[#D4AF37]/50 transition-colors">
-                <MapPin className="w-5 h-5 text-[#D4AF37] mb-3" />
-                <h3 className="font-outfit text-lg font-bold text-white">{p.port}</h3>
-                <p className="text-xs text-neutral-400 mt-1">{p.region}</p>
-                <div className="mt-4 pt-4 border-t border-white/10 flex justify-between text-xs font-mono">
-                  <span className="text-neutral-400">Transit: <span className="text-[#D4AF37] font-bold">{p.transit}</span></span>
-                  <span className="text-neutral-400">{p.cert}</span>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
 
       {/* ─── SECTION 3: Products (Slabs & Tiles) ─── */}
       <div className="max-w-7xl mx-auto px-6 py-20">
@@ -205,6 +127,69 @@ export default function SaudiExportPage({ onNavigate }) {
                 </div>
               ))}
             </div>
+          </div>
+        </div>
+      </div>
+
+      {/* ─── Keyword-Rich Content Section ─── */}
+      <div className="bg-white border-t border-[#E2D9CC] py-20 px-6">
+        <div className="max-w-7xl mx-auto">
+          {/* Intro Block */}
+          <div className="max-w-4xl mx-auto text-center mb-14">
+            <span className="font-mono text-xs text-[#D4AF37] font-bold uppercase tracking-widest">
+              Marble Exporter India to Saudi Arabia — Granite Exporter India to Saudi Arabia
+            </span>
+            <h2 className="font-cormorant text-4xl sm:text-5xl font-semibold text-[#1C1C21] mt-3 mb-5 leading-tight">
+              India's Premier Natural Stone Exporter for the Kingdom of Saudi Arabia
+            </h2>
+            <p className="font-inter text-base text-[#52525C] leading-relaxed mb-4">
+              Pyros Surfaces is a leading <strong className="text-[#1C1C21]">marble exporter from India</strong> and <strong className="text-[#1C1C21]">granite exporter from India</strong> supplying Saudi Arabia's Vision 2030 developments. As an established <strong className="text-[#1C1C21]">Indian marble exporter</strong> and <strong className="text-[#1C1C21]">Indian granite supplier</strong>, we process raw blocks from captive Rajasthan and South Indian quarries into 20mm and 30mm gangsaw slabs for Riyadh, Jeddah, and Dammam.
+            </p>
+            <p className="font-inter text-base text-[#52525C] leading-relaxed">
+              Serving as a trusted <strong className="text-[#1C1C21]">natural stone exporter India</strong> and <strong className="text-[#1C1C21]">marble supplier India</strong>, Pyros operates Italian gangsaw lines with 95+ gloss luster polish. Our factory is a recognized <strong className="text-[#1C1C21]">granite manufacturer India</strong> providing 100% SASO and SABER certified natural stone packaging for KSA customs.
+            </p>
+          </div>
+
+          {/* 6-Card Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
+            {[
+              {
+                cat: "Marble Slabs Exporter",
+                title: "White & Beige KSA Marble Slabs",
+                body: "As a dedicated marble slabs exporter to KSA, Pyros supplies 20mm & 30mm gangsaw Kishangarh white marble and Makrana slabs for luxury hotels, royal palaces, and residential villas in Riyadh and Jeddah."
+              },
+              {
+                cat: "Granite Slabs Supplier",
+                title: "Black & Steel Grey Granite Slabs",
+                body: "Our granite slabs supplier operations process Absolute Black, Black Galaxy, and Steel Grey gangsaw slabs at ±1mm tolerance for Saudi commercial tower facades and high-traffic flooring."
+              },
+              {
+                cat: "Marble Tiles Exporter",
+                title: "Calibrated Marble Floor Tiles",
+                body: "As a marble tiles exporter to Saudi Arabia, we supply 60x60cm, 80x80cm, and 60x120cm calibrated marble tiles with SABER certificate for Saudi commercial developments."
+              },
+              {
+                cat: "Granite Tiles Exporter",
+                title: "Heavy-Duty Granite Tiles for KSA",
+                body: "Our granite tiles exporter line offers 30x30 to 60x120cm flamed, polished, and honed granite tiles for NEOM infrastructure plazas, Red Sea resorts, and Dammam public projects."
+              },
+              {
+                cat: "Marble Exporter India to Saudi Arabia",
+                title: "SABER Certified White Marble Slabs",
+                body: "Pyros is a verified marble exporter India to Saudi Arabia delivering direct FCL containers to Jeddah Islamic Port and King Abdulaziz Port Dammam with full SASO quality clearance."
+              },
+              {
+                cat: "Granite Exporter India to Saudi Arabia",
+                title: "Commercial Granite for Vision 2030",
+                body: "As a granite exporter India to Saudi Arabia, we supply mega-projects across Tabuk, Diriyah, and Riyadh with heavy-load 26.5 MT container shipments and ISPM-15 wooden A-frames."
+              }
+            ].map((item, i) => (
+              <div key={i} className="bg-[#FAF9F6] border border-[#E5E0D5] rounded-2xl p-7 hover:shadow-md hover:-translate-y-1 transition-all duration-300 group">
+                <span className="text-[10px] font-mono text-[#D4AF37] font-bold uppercase tracking-widest block mb-2">{item.cat}</span>
+                <h3 className="font-outfit text-lg font-bold text-[#1C1C21] mb-3 group-hover:text-[#D4AF37] transition-colors">{item.title}</h3>
+                <p className="font-inter text-sm text-[#52525C] leading-relaxed">{item.body}</p>
+              </div>
+            ))}
           </div>
         </div>
       </div>
