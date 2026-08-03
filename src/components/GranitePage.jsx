@@ -16,53 +16,16 @@ export default function GranitePage() {
       
       {/* Category Hero Banner */}
       <div className="bg-[#1C1C21] text-white pt-28 pb-16 px-6 border-b border-[#D4AF37]/30 relative overflow-hidden">
-        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-10">
-          <div className="space-y-4 max-w-2xl text-left">
-            <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#D4AF37]/15 border border-[#D4AF37]/40 rounded-md text-[#D4AF37] text-xs font-mono font-bold tracking-widest uppercase">
-              🏛️ Heavy-Duty Commercial Granite Exporter
-            </div>
-            <h1 className="font-cormorant text-4xl sm:text-6xl font-semibold leading-tight">
-              Indian Premium Granite Slabs
-            </h1>
-            <p className="font-inter text-sm sm:text-base text-neutral-300 font-light leading-relaxed">
-              High-density North & South Indian Granite slabs including Black Galaxy, Absolute Black, Tan Brown, and Alaska Gold. Precision gangsaw sliced in 20mm & 30mm profiles with extreme scratch & heat resistance.
-            </p>
-            <div className="flex flex-wrap gap-4 pt-2">
-              <span className="text-xs font-mono text-[#D4AF37] flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4 text-[#D4AF37]" /> High Thermal & Chemical Resistance
-              </span>
-              <span className="text-xs font-mono text-neutral-300 flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4 text-[#D4AF37]" /> Heavy Freight A-Frame Packing
-              </span>
-              <span className="text-xs font-mono text-neutral-300 flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4 text-[#D4AF37]" /> Zero Water Absorption
-              </span>
-            </div>
+        <div className="max-w-4xl mx-auto flex flex-col items-center text-center gap-6">
+          <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#D4AF37]/15 border border-[#D4AF37]/40 rounded-md text-[#D4AF37] text-xs font-mono font-bold tracking-widest uppercase">
+            🏛️ Heavy-Duty Commercial Granite Exporter
           </div>
-
-          <div className="w-full lg:w-96 bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-md space-y-4 text-left">
-            <h3 className="font-outfit text-xs font-bold text-[#D4AF37] uppercase tracking-widest">
-              Granite Export Technicals
-            </h3>
-            <div className="space-y-2.5 text-xs text-neutral-300">
-              <div className="flex justify-between border-b border-white/10 pb-1.5">
-                <span className="text-neutral-400">Granite Profiles:</span>
-                <span className="font-bold text-white">Gangsaw Slabs & Cut-to-Size</span>
-              </div>
-              <div className="flex justify-between border-b border-white/10 pb-1.5">
-                <span className="text-neutral-400">Compressive Strength:</span>
-                <span className="font-bold text-white">200-250 MPa</span>
-              </div>
-              <div className="flex justify-between border-b border-white/10 pb-1.5">
-                <span className="text-neutral-400">Density:</span>
-                <span className="font-bold text-white">2.65 - 2.85 g/cm³</span>
-              </div>
-              <div className="flex justify-between">
-                <span className="text-neutral-400">Export Gateways:</span>
-                <span className="font-bold text-white">Chennai, Vizag & Mundra</span>
-              </div>
-            </div>
-          </div>
+          <h1 className="font-cormorant text-4xl sm:text-6xl font-semibold leading-tight">
+            Indian Premium Granite Slabs
+          </h1>
+          <p className="font-inter text-sm sm:text-base text-neutral-300 font-light leading-relaxed max-w-2xl">
+            High-density North &amp; South Indian Granite slabs including Black Galaxy, Absolute Black, Tan Brown, and Alaska Gold. Precision gangsaw sliced in 20mm &amp; 30mm profiles with extreme scratch &amp; heat resistance.
+          </p>
         </div>
       </div>
 

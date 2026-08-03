@@ -16,53 +16,16 @@ export default function QuartzitePage() {
       
       {/* Category Hero Banner */}
       <div className="bg-[#1C1C21] text-white pt-28 pb-16 px-6 border-b border-[#D4AF37]/30 relative overflow-hidden">
-        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-10">
-          <div className="space-y-4 max-w-2xl text-left">
-            <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#D4AF37]/15 border border-[#D4AF37]/40 rounded-md text-[#D4AF37] text-xs font-mono font-bold tracking-widest uppercase">
-              ✨ Translucent & Exotic Hardness
-            </div>
-            <h1 className="font-cormorant text-4xl sm:text-6xl font-semibold leading-tight">
-              Natural Quartzite & Quartz Slabs
-            </h1>
-            <p className="font-inter text-sm sm:text-base text-neutral-300 font-light leading-relaxed">
-              Rare metamorphic Quartzite slabs featuring crystalline veining and backlighting capability. Exceptional MOHS 7 hardness rating combining marble's beauty with granite's extreme durability.
-            </p>
-            <div className="flex flex-wrap gap-4 pt-2">
-              <span className="text-xs font-mono text-[#D4AF37] flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4 text-[#D4AF37]" /> MOHS 7 Scratch Resistance
-              </span>
-              <span className="text-xs font-mono text-neutral-300 flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4 text-[#D4AF37]" /> Translucent Backlighting Slabs
-              </span>
-              <span className="text-xs font-mono text-neutral-300 flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4 text-[#D4AF37]" /> Zero Acid Staining
-              </span>
-            </div>
+        <div className="max-w-4xl mx-auto flex flex-col items-center text-center gap-6">
+          <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#D4AF37]/15 border border-[#D4AF37]/40 rounded-md text-[#D4AF37] text-xs font-mono font-bold tracking-widest uppercase">
+            ✨ Translucent &amp; Exotic Hardness
           </div>
-
-          <div className="w-full lg:w-96 bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-md space-y-4 text-left">
-            <h3 className="font-outfit text-xs font-bold text-[#D4AF37] uppercase tracking-widest">
-              Quartzite Specifications
-            </h3>
-            <div className="space-y-2.5 text-xs text-neutral-300">
-              <div className="flex justify-between border-b border-white/10 pb-1.5">
-                <span className="text-neutral-400">Mineral Hardness:</span>
-                <span className="font-bold text-white">7 Mohs Scale</span>
-              </div>
-              <div className="flex justify-between border-b border-white/10 pb-1.5">
-                <span className="text-neutral-400">Slab Thickness:</span>
-                <span className="font-bold text-white">20mm, 30mm Calibrated</span>
-              </div>
-              <div className="flex justify-between border-b border-white/10 pb-1.5">
-                <span className="text-neutral-400">Special Effect:</span>
-                <span className="font-bold text-white">LED Backlighting Compatible</span>
-              </div>
-              <div className="flex justify-between">
-                <span className="text-neutral-400">Export Certifications:</span>
-                <span className="font-bold text-white">SASO, SABER, US Benchmarks</span>
-              </div>
-            </div>
-          </div>
+          <h1 className="font-cormorant text-4xl sm:text-6xl font-semibold leading-tight">
+            Natural Quartzite &amp; Quartz Slabs
+          </h1>
+          <p className="font-inter text-sm sm:text-base text-neutral-300 font-light leading-relaxed max-w-2xl">
+            Rare metamorphic Quartzite slabs featuring crystalline veining and backlighting capability. Exceptional MOHS 7 hardness rating combining marble's beauty with granite's extreme durability.
+          </p>
         </div>
       </div>
 

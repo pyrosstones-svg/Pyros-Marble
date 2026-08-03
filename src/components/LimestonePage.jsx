@@ -14,26 +14,16 @@ export default function LimestonePage() {
   return (
     <div className="bg-[#FAF9F6] text-[#1C1C21] min-h-screen">
       <div className="bg-[#1C1C21] text-white pt-28 pb-16 px-6 border-b border-[#D4AF37]/30 relative overflow-hidden">
-        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-10">
-          <div className="space-y-4 max-w-2xl text-left">
-            <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#D4AF37]/15 border border-[#D4AF37]/40 rounded-md text-[#D4AF37] text-xs font-mono font-bold tracking-widest uppercase">
-              🏛️ Kota Stone & Natural Limestone
-            </div>
-            <h1 className="font-cormorant text-4xl sm:text-6xl font-semibold leading-tight">
-              Calibrated Limestone & Kota Stone
-            </h1>
-            <p className="font-inter text-sm sm:text-base text-neutral-300 font-light leading-relaxed">
-              Famous Blue Kota Stone, Brown Kota Stone, and Tandur Limestone tiles. High durability, non-porous surface, and cooling thermal properties for heavy foot-traffic flooring & public plazas.
-            </p>
-            <div className="flex flex-wrap gap-4 pt-2">
-              <span className="text-xs font-mono text-[#D4AF37] flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4 text-[#D4AF37]" /> High Flexural Strength
-              </span>
-              <span className="text-xs font-mono text-neutral-300 flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4 text-[#D4AF37]" /> Polished, Mirror & Rough Finishes
-              </span>
-            </div>
+        <div className="max-w-4xl mx-auto flex flex-col items-center text-center gap-6">
+          <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#D4AF37]/15 border border-[#D4AF37]/40 rounded-md text-[#D4AF37] text-xs font-mono font-bold tracking-widest uppercase">
+            🏛️ Kota Stone &amp; Natural Limestone
           </div>
+          <h1 className="font-cormorant text-4xl sm:text-6xl font-semibold leading-tight">
+            Calibrated Limestone &amp; Kota Stone
+          </h1>
+          <p className="font-inter text-sm sm:text-base text-neutral-300 font-light leading-relaxed max-w-2xl">
+            Famous Blue Kota Stone, Brown Kota Stone, and Tandur Limestone tiles. High durability, non-porous surface, and cooling thermal properties for heavy foot-traffic flooring &amp; public plazas.
+          </p>
         </div>
       </div>
 

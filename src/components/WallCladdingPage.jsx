@@ -14,26 +14,16 @@ export default function WallCladdingPage() {
   return (
     <div className="bg-[#FAF9F6] text-[#1C1C21] min-h-screen">
       <div className="bg-[#1C1C21] text-white pt-28 pb-16 px-6 border-b border-[#D4AF37]/30 relative overflow-hidden">
-        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-10">
-          <div className="space-y-4 max-w-2xl text-left">
-            <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#D4AF37]/15 border border-[#D4AF37]/40 rounded-md text-[#D4AF37] text-xs font-mono font-bold tracking-widest uppercase">
-              📐 3D CNC & Grooved Stone Facades
-            </div>
-            <h1 className="font-cormorant text-4xl sm:text-6xl font-semibold leading-tight">
-              Stone Wall Cladding
-            </h1>
-            <p className="font-inter text-sm sm:text-base text-neutral-300 font-light leading-relaxed">
-              3D CNC engraved stone panels, grooved elevation tiles, hydro-finish granite cladding, and interlocking ledge-stone panels for luxury exterior facades and interior feature walls.
-            </p>
-            <div className="flex flex-wrap gap-4 pt-2">
-              <span className="text-xs font-mono text-[#D4AF37] flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4 text-[#D4AF37]" /> Custom CNC Grooving & Engraving
-              </span>
-              <span className="text-xs font-mono text-neutral-300 flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4 text-[#D4AF37]" /> Interlocking Z-Shape Ledge Panels
-              </span>
-            </div>
+        <div className="max-w-4xl mx-auto flex flex-col items-center text-center gap-6">
+          <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#D4AF37]/15 border border-[#D4AF37]/40 rounded-md text-[#D4AF37] text-xs font-mono font-bold tracking-widest uppercase">
+            📐 3D CNC &amp; Grooved Stone Facades
           </div>
+          <h1 className="font-cormorant text-4xl sm:text-6xl font-semibold leading-tight">
+            Stone Wall Cladding
+          </h1>
+          <p className="font-inter text-sm sm:text-base text-neutral-300 font-light leading-relaxed max-w-2xl">
+            3D CNC engraved stone panels, grooved elevation tiles, hydro-finish granite cladding, and interlocking ledge-stone panels for luxury exterior facades and interior feature walls.
+          </p>
         </div>
       </div>
 

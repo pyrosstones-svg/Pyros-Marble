@@ -17,53 +17,16 @@ export default function MarblePage() {
       
       {/* Category Hero Banner */}
       <div className="bg-[#1C1C21] text-white pt-28 pb-16 px-6 border-b border-[#D4AF37]/30 relative overflow-hidden">
-        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-10">
-          <div className="space-y-4 max-w-2xl text-left">
-            <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#D4AF37]/15 border border-[#D4AF37]/40 rounded-md text-[#D4AF37] text-xs font-mono font-bold tracking-widest uppercase">
-              👑 Quarry-Direct Premium Export
-            </div>
-            <h1 className="font-cormorant text-4xl sm:text-6xl font-semibold leading-tight">
-              Indian Natural Marble Slabs
-            </h1>
-            <p className="font-inter text-sm sm:text-base text-neutral-300 font-light leading-relaxed">
-              Exquisite Udaipur, Kishangarh & Makrana Indian Marble Slabs. Processed in 20mm & 30mm Italian Gangsaw thickness calibration with 95+ Gloss Luster polish for high-end luxury interiors & GCC commercial developments.
-            </p>
-            <div className="flex flex-wrap gap-4 pt-2">
-              <span className="text-xs font-mono text-[#D4AF37] flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4 text-[#D4AF37]" /> SASO & SABER Certified
-              </span>
-              <span className="text-xs font-mono text-neutral-300 flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4 text-[#D4AF37]" /> ISPM-15 Wooden Crates
-              </span>
-              <span className="text-xs font-mono text-neutral-300 flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4 text-[#D4AF37]" /> ±1mm Calibration
-              </span>
-            </div>
+        <div className="max-w-4xl mx-auto flex flex-col items-center text-center gap-6">
+          <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#D4AF37]/15 border border-[#D4AF37]/40 rounded-md text-[#D4AF37] text-xs font-mono font-bold tracking-widest uppercase">
+            👑 Quarry-Direct Premium Export
           </div>
-
-          <div className="w-full lg:w-96 bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-md space-y-4 text-left">
-            <h3 className="font-outfit text-xs font-bold text-[#D4AF37] uppercase tracking-widest">
-              Marble B2B Specifications
-            </h3>
-            <div className="space-y-2.5 text-xs text-neutral-300">
-              <div className="flex justify-between border-b border-white/10 pb-1.5">
-                <span className="text-neutral-400">Available Thickness:</span>
-                <span className="font-bold text-white">20mm, 30mm Gangsaw</span>
-              </div>
-              <div className="flex justify-between border-b border-white/10 pb-1.5">
-                <span className="text-neutral-400">Surface Finish:</span>
-                <span className="font-bold text-white">High Gloss, Honed, Leathered</span>
-              </div>
-              <div className="flex justify-between border-b border-white/10 pb-1.5">
-                <span className="text-neutral-400">Export MOQ:</span>
-                <span className="font-bold text-white">1 × 20ft FCL (~450 Sqm)</span>
-              </div>
-              <div className="flex justify-between">
-                <span className="text-neutral-400">Primary Loading Ports:</span>
-                <span className="font-bold text-white">Mundra / Kandla, India</span>
-              </div>
-            </div>
-          </div>
+          <h1 className="font-cormorant text-4xl sm:text-6xl font-semibold leading-tight">
+            Indian Natural Marble Slabs
+          </h1>
+          <p className="font-inter text-sm sm:text-base text-neutral-300 font-light leading-relaxed max-w-2xl">
+            Exquisite Udaipur, Kishangarh &amp; Makrana Indian Marble Slabs. Processed in 20mm &amp; 30mm Italian Gangsaw thickness calibration with 95+ Gloss Luster polish for high-end luxury interiors &amp; GCC commercial developments.
+          </p>
         </div>
       </div>
 
