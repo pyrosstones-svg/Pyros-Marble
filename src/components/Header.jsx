@@ -21,7 +21,7 @@ export default function Header({ activeSection, setActiveSection }) {
   const navLinks = [
     { id: 'hero', name: 'Home' },
     { id: 'about-us', name: 'About Us' },
-    { id: 'catalog', name: 'Product', isDropdown: true },
+    { id: 'catalog', name: 'Products', isDropdown: true },
     { id: 'blog', name: 'Blogs' },
     { id: 'contact', name: 'Contact Us' }
   ];
@@ -56,8 +56,6 @@ export default function Header({ activeSection, setActiveSection }) {
     window.location.hash = `#/${target}`;
   };
 
-  const useLightText = true; // Always light text as background is dark obsidian
-
   return (
     <header className="fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-white border-b border-black/5 py-4 shadow-md">
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
@@ -73,8 +71,11 @@ export default function Header({ activeSection, setActiveSection }) {
           </div>
         </div>
 
+        {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => {
+
+            // ── Products Dropdown ──
             if (link.isDropdown) {
               return (
                 <div key={link.id} className="relative group py-2">
@@ -88,8 +89,7 @@ export default function Header({ activeSection, setActiveSection }) {
                     <ChevronDown className="w-3 h-3 transition-transform duration-300 group-hover:rotate-180 text-neutral-400 group-hover:text-[#D4AF37]" />
                   </button>
                   
-                  {/* Dropdown Menu */}
-                  <div className="absolute top-full left-1/2 -translate-x-1/2 mt-1 w-56 bg-[#FAF9F6] border border-[#EADCC9] rounded-lg shadow-xl py-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-2 group-hover:translate-y-0 z-50 overflow-hidden">
+                  <div className="absolute top-full left-1/2 -translate-x-1/2 mt-1 w-52 bg-[#FAF9F6] border border-[#EADCC9] rounded-lg shadow-xl py-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-2 group-hover:translate-y-0 z-50 overflow-hidden">
                     {productCategories.map((cat) => (
                       <button
                         key={cat.id}
@@ -108,6 +108,7 @@ export default function Header({ activeSection, setActiveSection }) {
               );
             }
 
+            // ── Regular nav link ──
             let activeClass = '';
             if (activeSection === link.id) {
                activeClass = 'text-[#D4AF37] font-semibold after:scale-x-100';
@@ -131,7 +132,7 @@ export default function Header({ activeSection, setActiveSection }) {
         <div className="hidden md:flex items-center gap-6">
           <div className="flex items-center gap-1.5 text-xs text-[#4E4E59]">
             <Globe className="w-3.5 h-3.5 text-[#D4AF37]" />
-            <span className="font-inter tracking-wider">EN / GCC / US</span>
+            <span className="font-inter tracking-wider">GLOBAL EXPORTS</span>
           </div>
           <button 
             onClick={() => {
@@ -162,6 +163,8 @@ export default function Header({ activeSection, setActiveSection }) {
       }`}>
         <div className="flex flex-col gap-8">
           {navLinks.map((link, idx) => {
+
+            // Products dropdown mobile
             if (link.isDropdown) {
               return (
                 <div key={link.id} className="flex flex-col">
@@ -209,7 +212,7 @@ export default function Header({ activeSection, setActiveSection }) {
           <div className="h-px bg-white/10 my-4" />
           <div className="flex items-center gap-2 text-sm text-neutral-300">
             <Globe className="w-4 h-4 text-[#D4AF37]" />
-            <span className="font-inter tracking-wider">Serving US, UK, Europe, & Arab Countries</span>
+            <span className="font-inter tracking-wider">Serving US, UK, Europe, Australia & Arab Countries</span>
           </div>
           <button 
             onClick={() => {
@@ -220,9 +223,9 @@ export default function Header({ activeSection, setActiveSection }) {
                 handleNavClick('contact');
               }
             }}
-            className="w-full py-4 bg-[#D4AF37] text-black text-sm tracking-wider uppercase font-bold rounded-lg shadow-lg hover:bg-[#b59228] transition-colors"
+            className="w-full py-4 text-center font-outfit text-sm font-bold uppercase tracking-widest bg-[#D4AF37] text-black rounded-lg shadow-xl"
           >
-            Request Quote
+            Get Export Quote
           </button>
         </div>
       </div>

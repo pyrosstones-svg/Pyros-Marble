@@ -19,6 +19,11 @@ import SlatePage from './components/SlatePage';
 import LimestonePage from './components/LimestonePage';
 import WallCladdingPage from './components/WallCladdingPage';
 import PorcelainPage from './components/PorcelainPage';
+import USAExportPage from './components/USAExportPage';
+import EuropeExportPage from './components/EuropeExportPage';
+import AustraliaExportPage from './components/AustraliaExportPage';
+import UAEExportPage from './components/UAEExportPage';
+import SaudiExportPage from './components/SaudiExportPage';
 import { stones } from './data/stoneData';
 import { ArrowUp, Ship, Heart, Shield, Globe, Award, CheckCircle, Package, ArrowRight, Layers, Mountain, Hammer, Sparkles, Search, Quote, Star, ChevronLeft, ChevronRight, Instagram, Facebook, Linkedin, Calendar, Clock, Target, Eye } from 'lucide-react';
 
@@ -201,6 +206,16 @@ export default function App() {
         setCurrentPage('wall-cladding');
       } else if (hash === '#/porcelain' || hash === '#/catalog/porcelain') {
         setCurrentPage('porcelain');
+      } else if (hash === '#/export/usa' || hash === '#/usa' || hash === '#usa') {
+        setCurrentPage('export-usa');
+      } else if (hash === '#/export/europe' || hash === '#/europe' || hash === '#europe') {
+        setCurrentPage('export-europe');
+      } else if (hash === '#/export/australia' || hash === '#/australia' || hash === '#australia') {
+        setCurrentPage('export-australia');
+      } else if (hash === '#/export/uae' || hash === '#/uae' || hash === '#uae') {
+        setCurrentPage('export-uae');
+      } else if (hash === '#/export/saudi' || hash === '#/saudi' || hash === '#saudi' || hash === '#/saudi-trade') {
+        setCurrentPage('export-saudi');
       } else if (hash.startsWith('#/catalog') || hash.startsWith('#catalog')) {
         const cleanHash = hash.replace(/^#\/?/, '');
         const parts = cleanHash.split('/');
@@ -1118,6 +1133,12 @@ export default function App() {
         {currentPage === 'wall-cladding' && <WallCladdingPage />}
         {currentPage === 'porcelain' && <PorcelainPage />}
 
+        {currentPage === 'export-usa' && <USAExportPage onNavigate={navigateTo} />}
+        {currentPage === 'export-europe' && <EuropeExportPage onNavigate={navigateTo} />}
+        {currentPage === 'export-australia' && <AustraliaExportPage onNavigate={navigateTo} />}
+        {currentPage === 'export-uae' && <UAEExportPage onNavigate={navigateTo} />}
+        {currentPage === 'export-saudi' && <SaudiExportPage onNavigate={navigateTo} />}
+
         {currentPage === 'catalog' && (
           <MarblePage />
         )}
@@ -1140,7 +1161,7 @@ export default function App() {
 
       {/* Footer */}
       <footer className="bg-[#1C1C21] text-neutral-400 border-t border-[#D4AF37]/20 py-20 text-xs leading-relaxed relative">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-10 mb-16">
 
           {/* Col 1: Logo */}
           <div className="flex flex-col gap-4 text-left">
@@ -1151,28 +1172,11 @@ export default function App() {
               <span className="font-outfit text-base font-bold tracking-[0.2em] text-white uppercase">PYROS</span>
             </div>
             <p className="font-inter font-light text-neutral-100 text-[13px] leading-relaxed mt-2">
-              Corporate exporter of premium natural stones, quartzites, and engineered quartz surfaces. Serving luxury residential and commercial structures worldwide.
+              Corporate exporter of premium natural stones, marble & granite gangsaw slabs, and tiles worldwide.
             </p>
           </div>
 
-          {/* Col 2: Our Collection */}
-          <div className="flex flex-col gap-4 text-left">
-            <h4 className="font-outfit text-xs tracking-widest uppercase text-white font-bold pb-2 border-b border-white/5">Our Collection</h4>
-            <ul className="space-y-2.5 font-light text-neutral-200 text-[13px]">
-              {['Quartz & Quartzite', 'Sandstone & Slate', 'Calibrated Quartzites', 'Engineered Quartz', 'Onyx & Custom Panels'].map((item, idx) => (
-                <li key={idx}>
-                  <button
-                    onClick={() => navigateTo('catalog')}
-                    className="hover:text-[#D4AF37] hover:translate-x-1 transition-all duration-300 text-left block"
-                  >
-                    {item}
-                  </button>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Col 3: Quick Links */}
+          {/* Col 2: Quick Links */}
           <div className="flex flex-col gap-4 text-left">
             <h4 className="font-outfit text-xs tracking-widest uppercase text-white font-bold pb-2 border-b border-white/5">Quick Links</h4>
             <ul className="space-y-2.5 font-light text-neutral-200 text-[13px]">
@@ -1180,7 +1184,7 @@ export default function App() {
                 { name: 'Home Showcase', page: 'home' },
                 { name: 'Company Biography', page: 'about-us' },
                 { name: 'Products Range', page: 'catalog' },
-                { name: 'Industry Insights (Blogs)', page: 'blog' },
+                { name: 'Industry Insights', page: 'blog' },
                 { name: 'Get Free Estimate', page: 'contact' }
               ].map((link, idx) => (
                 <li key={idx}>
@@ -1195,7 +1199,49 @@ export default function App() {
             </ul>
           </div>
 
-          {/* Col 4: Compliance, Contact & Colored Socials */}
+          {/* Col 3: Our Collection */}
+          <div className="flex flex-col gap-4 text-left">
+            <h4 className="font-outfit text-xs tracking-widest uppercase text-white font-bold pb-2 border-b border-white/5">Our Collection</h4>
+            <ul className="space-y-2.5 font-light text-neutral-200 text-[13px]">
+              {['Marble & Granite', 'Quartz & Quartzite', 'Sandstone & Slate', 'Wall Cladding', 'Porcelain Surfaces'].map((item, idx) => (
+                <li key={idx}>
+                  <button
+                    onClick={() => navigateTo('catalog')}
+                    className="hover:text-[#D4AF37] hover:translate-x-1 transition-all duration-300 text-left block"
+                  >
+                    {item}
+                  </button>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Col 4: Export Destinations (Country Target Pages) */}
+          <div className="flex flex-col gap-4 text-left">
+            <h4 className="font-outfit text-xs tracking-widest uppercase text-white font-bold pb-2 border-b border-white/5 flex items-center gap-2">
+              <span className="text-[#D4AF37]">✦</span> Export Countries
+            </h4>
+            <ul className="space-y-2.5 font-light text-neutral-200 text-[13px]">
+              {[
+                { name: '🇺🇸 USA Export Market', hash: '#/export/usa' },
+                { name: '🇪🇺 Europe & UK Export', hash: '#/export/europe' },
+                { name: '🇦🇺 Australia Export Market', hash: '#/export/australia' },
+                { name: '🇦🇪 UAE (Dubai) Export', hash: '#/export/uae' },
+                { name: '🇸🇦 Saudi Arabia Export', hash: '#/export/saudi' }
+              ].map((item, idx) => (
+                <li key={idx}>
+                  <button
+                    onClick={() => { window.location.hash = item.hash; }}
+                    className="hover:text-[#D4AF37] hover:translate-x-1 transition-all duration-300 text-left block"
+                  >
+                    {item.name}
+                  </button>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Col 5: Compliance, Contact & Colored Socials */}
           <div className="flex flex-col gap-5 text-left">
             <div>
               <h4 className="font-outfit text-[11px] tracking-widest uppercase text-white font-bold pb-2 border-b border-white/5 mb-3">Official Hotlines</h4>
