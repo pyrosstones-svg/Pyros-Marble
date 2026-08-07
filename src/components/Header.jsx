@@ -60,9 +60,9 @@ export default function Header({ activeSection, setActiveSection }) {
     <header className="fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-white border-b border-black/5 py-4 shadow-md">
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         
-        {/* Brand Logo Only (Prominent Extra Large Image) */}
+        {/* Brand Logo Only (Balanced Luxury Image) */}
         <div className="flex items-center cursor-pointer" onClick={() => handleNavClick('hero')}>
-          <div className="h-16 sm:h-20 md:h-24 flex items-center py-1 transition-all">
+          <div className="h-12 sm:h-14 lg:h-16 flex items-center py-1 transition-all">
             <img 
               src="/PyrosStones_logoV0004.png" 
               alt="Pyros Stones Logo" 

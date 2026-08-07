@@ -1174,7 +1174,7 @@ export default function App() {
 
           {/* Col 1: Logo */}
           <div className="flex flex-col gap-4 text-left">
-            <div className="h-16 sm:h-20 overflow-hidden flex items-center bg-white/95 rounded-xl px-4 py-2 w-fit border border-[#D4AF37]/40 shadow-xl">
+            <div className="h-12 sm:h-14 overflow-hidden flex items-center bg-white/95 rounded-xl px-3.5 py-1.5 w-fit border border-[#D4AF37]/40 shadow-lg">
               <img src="/PyrosStones_logoV0004.png" alt="Pyros Stones Logo" className="h-full w-auto object-contain" />
             </div>
             <p className="font-inter font-light text-neutral-100 text-[13px] leading-relaxed mt-2">
