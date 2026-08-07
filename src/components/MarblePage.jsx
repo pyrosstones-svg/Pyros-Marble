@@ -19,13 +19,13 @@ export default function MarblePage() {
       <div className="bg-[#1C1C21] text-white pt-28 pb-16 px-6 border-b border-[#D4AF37]/30 relative overflow-hidden">
         <div className="max-w-4xl mx-auto flex flex-col items-center text-center gap-6">
           <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#D4AF37]/15 border border-[#D4AF37]/40 rounded-md text-[#D4AF37] text-xs font-mono font-bold tracking-widest uppercase">
-            👑 Quarry-Direct Premium Export
+            👑 Quarry-Direct Marble Exporter From India
           </div>
           <h1 className="font-cormorant text-4xl sm:text-6xl font-semibold leading-tight">
-            Indian Natural Marble Slabs
+            Indian Natural Marble Slabs – Udaipur, Kishangarh &amp; Makrana
           </h1>
           <p className="font-inter text-sm sm:text-base text-neutral-300 font-light leading-relaxed max-w-2xl">
-            Exquisite Udaipur, Kishangarh &amp; Makrana Indian Marble Slabs. Processed in 20mm &amp; 30mm Italian Gangsaw thickness calibration with 95+ Gloss Luster polish for high-end luxury interiors &amp; GCC commercial developments.
+            Exquisite Udaipur, Kishangarh &amp; Makrana Indian Marble Slabs. Processed in 20mm &amp; 30mm Italian Gangsaw thickness calibration with 95+ Gloss Luster polish for high-end luxury interiors, commercial flooring &amp; GCC architectural developments.
           </p>
         </div>
       </div>

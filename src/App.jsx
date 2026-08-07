@@ -651,36 +651,20 @@ export default function App() {
             <section className="py-24 bg-[#FAF4EC] border-b border-[#EADCC9] overflow-hidden">
               <div className="max-w-7xl mx-auto px-6">
 
-                {/* Heading */}
-                <div className="flex justify-between items-end mb-16 gap-6 reveal reveal-slide-up">
-                  <div className="text-left max-w-2xl">
-                    <span className="font-outfit text-xs tracking-[0.25em] text-[#D4AF37] uppercase font-bold block mb-2">Indian Export Gateways</span>
-                    <h2 className="font-cormorant text-4xl sm:text-5xl font-medium text-[#1C1C21]">Direct Container Shipments via Mundra & Chennai</h2>
-                    <p className="font-inter text-sm text-[#4E4E59] leading-relaxed font-light mt-4 hidden sm:block">
-                      We coordinate FCL shipments through India's premier container ports. Select a port below to view active stone cargo exports, specific images, and file inquiries.
-                    </p>
+                {/* Heading (Aligned matching Screenshot 2-Column Layout) */}
+                <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end mb-16 border-b border-[#EADCC9] pb-8 text-left reveal reveal-slide-up">
+                  <div className="lg:col-span-6">
+                    <span className="font-outfit text-xs tracking-[0.25em] text-[#D4AF37] uppercase font-bold block mb-2">INDIA'S GLOBAL EXPORT GATEWAYS</span>
+                    <h2 className="font-cormorant text-3xl sm:text-4xl lg:text-[40px] font-medium text-[#1C1C21] leading-tight">
+                      Direct Container Shipping<br className="hidden sm:block" />
+                      for Marble &amp; Granite<br className="hidden sm:block" />
+                      via Mundra &amp; Chennai Ports
+                    </h2>
                   </div>
-
-                  {/* Slider Control Arrows in the Top Right of the section header */}
-                  <div className="flex items-center gap-2.5 pb-1 md:hidden shrink-0">
-                    <button
-                      onClick={() => {
-                        document.getElementById('ports-showcase-scroll').scrollBy({ left: -240, behavior: 'smooth' });
-                      }}
-                      className="w-9 h-9 rounded-full border border-[#D4AF37]/40 flex items-center justify-center text-[#D4AF37] hover:bg-[#D4AF37] hover:text-black transition-colors"
-                      aria-label="Previous port cargo card"
-                    >
-                      <ChevronLeft className="w-4 h-4" />
-                    </button>
-                    <button
-                      onClick={() => {
-                        document.getElementById('ports-showcase-scroll').scrollBy({ left: 240, behavior: 'smooth' });
-                      }}
-                      className="w-9 h-9 rounded-full border border-[#D4AF37]/40 flex items-center justify-center text-[#D4AF37] hover:bg-[#D4AF37] hover:text-black transition-colors"
-                      aria-label="Next port cargo card"
-                    >
-                      <ChevronRight className="w-4 h-4" />
-                    </button>
+                  <div className="lg:col-span-6">
+                    <p className="font-inter text-sm text-[#4E4E59] leading-relaxed font-light">
+                      As a trusted Marble Exporter from India and Granite Exporter from India, Pyros delivers premium natural stone through India's largest international ports. Our streamlined export operations ensure secure container loading, faster transit, complete documentation, and reliable worldwide delivery for architects, importers, wholesalers, distributors, and construction projects across Saudi Arabia, UAE, Europe, the USA, and beyond.
+                    </p>
                   </div>
                 </div>
 
@@ -692,36 +676,47 @@ export default function App() {
               </div>
             </section>
 
-            {/* NEW SECTION: Interactive Processing Journey (Luxury Minimalist 5-Column Grid Layout) */}
-            <section className="py-24 bg-[#FAF9F6] border-b border-[#EADCC9] overflow-hidden">
+            {/* NEW SECTION: Interactive Manufacturing Process */}
+            <section className="py-24 bg-[#FAF9F6] border-b border-[#EADCC9] overflow-hidden text-left">
               <div className="max-w-7xl mx-auto px-6">
 
-                {/* Header */}
-                <div className="flex justify-between items-end mb-16 gap-6 reveal reveal-slide-up">
-                  <div className="text-left max-w-2xl">
-                    <span className="font-outfit text-xs tracking-[0.25em] text-[#D4AF37] uppercase font-bold block mb-2">Production Standards</span>
-                    <h2 className="font-cormorant text-4xl sm:text-5xl font-medium text-[#1C1C21]">Five-Stage Slab Processing & Surface Calibration</h2>
-                    <p className="font-inter text-sm text-[#4E4E59] leading-relaxed font-light mt-4 hidden sm:block">
-                      We maintain absolute calibration, veining integrity, and polishing luster levels throughout our five production stages.
+                {/* Header (2-Column Split Row matching brand alignment style) */}
+                <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end mb-16 border-b border-[#EADCC9] pb-8 reveal reveal-slide-up">
+                  <div className="lg:col-span-6">
+                    <span className="font-outfit text-xs tracking-[0.25em] text-[#D4AF37] uppercase font-bold block mb-2">
+                      WORLD-CLASS MANUFACTURING PROCESS
+                    </span>
+                    <h2 className="font-cormorant text-3xl sm:text-4xl lg:text-[40px] font-medium text-[#1C1C21] leading-tight">
+                      Precision Manufacturing for Premium Marble &amp; Granite Export
+                    </h2>
+                  </div>
+                  <div className="lg:col-span-6">
+                    <p className="font-inter text-sm text-[#4E4E59] leading-relaxed font-light">
+                      Pyros follows a world-class manufacturing process designed to deliver premium natural stone for global markets. As a leading Marble Exporter from India, Granite Exporter from India, and trusted Natural Stone Exporter India, every slab is produced using advanced Italian machinery, strict quality control, and precision engineering. From quarry selection to export-ready packaging, each stage ensures exceptional strength, accurate dimensions, superior surface finish, and long-lasting durability for residential, commercial, hospitality, and luxury architectural projects worldwide.
                     </p>
                   </div>
+                </div>
 
-                  {/* Slider Control Arrows in the Top Right of the section header */}
-                  <div className="flex items-center gap-2.5 pb-1 lg:hidden shrink-0">
+                {/* Slider Header Control for Mobile/Tablet */}
+                <div className="flex justify-between items-center mb-6 lg:hidden">
+                  <span className="font-outfit text-xs font-bold uppercase tracking-wider text-[#D4AF37]">
+                    5 Stage Process Journey
+                  </span>
+                  <div className="flex items-center gap-2">
                     <button
                       onClick={() => {
-                        document.getElementById('processing-journey-scroll').scrollBy({ left: -240, behavior: 'smooth' });
+                        document.getElementById('processing-journey-scroll')?.scrollBy({ left: -280, behavior: 'smooth' });
                       }}
-                      className="w-9 h-9 rounded-full border border-[#D4AF37]/40 flex items-center justify-center text-[#D4AF37] hover:bg-[#D4AF37] hover:text-black transition-colors"
+                      className="w-8 h-8 rounded-full border border-[#D4AF37]/40 flex items-center justify-center text-[#D4AF37] hover:bg-[#D4AF37] hover:text-black transition-colors"
                       aria-label="Previous step"
                     >
                       <ChevronLeft className="w-4 h-4" />
                     </button>
                     <button
                       onClick={() => {
-                        document.getElementById('processing-journey-scroll').scrollBy({ left: 240, behavior: 'smooth' });
+                        document.getElementById('processing-journey-scroll')?.scrollBy({ left: 280, behavior: 'smooth' });
                       }}
-                      className="w-9 h-9 rounded-full border border-[#D4AF37]/40 flex items-center justify-center text-[#D4AF37] hover:bg-[#D4AF37] hover:text-black transition-colors"
+                      className="w-8 h-8 rounded-full border border-[#D4AF37]/40 flex items-center justify-center text-[#D4AF37] hover:bg-[#D4AF37] hover:text-black transition-colors"
                       aria-label="Next step"
                     >
                       <ChevronRight className="w-4 h-4" />
@@ -736,67 +731,72 @@ export default function App() {
                 >
                   {[
                     {
-                      step: '01',
-                      title: 'Block Sourcing',
-                      desc: 'Hand-selecting raw block formations directly from verified Udaipur white marble quarries and southern granite veins.',
+                      step: 'STEP 01',
+                      num: '01',
+                      title: 'PREMIUM BLOCK SELECTION',
+                      desc: "We source premium marble and granite blocks directly from India's most trusted quarries, carefully selecting each block for its natural beauty, colour consistency, structural strength, and long-term performance.",
                       image: '/block_sourcing.png'
                     },
                     {
-                      step: '02',
-                      title: 'Calibrated Slicing',
-                      desc: 'Using automated Italian diamond wire gangsaws to slice block sections down to precise thickness tolerances.',
+                      step: 'STEP 02',
+                      num: '02',
+                      title: 'ITALIAN PRECISION CUTTING',
+                      desc: 'Using fully automated Italian gang saws and bridge-cutting technology, every block is transformed into accurately calibrated slabs with precise thickness, clean edges, and consistent dimensions.',
                       image: '/calibrated_slicing.png'
                     },
                     {
-                      step: '03',
-                      title: 'Vacuum Curing',
-                      desc: 'Applying vacuum epoxy cures to reinforce structural veining integrity and eliminate porous micro-fissures.',
+                      step: 'STEP 03',
+                      num: '03',
+                      title: 'RESIN TREATMENT & STRUCTURAL STRENGTHENING',
+                      desc: "Advanced vacuum resin technology strengthens each slab, reduces natural pores, enhances durability, and preserves the stone's original texture and elegant veining.",
                       image: '/vacuum_curing.png'
                     },
                     {
-                      step: '04',
-                      title: 'Gloss Meter Reading',
-                      desc: 'Verifying surface gloss levels using precision gloss meters, ensuring reflectivity meets a 95+ GU benchmark.',
+                      step: 'STEP 04',
+                      num: '04',
+                      title: 'GLOSS METER READING',
+                      desc: 'Every marble and granite slab undergoes comprehensive quality checks, including precision gloss meter reflectivity testing, thickness calibration, dimensional accuracy, colour consistency, and surface finish inspection to meet international export standards.',
                       image: '/ai_marble_laser_scan.png'
                     },
                     {
-                      step: '05',
-                      title: 'Secure Lashing',
-                      desc: 'Packing finished slabs inside fumigated ISPM-15 pine crates secured with high-tension steel straps.',
+                      step: 'STEP 05',
+                      num: '05',
+                      title: 'EXPORT PACKAGING & WORLDWIDE SHIPPING',
+                      desc: 'Finished slabs are securely packed in ISPM-15 certified wooden crates with reinforced protection for safe international transportation. Our efficient logistics network ensures reliable deliveries to Saudi Arabia, UAE, Qatar, Kuwait, Europe, the USA, Australia, and over 100 countries worldwide.',
                       image: '/secure_lashing.png'
                     }
                   ].map((item, idx) => (
-                    <div key={idx} className="card-3d shrink-0 snap-center min-w-[220px] lg:min-w-0 w-[72vw] lg:w-full h-auto lg:h-[410px]">
+                    <div key={idx} className="card-3d shrink-0 snap-center min-w-[260px] sm:min-w-[280px] lg:min-w-0 w-[78vw] lg:w-full h-auto lg:h-[480px]">
                       <div
-                        className="card-3d-inner bg-white border border-[#EADCC9] p-6 rounded-2xl flex flex-col justify-between h-full shadow-sm hover:border-[#D4AF37]/50 transition-all duration-300 group"
+                        className="card-3d-inner bg-white border border-[#EADCC9] p-6 rounded-2xl flex flex-col justify-between h-full shadow-sm hover:border-[#D4AF37]/50 hover:shadow-xl transition-all duration-300 group"
                       >
                         <div className="text-left">
-                          <span className="font-cormorant text-5xl font-bold text-[#D4AF37]/30 group-hover:text-[#D4AF37] transition-colors duration-300 block translate-3d-title">
+                          <span className="font-outfit text-[11px] font-bold text-[#D4AF37] tracking-widest uppercase block mb-1">
                             {item.step}
                           </span>
-                          <div className="w-8 h-0.5 bg-[#D4AF37]/30 group-hover:w-16 transition-all duration-500 mt-2" />
-                          <h3 className="font-outfit text-sm font-bold text-[#1C1C21] mt-4 uppercase tracking-wider block translate-3d-title">
+                          <div className="w-8 h-0.5 bg-[#D4AF37]/30 group-hover:w-16 transition-all duration-500 my-2" />
+                          <h3 className="font-outfit text-xs sm:text-sm font-bold text-[#1C1C21] mt-2 uppercase tracking-wider block leading-snug">
                             {item.title}
                           </h3>
-                          <p className="font-inter text-xs sm:text-sm text-[#4E4E59] leading-relaxed font-normal mt-2 block translate-3d-desc">
+                          <p className="font-inter text-xs text-[#4E4E59] leading-relaxed font-normal mt-2.5 block">
                             {item.desc}
                           </p>
                         </div>
 
-                        <div className="w-full aspect-[2/1] rounded-lg overflow-hidden border border-neutral-100 bg-neutral-100 mt-4 shadow-inner translate-3d-icon">
+                        <div className="w-full aspect-[2/1] rounded-lg overflow-hidden border border-neutral-100 bg-neutral-100 mt-4 shadow-inner shrink-0">
                           <img
                             src={item.image}
                             alt={item.title}
                             onError={(e) => {
-                              if (item.step === '01') {
+                              if (item.num === '01') {
                                 e.target.src = '/logo.jpeg';
-                              } else if (item.step === '02') {
+                              } else if (item.num === '02') {
                                 e.target.src = '/about-us-factory.jpg';
-                              } else if (item.step === '03') {
+                              } else if (item.num === '03') {
                                 e.target.src = 'https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=600&auto=format&fit=crop';
-                              } else if (item.step === '04') {
+                              } else if (item.num === '04') {
                                 e.target.src = 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800&auto=format&fit=crop';
-                              } else if (item.step === '05') {
+                              } else if (item.num === '05') {
                                 e.target.src = '/logo.jpeg';
                               }
                             }}
@@ -816,10 +816,10 @@ export default function App() {
               <div className="max-w-7xl mx-auto px-6">
 
                 <div className="text-center mb-16 max-w-3xl mx-auto reveal reveal-slide-up">
-                  <span className="font-outfit text-xs tracking-[0.25em] text-[#D4AF37] uppercase font-bold block mb-2">Our Products</span>
-                  <h2 className="font-cormorant text-4xl sm:text-5xl font-medium text-[#1C1C21]">Timeless tiles & marble designs</h2>
+                  <span className="font-outfit text-xs tracking-[0.25em] text-[#D4AF37] uppercase font-bold block mb-2">PREMIUM INDIAN NATURAL STONE COLLECTION</span>
+                  <h2 className="font-cormorant text-4xl sm:text-5xl font-medium text-[#1C1C21]">Timeless Marble Slabs, Granite &amp; Engineered Quartz Designs</h2>
                   <p className="font-inter text-sm text-[#4E4E59] leading-relaxed font-light mt-4">
-                    A refined collection of natural stone slabs and engineered quartz surfaces, styled to bring lasting beauty and sophistication to luxury developments.
+                    As a premier Marble Exporter from India and trusted Granite Supplier India, Pyros presents an exclusive portfolio of gangsaw-calibrated natural stone slabs, carved wall panels, and high-gloss quartz surfaces engineered for architects, commercial developers, and stone importers across Saudi Arabia, UAE, Europe, and the USA.
                   </p>
                 </div>
 
@@ -827,18 +827,18 @@ export default function App() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
                   {[
                     {
-                      title: 'Décor Carving Glossy',
-                      desc: 'Glossy décor carving surfaces crafted with intricate texturing and reflective highlights, designed to add depth to executive lobby walls.',
+                      title: 'Décor Carving Glossy Slabs',
+                      desc: 'High-luster carved marble & granite surfaces crafted with precision Italian CNC texturing and reflective finish, designed for luxury hotel lobbies, executive feature walls, and architectural facades.',
                       icon: Sparkles
                     },
                     {
-                      title: 'Endless Glossy Vein',
-                      desc: 'Endless glossy surfaces designed with continuous book-matched patterns and a 95+ high-shine finish for expansive commercial flooring.',
+                      title: 'Endless Glossy Vein Marble',
+                      desc: 'Premium Indian white marble & quartzite featuring continuous book-matched veining patterns and 95+ high-gloss mirror polish for expansive commercial flooring and luxury villa interiors.',
                       icon: Layers
                     },
                     {
-                      title: 'Statuario Marble Look',
-                      desc: 'Elite quartz formulations inspired by classic Italian Statuario marble, featuring bright white backgrounds and dramatic bold veins.',
+                      title: 'Statuario Marble Look Quartz',
+                      desc: 'Luxury quartz formulations inspired by classic Italian Statuario marble, offering zero-porosity, high stain resistance, and bold dramatic veining for kitchen countertops & high-traffic commercial spaces.',
                       icon: Award
                     }
                   ].map((prod, idx) => {
@@ -848,19 +848,19 @@ export default function App() {
                         <div
                           className="card-3d-inner bg-[#D4AF37] border border-[#b59228] p-8 rounded-2xl flex flex-col justify-between h-full shadow-lg group"
                         >
-                          <div className="space-y-4">
+                          <div className="space-y-4 text-left">
                             <div className="w-12 h-12 rounded-xl bg-[#1C1C21] text-[#D4AF37] flex items-center justify-center translate-3d-icon">
                               <Icon className="w-6 h-6" />
                             </div>
                             <h3 className="font-outfit text-lg font-bold text-[#1C1C21] translate-3d-title">{prod.title}</h3>
-                            <p className="font-inter text-xs text-[#1C1C21]/80 leading-relaxed font-medium translate-3d-desc">{prod.desc}</p>
+                            <p className="font-inter text-xs text-[#1C1C21]/90 leading-relaxed font-medium translate-3d-desc">{prod.desc}</p>
                           </div>
-                          <div className="mt-8 pt-4 border-t border-[#1C1C21]/15">
+                          <div className="mt-8 pt-4 border-t border-[#1C1C21]/15 text-left">
                             <button
                               onClick={() => navigateTo('catalog')}
                               className="text-xs font-bold uppercase tracking-wider text-[#1C1C21] hover:text-black transition-colors flex items-center gap-2"
                             >
-                              View Products
+                              VIEW PRODUCTS
                               <ArrowRight className="w-4 h-4" />
                             </button>
                           </div>
@@ -909,13 +909,13 @@ export default function App() {
                   <div className="lg:col-span-7 space-y-8 text-left reveal reveal-slide-right delay-200 order-1 lg:order-1">
                     <div className="space-y-4">
                       <span className="font-outfit text-xs tracking-widest text-[#D4AF37] uppercase font-bold block">
-                        Our Core Features
+                        OUR CORE FEATURES &amp; QUALITY STANDARDS
                       </span>
                       <h2 className="font-cormorant text-3xl sm:text-5xl font-medium text-[#1C1C21] leading-tight">
-                        Reliable features built for lasting performance
+                        Engineered Natural Stone Features Built for Global Architecture
                       </h2>
                       <p className="font-inter text-sm text-[#4E4E59] leading-relaxed font-light">
-                        Our tiles and marble surfaces are engineered through advanced calibration techniques to deliver consistent strength, water resistance, and long-term durability.
+                        As a leading Marble Exporter from India and certified Granite Supplier India, Pyros engineers every natural stone slab using advanced Italian gangsaw calibration techniques to deliver exceptional strength, ultra-low water absorption, high scratch resistance, and long-term architectural durability.
                       </p>
                     </div>
 
@@ -924,18 +924,18 @@ export default function App() {
                       {[
                         {
                           id: 0,
-                          title: 'Hygienic & Non-Porous',
-                          desc: 'Slabs are treated with specialized vacuum epoxy layers that seal micro-pores. This resists bacteria, moisture, and staining, making them ideal for high-end countertops.'
+                          title: 'Hygienic & Non-Porous Resin Sealed Slabs',
+                          desc: 'Every marble and quartzite slab is reinforced with advanced vacuum epoxy resin treatment that seals natural micro-fissures. This zero-porosity finish prevents moisture absorption, bacterial growth, and chemical staining—making our slabs ideal for luxury kitchen countertops and hotel vanity tops.'
                         },
                         {
                           id: 1,
-                          title: 'Scratch & Acid Resistant',
-                          desc: 'Formed under high geological pressure and diamond polished, our quartzite and granites register an exceptional Mohs hardness index, remaining resilient against acid spills and knife cuts.'
+                          title: 'Scratch, Heat & Acid Resistant Natural Stone',
+                          desc: 'Mined from high-density Indian quarries and diamond-polished using Italian abrasive technology, Pyros granites and quartzites achieve superior Mohs hardness levels, remaining resilient against heavy foot traffic, household acids, and thermal impact.'
                         },
                         {
                           id: 2,
-                          title: 'Sustainably Mined & Certified',
-                          desc: 'All blocks are sourced in accordance with APEDA and custom clearances, processed using environmentally audited gangsaw factories in Udaipur with zero child labor.'
+                          title: 'Sustainably Mined, APEDA & CAPEXIL Certified Export',
+                          desc: 'All raw blocks are ethically extracted from certified quarries under strict APEDA, CAPEXIL, and ISO 9001:2015 compliance. Processed in environmentally audited gangsaw factories in Udaipur with zero child labor, ISPM-15 crate lashing, and 100% legal export clearances.'
                         }
                       ].map((faq) => {
                         const isExpanded = activeFaq === faq.id;
@@ -1001,14 +1001,14 @@ export default function App() {
               <div className="max-w-7xl mx-auto px-6">
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
                   <div className="lg:col-span-4 space-y-6 reveal reveal-slide-left">
-                    <span className="font-outfit text-xs tracking-[0.25em] text-[#D4AF37] uppercase font-bold block">Global Supply Network</span>
+                    <span className="font-outfit text-xs tracking-[0.25em] text-[#D4AF37] uppercase font-bold block">GLOBAL SUPPLY NETWORK</span>
                     <h2 className="font-cormorant text-4xl sm:text-5xl font-medium tracking-wide text-white leading-tight">
-                      Direct Cargo Shipments to Saudi Arabia, GCC & Global Ports
+                      Direct Cargo Shipments to Saudi Arabia, GCC &amp; Global Ports
                     </h2>
                     <p className="font-inter text-sm text-neutral-300 leading-relaxed font-light">
                       Pyros surfaces are selected by premium luxury builders worldwide. We supply container-load shipments directly from our Udaipur head offices to major sea terminals in the United States, Europe/UK, and the Arab Gulf countries.
                     </p>
-                    <p className="font-inter text-xs text-[#D4AF37]/85 leading-relaxed font-light">
+                    <p className="font-inter text-xs text-[#D4AF37]/90 leading-relaxed font-light">
                       * Hover or click the gold destination pins on the map to inspect active operations and logistics specifications at each location.
                     </p>
                   </div>

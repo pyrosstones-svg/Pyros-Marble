@@ -45,23 +45,23 @@ export default function AboutUs() {
   const pillars = [
     {
       step: '01',
-      title: 'Curated Portfolio',
-      desc: 'From luxurious marble and high-performance granite to sophisticated quartz surfaces and premium porcelain, every product is selected and processed to meet high international standards. We also provide customized dimensions, finishes, and edge profiles.'
+      title: 'Curated Natural & Engineered Stone Portfolio',
+      desc: 'From luxurious Indian white marble and high-performance granite to sophisticated engineered quartz surfaces and premium porcelain, every product is selected and processed to meet strict international standards. We provide customized slab dimensions (20mm & 30mm thickness), custom finishes, and edge profiles.'
     },
     {
       step: '02',
-      title: 'Foundation of Quality',
-      desc: 'Quality is the foundation of everything we do. Every block, slab, tile, and finished product undergoes meticulous inspection throughout sourcing, processing, polishing, packaging, and shipping in collaboration with trusted quarries.'
+      title: 'Foundation of Gangsaw Quality & Inspection',
+      desc: 'Quality is the foundation of everything we do. Every raw block, gangsaw slab, tile, and finished product undergoes multi-stage quality inspection throughout sourcing, Italian line polishing, fumigated wooden packaging, and container shipment in collaboration with trusted quarries.'
     },
     {
       step: '03',
-      title: 'Dependable Partnerships',
-      desc: 'We value communication, transparency, and consistency. From the first inquiry to final delivery, we work closely with clients, providing responsive service, efficient logistics, and dedicated procurement support.'
+      title: 'Dependable B2B Partnerships & Global Logistics',
+      desc: 'We value communication, transparency, and consistency. From the first inquiry to final FCL ocean delivery, we work closely with commercial importers and architects, providing responsive service, efficient port logistics via Mundra & Chennai, and dedicated procurement support.'
     },
     {
       step: '04',
-      title: 'Timeless Innovation',
-      desc: 'We remain committed to innovation, responsible sourcing, and continuous improvement. We embrace modern technologies and efficient production processes while respecting the natural resources that define our industry.'
+      title: 'Timeless Innovation & Sustainable Quarrying',
+      desc: 'We remain committed to surface innovation, responsible quarrying, and continuous process improvement. We embrace automated Italian diamond saw technologies and zero-waste water recycling processes while respecting the natural stone resources of Udaipur, India.'
     }
   ];
 
@@ -69,15 +69,21 @@ export default function AboutUs() {
     <section className="py-24 bg-[#FAF9F6] text-[#1C1C21] border-t border-[#E5E7EB] overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
         
-        {/* Header Title */}
-        <div className="flex flex-col items-center text-center mb-20 reveal reveal-slide-up">
-          <span className="font-outfit text-xs tracking-[0.25em] text-[#D4AF37] uppercase font-bold mb-2">Udaipur Heritage</span>
-          <h1 className="font-cormorant text-4xl sm:text-6xl font-medium tracking-wide text-[#1C1C21]">
-            About Pyros Stones
-          </h1>
-          <p className="font-inter text-sm text-[#4E4E59] max-w-3xl mt-4 font-light leading-relaxed">
-            Founded in the heart of Udaipur, Rajasthan—India's renowned hub of natural stone—Pyros Stones is a global supplier of premium natural and engineered stone, serving architects, designers, developers, contractors, and distributors across the world.
-          </p>
+        {/* Header Title (Aligned matching 2-Column Split Grid Layout) */}
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end mb-16 border-b border-[#EADCC9] pb-8 text-left reveal reveal-slide-up">
+          <div className="lg:col-span-6">
+            <span className="font-outfit text-xs tracking-[0.25em] text-[#D4AF37] uppercase font-bold block mb-2">
+              UDAIPUR HERITAGE &amp; QUARRY LOGISTICS
+            </span>
+            <h1 className="font-cormorant text-3xl sm:text-4xl lg:text-[40px] font-medium text-[#1C1C21] leading-tight">
+              About Pyros Stones – India's Premier Marble &amp; Granite Exporter
+            </h1>
+          </div>
+          <div className="lg:col-span-6">
+            <p className="font-inter text-xs sm:text-sm text-[#4E4E59] leading-relaxed font-light">
+              Founded in the heart of Udaipur, Rajasthan—India's renowned hub of natural stone extraction and processing—Pyros Stones is a premier global supplier of gangsaw-calibrated natural marble slabs, granite, quartzite, sandstone, and engineered quartz surfaces. Serving architects, luxury interior designers, commercial developers, contractors, and stone distributors across Saudi Arabia, UAE, Europe, the USA, and over 100 countries worldwide.
+            </p>
+          </div>
         </div>
 
         {/* Corporate Profile Section (Tilux Overlapping Images + Philosophy) */}
@@ -138,16 +144,16 @@ export default function AboutUs() {
           <div className="lg:col-span-7 space-y-8 reveal reveal-slide-right delay-200 text-left">
             <div className="space-y-4">
               <span className="font-outfit text-xs tracking-widest text-[#D4AF37] uppercase font-bold">
-                Our Purpose
+                OUR PURPOSE &amp; ARCHITECTURAL VISION
               </span>
               <h2 className="font-cormorant text-3xl sm:text-5xl font-medium text-[#1C1C21] leading-tight">
-                Every stone tells a story of millions of years
+                India's Premier Marble Exporter &amp; Granite Supplier for Global Architecture
               </h2>
               <p className="font-inter text-sm text-[#4E4E59] leading-relaxed font-light">
-                At Pyros Stones, we believe every stone tells a story. Formed over millions of years by nature, each slab possesses a unique character, texture, and identity. Our purpose is to preserve that natural beauty while transforming it into world-class materials that inspire remarkable architectural and interior spaces.
+                At Pyros Stones, we believe every stone tells a story. Formed over millions of years by natural geological forces, each slab of Indian marble and granite possesses a unique character, vein pattern, and structural identity. As a leading Marble Exporter from India and trusted Granite Supplier India, our purpose is to preserve that natural beauty while engineering gangsaw-calibrated slabs that inspire luxury architectural facades, executive commercial flooring, and high-end residential interiors worldwide.
               </p>
               <p className="font-inter text-sm text-[#4E4E59] leading-relaxed font-light">
-                We specialize in delivering exceptional marble, granite, quartz, porcelain, onyx, limestone, sandstone, travertine, slate, and a comprehensive range of stone solutions that embody elegance, durability, and timeless appeal.
+                We specialize in manufacturing and exporting an extensive portfolio of Udaipur white marble, absolute black granite, engineered quartz, porcelain slabs, onyx, limestone, sandstone, travertine, slate, and custom stone cladding solutions that embody elegance, structural durability, and international quality standards.
               </p>
             </div>
 
@@ -324,56 +330,58 @@ export default function AboutUs() {
         <div className="mb-28 reveal reveal-slide-up">
           <div className="flex flex-col items-center text-center mb-16">
             <span className="font-outfit text-xs tracking-[0.25em] text-[#D4AF37] uppercase font-bold mb-2">
-              Our Core Purpose & Future Direction
+              OUR CORE PURPOSE &amp; FUTURE DIRECTION
             </span>
             <h2 className="font-cormorant text-3xl sm:text-5xl font-medium text-[#1C1C21]">
-              Mission & Vision
+              Mission &amp; Vision – India's Leading Marble &amp; Granite Exporter
             </h2>
             <div className="w-20 h-0.5 bg-[#D4AF37] mt-4 rounded-full" />
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 text-left">
             {/* Our Mission Card */}
-            <div className="bg-white border border-[#EADCC9] rounded-2xl p-8 sm:p-10 shadow-lg hover:shadow-2xl transition-all duration-500 relative overflow-hidden group">
+            <div className="bg-white border border-[#EADCC9] rounded-2xl p-8 sm:p-10 shadow-lg hover:shadow-2xl transition-all duration-500 relative overflow-hidden group flex flex-col justify-between">
               {/* Background Ambient Glow */}
               <div className="absolute top-0 right-0 w-36 h-36 bg-gradient-to-bl from-[#D4AF37]/15 to-transparent rounded-bl-full pointer-events-none group-hover:scale-125 transition-transform duration-500" />
               
-              <div className="flex items-center gap-4 mb-6 relative z-10">
-                <div className="w-14 h-14 rounded-xl bg-[#1C1C21] text-[#D4AF37] flex items-center justify-center shadow-md border border-[#D4AF37]/30 group-hover:bg-[#D4AF37] group-hover:text-black transition-colors duration-300">
-                  <Target className="w-7 h-7" />
+              <div>
+                <div className="flex items-center gap-4 mb-6 relative z-10">
+                  <div className="w-14 h-14 rounded-xl bg-[#1C1C21] text-[#D4AF37] flex items-center justify-center shadow-md border border-[#D4AF37]/30 group-hover:bg-[#D4AF37] group-hover:text-black transition-colors duration-300">
+                    <Target className="w-7 h-7" />
+                  </div>
+                  <div>
+                    <span className="text-[10px] font-mono tracking-[0.2em] text-[#D4AF37] font-bold uppercase block">OUR MISSION</span>
+                    <h3 className="font-cormorant text-2xl sm:text-3xl font-bold text-[#1C1C21]">Crafting Precision &amp; Trust</h3>
+                  </div>
                 </div>
-                <div>
-                  <span className="text-[10px] font-mono tracking-[0.2em] text-[#D4AF37] font-bold uppercase block">OUR MISSION</span>
-                  <h3 className="font-cormorant text-2xl sm:text-3xl font-bold text-[#1C1C21]">Crafting Precision & Trust</h3>
-                </div>
+
+                <p className="font-inter text-sm text-[#4E4E59] leading-relaxed font-light mb-6 border-b border-[#EADCC9]/60 pb-6 relative z-10">
+                  To source, process, and export India's finest natural marble, granite, quartz, and architectural surfaces to international developers and architects—ensuring uncompromised Italian-grade precision, transparent pricing, and 100% reliable export fulfillment.
+                </p>
               </div>
 
-              <p className="font-inter text-sm text-[#4E4E59] leading-relaxed font-light mb-6 border-b border-[#EADCC9]/60 pb-6 relative z-10">
-                To source, process, and export India's finest natural marble, granite, quartz, and architectural surfaces to international developers and architects—ensuring uncompromised Italian-grade precision, transparent pricing, and 100% reliable export fulfillment.
-              </p>
-
               <div className="space-y-4 font-inter text-xs text-[#4E4E59] relative z-10">
-                <div className="flex items-start gap-3 p-3 rounded-lg bg-[#FAF9F6] border border-[#EADCC9]/40">
+                <div className="flex items-start gap-3 p-3.5 rounded-xl bg-[#FAF9F6] border border-[#EADCC9]/40">
                   <div className="w-5 h-5 rounded-full bg-[#D4AF37]/20 text-[#1C1C21] flex items-center justify-center shrink-0 mt-0.5 font-bold">
                     <CheckCircle2 className="w-3.5 h-3.5 text-[#D4AF37]" />
                   </div>
                   <div>
                     <strong className="text-[#1C1C21] font-semibold block mb-0.5">Quarry-Direct Excellence</strong>
-                    <span>Hand-picked premium blocks directly sourced from Rajasthan & South Indian quarries.</span>
+                    <span>Hand-picked premium blocks directly sourced from Rajasthan &amp; South Indian quarries.</span>
                   </div>
                 </div>
 
-                <div className="flex items-start gap-3 p-3 rounded-lg bg-[#FAF9F6] border border-[#EADCC9]/40">
+                <div className="flex items-start gap-3 p-3.5 rounded-xl bg-[#FAF9F6] border border-[#EADCC9]/40">
                   <div className="w-5 h-5 rounded-full bg-[#D4AF37]/20 text-[#1C1C21] flex items-center justify-center shrink-0 mt-0.5 font-bold">
                     <CheckCircle2 className="w-3.5 h-3.5 text-[#D4AF37]" />
                   </div>
                   <div>
-                    <strong className="text-[#1C1C21] font-semibold block mb-0.5">Italian Cutting & Polish Standard</strong>
+                    <strong className="text-[#1C1C21] font-semibold block mb-0.5">Italian Cutting &amp; Polish Standard</strong>
                     <span>±1mm gangsaw thickness calibration and 95+ gloss luster polish rating.</span>
                   </div>
                 </div>
 
-                <div className="flex items-start gap-3 p-3 rounded-lg bg-[#FAF9F6] border border-[#EADCC9]/40">
+                <div className="flex items-start gap-3 p-3.5 rounded-xl bg-[#FAF9F6] border border-[#EADCC9]/40">
                   <div className="w-5 h-5 rounded-full bg-[#D4AF37]/20 text-[#1C1C21] flex items-center justify-center shrink-0 mt-0.5 font-bold">
                     <CheckCircle2 className="w-3.5 h-3.5 text-[#D4AF37]" />
                   </div>
@@ -386,36 +394,38 @@ export default function AboutUs() {
             </div>
 
             {/* Our Vision Card */}
-            <div className="bg-[#1C1C21] text-white border border-neutral-800 rounded-2xl p-8 sm:p-10 shadow-xl hover:shadow-2xl transition-all duration-500 relative overflow-hidden group">
+            <div className="bg-[#1C1C21] text-white border border-neutral-800 rounded-2xl p-8 sm:p-10 shadow-xl hover:shadow-2xl transition-all duration-500 relative overflow-hidden group flex flex-col justify-between">
               {/* Background Ambient Glow */}
               <div className="absolute top-0 right-0 w-36 h-36 bg-gradient-to-bl from-[#D4AF37]/25 to-transparent rounded-bl-full pointer-events-none group-hover:scale-125 transition-transform duration-500" />
               
-              <div className="flex items-center gap-4 mb-6 relative z-10">
-                <div className="w-14 h-14 rounded-xl bg-[#D4AF37] text-black flex items-center justify-center shadow-md border border-white/20 group-hover:bg-white group-hover:text-black transition-colors duration-300">
-                  <Eye className="w-7 h-7" />
+              <div>
+                <div className="flex items-center gap-4 mb-6 relative z-10">
+                  <div className="w-14 h-14 rounded-xl bg-[#D4AF37] text-black flex items-center justify-center shadow-md border border-white/20 group-hover:bg-white group-hover:text-black transition-colors duration-300">
+                    <Eye className="w-7 h-7" />
+                  </div>
+                  <div>
+                    <span className="text-[10px] font-mono tracking-[0.2em] text-[#D4AF37] font-bold uppercase block">OUR VISION</span>
+                    <h3 className="font-cormorant text-2xl sm:text-3xl font-bold text-white">Global Industry Leadership</h3>
+                  </div>
                 </div>
-                <div>
-                  <span className="text-[10px] font-mono tracking-[0.2em] text-[#D4AF37] font-bold uppercase block">OUR VISION</span>
-                  <h3 className="font-cormorant text-2xl sm:text-3xl font-bold text-white">Global Industry Leadership</h3>
-                </div>
+
+                <p className="font-inter text-sm text-neutral-300 leading-relaxed font-light mb-6 border-b border-white/10 pb-6 relative z-10">
+                  To establish Pyros Stones as the world's most trusted partner for natural &amp; engineered stone solutions—pioneering surface innovation, sustainable quarrying practices, and establishing Udaipur as the global capital for luxury stone craftsmanship.
+                </p>
               </div>
 
-              <p className="font-inter text-sm text-neutral-300 leading-relaxed font-light mb-6 border-b border-white/10 pb-6 relative z-10">
-                To establish Pyros Stones as the world's most trusted partner for natural & engineered stone solutions—pioneering surface innovation, sustainable quarrying practices, and establishing Udaipur as the global capital for luxury stone craftsmanship.
-              </p>
-
               <div className="space-y-4 font-inter text-xs text-neutral-300 relative z-10">
-                <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-white/10">
+                <div className="flex items-start gap-3 p-3.5 rounded-xl bg-white/5 border border-white/10">
                   <div className="w-5 h-5 rounded-full bg-[#D4AF37]/20 text-[#D4AF37] flex items-center justify-center shrink-0 mt-0.5 font-bold">
                     <Sparkles className="w-3.5 h-3.5 text-[#D4AF37]" />
                   </div>
                   <div>
                     <strong className="text-white font-semibold block mb-0.5">50+ Global Destinations</strong>
-                    <span>Expanding export corridors across North America, Europe, Saudi Arabia, UAE & Asia.</span>
+                    <span>Expanding export corridors across North America, Europe, Saudi Arabia, UAE &amp; Asia.</span>
                   </div>
                 </div>
 
-                <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-white/10">
+                <div className="flex items-start gap-3 p-3.5 rounded-xl bg-white/5 border border-white/10">
                   <div className="w-5 h-5 rounded-full bg-[#D4AF37]/20 text-[#D4AF37] flex items-center justify-center shrink-0 mt-0.5 font-bold">
                     <Sparkles className="w-3.5 h-3.5 text-[#D4AF37]" />
                   </div>
@@ -425,7 +435,7 @@ export default function AboutUs() {
                   </div>
                 </div>
 
-                <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-white/10">
+                <div className="flex items-start gap-3 p-3.5 rounded-xl bg-white/5 border border-white/10">
                   <div className="w-5 h-5 rounded-full bg-[#D4AF37]/20 text-[#D4AF37] flex items-center justify-center shrink-0 mt-0.5 font-bold">
                     <Sparkles className="w-3.5 h-3.5 text-[#D4AF37]" />
                   </div>
@@ -468,16 +478,16 @@ export default function AboutUs() {
 
           <div className="max-w-2xl mx-auto space-y-6 relative z-10">
             <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-white/5 border border-white/10 text-[#D4AF37] font-bold font-mono text-[9px] tracking-widest uppercase rounded">
-              <Globe className="w-3.5 h-3.5 text-[#D4AF37]" /> Global Supply Reach
+              <Globe className="w-3.5 h-3.5 text-[#D4AF37]" /> GLOBAL SUPPLY REACH &amp; EXPORT FULFILLMENT
             </span>
             <h3 className="font-cormorant text-2xl sm:text-4xl font-bold tracking-wide">
-              Timeless Spaces Across The World
+              India's Trusted Natural Stone Exporter for Global Projects
             </h3>
             <p className="font-inter text-sm text-neutral-300 leading-relaxed font-light">
-              Today, Pyros Stones proudly represents the craftsmanship and heritage of India's stone industry on the international stage. Our vision is to become one of the world's most trusted names in premium stone exports by consistently delivering excellence in quality, service, and reliability.
+              Today, Pyros Stones proudly represents the craftsmanship, precision engineering, and rich quarry heritage of India's stone industry on the international stage. As a leading Marble Exporter from India and Granite Supplier India, our vision is to be the world's most trusted partner for natural marble slabs, granite, quartzite, and engineered surfaces—consistently delivering excellence in quality, custom size fabrication, and 100% reliable export shipping.
             </p>
             <p className="font-cormorant text-base italic text-[#D4AF37] border-t border-white/10 pt-6">
-              “ Every stone we deliver is more than a product—it is the foundation of enduring architecture and timeless design. ”
+              “ Every natural stone slab we deliver is more than a product—it is the foundation of enduring global architecture and timeless interior design. ”
             </p>
             <div className="pt-4">
               <button
@@ -488,9 +498,9 @@ export default function AboutUs() {
                     window.location.hash = '#/contact';
                   }
                 }}
-                className="px-6 py-3.5 bg-[#D4AF37] hover:bg-[#b59228] text-black text-xs font-bold uppercase tracking-widest rounded-lg transition-all shadow-lg"
+                className="px-6 py-3.5 bg-[#D4AF37] hover:bg-[#b59228] text-black text-xs font-bold uppercase tracking-widest rounded-xl transition-all shadow-lg"
               >
-                Connect With Our Team
+                CONNECT WITH OUR TEAM
               </button>
             </div>
           </div>
