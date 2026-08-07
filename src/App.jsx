@@ -872,9 +872,6 @@ export default function App() {
 
                 {/* Looping Partner Marquee Slider */}
                 <div className="pt-12 text-center reveal reveal-slide-up">
-                  <span className="font-outfit text-[9px] uppercase tracking-widest text-[#8E8E93] font-bold block mb-4">
-                    Partnering with Trusted Suppliers and Industry Experts
-                  </span>
 
                   {/* Full-Width Marquee Strip (Patti BG) */}
                   <div className="relative w-screen left-1/2 right-1/2 -mx-[50vw] overflow-hidden py-6 bg-[#1C1C21] border-y border-[#D4AF37]/25 shadow-xl">
