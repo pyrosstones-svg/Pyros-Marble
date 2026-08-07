@@ -61,7 +61,7 @@ export default function AboutUs() {
     {
       step: '04',
       title: 'Timeless Innovation & Sustainable Quarrying',
-      desc: 'We remain committed to surface innovation, responsible quarrying, and continuous process improvement. We embrace automated Italian diamond saw technologies and zero-waste water recycling processes while respecting the natural stone resources of Udaipur, India.'
+      desc: 'We remain committed to surface innovation, responsible quarrying, and continuous process improvement. We embrace automated Italian diamond saw technologies and zero-waste water recycling processes while respecting the natural stone resources of India.'
     }
   ];
 
@@ -73,7 +73,7 @@ export default function AboutUs() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end mb-16 border-b border-[#EADCC9] pb-8 text-left reveal reveal-slide-up">
           <div className="lg:col-span-6">
             <span className="font-outfit text-xs tracking-[0.25em] text-[#D4AF37] uppercase font-bold block mb-2">
-              UDAIPUR HERITAGE &amp; QUARRY LOGISTICS
+              INDIA'S STONE HERITAGE &amp; QUARRY LOGISTICS
             </span>
             <h1 className="font-cormorant text-3xl sm:text-4xl lg:text-[40px] font-medium text-[#1C1C21] leading-tight">
               About Pyros Stones – India's Premier Marble &amp; Granite Exporter
@@ -81,7 +81,7 @@ export default function AboutUs() {
           </div>
           <div className="lg:col-span-6">
             <p className="font-inter text-xs sm:text-sm text-[#4E4E59] leading-relaxed font-light">
-              Founded in the heart of Udaipur, Rajasthan—India's renowned hub of natural stone extraction and processing—Pyros Stones is a premier global supplier of gangsaw-calibrated natural marble slabs, granite, quartzite, sandstone, and engineered quartz surfaces. Serving architects, luxury interior designers, commercial developers, contractors, and stone distributors across Saudi Arabia, UAE, Europe, the USA, and over 100 countries worldwide.
+              Founded in Rajasthan, India—a renowned hub of natural stone extraction and processing—Pyros Stones is a premier global supplier of gangsaw-calibrated natural marble slabs, granite, quartzite, sandstone, and engineered quartz surfaces. Serving architects, luxury interior designers, commercial developers, contractors, and stone distributors across Saudi Arabia, UAE, Europe, the USA, and over 100 countries worldwide.
             </p>
           </div>
         </div>
@@ -119,7 +119,7 @@ export default function AboutUs() {
                   </defs>
                   <text className="text-[7.5px] fill-[#D4AF37] font-bold tracking-[0.22em] uppercase font-mono">
                     <textPath xlinkHref="#circlePath">
-                      PYROS STONE EXPORTS · ESTD UDAIPUR ·
+                      PYROS STONE EXPORTS · ESTD INDIA ·
                     </textPath>
                   </text>
                 </svg>
@@ -153,7 +153,7 @@ export default function AboutUs() {
                 At Pyros Stones, we believe every stone tells a story. Formed over millions of years by natural geological forces, each slab of Indian marble and granite possesses a unique character, vein pattern, and structural identity. As a leading Marble Exporter from India and trusted Granite Supplier India, our purpose is to preserve that natural beauty while engineering gangsaw-calibrated slabs that inspire luxury architectural facades, executive commercial flooring, and high-end residential interiors worldwide.
               </p>
               <p className="font-inter text-sm text-[#4E4E59] leading-relaxed font-light">
-                We specialize in manufacturing and exporting an extensive portfolio of Udaipur white marble, absolute black granite, engineered quartz, porcelain slabs, onyx, limestone, sandstone, travertine, slate, and custom stone cladding solutions that embody elegance, structural durability, and international quality standards.
+                We specialize in manufacturing and exporting an extensive portfolio of Indian white marble, absolute black granite, engineered quartz, porcelain slabs, onyx, limestone, sandstone, travertine, slate, and custom stone cladding solutions that embody elegance, structural durability, and international quality standards.
               </p>
             </div>
 
@@ -204,7 +204,7 @@ export default function AboutUs() {
                 <div className="absolute bottom-6 left-6 right-6 bg-[#1C1C21]/95 backdrop-blur-md border border-white/10 rounded-xl p-4 shadow-2xl text-left">
                   <span className="text-[9px] font-mono tracking-widest text-[#D4AF37] font-bold uppercase block mb-1">FOUNDER & MD</span>
                   <h4 className="font-outfit text-sm font-bold text-white">Naresh Dhuwadiya</h4>
-                  <p className="text-[10px] text-white/70 font-light mt-0.5">Pyros Stones Udaipur HQ</p>
+                  <p className="text-[10px] text-white/70 font-light mt-0.5">Pyros Stones Commercial HQ</p>
                 </div>
               </div>
             </div>
@@ -284,7 +284,7 @@ export default function AboutUs() {
 
                 <div className="border-t border-[#EADCC9] pt-4 space-y-4 font-inter text-xs text-[#4E4E59] leading-relaxed font-light">
                   <p>
-                    Founded in Udaipur, Rajasthan—the heartland of India's natural stone heritage—Pyros Stones was established by Naresh Dhuwadiya with a singular mission: to supply world-class natural marble, granite, quartzite, and engineered surfaces to global architectural projects.
+                    Founded in Rajasthan—the heartland of India's natural stone heritage—Pyros Stones was established by Naresh Dhuwadiya with a singular mission: to supply world-class natural marble, granite, quartzite, and engineered surfaces to global architectural projects.
                   </p>
                   
                   <div className="bg-[#FAF9F6] border-l-4 border-[#D4AF37] p-4 rounded-r-lg italic text-[#1C1C21] font-cormorant text-base">
@@ -410,7 +410,7 @@ export default function AboutUs() {
                 </div>
 
                 <p className="font-inter text-sm text-neutral-300 leading-relaxed font-light mb-6 border-b border-white/10 pb-6 relative z-10">
-                  To establish Pyros Stones as the world's most trusted partner for natural &amp; engineered stone solutions—pioneering surface innovation, sustainable quarrying practices, and establishing Udaipur as the global capital for luxury stone craftsmanship.
+                  To establish Pyros Stones as the world's most trusted partner for natural &amp; engineered stone solutions—pioneering surface innovation, sustainable quarrying practices, and establishing India as the global capital for luxury stone craftsmanship.
                 </p>
               </div>
 

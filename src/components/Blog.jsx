@@ -12,11 +12,11 @@ const blogPosts = [
     authorRole: 'Managing Director',
     summary: 'A deep-dive look into the Italian diamond wire sawing technologies and vacuum curing processes that calibrate luxury slabs for international custom builds.',
     image: '/calibrated_slicing.png',
-    tags: ['Marble Processing', 'Calibration', 'SIMEC Gangsaws', 'Udaipur'],
+    tags: ['Marble Processing', 'Calibration', 'SIMEC Gangsaws', 'India Hub'],
     content: (
       <div className="space-y-6 font-inter text-neutral-600 text-sm leading-relaxed font-light">
         <p className="text-base text-neutral-800 font-normal">
-          In luxury real estate developments, precision is not a choice—it is a baseline constraint. When architects spec floor-to-ceiling book-matched marble panels for lobby facades or custom penthouses, variations in slab thickness can ruin the visual alignment. Here is how we enforce a strict ±1.0mm thickness tolerance at our Udaipur manufacturing hub.
+          In luxury real estate developments, precision is not a choice—it is a baseline constraint. When architects spec floor-to-ceiling book-matched marble panels for lobby facades or custom penthouses, variations in slab thickness can ruin the visual alignment. Here is how we enforce a strict ±1.0mm thickness tolerance at our manufacturing hub in India.
         </p>
 
         <h3 className="font-cormorant text-2xl font-bold text-[#1C1C21] mt-8">1. Slicing with Italian Diamond Wire Gangsaws</h3>

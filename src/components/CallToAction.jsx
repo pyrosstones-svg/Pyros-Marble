@@ -31,7 +31,7 @@ export default function CallToAction() {
               Ready to Source Premium Indian Marble &amp; Granite Surfaces?
             </h3>
             <p className="font-inter text-xs sm:text-sm text-[#4E4E59] leading-relaxed font-light">
-              Connect with our Udaipur commercial desk to arrange bundle collections, gangsaw thickness tolerance tests, custom size fabrication, and FCL ocean cargo bookings to Saudi Arabia, UAE, Europe, USA, and worldwide destination ports.
+              Connect with our commercial export desk to arrange bundle collections, gangsaw thickness tolerance tests, custom size fabrication, and FCL ocean cargo bookings to Saudi Arabia, UAE, Europe, USA, and worldwide destination ports.
             </p>
           </div>
 

@@ -120,7 +120,7 @@ export default function UAEExportPage({ onNavigate }) {
               {
                 cat: "Marble Slabs Exporter",
                 title: "White Marble Slabs — Dubai Lobbies",
-                body: "As a marble slabs exporter to the UAE, Pyros supplies 20mm & 30mm Kishangarh White and Makrana marble gangsaw slabs for luxury hotel lobbies in Dubai Marina and Downtown Dubai towers."
+                body: "As a marble slabs exporter to the UAE, Pyros supplies 20mm & 30mm Indian White Marble gangsaw slabs for luxury hotel lobbies in Dubai Marina and Downtown Dubai towers."
               },
               {
                 cat: "Granite Slabs Supplier",

@@ -116,7 +116,7 @@ export default function Contact() {
                   <div className="flex flex-col">
                     <span className="text-[10px] uppercase tracking-wider text-[#4E4E59] font-semibold">Corporate Head Office</span>
                     <span className="text-sm font-semibold text-[#1C1C21] mt-1 leading-relaxed">
-                      Udaipur, Rajasthan, India
+                      Rajasthan, India
                     </span>
                   </div>
                 </div>

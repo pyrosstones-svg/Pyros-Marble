@@ -23,7 +23,7 @@ export default function SaudiExportPage({ onNavigate }) {
     },
     {
       q: "What marble and granite varieties are exported to Saudi Arabia?",
-      a: "We supply White Marble (Kishangarh), Absolute Black, Black Galaxy, Tan Brown, Steel Grey, and Viscon White in 20mm & 30mm gangsaw slabs and 30x30 to 120x60cm calibrated tiles."
+      a: "We supply Premium White Marble, Absolute Black, Black Galaxy, Tan Brown, Steel Grey, and Viscon White in 20mm & 30mm gangsaw slabs and 30x30 to 120x60cm calibrated tiles."
     },
     {
       q: "Which Saudi ports do you ship to directly?",
@@ -119,7 +119,7 @@ export default function SaudiExportPage({ onNavigate }) {
                 { label: "Surface Finish", value: "Mirror Polish / Honed / Leathered" },
                 { label: "Tile Calibration", value: "±0.5mm Thickness Tolerance" },
                 { label: "Packaging", value: "ISPM-15 Fumigated Wooden A-Frames" },
-                { label: "Marble Supplier India", value: "Kishangarh, Rajsamand Quarries" }
+                { label: "Marble Supplier India", value: "Rajasthan Quarry Reserves" }
               ].map((row, i) => (
                 <div key={i} className="flex justify-between border-b border-white/10 pb-3 last:border-0 last:pb-0">
                   <span className="text-neutral-400">{row.label}</span>
@@ -156,7 +156,7 @@ export default function SaudiExportPage({ onNavigate }) {
               {
                 cat: "Marble Slabs Exporter",
                 title: "White & Beige KSA Marble Slabs",
-                body: "As a dedicated marble slabs exporter to KSA, Pyros supplies 20mm & 30mm gangsaw Kishangarh white marble and Makrana slabs for luxury hotels, royal palaces, and residential villas in Riyadh and Jeddah."
+                body: "As a dedicated marble slabs exporter to KSA, Pyros supplies 20mm & 30mm gangsaw white marble and premium natural stone slabs for luxury hotels, royal palaces, and residential villas in Riyadh and Jeddah."
               },
               {
                 cat: "Granite Slabs Supplier",

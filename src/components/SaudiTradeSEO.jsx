@@ -23,7 +23,7 @@ export default function SaudiTradeSEO({ onEnquireClick }) {
   const tradeHighlights = [
     {
       title: "Direct Factory Sourcing from Rajasthan & South India",
-      desc: "As a trusted Indian marble exporter and granite manufacturer India, we operate state-of-the-art gangsaw processing plants in Kishangarh, Rajsamand, and South Indian granite quarry belts. Our direct quarry ownership guarantees shade uniformity and monolithic slab consistency for large-scale international orders.",
+      desc: "As a trusted Indian marble exporter and granite manufacturer India, we operate state-of-the-art gangsaw processing plants across Rajasthan and South Indian granite quarry belts. Our direct quarry ownership guarantees shade uniformity and monolithic slab consistency for large-scale international orders.",
       icon: Building2
     },
     {

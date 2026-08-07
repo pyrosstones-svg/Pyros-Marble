@@ -22,10 +22,10 @@ export default function MarblePage() {
             👑 Quarry-Direct Marble Exporter From India
           </div>
           <h1 className="font-cormorant text-4xl sm:text-6xl font-semibold leading-tight">
-            Indian Natural Marble Slabs – Udaipur, Kishangarh &amp; Makrana
+            Indian Natural Marble Slabs – Premium Export Collection
           </h1>
           <p className="font-inter text-sm sm:text-base text-neutral-300 font-light leading-relaxed max-w-2xl">
-            Exquisite Udaipur, Kishangarh &amp; Makrana Indian Marble Slabs. Processed in 20mm &amp; 30mm Italian Gangsaw thickness calibration with 95+ Gloss Luster polish for high-end luxury interiors, commercial flooring &amp; GCC architectural developments.
+            Exquisite Indian Natural Marble Slabs. Processed in 20mm &amp; 30mm Italian Gangsaw thickness calibration with 95+ Gloss Luster polish for high-end luxury interiors, commercial flooring &amp; GCC architectural developments.
           </p>
         </div>
       </div>

@@ -14,7 +14,7 @@ export default function InteractiveCollection() {
         { label: 'Gloss Level', value: '95+ Luster rating' },
         { label: 'Slab Thickness', value: '20mm / 30mm calibrated' },
         { label: 'Water Porosity', value: '< 0.04% hydrophobic' },
-        { label: 'Sourcing Hub', value: 'Udaipur (IN) / Kishangarh (IN)' }
+        { label: 'Sourcing Hub', value: 'Rajasthan Quarry Reserves (IN)' }
       ],
       stoneCloseUp: 'https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=600&auto=format&fit=crop',
       interiorMockup: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop',
@@ -59,7 +59,7 @@ export default function InteractiveCollection() {
         { label: 'Surface Texture', value: 'Natural Cleft / Sandblasted' },
         { label: 'Slip Coefficient', value: 'R11 safety rating' },
         { label: 'Weather Integrity', value: 'Frost & thermal shock proof' },
-        { label: 'Sourcing Hub', value: 'Kota Quarry Belt / Udaipur (IN)' }
+        { label: 'Sourcing Hub', value: 'Kota & Rajasthan Quarry Belts (IN)' }
       ],
       stoneCloseUp: 'https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?q=80&w=600&auto=format&fit=crop',
       interiorMockup: 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=800&auto=format&fit=crop',

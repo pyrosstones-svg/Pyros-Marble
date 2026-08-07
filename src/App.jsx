@@ -932,7 +932,7 @@ export default function App() {
                         {
                           id: 2,
                           title: 'Sustainably Mined, APEDA & CAPEXIL Certified Export',
-                          desc: 'All raw blocks are ethically extracted from certified quarries under strict APEDA, CAPEXIL, and ISO 9001:2015 compliance. Processed in environmentally audited gangsaw factories in Udaipur with zero child labor, ISPM-15 crate lashing, and 100% legal export clearances.'
+                          desc: 'All raw blocks are ethically extracted from certified quarries under strict APEDA, CAPEXIL, and ISO 9001:2015 compliance. Processed in environmentally audited gangsaw factories in India with zero child labor, ISPM-15 crate lashing, and 100% legal export clearances.'
                         }
                       ].map((faq) => {
                         const isExpanded = activeFaq === faq.id;
@@ -1003,7 +1003,7 @@ export default function App() {
                       Direct Cargo Shipments to Saudi Arabia, GCC &amp; Global Ports
                     </h2>
                     <p className="font-inter text-sm text-neutral-300 leading-relaxed font-light">
-                      Pyros surfaces are selected by premium luxury builders worldwide. We supply container-load shipments directly from our Udaipur head offices to major sea terminals in the United States, Europe/UK, and the Arab Gulf countries.
+                      Pyros surfaces are selected by premium luxury builders worldwide. We supply container-load shipments directly from our Indian head offices to major sea terminals in the United States, Europe/UK, and the Arab Gulf countries.
                     </p>
                     <p className="font-inter text-xs text-[#D4AF37]/90 leading-relaxed font-light">
                       * Hover or click the gold destination pins on the map to inspect active operations and logistics specifications at each location.
@@ -1259,7 +1259,7 @@ export default function App() {
               <div className="mt-4 pt-3 border-t border-white/5">
                 <span className="font-outfit text-[9px] tracking-widest uppercase text-[#D4AF37] font-bold block mb-1">Corporate HQ</span>
                 <p className="font-inter font-light text-neutral-300">
-                  Udaipur, Rajasthan, India
+                  Rajasthan, India
                 </p>
               </div>
             </div>

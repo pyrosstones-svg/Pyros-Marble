@@ -20,7 +20,7 @@ const portsList = [
         category: 'QUARTZITE',
         name: 'Crystalo White Quartzite',
         description: 'Luxury natural quartzite with exceptional durability, elegant veining, and premium finish for luxury interiors, countertops, feature walls, and architectural applications.',
-        image: '/20251006_170238.jpg'
+        image: '/Crestalo White North.jpg'
       },
       {
         id: 'maharaja-white-marble',
@@ -63,7 +63,7 @@ const portsList = [
         category: 'QUARTZITE',
         name: 'Crystalo White Quartzite',
         description: 'Luxury natural quartzite with exceptional durability, elegant veining, and premium finish for luxury interiors, countertops, feature walls, and architectural applications.',
-        image: '/20251006_170238.jpg'
+        image: '/Crestalo White North.jpg'
       },
       {
         id: 'maharaja-white-marble-chennai',

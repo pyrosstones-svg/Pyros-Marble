@@ -132,7 +132,7 @@ export default function USAExportPage({ onNavigate }) {
               {
                 cat: "Marble Slabs Exporter",
                 title: "White Marble Slabs for US Showrooms",
-                body: "As a marble slabs exporter for the US market, Pyros delivers 20mm & 30mm gangsaw Kishangarh White and Makrana marble slabs to tile and stone distributors in California, Texas, Florida, and New York."
+                body: "As a marble slabs exporter for the US market, Pyros delivers 20mm & 30mm gangsaw Indian White Marble slabs to tile and stone distributors in California, Texas, Florida, and New York."
               },
               {
                 cat: "Granite Slabs Supplier",

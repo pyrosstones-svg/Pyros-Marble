@@ -53,13 +53,13 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium grade Pyros White Onyx Marble. Sourced from quarry-direct reserves in Rajasthan, India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/20241224_133819.jpg",
+    "image": "/White sand North.jpg",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "calibrated-quarry-slab-20241224-133819"
   },
   {
     "id": "calibrated-quarry-slab-20251006-170238",
-    "name": "Makrana Albeta White Marble",
+    "name": "Pyros Albeta White Marble",
     "category": "marble",
     "origin": "Rajasthan, India",
     "finishes": [
@@ -75,8 +75,8 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Makrana Albeta White Marble. Sourced from quarry-direct reserves in Rajasthan, India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/20251006_170238.jpg",
+    "description": "Premium grade Pyros Albeta White Marble. Sourced from quarry-direct reserves in Rajasthan, India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
+    "image": "/White Maharaja North.jpg",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "calibrated-quarry-slab-20251006-170238"
   },
@@ -99,7 +99,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium grade Pyros Morwad White Marble. Sourced from quarry-direct reserves in Rajasthan, India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/20251006_170605.jpg",
+    "image": "/Maharaja White North.jpg",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "calibrated-quarry-slab-20251006-170605"
   },
@@ -168,7 +168,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium grade Pyros Ambaji White Marble. Sourced from quarry-direct reserves in Rajasthan, India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/20251118_123827.jpg",
+    "image": "/White knight North.jpg",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "calibrated-quarry-slab-20251118-123827"
   },
@@ -191,7 +191,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium grade Pyros Spider Green Marble. Sourced from quarry-direct reserves in Rajasthan, India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/20251225_120531.jpg",
+    "image": "/Spider green North.jpg",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "calibrated-quarry-slab-20251225-120531"
   },
@@ -636,7 +636,7 @@ export const stones = [
     "id": "green-verdimale-north",
     "name": "Green Verdimale Marble",
     "category": "marble",
-    "origin": "Udaipur, India",
+    "origin": "Rajasthan, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -650,7 +650,7 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Green Verdimale Marble. Sourced from quarry-direct reserves in Udaipur, India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
+    "description": "Premium grade Pyros Green Verdimale Marble. Sourced from quarry-direct reserves in Rajasthan, India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
     "image": "/Green Verdimale North.jpg",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "green-verdimale-north"
@@ -1647,7 +1647,7 @@ export const stones = [
     "baseId": "r-white",
     "name": "R White (3D + Coral) Marble",
     "category": "marble",
-    "origin": "Udaipur, Rajasthan, India",
+    "origin": "Rajasthan, India",
     "finishes": [
       "3D + Coral"
     ],
@@ -1658,7 +1658,7 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros R White (3D + Coral) Marble. Sourced from quarry-direct reserves in Udaipur, Rajasthan, India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
+    "description": "Premium grade Pyros R White (3D + Coral) Marble. Sourced from quarry-direct reserves in Rajasthan, India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
     "image": "/images/stones/r-white-3d-coral.jpg",
     "recommendedUse": "Decorative facade walls, bathroom backdrops, texture highlight panels."
   },
@@ -1667,7 +1667,7 @@ export const stones = [
     "baseId": "r-white",
     "name": "R White (3D + Hydro) Marble",
     "category": "marble",
-    "origin": "Udaipur, Rajasthan, India",
+    "origin": "Rajasthan, India",
     "finishes": [
       "3D + Hydro"
     ],
@@ -1678,7 +1678,7 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros R White (3D + Hydro) Marble. Sourced from quarry-direct reserves in Udaipur, Rajasthan, India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
+    "description": "Premium grade Pyros R White (3D + Hydro) Marble. Sourced from quarry-direct reserves in Rajasthan, India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
     "image": "/images/stones/r-white-3d-hydro.jpg",
     "recommendedUse": "Decorative facade walls, bathroom backdrops, texture highlight panels."
   },
@@ -1687,7 +1687,7 @@ export const stones = [
     "baseId": "r-white",
     "name": "R White (Water Fall) Marble",
     "category": "marble",
-    "origin": "Udaipur, Rajasthan, India",
+    "origin": "Rajasthan, India",
     "finishes": [
       "Water Fall"
     ],
@@ -1698,7 +1698,7 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros R White (Water Fall) Marble. Sourced from quarry-direct reserves in Udaipur, Rajasthan, India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
+    "description": "Premium grade Pyros R White (Water Fall) Marble. Sourced from quarry-direct reserves in Rajasthan, India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
     "image": "/images/stones/r-white-water-fall.jpg",
     "recommendedUse": "Decorative facade walls, bathroom backdrops, texture highlight panels."
   },
@@ -1707,7 +1707,7 @@ export const stones = [
     "baseId": "r-white",
     "name": "R White (Fluid) Marble",
     "category": "marble",
-    "origin": "Udaipur, Rajasthan, India",
+    "origin": "Rajasthan, India",
     "finishes": [
       "Fluid"
     ],
@@ -1718,7 +1718,7 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros R White (Fluid) Marble. Sourced from quarry-direct reserves in Udaipur, Rajasthan, India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
+    "description": "Premium grade Pyros R White (Fluid) Marble. Sourced from quarry-direct reserves in Rajasthan, India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
     "image": "/images/stones/r-white-10mm-fluid.jpg",
     "recommendedUse": "Decorative facade walls, bathroom backdrops, texture highlight panels."
   },
@@ -3021,20 +3021,20 @@ export const stones = [
     "id": "calacatta-quartz",
     "name": "Calacatta Quartz",
     "category": "quartzite",
-    "origin": "Engineered in Udaipur, India",
+    "origin": "Rajasthan, India",
     "finishes": [
-      "Glossy",
-      "Satin",
-      "High Gloss"
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Velvet"
     ],
-    "density": "2.40 g/cm\u00b3",
+    "density": "2.42 g/cm\u00b3",
     "waterAbsorption": "0.02%",
     "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
+      "160x320x20mm",
+      "160x320x30mm"
     ],
-    "description": "Premium grade Pyros Calacatta Quartz. Sourced from quarry-direct reserves in Engineered in Udaipur, India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
+    "description": "Premium grade Pyros Calacatta Quartz. Sourced from quarry-direct reserves in Rajasthan, India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
     "image": "/images/stones/calacatta-quartz.png",
     "recommendedUse": "Hygiene-critical countertops, heavy-duty commercial counters, kitchen splashbacks.",
     "baseId": "calacatta-quartz"
@@ -3385,7 +3385,7 @@ export const stones = [
     "id": "pyros-3d-hydro-wall-cladding",
     "name": "Pyros 3D Hydro Wall Cladding",
     "category": "wall-cladding",
-    "origin": "Udaipur, Rajasthan, India",
+    "origin": "Rajasthan, India",
     "finishes": [
       "3D Hydro",
       "Textured",
@@ -3427,7 +3427,7 @@ export const stones = [
     "id": "pyros-matrix-slate-cladding",
     "name": "Pyros Matrix Slate Wall Cladding",
     "category": "wall-cladding",
-    "origin": "Udaipur, India",
+    "origin": "Rajasthan, India",
     "finishes": [
       "Hydro Finish",
       "Textured"

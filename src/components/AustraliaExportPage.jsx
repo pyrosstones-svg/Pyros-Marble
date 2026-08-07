@@ -188,7 +188,7 @@ export default function AustraliaExportPage({ onNavigate }) {
               {
                 cat: "Marble Slabs Exporter",
                 title: "White & Beige Marble Slabs",
-                body: "As a dedicated marble slabs exporter to Australia, Pyros supplies 20mm & 30mm Italian-gangsaw Kishangarh white marble and Makrana pure white slabs for Melbourne and Sydney luxury interiors, hotel lobbies, and residential bathroom vanity tops."
+                body: "As a dedicated marble slabs exporter to Australia, Pyros supplies 20mm & 30mm Italian-gangsaw Indian white marble pure white slabs for Melbourne and Sydney luxury interiors, hotel lobbies, and residential bathroom vanity tops."
               },
               {
                 cat: "Granite Slabs Supplier",

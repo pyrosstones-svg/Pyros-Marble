@@ -48,7 +48,7 @@ export default function WorldMap() {
     { 
       id: 'IN', 
       shortLabel: 'India HQ ✦',
-      name: 'Udaipur, India (Pyros HQ & Quarries)', 
+      name: 'India (Pyros HQ & Quarries)', 
       x: 503, 
       y: 178, 
       details: 'Corporate headquarters, stone extraction quarries, Italian gangsaw processing yards, and seaworthy bundle packing.' 

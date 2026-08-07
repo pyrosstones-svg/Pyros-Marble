@@ -156,7 +156,7 @@ export default function EuropeExportPage({ onNavigate }) {
               {
                 cat: "Marble Slabs Exporter",
                 title: "White Marble Slabs for EU Luxury Interiors",
-                body: "As a dedicated marble slabs exporter to Europe, Pyros supplies 20mm & 30mm Italian-gangsaw Kishangarh white marble and Makrana slabs for Parisian luxury apartments and German boutique hotel lobbies."
+                body: "As a dedicated marble slabs exporter to Europe, Pyros supplies 20mm & 30mm Italian-gangsaw Indian white marble slabs for Parisian luxury apartments and German boutique hotel lobbies."
               },
               {
                 cat: "Granite Slabs Supplier",
