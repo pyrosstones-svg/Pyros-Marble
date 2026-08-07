@@ -193,7 +193,7 @@ export default function AboutUs() {
                     if (e.target.src.includes('/founder.jpeg')) {
                       e.target.src = "/founder-1.jpeg";
                     } else if (e.target.src.includes('/founder-1.jpeg')) {
-                      e.target.src = "/logo.jpeg";
+                      e.target.src = "/PyrosStones_logoV0004.png";
                     } else {
                       e.target.src = "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=600&auto=format&fit=crop";
                     }

@@ -60,14 +60,14 @@ export default function Header({ activeSection, setActiveSection }) {
     <header className="fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-white border-b border-black/5 py-4 shadow-md">
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         
-        {/* Brand Logo & Name */}
-        <div className="flex items-center gap-3 cursor-pointer" onClick={() => handleNavClick('hero')}>
-          <div className="w-10 h-10 rounded-lg overflow-hidden border border-[#D4AF37]/50 shadow-md transition-colors">
-            <img src="/logo.jpeg" alt="Pyros Logo" className="w-full h-full object-cover scale-110" />
-          </div>
-          <div className="flex flex-col">
-            <span className="font-outfit text-lg font-bold tracking-[0.2em] uppercase leading-none text-[#1C1C21]">PYROS</span>
-            <span className="font-outfit text-[9px] tracking-[0.15em] uppercase font-semibold mt-1 text-[#D4AF37]">Surfaces Worldwide</span>
+        {/* Brand Logo Only (Prominent Extra Large Image) */}
+        <div className="flex items-center cursor-pointer" onClick={() => handleNavClick('hero')}>
+          <div className="h-16 sm:h-20 md:h-24 flex items-center py-1 transition-all">
+            <img 
+              src="/PyrosStones_logoV0004.png" 
+              alt="Pyros Stones Logo" 
+              className="h-full w-auto object-contain drop-shadow-sm" 
+            />
           </div>
         </div>
 

@@ -353,7 +353,7 @@ export default function App() {
                       src="/about_us_yard.png"
                       alt="Udaipur Processing Yard"
                       onError={(e) => {
-                        e.target.src = "/logo.jpeg";
+                        e.target.src = "/PyrosStones_logoV0004.png";
                       }}
                       className="w-full h-full object-cover"
                     />
@@ -1177,11 +1177,8 @@ export default function App() {
 
           {/* Col 1: Logo */}
           <div className="flex flex-col gap-4 text-left">
-            <div className="flex items-center gap-3">
-              <div className="w-8 h-8 rounded overflow-hidden border border-[#D4AF37]/30 shadow-md">
-                <img src="/logo.jpeg" alt="Pyros Logo" className="w-full h-full object-cover scale-110" />
-              </div>
-              <span className="font-outfit text-base font-bold tracking-[0.2em] text-white uppercase">PYROS</span>
+            <div className="h-16 sm:h-20 overflow-hidden flex items-center bg-white/95 rounded-xl px-4 py-2 w-fit border border-[#D4AF37]/40 shadow-xl">
+              <img src="/PyrosStones_logoV0004.png" alt="Pyros Stones Logo" className="h-full w-auto object-contain" />
             </div>
             <p className="font-inter font-light text-neutral-100 text-[13px] leading-relaxed mt-2">
               Corporate exporter of premium natural stones, marble & granite gangsaw slabs, and tiles worldwide.
