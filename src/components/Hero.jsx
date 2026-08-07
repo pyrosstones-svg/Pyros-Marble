@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowDown, Container, Play, Star } from 'lucide-react';
+import { ArrowDown, Container } from 'lucide-react';
 
 export default function Hero({ onExploreClick }) {
   return (
@@ -30,17 +30,18 @@ export default function Hero({ onExploreClick }) {
         <div className="lg:col-span-7 space-y-8 text-left reveal reveal-slide-left">
 
           {/* Export Tagline Badge */}
-          <div className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full border border-[#D4AF37]/35 bg-[#D4AF37]/10 text-[#D4AF37] font-inter text-xs tracking-[0.25em] uppercase font-bold shadow-lg shadow-black/30">
-            <Container className="w-3.5 h-3.5" />
-            Direct Manufacturer & Natural Stone Exporter from India
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-[#D4AF37]/35 bg-[#D4AF37]/10 text-[#D4AF37] font-inter text-[10px] sm:text-[11px] tracking-[0.1em] uppercase font-semibold shadow-lg shadow-black/30 leading-normal">
+            <Container className="w-3.5 h-3.5 shrink-0" />
+            <span>PREMIUM MARBLE EXPORTER FROM INDIA • TRUSTED GLOBAL NATURAL STONE SUPPLIER</span>
           </div>
 
           {/* Luxury Split Headline */}
-          <h1 className="font-cormorant text-5xl sm:text-7xl lg:text-8xl font-medium tracking-wide leading-[1.08] text-white">
-            India's Finest Natural <br />
+          <h1 className="font-cormorant text-4xl sm:text-6xl lg:text-7xl xl:text-[4.75rem] font-medium tracking-wide leading-[1.08] text-white">
+            India's Leading <br />
             <span className="font-serif italic text-transparent bg-clip-text bg-gradient-to-r from-white via-[#F3F4F6] to-[#D4AF37]">
-              Marble & Granite Slabs
-            </span>
+              Marble Exporter
+            </span> <br />
+            & Granite Supplier
           </h1>
 
           {/* CTA Buttons */}
@@ -49,13 +50,13 @@ export default function Hero({ onExploreClick }) {
               onClick={() => onExploreClick('catalog')}
               className="px-8 py-4 bg-[#D4AF37] hover:bg-[#b59228] text-black font-bold text-xs tracking-[0.2em] uppercase rounded-md shadow-xl transition-all duration-300 hover:-translate-y-1 hover:scale-102 hover:shadow-[#D4AF37]/20"
             >
-              Browse Slabs Catalog
+              EXPLORE COLLECTION
             </button>
             <button
               onClick={() => onExploreClick('contact')}
               className="px-8 py-4 bg-white/10 hover:bg-white/20 border border-white/20 text-white font-bold text-xs tracking-[0.2em] uppercase rounded-md transition-all duration-300 hover:-translate-y-1 hover:scale-102"
             >
-              Contact Export Desk
+              REQUEST EXPORT QUOTE
             </button>
           </div>
 
@@ -66,7 +67,7 @@ export default function Hero({ onExploreClick }) {
 
           {/* Sub-paragraph details */}
           <p className="font-inter text-sm sm:text-base text-white/80 leading-relaxed font-light tracking-wide max-w-xl">
-            Pyros is India's leading exporter of premium, hand-picked <strong className="text-white font-semibold">Marble, Granite, Quartzite, and Quartz slabs</strong>. Engineered to pass stringent US/UK quality benchmarks and tailored for luxury projects across Arab nations.
+            Pyros is a leading <strong className="text-white font-semibold">Marble Exporter from India</strong> and trusted <strong className="text-white font-semibold">Granite Exporter from India</strong>, delivering premium <strong className="text-white font-semibold">marble slabs, granite slabs, marble tiles, granite tiles, quartzite, and natural stone</strong> to architects, builders, importers, wholesalers, and distributors worldwide.
           </p>
 
           {/* Marble Block Image Card */}
@@ -80,11 +81,11 @@ export default function Hero({ onExploreClick }) {
             </div>
             <div className="absolute bottom-3 left-4 right-4 flex items-center justify-between pointer-events-none z-10">
               <span className="text-[10px] font-mono tracking-widest text-[#D4AF37] uppercase font-bold bg-black/70 backdrop-blur-md px-3 py-1.5 rounded-lg border border-white/10 shadow-md flex items-center gap-1.5">
-                <span className="w-2 h-2 rounded-full bg-[#D4AF37] animate-pulse" />
-                PREMIUM CALIBRATED MARBLE BLOCK
+                <span className="w-2 h-2 rounded-full bg-[#D4AF37] animate-pulse shrink-0" />
+                PREMIUM EXPORT GRADE NATURAL STONE
               </span>
               <span className="text-[9px] font-mono text-white/80 bg-black/60 backdrop-blur-md px-2.5 py-1 rounded hidden sm:inline-block border border-white/5">
-                20mm / 30mm Gangsaw
+                20mm / 30mm Precision Calibrated Slabs
               </span>
             </div>
           </div>
@@ -95,7 +96,7 @@ export default function Hero({ onExploreClick }) {
 
       {/* Bottom Scroll Cue */}
       <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2 cursor-pointer opacity-75 hover:opacity-100 transition-opacity" onClick={() => onExploreClick('catalog')}>
-        <span className="text-[9px] uppercase font-mono tracking-widest text-[#D4AF37]">Explore Collections</span>
+        <span className="text-[9px] uppercase font-mono tracking-widest text-[#D4AF37]">DISCOVER OUR COLLECTIONS</span>
         <ArrowDown className="w-3.5 h-3.5 text-[#D4AF37] animate-bounce" />
       </div>
 

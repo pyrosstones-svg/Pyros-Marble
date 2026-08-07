@@ -395,49 +395,52 @@ export default function App() {
                 <div className="lg:col-span-7 space-y-8 text-left reveal reveal-slide-right delay-200">
                   <div className="space-y-4">
                     <span className="font-outfit text-xs tracking-widest text-[#D4AF37] uppercase font-bold block">
-                      Indian Stone Manufacturing
+                      INDIA'S TRUSTED NATURAL STONE EXPORTER
                     </span>
                     <h2 className="font-cormorant text-3xl sm:text-5xl font-medium text-[#1C1C21] leading-tight">
-                      Precision Calibrated Marble & Granite Slabs
+                      Precision Crafted <br />
+                      <span className="font-serif italic text-transparent bg-clip-text bg-gradient-to-r from-[#1C1C21] via-[#333333] to-[#D4AF37]">
+                        Marble & Granite
+                      </span> <br />
+                      for Global Projects
                     </h2>
                     <p className="font-inter text-sm text-[#4E4E59] leading-relaxed font-light">
-                      Pyros is India's premier natural stone manufacturer and exporter under the Rising Exports Group, headquartered in Udaipur, Rajasthan. We operate automated Italian gangsaw processing lines and multi-head line polishers to engineer 20mm & 30mm calibrated marble, granite, quartzite, and sandstone slabs for luxury architectural projects worldwide.
+                      Pyros is a leading <strong className="text-[#1C1C21] font-semibold">Marble Exporter from India</strong>, trusted by architects, importers, wholesalers, and construction companies worldwide for premium natural stone solutions. As an experienced <strong className="text-[#1C1C21] font-semibold">Granite Exporter from India</strong> and <strong className="text-[#1C1C21] font-semibold">Indian Marble Exporter</strong>, we source high-quality marble and granite directly from India's finest quarries and process every slab using advanced Italian technology to deliver exceptional precision, strength, and surface finish.
                     </p>
                     <p className="font-inter text-sm text-[#4E4E59] leading-relaxed font-light">
-                      From direct block sourcing at exclusive Rajasthan and South Indian quarry sites to ISPM-15 compliant seaworthy wooden A-frame container lashing, every shipment undergoes multi-point quality inspection to ensure uniform coloration, 95+ gloss luster, and strict dimensional accuracy.
+                      From quarry selection and precision calibration to mirror polishing, quality inspection, and secure export packaging, every product is manufactured to meet international standards. Whether you need a reliable <strong className="text-[#1C1C21] font-semibold">Marble Slabs Exporter</strong>, <strong className="text-[#1C1C21] font-semibold">Granite Slabs Supplier</strong>, <strong className="text-[#1C1C21] font-semibold">Marble Tiles Exporter</strong>, or <strong className="text-[#1C1C21] font-semibold">Granite Tiles Exporter</strong>, Pyros delivers consistent quality with safe worldwide shipping, making us a preferred <strong className="text-[#1C1C21] font-semibold">Natural Stone Exporter India</strong> for residential, commercial, hospitality, and luxury infrastructure projects.
                     </p>
                     
                     {/* Key Feature Highlights */}
                     <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2">
                       <div className="p-3 bg-white/70 border border-[#EADCC9] rounded-lg">
                         <span className="font-outfit text-xs font-bold text-[#1C1C21] block">20mm & 30mm</span>
-                        <span className="font-inter text-[11px] text-[#8E8E93]">Gangsaw Calibrated Slabs</span>
+                        <span className="font-inter text-[11px] text-[#8E8E93]">Precision Calibrated Marble & Granite Slabs</span>
                       </div>
                       <div className="p-3 bg-white/70 border border-[#EADCC9] rounded-lg">
-                        <span className="font-outfit text-xs font-bold text-[#1C1C21] block">ISPM-15 Crated</span>
-                        <span className="font-inter text-[11px] text-[#8E8E93]">Seaworthy Container Lashing</span>
+                        <span className="font-outfit text-xs font-bold text-[#1C1C21] block">Export Packaging</span>
+                        <span className="font-inter text-[11px] text-[#8E8E93]">ISPM-15 Certified Wooden Crates</span>
                       </div>
                       <div className="p-3 bg-white/70 border border-[#EADCC9] rounded-lg">
-                        <span className="font-outfit text-xs font-bold text-[#1C1C21] block">Port Direct</span>
-                        <span className="font-inter text-[11px] text-[#8E8E93]">Mundra & Chennai Gateways</span>
+                        <span className="font-outfit text-xs font-bold text-[#1C1C21] block">Worldwide Shipping</span>
+                        <span className="font-inter text-[11px] text-[#8E8E93]">Fast Global Container Export Solutions</span>
                       </div>
                     </div>
                   </div>
 
                   {/* Dynamic Progress Bars */}
                   <div className="space-y-5 border-y border-[#EADCC9] py-6">
-                    <ProgressBar label="Italian Cutting Calibration (Tolerance ±1mm)" percentage={99} />
-                    <ProgressBar label="Gloss Luster Polish Rating (95+ Gloss)" percentage={95} />
-                    <ProgressBar label="Logistics & Customs Clearances" percentage={100} />
+                    <ProgressBar label="ITALIAN PRECISION CUTTING & CALIBRATION" percentage={99} />
+                    <ProgressBar label="HIGH GLOSS SURFACE FINISH (95+ GLOSS)" percentage={98} />
+                    <ProgressBar label="EXPORT LOGISTICS & ON-TIME DELIVERY" percentage={100} />
                   </div>
 
                   <div className="flex gap-4">
                     <button
                       onClick={() => navigateTo('about-us')}
-                      className="px-6 py-3.5 bg-transparent border border-[#D4AF37]/50 text-[#1C1C21] hover:border-[#D4AF37] hover:text-[#D4AF37] text-xs tracking-wider uppercase font-semibold rounded transition-all flex items-center gap-2 shadow-sm"
+                      className="px-6 py-3.5 bg-transparent border border-[#D4AF37]/50 text-[#1C1C21] hover:border-[#D4AF37] hover:bg-[#D4AF37] hover:text-black text-xs tracking-wider uppercase font-semibold rounded transition-all flex items-center gap-2 shadow-sm cursor-pointer"
                     >
-                      More About Us
-                      <ArrowRight className="w-4 h-4" />
+                      EXPLORE OUR COMPANY →
                     </button>
                   </div>
                 </div>
@@ -533,21 +536,21 @@ export default function App() {
               </div>
             </section>
 
-            {/* SECTION 2: Why Choose Us (Tilux Style Split Layout & Global Presence) */}
+            {/* SECTION 2: Why Choose Pyros — SEO-Optimized B2B Export Section */}
             <section className="py-24 bg-[#FAF9F6] overflow-hidden">
               <div className="max-w-7xl mx-auto px-6">
 
                 {/* Title split row */}
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end mb-16 border-b border-[#EADCC9] pb-8 reveal reveal-slide-up">
                   <div className="lg:col-span-6">
-                    <span className="font-outfit text-xs tracking-[0.25em] text-[#D4AF37] uppercase font-bold block mb-2">Why Choose Us</span>
-                    <h2 className="font-cormorant text-4xl sm:text-5xl font-medium text-[#1C1C21] leading-tight">
-                      Quality, craftsmanship, and reliability you can trust
+                    <span className="font-outfit text-xs tracking-[0.25em] text-[#D4AF37] uppercase font-bold block mb-2">Why Choose Pyros</span>
+                    <h2 className="font-cormorant text-3xl sm:text-4xl font-medium text-[#1C1C21] leading-tight">
+                      India's Trusted Marble Exporter &amp;<br className="hidden sm:block" /> Granite Supplier for Global Projects
                     </h2>
                   </div>
                   <div className="lg:col-span-6">
                     <p className="font-inter text-sm text-[#4E4E59] leading-relaxed font-light">
-                      We combine premium raw materials sourced directly from exclusive quarries, expert Italian gangsaw machinery, and strict multi-head line polishers to deliver surfaces that stand the test of time.
+                      As a leading Marble Exporter from India and Granite Manufacturer India, Pyros combines premium Indian stone, advanced Italian processing technology, and strict international quality standards to deliver exceptional marble slabs, granite slabs, and natural stone solutions trusted by architects, importers, wholesalers, and developers across the globe.
                     </p>
                   </div>
                 </div>
@@ -559,38 +562,47 @@ export default function App() {
 
                     {/* Quote Widget */}
                     <div className="bg-[#F5EFEB] border border-[#EADCC9] p-6 rounded-2xl relative shadow-md">
-                      <p className="font-cormorant text-lg italic text-[#1C1C21] leading-relaxed">
-                        “ We don't just process tiles and marble slabs; we craft architectural surfaces engineered to withstand generations of daily life with absolute calibration integrity. ”
+                      <div className="absolute -top-3 left-6">
+                        <div className="w-8 h-8 rounded-full bg-[#D4AF37] flex items-center justify-center shadow-lg">
+                          <Quote className="w-3.5 h-3.5 text-white" />
+                        </div>
+                      </div>
+                      <p className="font-cormorant text-lg italic text-[#1C1C21] leading-relaxed mt-2">
+                        "We don't just export natural stone—we deliver precision-crafted marble and granite solutions engineered to meet international standards. Every slab reflects our commitment to quality, consistency, and long-term partnerships with global buyers."
                       </p>
-                      <div className="mt-3 flex items-center gap-2">
-                        <span className="w-4 h-0.5 bg-[#D4AF37]" />
-                        <span className="font-outfit text-[9px] tracking-widest text-[#D4AF37] uppercase font-bold">Udaipur Operations Desk</span>
+                      <div className="mt-4 flex items-center gap-2">
+                        <span className="w-6 h-0.5 bg-[#D4AF37]" />
+                        <span className="font-outfit text-[9px] tracking-widest text-[#D4AF37] uppercase font-bold">— Pyros Export Operations Team</span>
                       </div>
                     </div>
 
                     {/* Global Presence stats */}
                     <div className="flex items-center gap-6">
                       <div className="font-outfit text-5xl font-bold text-[#D4AF37] tracking-tight">
-                        100<span className="text-[#1C1C21] font-light">+</span>
+                        <AnimatedCounter value={100} suffix="+" />
                       </div>
                       <div>
-                        <h4 className="font-outfit text-sm font-bold text-[#1C1C21] uppercase tracking-wider">Global Export Footprint</h4>
+                        <h4 className="font-outfit text-sm font-bold text-[#1C1C21] uppercase tracking-wider">Global Export Destinations</h4>
                         <p className="font-inter text-xs text-[#4E4E59] leading-relaxed font-light mt-0.5 max-w-sm">
-                          Our active logistics corridors deliver custom FCL containers directly to distributors in over 100 regions globally.
+                          Supplying premium marble, granite, and natural stone products to distributors, contractors, architects, and project developers across more than 100 international markets with reliable logistics and on-time container deliveries.
                         </p>
                       </div>
                     </div>
 
-                    {/* Export Markets Badging */}
+                    {/* Export Markets Badging — Saudi Arabia & UAE first for SEO geo-signals */}
                     <div className="bg-white border border-[#EADCC9] p-6 rounded-2xl space-y-4 shadow-sm">
                       <div className="font-outfit text-xs font-bold text-[#1C1C21] uppercase tracking-wider">
-                        Active Supply Channels
+                        Active Export Markets
                       </div>
                       <div className="flex flex-wrap gap-2.5">
-                        {['United States', 'Saudi Arabia', 'United Arab Emirates', 'United Kingdom', 'European Union', 'Australia'].map((market, idx) => (
+                        {['Saudi Arabia', 'United Arab Emirates', 'United States', 'United Kingdom', 'Qatar', 'Kuwait', 'Oman', 'Europe', 'Australia'].map((market, idx) => (
                           <div
                             key={idx}
-                            className="px-3.5 py-2 bg-neutral-50 border border-neutral-200 hover:border-[#D4AF37] hover:bg-white text-[10px] uppercase font-bold tracking-widest text-neutral-600 hover:text-black rounded-lg transition-all shadow-sm"
+                            className={`px-3.5 py-2 border text-[10px] uppercase font-bold tracking-widest rounded-lg transition-all shadow-sm cursor-default ${
+                              idx < 2
+                                ? 'bg-[#D4AF37]/10 border-[#D4AF37]/40 text-[#1C1C21] hover:bg-[#D4AF37]/20 hover:border-[#D4AF37]'
+                                : 'bg-neutral-50 border-neutral-200 text-neutral-600 hover:border-[#D4AF37] hover:bg-white hover:text-black'
+                            }`}
                           >
                             {market}
                           </div>
@@ -605,7 +617,7 @@ export default function App() {
                     <div className="rounded-2xl overflow-hidden shadow-2xl border border-[#EADCC9] aspect-[4/5] bg-neutral-100">
                       <img
                         src="/why_choose_us_slabs.png"
-                        alt="Calibrated Slabs Stack"
+                        alt="Premium Indian Marble and Granite Slabs for Export — Pyros Marble"
                         onError={(e) => {
                           e.target.src = "/premium_photo-1661963559074-9655a9404f1a.avif";
                         }}
@@ -621,11 +633,11 @@ export default function App() {
                           </div>
                         ))}
                         <div className="w-8 h-8 rounded-full border border-[#D4AF37] bg-[#D4AF37] text-black flex items-center justify-center text-[9px] font-bold shadow-md">
-                          5★
+                          100+
                         </div>
                       </div>
                       <p className="text-xs text-white/90 leading-normal font-light">
-                        Chosen by <strong className="text-[#D4AF37]">2,000+ Clients Worldwide</strong> for Premium Tiles & Marble Quality.
+                        Trusted by <strong className="text-[#D4AF37]">2,000+ Architects, Importers &amp; Stone Buyers Worldwide</strong>
                       </p>
                     </div>
                   </div>
@@ -1304,7 +1316,7 @@ export default function App() {
 
         {/* Lower Row */}
         <div className="max-w-7xl mx-auto px-6 border-t border-white/5 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-neutral-500">
-          <span>&copy; {new Date().getFullYear()} Pyros Marble & Granite Surfaces. Powered by Rising Exports Group. All rights reserved.</span>
+          <span>&copy; {new Date().getFullYear()} Pyros Marble & Granite Surfaces. Powered by Pyros. All rights reserved.</span>
           <div className="flex items-center gap-4">
             <span className="flex items-center gap-1 font-light">Made with <Heart className="w-3 h-3 text-[#D4AF37] fill-[#D4AF37]" /> for global luxury builders.</span>
             <button

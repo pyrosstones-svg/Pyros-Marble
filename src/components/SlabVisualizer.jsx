@@ -324,7 +324,7 @@ export default function SlabVisualizer() {
                         PYROS
                       </span>
                       <span className="block text-[6px] tracking-[0.4em] uppercase text-white/60 font-mono mt-0.5">
-                        EXPORTS GROUP
+                        MARBLE
                       </span>
                     </div>
                   </div>
