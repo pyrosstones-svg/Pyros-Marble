@@ -31,8 +31,8 @@ function ProgressBar({ label, percentage, icon: Icon }) {
         <span className="text-[#D4AF37] font-mono">{percentage}%</span>
       </div>
       <div className="w-full h-2 bg-neutral-200/60 rounded-full overflow-hidden border border-black/5">
-        <div 
-          className="h-full bg-gradient-to-r from-[#D4AF37] to-[#b59228] rounded-full progress-bar-fill shadow-[0_0_10px_rgba(212,175,55,0.3)]" 
+        <div
+          className="h-full bg-gradient-to-r from-[#D4AF37] to-[#b59228] rounded-full progress-bar-fill shadow-[0_0_10px_rgba(212,175,55,0.3)]"
           style={{ width: `${width}%` }}
         />
       </div>
@@ -68,7 +68,7 @@ export default function AboutUs() {
   return (
     <section className="py-24 bg-[#FAF9F6] text-[#1C1C21] border-t border-[#E5E7EB] overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
-        
+
         {/* Header Title (Aligned matching 2-Column Split Grid Layout) */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end mb-16 border-b border-[#EADCC9] pb-8 text-left reveal reveal-slide-up">
           <div className="lg:col-span-6">
@@ -88,24 +88,24 @@ export default function AboutUs() {
 
         {/* Corporate Profile Section (Tilux Overlapping Images + Philosophy) */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center mb-28">
-          
+
           {/* LEFT SIDE: Overlapping Image Box with Rotating Badge (5 Columns) */}
           <div className="lg:col-span-5 relative flex items-center justify-center lg:justify-start reveal reveal-slide-left">
-            
+
             {/* Main Background Image */}
             <div className="w-[85%] aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl border border-[#E5E7EB] bg-neutral-100">
-              <img 
-                src="/about_us_main_1784367166223.png" 
-                alt="Rajasthan Quarry Work" 
+              <img
+                src="/about_us_main_1784367166223.png"
+                alt="Rajasthan Quarry Work"
                 className="w-full h-full object-cover"
               />
             </div>
 
             {/* Overlapping Small Image */}
             <div className="absolute bottom-[-8%] right-0 w-[55%] aspect-square rounded-2xl overflow-hidden border-4 border-white shadow-2xl bg-neutral-100">
-              <img 
-                src="/about_us_factory_1784367176961.png" 
-                alt="Calibrated Workshop Slabs" 
+              <img
+                src="/about_us_factory_1784367176961.png"
+                alt="Calibrated Workshop Slabs"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -123,7 +123,7 @@ export default function AboutUs() {
                     </textPath>
                   </text>
                 </svg>
-                <div 
+                <div
                   onClick={() => {
                     if (window.openEnquiryModal) {
                       window.openEnquiryModal();
@@ -139,7 +139,7 @@ export default function AboutUs() {
             </div>
 
           </div>
-          
+
           {/* RIGHT SIDE: Content & Dynamic Progress Bars (7 Columns) */}
           <div className="lg:col-span-7 space-y-8 reveal reveal-slide-right delay-200 text-left">
             <div className="space-y-4">
@@ -159,20 +159,20 @@ export default function AboutUs() {
 
             {/* Dynamic Progress Bars */}
             <div className="space-y-5 border-y border-[#E5E7EB] py-6">
-              <ProgressBar 
-                label="Italian Thickness Calibration (Deviation ±1mm)" 
-                percentage={99} 
-                icon={Layers} 
+              <ProgressBar
+                label="Italian Thickness Calibration (Deviation ±1mm)"
+                percentage={99}
+                icon={Layers}
               />
-              <ProgressBar 
-                label="Gloss Luster Polish Rating (24-head line polishers)" 
-                percentage={95} 
-                icon={Sparkles} 
+              <ProgressBar
+                label="Gloss Luster Polish Rating (24-head line polishers)"
+                percentage={95}
+                icon={Sparkles}
               />
-              <ProgressBar 
-                label="Logistics & Customs Clearing Speed (APEDA Clearance)" 
-                percentage={100} 
-                icon={Ship} 
+              <ProgressBar
+                label="Logistics & Customs Clearing Speed (APEDA Clearance)"
+                percentage={100}
+                icon={Ship}
               />
             </div>
           </div>
@@ -182,13 +182,13 @@ export default function AboutUs() {
         {/* Leadership Spotlight Section */}
         <div className="bg-[#FFFFFF] border border-[#EADCC9] rounded-2xl p-8 md:p-12 mb-28 text-left reveal reveal-slide-up shadow-lg overflow-hidden relative">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-            
+
             {/* Left Column: Portrait Frame with Gold Accents (5 Columns) */}
             <div className="lg:col-span-5 relative reveal reveal-slide-left flex justify-center lg:justify-start">
               <div className="w-[85%] aspect-[3/4] sm:w-[320px] rounded-2xl overflow-hidden shadow-2xl relative border border-[#EADCC9] bg-neutral-100 group">
-                <img 
-                  src="/founder.jpeg" 
-                  alt="Naresh Dhuwadiya, Founder" 
+                <img
+                  src="/founder.jpeg"
+                  alt="Naresh Dhuwadiya, Founder"
                   onError={(e) => {
                     if (e.target.src.includes('/founder.jpeg')) {
                       e.target.src = "/founder-1.jpeg";
@@ -204,7 +204,6 @@ export default function AboutUs() {
                 <div className="absolute bottom-6 left-6 right-6 bg-[#1C1C21]/95 backdrop-blur-md border border-white/10 rounded-xl p-4 shadow-2xl text-left">
                   <span className="text-[9px] font-mono tracking-widest text-[#D4AF37] font-bold uppercase block mb-1">FOUNDER & MD</span>
                   <h4 className="font-outfit text-sm font-bold text-white">Naresh Dhuwadiya</h4>
-                  <p className="text-[10px] text-white/70 font-light mt-0.5">Pyros Stones Commercial HQ</p>
                 </div>
               </div>
             </div>
@@ -216,7 +215,7 @@ export default function AboutUs() {
                 <h2 className="font-cormorant text-3xl sm:text-5xl font-medium text-[#1C1C21] leading-tight">
                   Built on Quality, Integrity, and Consistency
                 </h2>
-                
+
                 {/* Quote Panel */}
                 <div className="border-l-4 border-[#D4AF37] pl-6 italic font-cormorant text-lg sm:text-xl text-[#1C1C21]/90 my-6 leading-relaxed bg-[#FAF9F6] py-3 rounded-r-lg">
                   “ Led by our founder, Naresh Dhuwadiya, Pyros Stones has grown with a clear vision—to build a company recognized not only for premium-quality stone but also for integrity, consistency, and long-term partnerships. ”
@@ -257,9 +256,9 @@ export default function AboutUs() {
         {showStoryModal && (
           <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm animate-fade-in">
             <div className="bg-white border border-[#EADCC9] rounded-2xl max-w-2xl w-full p-6 sm:p-8 relative shadow-2xl max-h-[90vh] overflow-y-auto">
-              
+
               {/* Close Button */}
-              <button 
+              <button
                 onClick={() => setShowStoryModal(false)}
                 className="absolute top-4 right-4 text-neutral-400 hover:text-neutral-900 p-2 rounded-full hover:bg-neutral-100 transition-all"
               >
@@ -269,9 +268,9 @@ export default function AboutUs() {
               <div className="space-y-6 text-left">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-[#D4AF37]">
-                    <img 
-                      src="/founder.jpeg" 
-                      alt="Naresh Dhuwadiya" 
+                    <img
+                      src="/founder.jpeg"
+                      alt="Naresh Dhuwadiya"
                       className="w-full h-full object-cover object-top"
                       onError={(e) => { e.target.src = "/founder-1.jpeg"; }}
                     />
@@ -286,7 +285,7 @@ export default function AboutUs() {
                   <p>
                     Founded in Rajasthan—the heartland of India's natural stone heritage—Pyros Stones was established by Naresh Dhuwadiya with a singular mission: to supply world-class natural marble, granite, quartzite, and engineered surfaces to global architectural projects.
                   </p>
-                  
+
                   <div className="bg-[#FAF9F6] border-l-4 border-[#D4AF37] p-4 rounded-r-lg italic text-[#1C1C21] font-cormorant text-base">
                     “ Led by our founder, Naresh Dhuwadiya, Pyros Stones has grown with a clear vision—to build a company recognized not only for premium-quality stone but also for integrity, consistency, and long-term partnerships. ”
                   </div>
@@ -343,7 +342,7 @@ export default function AboutUs() {
             <div className="bg-white border border-[#EADCC9] rounded-2xl p-8 sm:p-10 shadow-lg hover:shadow-2xl transition-all duration-500 relative overflow-hidden group flex flex-col justify-between">
               {/* Background Ambient Glow */}
               <div className="absolute top-0 right-0 w-36 h-36 bg-gradient-to-bl from-[#D4AF37]/15 to-transparent rounded-bl-full pointer-events-none group-hover:scale-125 transition-transform duration-500" />
-              
+
               <div>
                 <div className="flex items-center gap-4 mb-6 relative z-10">
                   <div className="w-14 h-14 rounded-xl bg-[#1C1C21] text-[#D4AF37] flex items-center justify-center shadow-md border border-[#D4AF37]/30 group-hover:bg-[#D4AF37] group-hover:text-black transition-colors duration-300">
@@ -397,7 +396,7 @@ export default function AboutUs() {
             <div className="bg-[#1C1C21] text-white border border-neutral-800 rounded-2xl p-8 sm:p-10 shadow-xl hover:shadow-2xl transition-all duration-500 relative overflow-hidden group flex flex-col justify-between">
               {/* Background Ambient Glow */}
               <div className="absolute top-0 right-0 w-36 h-36 bg-gradient-to-bl from-[#D4AF37]/25 to-transparent rounded-bl-full pointer-events-none group-hover:scale-125 transition-transform duration-500" />
-              
+
               <div>
                 <div className="flex items-center gap-4 mb-6 relative z-10">
                   <div className="w-14 h-14 rounded-xl bg-[#D4AF37] text-black flex items-center justify-center shadow-md border border-white/20 group-hover:bg-white group-hover:text-black transition-colors duration-300">
@@ -456,8 +455,8 @@ export default function AboutUs() {
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {pillars.map((p, i) => (
-              <div 
-                key={i} 
+              <div
+                key={i}
                 className="bg-white border border-[#E5E7EB] p-6 rounded-xl space-y-3 shadow-sm hover:border-[#D4AF37]/50 hover:shadow-md transition-all duration-300 reveal reveal-slide-up"
               >
                 <div className="w-8 h-8 rounded-lg bg-[#D4AF37]/10 text-[#D4AF37] flex items-center justify-center font-mono text-xs font-bold">

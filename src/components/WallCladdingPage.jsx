@@ -6,7 +6,7 @@ export default function WallCladdingPage() {
   const [searchQuery, setSearchQuery] = useState('');
   
   const claddingStones = stones.filter(stone => 
-    (stone.category === 'wall-cladding' || /cladding|grooving|panel|3d|hydro/i.test(stone.name)) &&
+    (stone.category === 'wall-cladding' || stone.category === 'slate' || stone.category === 'sandstone' || /cladding|grooving|panel|3d|hydro/i.test(stone.name)) &&
     (stone.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
      stone.origin.toLowerCase().includes(searchQuery.toLowerCase()))
   );

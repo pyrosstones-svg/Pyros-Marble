@@ -321,7 +321,7 @@ export const countryData = {
     ],
     specs: [
       { label: 'SASO & SABER Registration', value: '100% SABER e-Platform Compliance Certificate per Shipment' },
-      { label: 'Heavy Container Capacity', value: '20ft Heavy Load Containers (Up to 26.5 Metric Tons Weight Limit)' },
+      { label: 'Heavy Container Capacity', value: '20ft Heavy Load Containers (Up to 27.5 Metric Tons Max, 7-8 Bundles)' },
       { label: 'Gangsaw Calibration', value: '20mm & 30mm Monolithic Slab Calibration for Riyadh Mega Towers' },
       { label: 'Packaging Standards', value: 'ISPM-15 Fumigated Wooden A-Frames with Corner Edge Protectors' },
       { label: 'Project Desk Support', value: 'Dedicated Supply Coordination for NEOM & Red Sea Global' }
@@ -341,7 +341,7 @@ export const countryData = {
       },
       {
         question: 'How do you handle ocean freight shipping for granite & marble from India to Saudi Arabia?',
-        answer: 'We dispatch 20-foot heavy-load containers (up to 26.5 Metric Tons capacity) loaded with ISPM-15 fumigated wooden bundles directly to Jeddah Islamic Port and King Abdulaziz Port Dammam.'
+        answer: 'We dispatch 20-foot heavy-load containers (up to 27.5 Metric Tons capacity) loaded with 7 to 8 ISPM-15 fumigated wooden A-frame bundles directly to Jeddah Islamic Port and King Abdulaziz Port Dammam.'
       }
     ]
   }

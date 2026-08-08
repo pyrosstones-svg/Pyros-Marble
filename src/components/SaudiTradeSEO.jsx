@@ -58,7 +58,7 @@ export default function SaudiTradeSEO({ onEnquireClick }) {
     },
     {
       question: "How do you handle ocean freight shipping for granite & marble from India to Saudi Arabia?",
-      answer: "We ship direct 20-foot heavy-load containers (up to 26.5 Metric Tons capacity) loaded with ISPM-15 fumigated wooden bundles. Port of loadings include Mundra (Gujarat) and Tuticorin/Chennai (Tamil Nadu), delivering directly to Jeddah, Dammam, and Yanbu ports with real-time container tracking."
+      answer: "We ship direct 20-foot heavy-load containers (up to 27.5 Metric Tons capacity) loaded with 7 to 8 ISPM-15 fumigated wooden A-frame bundles. Port of loadings include Mundra (Gujarat) and Tuticorin/Chennai (Tamil Nadu), delivering directly to Jeddah, Dammam, and Yanbu ports with real-time container tracking."
     }
   ];
 

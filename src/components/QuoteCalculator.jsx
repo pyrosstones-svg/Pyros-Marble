@@ -41,12 +41,11 @@ export default function QuoteCalculator({ selectedStoneFromCatalog, clearSelecte
   const totalVolumeM3 = totalSqm * thicknessInMeters;
   const totalWeightTons = totalVolumeM3 * density;
 
-  const maxWeightPerContainer = destination === 'US' ? 20.5 : destination === 'UK' ? 23.5 : 26.5;
+  const maxWeightPerContainer = destination === 'US' ? 20.5 : destination === 'UK' ? 23.5 : 27.5;
   const containersNeeded = Math.ceil(totalWeightTons / maxWeightPerContainer) || 0;
 
-  const bundleCapacity = thickness >= 20 ? 10 : 13;
-  const totalSlabsCount = quantityType === 'slabs' ? quantity : Math.ceil(quantity / 5.4);
-  const bundlesNeeded = Math.ceil(totalSlabsCount / bundleCapacity) || 0;
+  // Max 7 to 8 wooden A-frame bundles per 20ft heavy container (~55-60 sqm per bundle)
+  const bundlesNeeded = Math.ceil(totalSqm / 55) || 0;
 
   let recommendedPort = 'Mundra Port (Gujarat)';
   if (currentStone && (currentStone.origin.toLowerCase().includes('south') || currentStone.category === 'granite')) {
@@ -195,7 +194,7 @@ export default function QuoteCalculator({ selectedStoneFromCatalog, clearSelecte
                   {[
                     { code: 'US', label: 'USA (Max 20.5 Tons)', info: 'Strict 20ft road limits' },
                     { code: 'UK', label: 'UK / Europe (Max 23.5 Tons)', info: 'Standard EU highway' },
-                    { code: 'Arab', label: 'Arab Nations (Max 26.5 Tons)', info: 'High cargo payload allowance' }
+                    { code: 'Arab', label: 'Arab Nations (Max 27.5 Tons)', info: '7-8 bundles per 20ft container' }
                   ].map((m) => (
                     <button
                       key={m.code}

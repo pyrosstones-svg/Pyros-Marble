@@ -36,10 +36,10 @@ export default function ProductDetails({ stoneId, onBack }) {
   const totalVolumeM3 = totalSqm * thicknessInMeters;
   const totalWeightTons = totalVolumeM3 * density;
 
-  const maxWeightPerContainer = destination === 'US' ? 20.5 : destination === 'UK' ? 23.5 : 26.5;
+  const maxWeightPerContainer = destination === 'US' ? 20.5 : destination === 'UK' ? 23.5 : 27.5;
   const containersNeeded = Math.ceil(totalWeightTons / maxWeightPerContainer) || 0;
-  const bundleCapacity = thickness >= 20 ? 10 : 13;
-  const bundlesNeeded = Math.ceil(quantity / bundleCapacity) || 0;
+  // Max 7 to 8 wooden A-frame bundles per 20ft heavy container (~55-60 sqm per bundle)
+  const bundlesNeeded = Math.ceil(totalSqm / 55) || 0;
 
   let recommendedPort = 'Mundra Port (Gujarat)';
   if (currentStone.origin.toLowerCase().includes('south') || currentStone.category === 'granite') {

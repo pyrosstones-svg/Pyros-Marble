@@ -15,7 +15,7 @@ export default function SaudiExportPage({ onNavigate }) {
   const faqs = [
     {
       q: "What is the container capacity for marble export to Saudi Arabia?",
-      a: "We load up to 26.5 Metric Tons per 20-foot heavy-load container with ISPM-15 fumigated wooden A-frame bundles directly to Jeddah Islamic Port and King Abdulaziz Port Dammam."
+      a: "We load up to 27.5 Metric Tons per 20-foot heavy-load container with 7 to 8 ISPM-15 fumigated wooden A-frame bundles directly to Jeddah Islamic Port and King Abdulaziz Port Dammam."
     },
     {
       q: "Do you provide SASO & SABER certification for KSA exports?",
@@ -115,7 +115,7 @@ export default function SaudiExportPage({ onNavigate }) {
             <div className="space-y-4 text-sm">
               {[
                 { label: "SABER Platform", value: "100% Pre-Approved Certificate" },
-                { label: "Max Container Weight", value: "26.5 Metric Tons" },
+                { label: "Max Container Weight", value: "27.5 Metric Tons (7-8 Bundles Max)" },
                 { label: "Surface Finish", value: "Mirror Polish / Honed / Leathered" },
                 { label: "Tile Calibration", value: "±0.5mm Thickness Tolerance" },
                 { label: "Packaging", value: "ISPM-15 Fumigated Wooden A-Frames" },
