@@ -54,9 +54,9 @@ export default function Marble3DCube() {
   // Cube Faces with high-res HD stone textures
   const cubeFaces = [
     { 
-      name: 'Albeta White', 
-      type: 'MARBLE', 
-      img: '/images/stones/hd_albeta_white_marble_full_texture.png',
+      name: 'Viscon White', 
+      type: 'GRANITE', 
+      img: '/images/stones/hd_viscount_white_granite.png',
       transform: 'translateZ(72px)'
     },
     { 
@@ -66,9 +66,9 @@ export default function Marble3DCube() {
       transform: 'rotateY(180deg) translateZ(72px)'
     },
     { 
-      name: 'Spider Green', 
-      type: 'MARBLE', 
-      img: '/images/stones/hd_spider_green_marble_full_texture.png',
+      name: 'Himalayan Blue', 
+      type: 'GRANITE', 
+      img: '/images/stones/hd_himalayan_blue_granite.png',
       transform: 'rotateY(90deg) translateZ(72px)'
     },
     { 
@@ -84,9 +84,9 @@ export default function Marble3DCube() {
       transform: 'rotateX(90deg) translateZ(72px)'
     },
     { 
-      name: 'Fantasy Brown', 
-      type: 'MARBLE', 
-      img: '/images/stones/hd_fantasy_brown_marble_full_texture.png',
+      name: 'Jaisalmer Gold', 
+      type: 'SANDSTONE', 
+      img: '/images/stones/hd_jaisalmer_yellow_sandstone.png',
       transform: 'rotateX(-90deg) translateZ(72px)'
     }
   ];

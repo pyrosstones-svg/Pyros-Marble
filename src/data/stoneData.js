@@ -1,5 +1,1339 @@
 export const stones = [
   {
+    "id": "mundra-red-flamingo",
+    "name": "Red Flamingo",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Red Flamingo stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-red-flamingo.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-red-flamingo"
+  },
+  {
+    "id": "mundra-red-jasper",
+    "name": "Red Jasper",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Red Jasper stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-red-jasper.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-red-jasper"
+  },
+  {
+    "id": "mundra-cherry-gold",
+    "name": "Cherry Gold",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Cherry Gold stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-cherry-gold.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-cherry-gold"
+  },
+  {
+    "id": "mundra-rosso-levanto",
+    "name": "Rosso Levanto",
+    "category": "marble",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Rosso Levanto stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-rosso-levanto.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-rosso-levanto"
+  },
+  {
+    "id": "mundra-panda-white",
+    "name": "Panda White",
+    "category": "marble",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Panda White stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-panda-white.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-panda-white"
+  },
+  {
+    "id": "mundra-indian-lilac",
+    "name": "Indian Lilac",
+    "category": "marble",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Indian Lilac stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-indian-lilac.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-indian-lilac"
+  },
+  {
+    "id": "mundra-raymond-white",
+    "name": "Raymond White",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Raymond White stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-raymond-white.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-raymond-white"
+  },
+  {
+    "id": "mundra-bruno-white",
+    "name": "Bruno White",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Bruno White stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-bruno-white.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-bruno-white"
+  },
+  {
+    "id": "mundra-indian-statuario",
+    "name": "Indian Statuario",
+    "category": "marble",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Indian Statuario stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-indian-statuario.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-indian-statuario"
+  },
+  {
+    "id": "mundra-indian-carrara",
+    "name": "Indian Carrara",
+    "category": "marble",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Indian Carrara stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-indian-carrara.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-indian-carrara"
+  },
+  {
+    "id": "mundra-fish-black",
+    "name": "Fish Black",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Fish Black stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-fish-black.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-fish-black"
+  },
+  {
+    "id": "mundra-coin-black",
+    "name": "Coin Black",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Coin Black stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-coin-black.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-coin-black"
+  },
+  {
+    "id": "mundra-torpedo-gold",
+    "name": "Torpedo Gold",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Torpedo Gold stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-torpedo-gold.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-torpedo-gold"
+  },
+  {
+    "id": "mundra-new-imperial-red",
+    "name": "New Imperial Red",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade New Imperial Red stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-new-imperial-red.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-new-imperial-red"
+  },
+  {
+    "id": "mundra-china-white",
+    "name": "China White",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade China White stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-china-white.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-china-white"
+  },
+  {
+    "id": "mundra-platinum-white",
+    "name": "Platinum White",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Platinum White stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-platinum-white.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-platinum-white"
+  },
+  {
+    "id": "mundra-french-green",
+    "name": "French Green",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade French Green stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-french-green.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-french-green"
+  },
+  {
+    "id": "mundra-rajasthan-black",
+    "name": "Rajasthan Black",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Rajasthan Black stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-rajasthan-black.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-rajasthan-black"
+  },
+  {
+    "id": "mundra-tiger-skin",
+    "name": "Tiger Skin",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Tiger Skin stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-tiger-skin.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-tiger-skin"
+  },
+  {
+    "id": "mundra-crystal-yellow",
+    "name": "Crystal Yellow",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Crystal Yellow stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-crystal-yellow.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-crystal-yellow"
+  },
+  {
+    "id": "mundra-dapple-blue",
+    "name": "Dapple Blue",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Dapple Blue stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-dapple-blue.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-dapple-blue"
+  },
+  {
+    "id": "mundra-glacier-white",
+    "name": "Glacier White",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Glacier White stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-glacier-white.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-glacier-white"
+  },
+  {
+    "id": "mundra-alaska-white",
+    "name": "Alaska White",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Alaska White stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-alaska-white.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-alaska-white"
+  },
+  {
+    "id": "mundra-alaska-gold",
+    "name": "Alaska Gold",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Alaska Gold stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-alaska-gold.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-alaska-gold"
+  },
+  {
+    "id": "mundra-bianco-antico",
+    "name": "Bianco Antico",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Bianco Antico stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-bianco-antico.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-bianco-antico"
+  },
+  {
+    "id": "mundra-azul-nueva",
+    "name": "Azul Nueva",
+    "category": "quartzite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Azul Nueva stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-azul-nueva.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-azul-nueva"
+  },
+  {
+    "id": "mundra-blue-dunes",
+    "name": "Blue Dunes",
+    "category": "quartzite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Blue Dunes stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-blue-dunes.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-blue-dunes"
+  },
+  {
+    "id": "mundra-blue-flower",
+    "name": "Blue Flower",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Blue Flower stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-blue-flower.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-blue-flower"
+  },
+  {
+    "id": "mundra-patagonia",
+    "name": "Patagonia",
+    "category": "quartzite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Patagonia stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-patagonia.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-patagonia"
+  },
+  {
+    "id": "mundra-copenhagen-white",
+    "name": "Copenhagen White",
+    "category": "quartzite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Copenhagen White stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-copenhagen-white.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-copenhagen-white"
+  },
+  {
+    "id": "mundra-lava-oro",
+    "name": "Lava Oro",
+    "category": "quartzite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Lava Oro stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-lava-oro.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-lava-oro"
+  },
+  {
+    "id": "mundra-whisper-white",
+    "name": "Whisper White",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Whisper White stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-whisper-white.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-whisper-white"
+  },
+  {
+    "id": "mundra-alaska-red",
+    "name": "Alaska Red",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Alaska Red stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-alaska-red.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-alaska-red"
+  },
+  {
+    "id": "mundra-alaska-pink",
+    "name": "Alaska Pink",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Alaska Pink stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-alaska-pink.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-alaska-pink"
+  },
+  {
+    "id": "mundra-desert-brown",
+    "name": "Desert Brown",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Desert Brown stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-desert-brown.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-desert-brown"
+  },
+  {
+    "id": "mundra-rosy-pink",
+    "name": "Rosy Pink",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Rosy Pink stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-rosy-pink.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-rosy-pink"
+  },
+  {
+    "id": "mundra-pebble-black",
+    "name": "Pebble Black",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Pebble Black stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-pebble-black.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-pebble-black"
+  },
+  {
+    "id": "mundra-rosa-beta",
+    "name": "Rosa Beta",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Rosa Beta stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-rosa-beta.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-rosa-beta"
+  },
+  {
+    "id": "mundra-rosa-porrino",
+    "name": "Rosa Porrino",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Rosa Porrino stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-rosa-porrino.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-rosa-porrino"
+  },
+  {
+    "id": "mundra-nova-brown",
+    "name": "Nova Brown",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Nova Brown stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-nova-brown.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-nova-brown"
+  },
+  {
+    "id": "mundra-armani-gold",
+    "name": "Armani Gold",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Armani Gold stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-armani-gold.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-armani-gold"
+  },
+  {
+    "id": "mundra-blue-pearl",
+    "name": "Blue Pearl",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Blue Pearl stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-blue-pearl.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-blue-pearl"
+  },
+  {
+    "id": "mundra-crystal-blue",
+    "name": "Crystal Blue",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Crystal Blue stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-crystal-blue.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-crystal-blue"
+  },
+  {
+    "id": "mundra-monte-cristo",
+    "name": "Monte Cristo",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Monte Cristo stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-monte-cristo.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-monte-cristo"
+  },
+  {
+    "id": "mundra-titanium-black",
+    "name": "Titanium Black",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Titanium Black stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-titanium-black.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-titanium-black"
+  },
+  {
+    "id": "mundra-titanium-gold",
+    "name": "Titanium Gold",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Titanium Gold stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-titanium-gold.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-titanium-gold"
+  },
+  {
+    "id": "mundra-silver-falls",
+    "name": "Silver Falls",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Silver Falls stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-silver-falls.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-silver-falls"
+  },
+  {
+    "id": "mundra-majestic-black",
+    "name": "Majestic Black",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Majestic Black stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-majestic-black.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-majestic-black"
+  },
+  {
+    "id": "mundra-sunrise-gold",
+    "name": "Sunrise Gold",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Sunrise Gold stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-sunrise-gold.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-sunrise-gold"
+  },
+  {
+    "id": "mundra-cotton-white",
+    "name": "Cotton White",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Cotton White stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-cotton-white.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-cotton-white"
+  },
+  {
+    "id": "mundra-ruby-red",
+    "name": "Ruby Red",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Ruby Red stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-ruby-red.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-ruby-red"
+  },
+  {
+    "id": "mundra-jhansi-red",
+    "name": "Jhansi Red",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Jhansi Red stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-jhansi-red.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-jhansi-red"
+  },
+  {
+    "id": "mundra-river-black",
+    "name": "River Black",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade River Black stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-river-black.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-river-black"
+  },
+  {
+    "id": "mundra-markino-black",
+    "name": "Markino Black",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Markino Black stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-markino-black.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-markino-black"
+  },
+  {
+    "id": "mundra-ocean-blue",
+    "name": "Ocean Blue",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Ocean Blue stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-ocean-blue.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-ocean-blue"
+  },
+  {
+    "id": "mundra-viscount-white",
+    "name": "Viscount White",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Viscount White stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-viscount-white.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-viscount-white"
+  },
+  {
+    "id": "mundra-bruno-red",
+    "name": "Bruno Red",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Bruno Red stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-bruno-red.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-bruno-red"
+  },
+  {
+    "id": "mundra-mist-grey",
+    "name": "Mist Grey",
+    "category": "granite",
+    "origin": "Mundra Port, Gujarat, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Honed",
+      "Leathered"
+    ],
+    "density": "2.72 g/cm\u00b3",
+    "waterAbsorption": "0.10%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Export Grade Mist Grey stone slab sourced directly from Mundra Port catalog. Gangsaw processed 20mm & 30mm thickness available for international export.",
+    "image": "/images/stones/mundra-mist-grey.png",
+    "recommendedUse": "High-end flooring, kitchen countertops, luxury wall cladding, exterior facades.",
+    "baseId": "mundra-mist-grey"
+  },
+  {
     "id": "rainforest-brown-marble",
     "name": "Rainforest Brown Marble",
     "category": "marble",
@@ -18,7 +1352,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium Mundra Port export grade Pyros Rainforest Brown Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
-    "image": "/images/stones/hd_rainforest_green_marble_full_texture.png",
+    "image": "",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "rainforest-brown-marble"
   },
@@ -41,7 +1375,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium Mundra Port export grade Pyros Rainforest Green Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
-    "image": "/images/stones/hd_rainforest_green_marble_full_texture.png",
+    "image": "",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "rainforest-green-marble"
   },
@@ -64,7 +1398,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium Mundra Port export grade Pyros Rainforest Gold Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
-    "image": "/images/stones/hd_rainforest_green_marble_full_texture.png",
+    "image": "",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "rainforest-gold-marble"
   },
@@ -87,7 +1421,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium Mundra Port export grade Pyros Spider Green Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
-    "image": "/images/stones/hd_spider_green_marble_full_texture.png",
+    "image": "",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "spider-green-marble"
   },
@@ -110,7 +1444,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium Mundra Port export grade Pyros Forest Green Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
-    "image": "/images/stones/hd_spider_green_marble_full_texture.png",
+    "image": "",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "forest-green-marble"
   },
@@ -133,7 +1467,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium Mundra Port export grade Pyros Dark Green Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
-    "image": "/images/stones/hd_absolute_black_granite_full_texture.png",
+    "image": "",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "dark-green-marble"
   },
@@ -156,7 +1490,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium Mundra Port export grade Pyros Mercury White Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
-    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "image": "",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "mercury-white-marble"
   },
@@ -179,7 +1513,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium Mundra Port export grade Pyros Fantasy Brown Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
-    "image": "/images/stones/hd_fantasy_brown_marble_full_texture.png",
+    "image": "",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "fantasy-brown-marble"
   },
@@ -202,7 +1536,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium Mundra Port export grade Pyros Mercury Black Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
-    "image": "/images/stones/hd_absolute_black_granite_full_texture.png",
+    "image": "",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "mercury-black-marble"
   },
@@ -225,7 +1559,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium Mundra Port export grade Pyros Lady Onyx Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
-    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "image": "",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "lady-onyx-marble"
   },
@@ -248,7 +1582,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium Mundra Port export grade Pyros Aqua Marine Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
-    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "image": "",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "aqua-marine-marble"
   },
@@ -271,7 +1605,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium Mundra Port export grade Pyros Crema Venato Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
-    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "image": "",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "crema-venato-marble"
   },
@@ -294,7 +1628,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium Mundra Port export grade Pyros Fantasy White Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
-    "image": "/images/stones/sai-gold-dunes-granite.jpg",
+    "image": "",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "fantasy-white-marble"
   },
@@ -317,7 +1651,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium Mundra Port export grade Pyros Icon Black Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
-    "image": "/images/stones/hd_absolute_black_granite_full_texture.png",
+    "image": "",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "icon-black-marble"
   },
@@ -340,7 +1674,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium Mundra Port export grade Pyros River Blue Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
-    "image": "/images/stones/hd_himalayan_blue_granite.png",
+    "image": "",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "river-blue-marble"
   },
@@ -363,7 +1697,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium Mundra Port export grade Pyros Shadow Storm Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
-    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "image": "",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "shadow-storm-marble"
   },
@@ -386,7 +1720,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium Mundra Port export grade Pyros Indian Pistachio Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
-    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "image": "",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "indian-pistachio-marble"
   },
@@ -409,7 +1743,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium Mundra Port export grade Pyros Toronto Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
-    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "image": "",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "toronto-marble"
   },
@@ -432,7 +1766,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium Mundra Port export grade Pyros Red Flamingo Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
-    "image": "/images/stones/hd_copper_slate.png",
+    "image": "",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "red-flamingo-marble"
   },
@@ -455,7 +1789,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium Mundra Port export grade Pyros Red Jasper Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
-    "image": "/images/stones/hd_copper_slate.png",
+    "image": "",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "red-jasper-marble"
   },
@@ -478,7 +1812,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium Mundra Port export grade Pyros Cherry Gold Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
-    "image": "/images/stones/hd_jaisalmer_yellow_sandstone.png",
+    "image": "",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "cherry-gold-marble"
   },
@@ -501,7 +1835,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium Mundra Port export grade Pyros Rosso Levanto Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
-    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "image": "",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "rosso-levanto-marble"
   },
@@ -524,7 +1858,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium Mundra Port export grade Pyros Panda White Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
-    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "image": "",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "panda-white-marble"
   },
@@ -547,7 +1881,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium Mundra Port export grade Pyros Indian Lilac Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
-    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "image": "",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "indian-lilac-marble"
   },
@@ -570,7 +1904,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium Mundra Port export grade Pyros Raymond White Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
-    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "image": "",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "raymond-white-marble"
   },
@@ -593,7 +1927,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium Mundra Port export grade Pyros Bruno White Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
-    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "image": "",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "bruno-white-marble"
   },
@@ -616,7 +1950,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium Mundra Port export grade Pyros Indian Statuario Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
-    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "image": "",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "indian-statuario-marble"
   },
@@ -639,7 +1973,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium Mundra Port export grade Pyros Indian Carrara Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
-    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "image": "",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "indian-carrara-marble"
   },
@@ -3358,6 +4692,7 @@ export const stones = [
     "baseId": "white-galaxy-granite"
   }
 ];
+;
 
 export const stoneCategories = [
   { id: 'marble', name: 'Marble', desc: 'Exquisite 20mm & 30mm gangsaw marble slabs for high-end luxury interiors.' },

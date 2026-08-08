@@ -870,29 +870,7 @@ export default function App() {
                   })}
                 </div>
 
-                {/* Looping Partner Marquee Slider */}
-                <div className="pt-12 text-center reveal reveal-slide-up">
 
-                  {/* Full-Width Marquee Strip (Patti BG) */}
-                  <div className="relative w-screen left-1/2 right-1/2 -mx-[50vw] overflow-hidden py-6 bg-[#1C1C21] border-y border-[#D4AF37]/25 shadow-xl">
-                    <div className="flex gap-16 items-center animate-marquee whitespace-nowrap min-w-max justify-around">
-                      {/* Repeat twice for seamless loop */}
-                      {[...Array(2)].map((_, i) => (
-                        <div key={i} className="flex gap-16 items-center">
-                          {['SGS CERTIFIED', 'ISO 9001:2015', 'APEDA MEMBER', 'CAPEXIL EXPORTER', 'GST REGISTERED', 'IEC COMPLIANT'].map((logo, idx) => (
-                            <span
-                              key={idx}
-                              className="font-outfit text-xs font-bold tracking-[0.25em] text-white/90 hover:text-[#D4AF37] cursor-default transition-colors uppercase flex items-center gap-2"
-                            >
-                              <span className="text-[#D4AF37] font-sans">✦</span> {logo}
-                            </span>
-                          ))}
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-
-                </div>
 
               </div>
             </section>
