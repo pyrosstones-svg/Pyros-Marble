@@ -1,354 +1,9 @@
 export const stones = [
   {
-    "id": "bruno-white-marble",
-    "name": "Bruno White Marble",
-    "category": "marble",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Bruno White Marble. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/bruno-white-marble.jpg",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "bruno-white-marble"
-  },
-  {
-    "id": "cappuccino-marble",
-    "name": "Cappuccino Marble",
-    "category": "marble",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Cappuccino Marble. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/cappuccino-marble.jpg",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "cappuccino-marble"
-  },
-  {
-    "id": "crystalite-white-marble",
-    "name": "Crystalite White Marble",
-    "category": "marble",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Crystalite White Marble. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/crystalite-white-marble.jpg",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "crystalite-white-marble"
-  },
-  {
-    "id": "fantasy-brown-marble",
-    "name": "Fantasy Brown Marble",
-    "category": "marble",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Fantasy Brown Marble. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/fantasy-brown-marble.jpg",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "fantasy-brown-marble"
-  },
-  {
-    "id": "forest-green-marble",
-    "name": "Forest Green Marble",
-    "category": "marble",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Forest Green Marble. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/forest-green-marble.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "forest-green-marble"
-  },
-  {
-    "id": "katni-beige-marble",
-    "name": "Katni Beige Marble",
-    "category": "marble",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Katni Beige Marble. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/katni-beige-marble.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "katni-beige-marble"
-  },
-  {
-    "id": "makrana-albeta-marble",
-    "name": "Makrana Albeta Marble",
-    "category": "marble",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Makrana Albeta Marble. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/makrana-albeta-marble.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "makrana-albeta-marble"
-  },
-  {
-    "id": "mercury-white-marble",
-    "name": "Mercury White Marble",
-    "category": "marble",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Mercury White Marble. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/mercury-white-marble.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "mercury-white-marble"
-  },
-  {
-    "id": "morwad-white-marble",
-    "name": "Morwad White Marble",
-    "category": "marble",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Morwad White Marble. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/morwad-white-marble.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "morwad-white-marble"
-  },
-  {
-    "id": "nh-green-marble",
-    "name": "NH Green Marble",
-    "category": "marble",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros NH Green Marble. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/nh-green-marble.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "nh-green-marble"
-  },
-  {
-    "id": "himalayan-onyx-marble",
-    "name": "Himalayan Onyx Marble",
-    "category": "marble",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Himalayan Onyx Marble. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/himalayan-onyx-marble.jpg",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "himalayan-onyx-marble"
-  },
-  {
-    "id": "panda-white-marble",
-    "name": "Panda White Marble",
-    "category": "marble",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Panda White Marble. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/panda-white-marble.jpg",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "panda-white-marble"
-  },
-  {
-    "id": "pink-dark-marble",
-    "name": "Pink Dark Marble",
-    "category": "marble",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Pink Dark Marble. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/pink-dark-marble.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "pink-dark-marble"
-  },
-  {
-    "id": "plain-green-marble",
-    "name": "Plain Green Marble",
-    "category": "marble",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Plain Green Marble. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/plain-green-marble.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "plain-green-marble"
-  },
-  {
-    "id": "lady-onyx-marble",
-    "name": "Lady Onyx Marble",
-    "category": "marble",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Lady Onyx Marble. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/lady-onyx-marble.jpg",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "lady-onyx-marble"
-  },
-  {
     "id": "rainforest-brown-marble",
     "name": "Rainforest Brown Marble",
     "category": "marble",
-    "origin": "Rajasthan, India",
+    "origin": "Mundra Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -362,8 +17,8 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Rainforest Brown Marble. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/rainforest-brown-marble.webp",
+    "description": "Premium Mundra Port export grade Pyros Rainforest Brown Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_rainforest_green_marble_full_texture.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "rainforest-brown-marble"
   },
@@ -371,7 +26,7 @@ export const stones = [
     "id": "rainforest-green-marble",
     "name": "Rainforest Green Marble",
     "category": "marble",
-    "origin": "Rajasthan, India",
+    "origin": "Mundra Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -385,8 +40,8 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Rainforest Green Marble. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/rainforest-green-marble.webp",
+    "description": "Premium Mundra Port export grade Pyros Rainforest Green Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_rainforest_green_marble_full_texture.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "rainforest-green-marble"
   },
@@ -394,7 +49,7 @@ export const stones = [
     "id": "rainforest-gold-marble",
     "name": "Rainforest Gold Marble",
     "category": "marble",
-    "origin": "Rajasthan, India",
+    "origin": "Mundra Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -408,39 +63,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Rainforest Gold Marble. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/rainforest-gold-marble.webp",
+    "description": "Premium Mundra Port export grade Pyros Rainforest Gold Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_rainforest_green_marble_full_texture.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "rainforest-gold-marble"
-  },
-  {
-    "id": "mercury-black-marble",
-    "name": "Mercury Black Marble",
-    "category": "marble",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Mercury Black Marble. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/mercury-black-marble.jpg",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "mercury-black-marble"
   },
   {
     "id": "spider-green-marble",
     "name": "Spider Green Marble",
     "category": "marble",
-    "origin": "Rajasthan, India",
+    "origin": "Mundra Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -454,16 +86,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Spider Green Marble. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/spider-green-marble.webp",
+    "description": "Premium Mundra Port export grade Pyros Spider Green Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_spider_green_marble_full_texture.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "spider-green-marble"
   },
   {
-    "id": "straito-white-marble",
-    "name": "Straito White Marble",
+    "id": "forest-green-marble",
+    "name": "Forest Green Marble",
     "category": "marble",
-    "origin": "Rajasthan, India",
+    "origin": "Mundra Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -477,16 +109,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Straito White Marble. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/straito-white-marble.webp",
+    "description": "Premium Mundra Port export grade Pyros Forest Green Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_spider_green_marble_full_texture.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "straito-white-marble"
+    "baseId": "forest-green-marble"
   },
   {
-    "id": "toronto-fantasy-brown-marble",
-    "name": "Toronto Fantasy Brown Marble",
+    "id": "dark-green-marble",
+    "name": "Dark Green Marble",
     "category": "marble",
-    "origin": "Rajasthan, India",
+    "origin": "Mundra Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -500,16 +132,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Toronto Fantasy Brown Marble. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/toronto-fantasy-brown-marble.webp",
+    "description": "Premium Mundra Port export grade Pyros Dark Green Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_absolute_black_granite_full_texture.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "toronto-fantasy-brown-marble"
+    "baseId": "dark-green-marble"
   },
   {
-    "id": "absolute-black-granite",
-    "name": "Absolute Black Granite",
-    "category": "granite",
-    "origin": "India",
+    "id": "mercury-white-marble",
+    "name": "Mercury White Marble",
+    "category": "marble",
+    "origin": "Mundra Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -523,16 +155,499 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Absolute Black Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/absolute-black-granite.jpg",
+    "description": "Premium Mundra Port export grade Pyros Mercury White Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "absolute-black-granite"
+    "baseId": "mercury-white-marble"
+  },
+  {
+    "id": "fantasy-brown-marble",
+    "name": "Fantasy Brown Marble",
+    "category": "marble",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Fantasy Brown Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_fantasy_brown_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "fantasy-brown-marble"
+  },
+  {
+    "id": "mercury-black-marble",
+    "name": "Mercury Black Marble",
+    "category": "marble",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Mercury Black Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_absolute_black_granite_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "mercury-black-marble"
+  },
+  {
+    "id": "lady-onyx-marble",
+    "name": "Lady Onyx Marble",
+    "category": "marble",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Lady Onyx Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "lady-onyx-marble"
+  },
+  {
+    "id": "aqua-marine-marble",
+    "name": "Aqua Marine Marble",
+    "category": "marble",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Aqua Marine Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "aqua-marine-marble"
+  },
+  {
+    "id": "crema-venato-marble",
+    "name": "Crema Venato Marble",
+    "category": "marble",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Crema Venato Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "crema-venato-marble"
+  },
+  {
+    "id": "fantasy-white-marble",
+    "name": "Fantasy White Marble",
+    "category": "marble",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Fantasy White Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/sai-gold-dunes-granite.jpg",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "fantasy-white-marble"
+  },
+  {
+    "id": "icon-black-marble",
+    "name": "Icon Black Marble",
+    "category": "marble",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Icon Black Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_absolute_black_granite_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "icon-black-marble"
+  },
+  {
+    "id": "river-blue-marble",
+    "name": "River Blue Marble",
+    "category": "marble",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros River Blue Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_himalayan_blue_granite.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "river-blue-marble"
+  },
+  {
+    "id": "shadow-storm-marble",
+    "name": "Shadow Storm Marble",
+    "category": "marble",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Shadow Storm Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "shadow-storm-marble"
+  },
+  {
+    "id": "indian-pistachio-marble",
+    "name": "Indian Pistachio Marble",
+    "category": "marble",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Indian Pistachio Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "indian-pistachio-marble"
+  },
+  {
+    "id": "toronto-marble",
+    "name": "Toronto Marble",
+    "category": "marble",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Toronto Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "toronto-marble"
+  },
+  {
+    "id": "red-flamingo-marble",
+    "name": "Red Flamingo Marble",
+    "category": "marble",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Red Flamingo Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_copper_slate.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "red-flamingo-marble"
+  },
+  {
+    "id": "red-jasper-marble",
+    "name": "Red Jasper Marble",
+    "category": "marble",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Red Jasper Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_copper_slate.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "red-jasper-marble"
+  },
+  {
+    "id": "cherry-gold-marble",
+    "name": "Cherry Gold Marble",
+    "category": "marble",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Cherry Gold Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_jaisalmer_yellow_sandstone.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "cherry-gold-marble"
+  },
+  {
+    "id": "rosso-levanto-marble",
+    "name": "Rosso Levanto Marble",
+    "category": "marble",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Rosso Levanto Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "rosso-levanto-marble"
+  },
+  {
+    "id": "panda-white-marble",
+    "name": "Panda White Marble",
+    "category": "marble",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Panda White Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "panda-white-marble"
+  },
+  {
+    "id": "indian-lilac-marble",
+    "name": "Indian Lilac Marble",
+    "category": "marble",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Indian Lilac Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "indian-lilac-marble"
+  },
+  {
+    "id": "raymond-white-marble",
+    "name": "Raymond White Marble",
+    "category": "marble",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Raymond White Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "raymond-white-marble"
+  },
+  {
+    "id": "bruno-white-marble",
+    "name": "Bruno White Marble",
+    "category": "marble",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Bruno White Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "bruno-white-marble"
+  },
+  {
+    "id": "indian-statuario-marble",
+    "name": "Indian Statuario Marble",
+    "category": "marble",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Indian Statuario Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "indian-statuario-marble"
+  },
+  {
+    "id": "indian-carrara-marble",
+    "name": "Indian Carrara Marble",
+    "category": "marble",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Indian Carrara Marble. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "indian-carrara-marble"
   },
   {
     "id": "alaska-white-granite",
     "name": "Alaska White Granite",
     "category": "granite",
-    "origin": "India",
+    "origin": "Mundra Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -546,16 +661,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Alaska White Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/alaska-white-granite.webp",
+    "description": "Premium Mundra Port export grade Pyros Alaska White Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "alaska-white-granite"
   },
   {
-    "id": "antico-bianco-granite",
-    "name": "Antico Bianco Granite",
+    "id": "alaska-gold-granite",
+    "name": "Alaska Gold Granite",
     "category": "granite",
-    "origin": "India",
+    "origin": "Mundra Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -569,16 +684,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Antico Bianco Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/antico-bianco-granite.jpg",
+    "description": "Premium Mundra Port export grade Pyros Alaska Gold Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_jaisalmer_yellow_sandstone.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "antico-bianco-granite"
+    "baseId": "alaska-gold-granite"
   },
   {
-    "id": "apple-green-granite",
-    "name": "Apple Green Granite",
+    "id": "bianco-antico-granite",
+    "name": "Bianco Antico Granite",
     "category": "granite",
-    "origin": "India",
+    "origin": "Mundra Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -592,16 +707,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Apple Green Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/apple-green-granite.webp",
+    "description": "Premium Mundra Port export grade Pyros Bianco Antico Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "apple-green-granite"
+    "baseId": "bianco-antico-granite"
   },
   {
-    "id": "baltic-brown-granite",
-    "name": "Baltic Brown Granite",
+    "id": "azul-nueva-granite",
+    "name": "Azul Nueva Granite",
     "category": "granite",
-    "origin": "India",
+    "origin": "Mundra Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -615,85 +730,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Baltic Brown Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/baltic-brown-granite.webp",
+    "description": "Premium Mundra Port export grade Pyros Azul Nueva Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "baltic-brown-granite"
-  },
-  {
-    "id": "black-forest-granite",
-    "name": "Black Forest Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Black Forest Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/black-forest-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "black-forest-granite"
-  },
-  {
-    "id": "black-galaxy-granite",
-    "name": "Black Galaxy Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Black Galaxy Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/black-galaxy-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "black-galaxy-granite"
-  },
-  {
-    "id": "black-pearl-granite",
-    "name": "Black Pearl Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Black Pearl Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/black-pearl-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "black-pearl-granite"
+    "baseId": "azul-nueva-granite"
   },
   {
     "id": "blue-dunes-granite",
-    "name": "Blue dunes Granite",
+    "name": "Blue Dunes Granite",
     "category": "granite",
-    "origin": "India",
+    "origin": "Mundra Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -707,16 +753,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Blue dunes Granite. Sourced from quarry-direct granite reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/sai-blue-dunes-granite.jpg",
+    "description": "Premium Mundra Port export grade Pyros Blue Dunes Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_himalayan_blue_granite.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "blue-dunes-granite"
   },
   {
-    "id": "azul-white-granite",
-    "name": "Azul White Granite",
+    "id": "blue-flower-granite",
+    "name": "Blue Flower Granite",
     "category": "granite",
-    "origin": "India",
+    "origin": "Mundra Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -730,476 +776,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Azul White Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/azul-white-granite.jpg",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "azul-white-granite"
-  },
-  {
-    "id": "black-markino-granite",
-    "name": "Black Markino Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Black Markino Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/black-markino-granite.jpg",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "black-markino-granite"
-  },
-  {
-    "id": "chima-pink-granite",
-    "name": "Chima Pink Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Chima Pink Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/chima-pink-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "chima-pink-granite"
-  },
-  {
-    "id": "cera-grey-granite",
-    "name": "Cera Grey Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Cera Grey Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/cera-grey-granite.jpg",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "cera-grey-granite"
-  },
-  {
-    "id": "classic-paradiso-granite",
-    "name": "Classic Paradiso Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Classic Paradiso Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/classic-paradiso-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "classic-paradiso-granite"
-  },
-  {
-    "id": "colonial-cream-granite",
-    "name": "Colonial Cream Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Colonial Cream Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/colonial-cream-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "colonial-cream-granite"
-  },
-  {
-    "id": "Colonial-Gold-Granite",
-    "name": "Colonial Gold Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Colonial Gold Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/Colonial-Gold-Granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "Colonial-Gold-Granite"
-  },
-  {
-    "id": "Colonial-White-Granite",
-    "name": "Colonial White Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Colonial White Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/Colonial-White-Granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "Colonial-White-Granite"
-  },
-  {
-    "id": "Crystal-Blue-Granite",
-    "name": "Crystal Blue Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Crystal Blue Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/Crystal-Blue-Granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "Crystal-Blue-Granite"
-  },
-  {
-    "id": "hassan-green-granite",
-    "name": "Hassan Green Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Hassan Green Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/hassan-green-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "hassan-green-granite"
-  },
-  {
-    "id": "crystal-yellow-granite",
-    "name": "Crystal Yellow Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Crystal Yellow Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/crystal-yellow-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "crystal-yellow-granite"
-  },
-  {
-    "id": "crystalite-white-granite",
-    "name": "Crystalite White Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Crystalite White Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/crystalite-white-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "crystalite-white-granite"
-  },
-  {
-    "id": "cotton-white-granite",
-    "name": "Cotton White Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Cotton White Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/cotton-white-granite.jpg",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "cotton-white-granite"
-  },
-  {
-    "id": "desert-brown-granite",
-    "name": "Desert Brown Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Desert Brown Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/desert-brown-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "desert-brown-granite"
-  },
-  {
-    "id": "honey-blue-granite",
-    "name": "Honey Blue Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Honey Blue Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/honey-blue-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "honey-blue-granite"
-  },
-  {
-    "id": "desert-gold-granite",
-    "name": "Desert Gold Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Desert Gold Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/desert-gold-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "desert-gold-granite"
-  },
-  {
-    "id": "far-east-granite",
-    "name": "Far East Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Far East Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/far-east-granite.jpg",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "far-east-granite"
-  },
-  {
-    "id": "forest-black-granite",
-    "name": "Forest black Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Forest black Granite. Sourced from quarry-direct granite reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/sai-forest-black-granite.jpg",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "forest-black-granite"
-  },
-  {
-    "id": "franch-green-granite",
-    "name": "French Green Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros French Green Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/franch-green-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "franch-green-granite"
-  },
-  {
-    "id": "Ghiblee-Gold-Granite",
-    "name": "Ghiblee Gold Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Ghiblee Gold Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/Ghiblee-Gold-Granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "Ghiblee-Gold-Granite"
-  },
-  {
-    "id": "himalayan-blue-granite",
-    "name": "Himalayan Blue Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Himalayan Blue Granite. Sourced from quarry-direct granite reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
+    "description": "Premium Mundra Port export grade Pyros Blue Flower Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
     "image": "/images/stones/hd_himalayan_blue_granite.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "himalayan-blue-granite"
+    "baseId": "blue-flower-granite"
   },
   {
-    "id": "kashmir-white-granite",
-    "name": "Kashmir White Granite",
+    "id": "patagonia-granite",
+    "name": "Patagonia Granite",
     "category": "granite",
-    "origin": "India",
+    "origin": "Mundra Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -1213,16 +799,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Kashmir White Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/kashmir-white-granite.webp",
+    "description": "Premium Mundra Port export grade Pyros Patagonia Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "kashmir-white-granite"
+    "baseId": "patagonia-granite"
   },
   {
-    "id": "ice-blue-granite",
-    "name": "Ice Blue Granite",
+    "id": "copenhagen-white-granite",
+    "name": "Copenhagen White Granite",
     "category": "granite",
-    "origin": "India",
+    "origin": "Mundra Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -1236,16 +822,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Ice Blue Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/ice-blue-granite.webp",
+    "description": "Premium Mundra Port export grade Pyros Copenhagen White Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "ice-blue-granite"
+    "baseId": "copenhagen-white-granite"
   },
   {
-    "id": "ice-white-granite",
-    "name": "Ice White Granite",
+    "id": "lava-oro-granite",
+    "name": "Lava Oro Granite",
     "category": "granite",
-    "origin": "India",
+    "origin": "Mundra Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -1259,775 +845,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Ice White Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/ice-white-granite.webp",
+    "description": "Premium Mundra Port export grade Pyros Lava Oro Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "ice-white-granite"
-  },
-  {
-    "id": "imperial-gold-granite",
-    "name": "Imperial Gold Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Imperial Gold Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/imperial-gold-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "imperial-gold-granite"
-  },
-  {
-    "id": "imperial-red-granite",
-    "name": "Imperial Red Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Imperial Red Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/imperial-red-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "imperial-red-granite"
-  },
-  {
-    "id": "ivory-brown-granite",
-    "name": "Ivory Brown Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Ivory Brown Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/ivory-brown-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "ivory-brown-granite"
-  },
-  {
-    "id": "imperial-white-granite",
-    "name": "Imperial White Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Imperial White Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/imperial-white-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "imperial-white-granite"
-  },
-  {
-    "id": "indian-juparana-granite",
-    "name": "Indian Juparana Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Indian Juparana Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/indian-juparana-granite.jpg",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "indian-juparana-granite"
-  },
-  {
-    "id": "ivory-brown-classic-granite",
-    "name": "Ivory Brown Classic Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Ivory Brown Classic Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/ivory-brown-classic-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "ivory-brown-classic-granite"
-  },
-  {
-    "id": "monte-cristo-granite",
-    "name": "Monte Cristo Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Monte Cristo Granite. Sourced from quarry-direct granite reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/sai-monte-cristo-granite.jpg",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "monte-cristo-granite"
-  },
-  {
-    "id": "jhansi-red-granite",
-    "name": "Jhansi Red Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Jhansi Red Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/jhansi-red-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "jhansi-red-granite"
-  },
-  {
-    "id": "meera-white-granite",
-    "name": "Meera White Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Meera White Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/meera-white-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "meera-white-granite"
-  },
-  {
-    "id": "juparana-colombo-granite",
-    "name": "Juparana Colombo Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Juparana Colombo Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/juparana-colombo-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "juparana-colombo-granite"
-  },
-  {
-    "id": "milky-white-granite",
-    "name": "Milky White Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Milky White Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/milky-white-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "milky-white-granite"
-  },
-  {
-    "id": "kuppam-green-granite",
-    "name": "Kuppam Green Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Kuppam Green Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/kuppam-green-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "kuppam-green-granite"
-  },
-  {
-    "id": "moon-white-granite",
-    "name": "Moon White Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Moon White Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/moon-white-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "moon-white-granite"
-  },
-  {
-    "id": "merry-gold-granite",
-    "name": "Merry Gold Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Merry Gold Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/merry-gold-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "merry-gold-granite"
-  },
-  {
-    "id": "p-white-granite",
-    "name": "P White Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros P White Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/p-white-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "p-white-granite"
-  },
-  {
-    "id": "red-multi-granite",
-    "name": "Red Multi Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Red Multi Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/red-multi-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "red-multi-granite"
-  },
-  {
-    "id": "paradiso-bash-granite",
-    "name": "Paradiso Bash Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Paradiso Bash Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/paradiso-bash-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "paradiso-bash-granite"
-  },
-  {
-    "id": "paradiso-classic-granite",
-    "name": "Paradiso Classic Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Paradiso Classic Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/paradiso-classic-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "paradiso-classic-granite"
-  },
-  {
-    "id": "fish-black-granite",
-    "name": "Fish Black Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Fish Black Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/fish-black-granite.jpg",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "fish-black-granite"
-  },
-  {
-    "id": "panther-black-granite",
-    "name": "Panther Black Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Panther Black Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/panther-black-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "panther-black-granite"
-  },
-  {
-    "id": "raw-silk-ivory-granite",
-    "name": "Raw Silk Ivory Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Raw Silk Ivory Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/raw-silk-ivory-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "raw-silk-ivory-granite"
-  },
-  {
-    "id": "tan-brown-granite",
-    "name": "Tan Brown Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Tan Brown Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/tan-brown-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "tan-brown-granite"
-  },
-  {
-    "id": "golden-canyon-granite",
-    "name": "Golden Canyon Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Golden Canyon Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/golden-canyon-granite.jpg",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "golden-canyon-granite"
-  },
-  {
-    "id": "rosy-pink-granite",
-    "name": "Rosy Pink Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Rosy Pink Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/rosy-pink-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "rosy-pink-granite"
-  },
-  {
-    "id": "royal-cream-granite",
-    "name": "Royal Cream Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Royal Cream Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/royal-cream-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "royal-cream-granite"
-  },
-  {
-    "id": "ruby-red-granite",
-    "name": "Ruby Red Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Ruby Red Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/ruby-red-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "ruby-red-granite"
-  },
-  {
-    "id": "new-viscon-white-granite",
-    "name": "New Viscon White Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros New Viscon White Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/hd_viscount_white_granite.png",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "new-viscon-white-granite"
-  },
-  {
-    "id": "steel-grey-granite",
-    "name": "Steel Grey Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Steel Grey Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/steel-grey-granite.jpg",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "steel-grey-granite"
-  },
-  {
-    "id": "magic-black-granite",
-    "name": "Magic Black Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Magic Black Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/magic-black-granite.jpg",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "magic-black-granite"
-  },
-  {
-    "id": "jeerawal-white-granite",
-    "name": "Jeerawal White Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Jeerawal White Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/jeerawal-white-granite.jpg",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "jeerawal-white-granite"
-  },
-  {
-    "id": "Lavender-Blue-Granite",
-    "name": "Lavender Blue Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Lavender Blue Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/Lavender-Blue-Granite.jpg",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "Lavender-Blue-Granite"
-  },
-  {
-    "id": "icon-brown-granite",
-    "name": "Icon Brown Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Icon Brown Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/icon-brown-granite.jpg",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "icon-brown-granite"
-  },
-  {
-    "id": "tiger-skin-granite",
-    "name": "Tiger Skin Granite",
-    "category": "granite",
-    "origin": "India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Tiger Skin Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/tiger-skin-granite.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "tiger-skin-granite"
+    "baseId": "lava-oro-granite"
   },
   {
     "id": "whisper-white-granite",
     "name": "Whisper White Granite",
     "category": "granite",
-    "origin": "India",
+    "origin": "Mundra Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -2041,16 +868,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Whisper White Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/whisper-white-granite.webp",
+    "description": "Premium Mundra Port export grade Pyros Whisper White Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "whisper-white-granite"
   },
   {
-    "id": "viscon-white-granite",
-    "name": "Viscon White Granite",
+    "id": "alaska-red-granite",
+    "name": "Alaska Red Granite",
     "category": "granite",
-    "origin": "India",
+    "origin": "Mundra Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -2064,16 +891,821 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Viscon White Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
+    "description": "Premium Mundra Port export grade Pyros Alaska Red Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_copper_slate.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "alaska-red-granite"
+  },
+  {
+    "id": "alaska-pink-granite",
+    "name": "Alaska Pink Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Alaska Pink Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_copper_slate.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "alaska-pink-granite"
+  },
+  {
+    "id": "fish-black-granite",
+    "name": "Fish Black Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Fish Black Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_absolute_black_granite_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "fish-black-granite"
+  },
+  {
+    "id": "coin-black-granite",
+    "name": "Coin Black Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Coin Black Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_absolute_black_granite_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "coin-black-granite"
+  },
+  {
+    "id": "torpedo-gold-granite",
+    "name": "Torpedo Gold Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Torpedo Gold Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_jaisalmer_yellow_sandstone.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "torpedo-gold-granite"
+  },
+  {
+    "id": "new-imperial-red-granite",
+    "name": "New Imperial Red Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros New Imperial Red Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_copper_slate.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "new-imperial-red-granite"
+  },
+  {
+    "id": "china-white-granite",
+    "name": "China White Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros China White Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "china-white-granite"
+  },
+  {
+    "id": "platinum-white-granite",
+    "name": "Platinum White Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Platinum White Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "platinum-white-granite"
+  },
+  {
+    "id": "french-green-granite",
+    "name": "French Green Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros French Green Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_spider_green_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "french-green-granite"
+  },
+  {
+    "id": "rajasthan-black-granite",
+    "name": "Rajasthan Black Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Rajasthan Black Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_absolute_black_granite_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "rajasthan-black-granite"
+  },
+  {
+    "id": "tiger-skin-granite",
+    "name": "Tiger Skin Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Tiger Skin Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "tiger-skin-granite"
+  },
+  {
+    "id": "crystal-yellow-granite",
+    "name": "Crystal Yellow Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Crystal Yellow Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_jaisalmer_yellow_sandstone.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "crystal-yellow-granite"
+  },
+  {
+    "id": "dapple-blue-granite",
+    "name": "Dapple Blue Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Dapple Blue Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_himalayan_blue_granite.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "dapple-blue-granite"
+  },
+  {
+    "id": "glacier-white-granite",
+    "name": "Glacier White Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Glacier White Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "glacier-white-granite"
+  },
+  {
+    "id": "desert-brown-granite",
+    "name": "Desert Brown Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Desert Brown Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_fantasy_brown_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "desert-brown-granite"
+  },
+  {
+    "id": "rosy-pink-granite",
+    "name": "Rosy Pink Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Rosy Pink Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_copper_slate.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "rosy-pink-granite"
+  },
+  {
+    "id": "pebble-black-granite",
+    "name": "Pebble Black Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Pebble Black Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_absolute_black_granite_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "pebble-black-granite"
+  },
+  {
+    "id": "rosa-beta-granite",
+    "name": "Rosa Beta Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Rosa Beta Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "rosa-beta-granite"
+  },
+  {
+    "id": "rosa-porrino-granite",
+    "name": "Rosa Porrino Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Rosa Porrino Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "rosa-porrino-granite"
+  },
+  {
+    "id": "nova-brown-granite",
+    "name": "Nova Brown Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Nova Brown Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_fantasy_brown_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "nova-brown-granite"
+  },
+  {
+    "id": "armani-gold-granite",
+    "name": "Armani Gold Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Armani Gold Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_jaisalmer_yellow_sandstone.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "armani-gold-granite"
+  },
+  {
+    "id": "blue-pearl-granite",
+    "name": "Blue Pearl Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Blue Pearl Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_himalayan_blue_granite.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "blue-pearl-granite"
+  },
+  {
+    "id": "crystal-blue-granite",
+    "name": "Crystal Blue Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Crystal Blue Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_himalayan_blue_granite.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "crystal-blue-granite"
+  },
+  {
+    "id": "monte-cristo-granite",
+    "name": "Monte Cristo Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Monte Cristo Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "monte-cristo-granite"
+  },
+  {
+    "id": "titanium-black-granite",
+    "name": "Titanium Black Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Titanium Black Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_absolute_black_granite_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "titanium-black-granite"
+  },
+  {
+    "id": "titanium-gold-granite",
+    "name": "Titanium Gold Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Titanium Gold Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_jaisalmer_yellow_sandstone.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "titanium-gold-granite"
+  },
+  {
+    "id": "silver-falls-granite",
+    "name": "Silver Falls Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Silver Falls Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "silver-falls-granite"
+  },
+  {
+    "id": "majestic-black-granite",
+    "name": "Majestic Black Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Majestic Black Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_absolute_black_granite_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "majestic-black-granite"
+  },
+  {
+    "id": "sunrise-gold-granite",
+    "name": "Sunrise Gold Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Sunrise Gold Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_jaisalmer_yellow_sandstone.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "sunrise-gold-granite"
+  },
+  {
+    "id": "cotton-white-granite",
+    "name": "Cotton White Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Cotton White Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "cotton-white-granite"
+  },
+  {
+    "id": "ruby-red-granite",
+    "name": "Ruby Red Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Ruby Red Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_copper_slate.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "ruby-red-granite"
+  },
+  {
+    "id": "jhansi-red-granite",
+    "name": "Jhansi Red Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Jhansi Red Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_copper_slate.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "jhansi-red-granite"
+  },
+  {
+    "id": "river-black-granite",
+    "name": "River Black Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros River Black Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_absolute_black_granite_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "river-black-granite"
+  },
+  {
+    "id": "markino-black-granite",
+    "name": "Markino Black Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Markino Black Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_absolute_black_granite_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "markino-black-granite"
+  },
+  {
+    "id": "ocean-blue-granite",
+    "name": "Ocean Blue Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Ocean Blue Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_himalayan_blue_granite.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "ocean-blue-granite"
+  },
+  {
+    "id": "viscount-white-granite",
+    "name": "Viscount White Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Viscount White Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
     "image": "/images/stones/hd_viscount_white_granite.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "viscon-white-granite"
+    "baseId": "viscount-white-granite"
   },
   {
-    "id": "vizag-blue-granite",
-    "name": "Vizag Blue Granite",
+    "id": "bruno-red-granite",
+    "name": "Bruno Red Granite",
     "category": "granite",
-    "origin": "India",
+    "origin": "Mundra Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -2087,1373 +1719,430 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Vizag Blue Granite. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/vizag-blue-granite.webp",
+    "description": "Premium Mundra Port export grade Pyros Bruno Red Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_copper_slate.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "vizag-blue-granite"
+    "baseId": "bruno-red-granite"
   },
   {
-    "id": "agra-red-sandstone",
-    "name": "Agra red sandstone",
-    "category": "sandstone",
-    "origin": "Rajasthan, India",
+    "id": "mist-grey-granite",
+    "name": "Mist Grey Granite",
+    "category": "granite",
+    "origin": "Mundra Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
       "Leathered",
       "Honed"
     ],
-    "density": "2.65 g/cm\u00b3",
+    "density": "2.70 g/cm\u00b3",
     "waterAbsorption": "0.12%",
     "sizes": [
       "120x240x20mm",
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Agra red sandstone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/agra-red-sandstone.webp",
+    "description": "Premium Mundra Port export grade Pyros Mist Grey Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_himalayan_blue_granite.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "agra-red-sandstone"
-  },
-  {
-    "id": "autumn-brown-sandstone",
-    "name": "Autumn Brown\u00a0Sandstone",
-    "category": "sandstone",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Autumn Brown\u00a0Sandstone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/autumn-brown-sandstone.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "autumn-brown-sandstone"
-  },
-  {
-    "id": "ita-gold-sandstone",
-    "name": "ITA Gold Sandstone",
-    "category": "sandstone",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros ITA Gold Sandstone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/ita-gold-sandstone.jpg",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "ita-gold-sandstone"
-  },
-  {
-    "id": "bansi-pink-sandstone",
-    "name": "Bansi Pink Sandstone",
-    "category": "sandstone",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Bansi Pink Sandstone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/bansi-pink-sandstone.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "bansi-pink-sandstone"
-  },
-  {
-    "id": "chocolate-sandstone",
-    "name": "Chocolate Sandstone",
-    "category": "sandstone",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Chocolate Sandstone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/chocolate-sandstone.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "chocolate-sandstone"
-  },
-  {
-    "id": "dholpur-beige-sandstone",
-    "name": "Dholpur Beige Sandstone",
-    "category": "sandstone",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Dholpur Beige Sandstone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/dholpur-beige-sandstone.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "dholpur-beige-sandstone"
-  },
-  {
-    "id": "gwalior-mint-fossil-sandstone",
-    "name": "Gwalior Mint Fossil Sandstone",
-    "category": "sandstone",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Gwalior Mint Fossil Sandstone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/gwalior-mint-fossil-sandstone.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "gwalior-mint-fossil-sandstone"
-  },
-  {
-    "id": "gwalior-mint-sandstone",
-    "name": "Gwalior Mint Sandstone",
-    "category": "sandstone",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Gwalior Mint Sandstone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/gwalior-mint-sandstone.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "gwalior-mint-sandstone"
-  },
-  {
-    "id": "gwalior-mint-yellow-sandstone",
-    "name": "Gwalior Mint Yellow Sandstone",
-    "category": "sandstone",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Gwalior Mint Yellow Sandstone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/gwalior-mint-yellow-sandstone.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "gwalior-mint-yellow-sandstone"
-  },
-  {
-    "id": "jaisalmer-yellow-sandstone",
-    "name": "Jaisalmer Yellow Sandstone",
-    "category": "sandstone",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Jaisalmer Yellow Sandstone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/jaisalmer-yellow-sandstone.jpg",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "jaisalmer-yellow-sandstone"
-  },
-  {
-    "id": "kandla-grey-sandstone",
-    "name": "Kandla Grey Sandstone",
-    "category": "sandstone",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Kandla Grey Sandstone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/kandla-grey-sandstone.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "kandla-grey-sandstone"
-  },
-  {
-    "id": "lalitpur-yellow-sandstone",
-    "name": "Lalitpur Yellow Sandstone",
-    "category": "sandstone",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Lalitpur Yellow Sandstone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/lalitpur-yellow-sandstone.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "lalitpur-yellow-sandstone"
-  },
-  {
-    "id": "dual-color-sandstone",
-    "name": "Dual Color Sandstone",
-    "category": "sandstone",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Dual Color Sandstone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/dual-color-sandstone.jpg",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "dual-color-sandstone"
-  },
-  {
-    "id": "pink-sandstone",
-    "name": "Pink Sandstone",
-    "category": "sandstone",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Pink Sandstone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/pink-sandstone.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "pink-sandstone"
-  },
-  {
-    "id": "kaddapa-black-sandstone",
-    "name": "Kaddapa Black Sandstone",
-    "category": "sandstone",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Kaddapa Black Sandstone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/kaddapa-black-sandstone.jpg",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "kaddapa-black-sandstone"
+    "baseId": "mist-grey-granite"
   },
   {
     "id": "rainbow-sandstone",
     "name": "Rainbow Sandstone",
     "category": "sandstone",
-    "origin": "Rajasthan, India",
+    "origin": "Mundra Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
       "Leathered",
       "Honed"
     ],
-    "density": "2.65 g/cm\u00b3",
+    "density": "2.70 g/cm\u00b3",
     "waterAbsorption": "0.12%",
     "sizes": [
       "120x240x20mm",
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Rainbow Sandstone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/rainbow-sandstone.webp",
+    "description": "Premium Mundra Port export grade Pyros Rainbow Sandstone. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_jaisalmer_yellow_sandstone.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "rainbow-sandstone"
   },
   {
-    "id": "raj-green-sandstone",
-    "name": "Raj Green Sandstone",
+    "id": "teakwood-sandstone",
+    "name": "Teakwood Sandstone",
     "category": "sandstone",
-    "origin": "Rajasthan, India",
+    "origin": "Mundra Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
       "Leathered",
       "Honed"
     ],
-    "density": "2.65 g/cm\u00b3",
+    "density": "2.70 g/cm\u00b3",
     "waterAbsorption": "0.12%",
     "sizes": [
       "120x240x20mm",
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Raj Green Sandstone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/raj-green-sandstone.webp",
+    "description": "Premium Mundra Port export grade Pyros Teakwood Sandstone. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_jaisalmer_yellow_sandstone.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "raj-green-sandstone"
+    "baseId": "teakwood-sandstone"
   },
   {
-    "id": "rippon-buff-sandstone",
-    "name": "Rippon Buff Sandstone",
+    "id": "jaisalmer-gold-sandstone",
+    "name": "Jaisalmer Gold Sandstone",
     "category": "sandstone",
-    "origin": "Rajasthan, India",
+    "origin": "Mundra Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
       "Leathered",
       "Honed"
     ],
-    "density": "2.65 g/cm\u00b3",
+    "density": "2.70 g/cm\u00b3",
     "waterAbsorption": "0.12%",
     "sizes": [
       "120x240x20mm",
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Rippon Buff Sandstone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/rippon-buff-sandstone.webp",
+    "description": "Premium Mundra Port export grade Pyros Jaisalmer Gold Sandstone. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/sai-azul-granite.jpg",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "rippon-buff-sandstone"
+    "baseId": "jaisalmer-gold-sandstone"
   },
   {
-    "id": "sagar-black-sandstone",
-    "name": "Sagar Black Sandstone",
+    "id": "dholpur-red-sandstone",
+    "name": "Dholpur Red Sandstone",
     "category": "sandstone",
-    "origin": "Rajasthan, India",
+    "origin": "Mundra Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
       "Leathered",
       "Honed"
     ],
-    "density": "2.65 g/cm\u00b3",
+    "density": "2.70 g/cm\u00b3",
     "waterAbsorption": "0.12%",
     "sizes": [
       "120x240x20mm",
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Sagar Black Sandstone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/sagar-black-sandstone.webp",
+    "description": "Premium Mundra Port export grade Pyros Dholpur Red Sandstone. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_jaisalmer_yellow_sandstone.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "sagar-black-sandstone"
+    "baseId": "dholpur-red-sandstone"
+  },
+  {
+    "id": "dholpur-pink-sandstone",
+    "name": "Dholpur Pink Sandstone",
+    "category": "sandstone",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Dholpur Pink Sandstone. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_jaisalmer_yellow_sandstone.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "dholpur-pink-sandstone"
+  },
+  {
+    "id": "dholpur-chocolate-sandstone",
+    "name": "Dholpur Chocolate Sandstone",
+    "category": "sandstone",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Dholpur Chocolate Sandstone. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/mundra-alaska-red.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "dholpur-chocolate-sandstone"
+  },
+  {
+    "id": "dholpur-beige-sandstone",
+    "name": "Dholpur Beige Sandstone",
+    "category": "sandstone",
+    "origin": "Mundra Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Mundra Port export grade Pyros Dholpur Beige Sandstone. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_jaisalmer_yellow_sandstone.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "dholpur-beige-sandstone"
   },
   {
     "id": "kota-blue-sandstone",
     "name": "Kota Blue Sandstone",
     "category": "sandstone",
-    "origin": "Rajasthan, India",
+    "origin": "Mundra Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
       "Leathered",
       "Honed"
     ],
-    "density": "2.65 g/cm\u00b3",
+    "density": "2.70 g/cm\u00b3",
     "waterAbsorption": "0.12%",
     "sizes": [
       "120x240x20mm",
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Kota Blue Sandstone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/kota-blue-sandstone.jpg",
+    "description": "Premium Mundra Port export grade Pyros Kota Blue Sandstone. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_himalayan_blue_granite.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "kota-blue-sandstone"
   },
   {
-    "id": "kota-green-sandstone",
-    "name": "Kota Green Sandstone",
+    "id": "kota-brown-sandstone",
+    "name": "Kota Brown Sandstone",
     "category": "sandstone",
-    "origin": "Rajasthan, India",
+    "origin": "Mundra Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
       "Leathered",
       "Honed"
     ],
-    "density": "2.65 g/cm\u00b3",
+    "density": "2.70 g/cm\u00b3",
     "waterAbsorption": "0.12%",
     "sizes": [
       "120x240x20mm",
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Kota Green Sandstone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/kota-green-sandstone.jpg",
+    "description": "Premium Mundra Port export grade Pyros Kota Brown Sandstone. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_fantasy_brown_marble_full_texture.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "kota-green-sandstone"
+    "baseId": "kota-brown-sandstone"
   },
   {
-    "id": "mandhana-red-sandstone",
-    "name": "Mandhana Red Sandstone",
+    "id": "bijoliya-autumn-brown-sandstone",
+    "name": "Bijoliya Autumn Brown Sandstone",
     "category": "sandstone",
-    "origin": "Rajasthan, India",
+    "origin": "Mundra Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
       "Leathered",
       "Honed"
     ],
-    "density": "2.65 g/cm\u00b3",
+    "density": "2.70 g/cm\u00b3",
     "waterAbsorption": "0.12%",
     "sizes": [
       "120x240x20mm",
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Mandhana Red Sandstone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/mandhana-red-sandstone.jpg",
+    "description": "Premium Mundra Port export grade Pyros Bijoliya Autumn Brown Sandstone. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/mundra-nova-brown.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "mandhana-red-sandstone"
+    "baseId": "bijoliya-autumn-brown-sandstone"
   },
   {
-    "id": "modak-sandstone",
-    "name": "Modak Sandstone",
+    "id": "bijoliya-kandla-grey-sandstone",
+    "name": "Bijoliya Kandla Grey Sandstone",
     "category": "sandstone",
-    "origin": "Rajasthan, India",
+    "origin": "Mundra Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
       "Leathered",
       "Honed"
     ],
-    "density": "2.65 g/cm\u00b3",
+    "density": "2.70 g/cm\u00b3",
     "waterAbsorption": "0.12%",
     "sizes": [
       "120x240x20mm",
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Modak Sandstone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/modak-sandstone.jpg",
+    "description": "Premium Mundra Port export grade Pyros Bijoliya Kandla Grey Sandstone. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/sai-blue-dunes-granite.jpg",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "modak-sandstone"
+    "baseId": "bijoliya-kandla-grey-sandstone"
   },
   {
-    "id": "teak-wood-sandstone",
-    "name": "Teak Wood Sandstone",
-    "category": "sandstone",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Teak Wood Sandstone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/teak-wood-sandstone.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "teak-wood-sandstone"
-  },
-  {
-    "id": "peacock-slate-stone",
-    "name": "Peacock Slate Stone",
+    "id": "copper-slate",
+    "name": "Copper Slate",
     "category": "slate",
-    "origin": "Rajasthan, India",
+    "origin": "Mundra Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
       "Leathered",
       "Honed"
     ],
-    "density": "2.65 g/cm\u00b3",
+    "density": "2.70 g/cm\u00b3",
     "waterAbsorption": "0.12%",
     "sizes": [
       "120x240x20mm",
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Peacock Slate Stone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/peacock-slate-stone.jpg",
+    "description": "Premium Mundra Port export grade Pyros Copper Slate. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_copper_slate.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "peacock-slate-stone"
+    "baseId": "copper-slate"
   },
   {
-    "id": "jack-multi-slate-stone",
-    "name": "Jack Multi Slate Stone",
+    "id": "deoil-green-slate",
+    "name": "Deoil Green Slate",
     "category": "slate",
-    "origin": "Rajasthan, India",
+    "origin": "Mundra Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
       "Leathered",
       "Honed"
     ],
-    "density": "2.65 g/cm\u00b3",
+    "density": "2.70 g/cm\u00b3",
     "waterAbsorption": "0.12%",
     "sizes": [
       "120x240x20mm",
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Jack Multi Slate Stone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/jack-multi-slate-stone.jpg",
+    "description": "Premium Mundra Port export grade Pyros Deoil Green Slate. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/mundra-blue-pearl.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "jack-multi-slate-stone"
+    "baseId": "deoil-green-slate"
   },
   {
-    "id": "autumn",
-    "name": "Autumn Stone",
+    "id": "marine-black-slate",
+    "name": "Marine Black Slate",
     "category": "slate",
-    "origin": "Rajasthan, India",
+    "origin": "Mundra Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
       "Leathered",
       "Honed"
     ],
-    "density": "2.65 g/cm\u00b3",
+    "density": "2.70 g/cm\u00b3",
     "waterAbsorption": "0.12%",
     "sizes": [
       "120x240x20mm",
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Autumn Stone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/autumn.jpg",
+    "description": "Premium Mundra Port export grade Pyros Marine Black Slate. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_absolute_black_granite_full_texture.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "autumn"
+    "baseId": "marine-black-slate"
   },
   {
-    "id": "autumn-white-slate-stone",
-    "name": "Autumn Slate Stone",
+    "id": "ocean-black-slate",
+    "name": "Ocean Black Slate",
     "category": "slate",
-    "origin": "Rajasthan, India",
+    "origin": "Mundra Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
       "Leathered",
       "Honed"
     ],
-    "density": "2.65 g/cm\u00b3",
+    "density": "2.70 g/cm\u00b3",
     "waterAbsorption": "0.12%",
     "sizes": [
       "120x240x20mm",
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Autumn Slate Stone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/autumn-white-slate-stone.webp",
+    "description": "Premium Mundra Port export grade Pyros Ocean Black Slate. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_absolute_black_granite_full_texture.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "autumn-white-slate-stone"
+    "baseId": "ocean-black-slate"
   },
   {
-    "id": "california-gold-stone",
-    "name": "California Gold Stone",
+    "id": "silver-grey-slate",
+    "name": "Silver Grey Slate",
     "category": "slate",
-    "origin": "Rajasthan, India",
+    "origin": "Mundra Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
       "Leathered",
       "Honed"
     ],
-    "density": "2.65 g/cm\u00b3",
+    "density": "2.70 g/cm\u00b3",
     "waterAbsorption": "0.12%",
     "sizes": [
       "120x240x20mm",
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros California Gold Stone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/california-gold-stone.webp",
+    "description": "Premium Mundra Port export grade Pyros Silver Grey Slate. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/mundra-red-flamingo.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "california-gold-stone"
+    "baseId": "silver-grey-slate"
   },
   {
-    "id": "black-rustic-slate-stone",
-    "name": "Black Rustic Slate Stone",
+    "id": "silver-grey-fish-swan-slate",
+    "name": "Silver Grey Fish Swan Slate",
     "category": "slate",
-    "origin": "Rajasthan, India",
+    "origin": "Mundra Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
       "Leathered",
       "Honed"
     ],
-    "density": "2.65 g/cm\u00b3",
+    "density": "2.70 g/cm\u00b3",
     "waterAbsorption": "0.12%",
     "sizes": [
       "120x240x20mm",
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Black Rustic Slate Stone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/black-rustic-slate-stone.webp",
+    "description": "Premium Mundra Port export grade Pyros Silver Grey Fish Swan Slate. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_himalayan_blue_granite.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "black-rustic-slate-stone"
+    "baseId": "silver-grey-fish-swan-slate"
   },
   {
-    "id": "autumn-white-slate",
-    "name": "Autumn White Slate",
-    "category": "slate",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Autumn White Slate. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/autumn-white-slate.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "autumn-white-slate"
-  },
-  {
-    "id": "black-slate-stone",
-    "name": "Black Slate Stone",
-    "category": "slate",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Black Slate Stone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/black-slate-stone.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "black-slate-stone"
-  },
-  {
-    "id": "d-copper-slate-stone",
-    "name": "D Copper Slate Stone",
-    "category": "slate",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros D Copper Slate Stone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/d-copper-slate-stone.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "d-copper-slate-stone"
-  },
-  {
-    "id": "copper-slate-stone",
-    "name": "Copper Slate Stone",
-    "category": "slate",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Copper Slate Stone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/copper-slate-stone.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "copper-slate-stone"
-  },
-  {
-    "id": "deoli-green-slate-stone",
-    "name": "Deoli Green Slate Stone",
-    "category": "slate",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Deoli Green Slate Stone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/deoli-green-slate-stone.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "deoli-green-slate-stone"
-  },
-  {
-    "id": "jack-black-slate-stone",
-    "name": "Jack Black Slate Stone",
-    "category": "slate",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Jack Black Slate Stone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/jack-black-slate-stone.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "jack-black-slate-stone"
-  },
-  {
-    "id": "kund-multicolor-slate-stone",
-    "name": "Kund Multicolor Slate Stone",
-    "category": "slate",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Kund Multicolor Slate Stone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/kund-multicolor-slate-stone.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "kund-multicolor-slate-stone"
-  },
-  {
-    "id": "line-black-slate",
-    "name": "Line Black Slate",
-    "category": "slate",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Line Black Slate. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/line-black-slate.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "line-black-slate"
-  },
-  {
-    "id": "multi-copper-slate",
-    "name": "Multi Copper Slate",
-    "category": "slate",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Multi Copper Slate. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/multi-copper-slate.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "multi-copper-slate"
-  },
-  {
-    "id": "indian-autumn-stone",
-    "name": "Indian Autumn Stone",
-    "category": "slate",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Indian Autumn Stone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/indian-autumn-stone.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "indian-autumn-stone"
-  },
-  {
-    "id": "gold-green-slate",
-    "name": "Gold Green Slate",
-    "category": "slate",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Gold Green Slate. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/gold-green-slate.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "gold-green-slate"
-  },
-  {
-    "id": "ocean-slate",
-    "name": "Ocean Slate",
-    "category": "slate",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Ocean Slate. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/ocean-slate.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "ocean-slate"
-  },
-  {
-    "id": "rustic-slate-stone",
-    "name": "Rustic Slate Stone",
-    "category": "slate",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Rustic Slate Stone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/rustic-slate-stone.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "rustic-slate-stone"
-  },
-  {
-    "id": "silver-shine-gold-slate",
-    "name": "Silver Shine Gold Slate",
-    "category": "slate",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Silver Shine Gold Slate. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/silver-shine-gold-slate.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "silver-shine-gold-slate"
-  },
-  {
-    "id": "ledge-slate-stone",
-    "name": "Ledge Slate Stone",
-    "category": "slate",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Ledge Slate Stone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/ledge-slate-stone.jpg",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "ledge-slate-stone"
-  },
-  {
-    "id": "slate-grey-wall-panel",
-    "name": "Slate Grey Wall Panel",
-    "category": "slate",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Slate Grey Wall Panel. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/slate-grey-wall-panel.jpg",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "slate-grey-wall-panel"
-  },
-  {
-    "id": "slate-stone-wall-panel",
-    "name": "Slate Stone Wall Panel",
-    "category": "slate",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Slate Stone Wall Panel. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/slate-stone-wall-panel.jpg",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "slate-stone-wall-panel"
-  },
-  {
-    "id": "slate-stone-wall-panel-range",
-    "name": "Slate Stone Wall Panel Range",
-    "category": "slate",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Slate Stone Wall Panel Range. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/slate-stone-wall-panel-range.jpg",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "slate-stone-wall-panel-range"
-  },
-  {
-    "id": "silver-shine-slate-stone",
-    "name": "Silver Shine Slate Stone",
-    "category": "slate",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Silver Shine Slate Stone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/silver-shine-slate-stone.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "silver-shine-slate-stone"
-  },
-  {
-    "id": "slate-veneer-sheet",
-    "name": "Slate Veneer Sheet",
-    "category": "slate",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Slate Veneer Sheet. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/slate-veneer-sheet.jpg",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "slate-veneer-sheet"
-  },
-  {
-    "id": "slate-veneer-sheet-range",
-    "name": "Slate Veneer Sheet Range",
-    "category": "slate",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Slate Veneer Sheet Range. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/slate-veneer-sheet-range.jpg",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "slate-veneer-sheet-range"
-  },
-  {
-    "id": "zeera-green-slate-stone",
+    "id": "zeera-green-slate",
     "name": "Zeera Green Slate",
     "category": "slate",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Zeera Green Slate. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/zeera-green-slate-stone.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "zeera-green-slate-stone"
-  },
-  {
-    "id": "kadappa-black-limestone",
-    "name": "Kadappa Black Limestone",
-    "category": "limestone",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Kadappa Black Limestone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/kadappa-black-limestone.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "kadappa-black-limestone"
-  },
-  {
-    "id": "tandur-yellow-limestone",
-    "name": "Tandur Yellow Limestone",
-    "category": "limestone",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Tandur Yellow Limestone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/tandur-yellow-limestone.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "tandur-yellow-limestone"
-  },
-  {
-    "id": "tandur-grey-limestone",
-    "name": "Tandur Grey Limestone",
-    "category": "limestone",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Tandur Grey Limestone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/tandur-grey-limestone.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "tandur-grey-limestone"
-  },
-  {
-    "id": "tandur-blue-limestone",
-    "name": "Tandur Blue Limestone",
-    "category": "limestone",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Tandur Blue Limestone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/tandur-blue-limestone.jpg",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "tandur-blue-limestone"
-  },
-  {
-    "id": "kota-blue-limestone",
-    "name": "Kota Blue Limestone",
-    "category": "limestone",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Kota Blue Limestone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/kota-blue-limestone.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "kota-blue-limestone"
-  },
-  {
-    "id": "kota-yellow-limestone",
-    "name": "Kota Yellow Limestone",
-    "category": "limestone",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Kota Yellow Limestone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/kota-yellow-limestone.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "kota-yellow-limestone"
-  },
-  {
-    "id": "chittor-black-limestone",
-    "name": "Chittor Black Limestone",
-    "category": "limestone",
-    "origin": "Rajasthan, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.65 g/cm\u00b3",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium grade Pyros Chittor Black Limestone. Sourced from quarry-direct reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/chittor-black-limestone.webp",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "chittor-black-limestone"
-  },
-  {
-    "id": "alexa-white-granite",
-    "name": "Alexa White Granite",
-    "category": "granite",
-    "origin": "India",
+    "origin": "Mundra Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -3467,16 +2156,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Alexa White Granite. Sourced from quarry-direct granite reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/sai-alexa-white-granite.jpg",
+    "description": "Premium Mundra Port export grade Pyros Zeera Green Slate. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_spider_green_marble_full_texture.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "alexa-white-granite"
+    "baseId": "zeera-green-slate"
   },
   {
-    "id": "azul-granite",
-    "name": "Azul Granite",
+    "id": "absolute-black-granite",
+    "name": "Absolute Black Granite",
     "category": "granite",
-    "origin": "India",
+    "origin": "Chennai Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -3490,16 +2179,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Azul Granite. Sourced from quarry-direct granite reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/sai-azul-granite.jpg",
+    "description": "Premium Chennai Port export grade Pyros Absolute Black Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_absolute_black_granite_full_texture.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "azul-granite"
+    "baseId": "absolute-black-granite"
   },
   {
-    "id": "bash-paradiso-granite",
-    "name": "Bash paradiso Granite",
+    "id": "black-galaxy-granite",
+    "name": "Black Galaxy Granite",
     "category": "granite",
-    "origin": "India",
+    "origin": "Chennai Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -3513,16 +2202,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Bash paradiso Granite. Sourced from quarry-direct granite reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/sai-bash-paradiso-granite.jpg",
+    "description": "Premium Chennai Port export grade Pyros Black Galaxy Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_black_galaxy_granite_full_texture.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "bash-paradiso-granite"
+    "baseId": "black-galaxy-granite"
   },
   {
-    "id": "cabana-black-granite",
-    "name": "Cabana Black Granite",
+    "id": "river-white-granite",
+    "name": "River White Granite",
     "category": "granite",
-    "origin": "India",
+    "origin": "Chennai Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -3536,16 +2225,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Cabana Black Granite. Sourced from quarry-direct granite reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/sai-cabana-black-granite.jpg",
+    "description": "Premium Chennai Port export grade Pyros River White Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "cabana-black-granite"
+    "baseId": "river-white-granite"
   },
   {
-    "id": "champage-white-granite",
-    "name": "Champage White Granite",
+    "id": "moon-white-granite",
+    "name": "Moon White Granite",
     "category": "granite",
-    "origin": "India",
+    "origin": "Chennai Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -3559,16 +2248,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Champage White Granite. Sourced from quarry-direct granite reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/sai-champage-white-granite.jpg",
+    "description": "Premium Chennai Port export grade Pyros Moon White Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "champage-white-granite"
+    "baseId": "moon-white-granite"
   },
   {
-    "id": "cosmic-black-granite",
-    "name": "Cosmic black Granite",
+    "id": "tan-brown-granite",
+    "name": "Tan Brown Granite",
     "category": "granite",
-    "origin": "India",
+    "origin": "Chennai Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -3582,16 +2271,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Cosmic black Granite. Sourced from quarry-direct granite reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/hd_cosmic_black_granite.png",
+    "description": "Premium Chennai Port export grade Pyros Tan Brown Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_fantasy_brown_marble_full_texture.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "cosmic-black-granite"
+    "baseId": "tan-brown-granite"
   },
   {
-    "id": "emerald-grey-granite",
-    "name": "Emerald Grey Granite",
+    "id": "black-pearl-granite",
+    "name": "Black Pearl Granite",
     "category": "granite",
-    "origin": "India",
+    "origin": "Chennai Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -3605,16 +2294,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Emerald Grey Granite. Sourced from quarry-direct granite reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/sai-emerald-grey-granite.jpg",
+    "description": "Premium Chennai Port export grade Pyros Black Pearl Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_absolute_black_granite_full_texture.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "emerald-grey-granite"
+    "baseId": "black-pearl-granite"
   },
   {
-    "id": "exotic-pink-granite",
-    "name": "Exotic pink Granite",
+    "id": "steel-grey-granite",
+    "name": "Steel Grey Granite",
     "category": "granite",
-    "origin": "India",
+    "origin": "Chennai Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -3628,16 +2317,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Exotic pink Granite. Sourced from quarry-direct granite reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/sai-exotic-pink-granite.jpg",
+    "description": "Premium Chennai Port export grade Pyros Steel Grey Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_himalayan_blue_granite.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "exotic-pink-granite"
+    "baseId": "steel-grey-granite"
   },
   {
-    "id": "exotic-white-granite",
-    "name": "Exotic White Granite",
+    "id": "sapphire-blue-granite",
+    "name": "Sapphire Blue Granite",
     "category": "granite",
-    "origin": "India",
+    "origin": "Chennai Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -3651,16 +2340,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Exotic White Granite. Sourced from quarry-direct granite reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/sai-exotic-white-granite.jpg",
+    "description": "Premium Chennai Port export grade Pyros Sapphire Blue Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_himalayan_blue_granite.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "exotic-white-granite"
+    "baseId": "sapphire-blue-granite"
   },
   {
-    "id": "fish-gold-granite",
-    "name": "Fish Gold Granite",
+    "id": "sapphire-brown-granite",
+    "name": "Sapphire Brown Granite",
     "category": "granite",
-    "origin": "India",
+    "origin": "Chennai Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -3674,16 +2363,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Fish Gold Granite. Sourced from quarry-direct granite reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/sai-fish-gold-granite.jpg",
+    "description": "Premium Chennai Port export grade Pyros Sapphire Brown Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_fantasy_brown_marble_full_texture.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "fish-gold-granite"
+    "baseId": "sapphire-brown-granite"
   },
   {
-    "id": "gold-dunes-granite",
-    "name": "Gold Dunes Granite",
+    "id": "chida-white-granite",
+    "name": "Chida White Granite",
     "category": "granite",
-    "origin": "India",
+    "origin": "Chennai Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -3697,16 +2386,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Gold Dunes Granite. Sourced from quarry-direct granite reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/sai-gold-dunes-granite.jpg",
+    "description": "Premium Chennai Port export grade Pyros Chida White Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "gold-dunes-granite"
+    "baseId": "chida-white-granite"
   },
   {
-    "id": "jasper-white-granite",
-    "name": "Jasper White Granite",
+    "id": "black-forest-granite",
+    "name": "Black Forest Granite",
     "category": "granite",
-    "origin": "India",
+    "origin": "Chennai Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -3720,16 +2409,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Jasper White Granite. Sourced from quarry-direct granite reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/sai-jasper-white-granite.jpg",
+    "description": "Premium Chennai Port export grade Pyros Black Forest Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_absolute_black_granite_full_texture.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "jasper-white-granite"
+    "baseId": "black-forest-granite"
   },
   {
-    "id": "lava-red-granite",
-    "name": "Lava Red Granite",
+    "id": "colonial-white-granite",
+    "name": "Colonial White Granite",
     "category": "granite",
-    "origin": "India",
+    "origin": "Chennai Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -3743,16 +2432,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Lava Red Granite. Sourced from quarry-direct granite reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/sai-lava-red-granite.jpg",
+    "description": "Premium Chennai Port export grade Pyros Colonial White Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "lava-red-granite"
+    "baseId": "colonial-white-granite"
   },
   {
-    "id": "markino-granite",
-    "name": "Markino Granite",
+    "id": "ivory-brown-granite",
+    "name": "Ivory Brown Granite",
     "category": "granite",
-    "origin": "India",
+    "origin": "Chennai Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -3766,16 +2455,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Markino Granite. Sourced from quarry-direct granite reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/sai-markino-granite.jpg",
+    "description": "Premium Chennai Port export grade Pyros Ivory Brown Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_fantasy_brown_marble_full_texture.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "markino-granite"
+    "baseId": "ivory-brown-granite"
   },
   {
-    "id": "mona-lisa-granite",
-    "name": "Mona Lisa Granite",
+    "id": "paradiso-bash-granite",
+    "name": "Paradiso Bash Granite",
     "category": "granite",
-    "origin": "India",
+    "origin": "Chennai Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -3789,16 +2478,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Mona Lisa Granite. Sourced from quarry-direct granite reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/sai-mona-lisa-granite.jpg",
+    "description": "Premium Chennai Port export grade Pyros Paradiso Bash Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "mona-lisa-granite"
+    "baseId": "paradiso-bash-granite"
   },
   {
-    "id": "pebble-black-granite",
-    "name": "Pebble black Granite",
+    "id": "paradiso-classico-granite",
+    "name": "Paradiso Classico Granite",
     "category": "granite",
-    "origin": "India",
+    "origin": "Chennai Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -3812,16 +2501,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Pebble black Granite. Sourced from quarry-direct granite reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/sai-pebble-black-granite.jpg",
+    "description": "Premium Chennai Port export grade Pyros Paradiso Classico Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "pebble-black-granite"
+    "baseId": "paradiso-classico-granite"
   },
   {
-    "id": "spider-gold-granite",
-    "name": "Spider Gold Granite",
+    "id": "red-multi-color-granite",
+    "name": "Red Multi Color Granite",
     "category": "granite",
-    "origin": "India",
+    "origin": "Chennai Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -3835,16 +2524,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Spider Gold Granite. Sourced from quarry-direct granite reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/sai-spider-gold-granite.jpg",
+    "description": "Premium Chennai Port export grade Pyros Red Multi Color Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_copper_slate.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "spider-gold-granite"
+    "baseId": "red-multi-color-granite"
   },
   {
-    "id": "starlight-granite",
-    "name": "Starlight Granite",
+    "id": "himalayan-blue-granite",
+    "name": "Himalayan Blue Granite",
     "category": "granite",
-    "origin": "India",
+    "origin": "Chennai Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -3858,16 +2547,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Starlight Granite. Sourced from quarry-direct granite reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/sai-starlight-granite.jpg",
+    "description": "Premium Chennai Port export grade Pyros Himalayan Blue Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_himalayan_blue_granite.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "starlight-granite"
+    "baseId": "himalayan-blue-granite"
   },
   {
-    "id": "sunset-canyon-granite",
-    "name": "Sunset Canyon Granite",
+    "id": "hassan-green-granite",
+    "name": "Hassan Green Granite",
     "category": "granite",
-    "origin": "India",
+    "origin": "Chennai Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -3881,16 +2570,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Sunset Canyon Granite. Sourced from quarry-direct granite reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/sai-sunset-canyon-granite.jpg",
+    "description": "Premium Chennai Port export grade Pyros Hassan Green Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_spider_green_marble_full_texture.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "sunset-canyon-granite"
+    "baseId": "hassan-green-granite"
   },
   {
-    "id": "tiger-granite",
-    "name": "Tiger Granite",
+    "id": "verde-marina-granite",
+    "name": "Verde Marina Granite",
     "category": "granite",
-    "origin": "India",
+    "origin": "Chennai Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -3904,16 +2593,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Tiger Granite. Sourced from quarry-direct granite reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/sai-tiger-granite.jpg",
+    "description": "Premium Chennai Port export grade Pyros Verde Marina Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/sai-viscount-granite.jpg",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "tiger-granite"
+    "baseId": "verde-marina-granite"
   },
   {
-    "id": "titanium-black-granite",
-    "name": "Titanium black Granite",
+    "id": "mist-grey-granite",
+    "name": "Mist Grey Granite",
     "category": "granite",
-    "origin": "India",
+    "origin": "Chennai Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -3927,16 +2616,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Titanium black Granite. Sourced from quarry-direct granite reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/sai-titanium-black-granite.jpg",
+    "description": "Premium Chennai Port export grade Pyros Mist Grey Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/mundra-new-imperial-red.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "titanium-black-granite"
+    "baseId": "mist-grey-granite"
   },
   {
-    "id": "tremoline-gold-granite",
-    "name": "Tremoline Gold Granite",
+    "id": "indian-juparana-granite",
+    "name": "Indian Juparana Granite",
     "category": "granite",
-    "origin": "India",
+    "origin": "Chennai Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -3950,16 +2639,16 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Tremoline Gold Granite. Sourced from quarry-direct granite reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
-    "image": "/images/stones/sai-tremoline-gold-granite.jpg",
+    "description": "Premium Chennai Port export grade Pyros Indian Juparana Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "tremoline-gold-granite"
+    "baseId": "indian-juparana-granite"
   },
   {
-    "id": "viscount-granite",
-    "name": "Viscount Granite",
+    "id": "fusion-gold-granite",
+    "name": "Fusion Gold Granite",
     "category": "granite",
-    "origin": "India",
+    "origin": "Chennai Port, India",
     "finishes": [
       "High Gloss",
       "Polished",
@@ -3973,10 +2662,700 @@ export const stones = [
       "160x320x30mm",
       "60x120x20mm"
     ],
-    "description": "Premium grade Pyros Viscount Granite. Sourced from quarry-direct granite reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration. Engineered by Pyros Marble for high-end luxury interiors, executive flooring, and custom architectural projects worldwide.",
+    "description": "Premium Chennai Port export grade Pyros Fusion Gold Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_jaisalmer_yellow_sandstone.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "fusion-gold-granite"
+  },
+  {
+    "id": "adhunik-brown-granite",
+    "name": "Adhunik Brown Granite",
+    "category": "granite",
+    "origin": "Chennai Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Chennai Port export grade Pyros Adhunik Brown Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_fantasy_brown_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "adhunik-brown-granite"
+  },
+  {
+    "id": "viscount-white-granite",
+    "name": "Viscount White Granite",
+    "category": "granite",
+    "origin": "Chennai Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Chennai Port export grade Pyros Viscount White Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
     "image": "/images/stones/hd_viscount_white_granite.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "viscount-granite"
+    "baseId": "viscount-white-granite"
+  },
+  {
+    "id": "impala-black-granite",
+    "name": "Impala Black Granite",
+    "category": "granite",
+    "origin": "Chennai Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Chennai Port export grade Pyros Impala Black Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_absolute_black_granite_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "impala-black-granite"
+  },
+  {
+    "id": "titanium-gold-granite",
+    "name": "Titanium Gold Granite",
+    "category": "granite",
+    "origin": "Chennai Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Chennai Port export grade Pyros Titanium Gold Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_jaisalmer_yellow_sandstone.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "titanium-gold-granite"
+  },
+  {
+    "id": "colonial-gold-granite",
+    "name": "Colonial Gold Granite",
+    "category": "granite",
+    "origin": "Chennai Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Chennai Port export grade Pyros Colonial Gold Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_jaisalmer_yellow_sandstone.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "colonial-gold-granite"
+  },
+  {
+    "id": "ivory-fantasy-granite",
+    "name": "Ivory Fantasy Granite",
+    "category": "granite",
+    "origin": "Chennai Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Chennai Port export grade Pyros Ivory Fantasy Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_fantasy_brown_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "ivory-fantasy-granite"
+  },
+  {
+    "id": "kashmir-white-granite",
+    "name": "Kashmir White Granite",
+    "category": "granite",
+    "origin": "Chennai Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Chennai Port export grade Pyros Kashmir White Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "kashmir-white-granite"
+  },
+  {
+    "id": "shiva-gold-granite",
+    "name": "Shiva Gold Granite",
+    "category": "granite",
+    "origin": "Chennai Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Chennai Port export grade Pyros Shiva Gold Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/mundra-rosso-levanto.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "shiva-gold-granite"
+  },
+  {
+    "id": "colombo-juparana-granite",
+    "name": "Colombo Juparana Granite",
+    "category": "granite",
+    "origin": "Chennai Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Chennai Port export grade Pyros Colombo Juparana Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "colombo-juparana-granite"
+  },
+  {
+    "id": "solaris-gold-granite",
+    "name": "Solaris Gold Granite",
+    "category": "granite",
+    "origin": "Chennai Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Chennai Port export grade Pyros Solaris Gold Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/sai-cabana-black-granite.jpg",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "solaris-gold-granite"
+  },
+  {
+    "id": "thunder-white-granite",
+    "name": "Thunder White Granite",
+    "category": "granite",
+    "origin": "Chennai Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Chennai Port export grade Pyros Thunder White Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "thunder-white-granite"
+  },
+  {
+    "id": "rose-wood-granite",
+    "name": "Rose Wood Granite",
+    "category": "granite",
+    "origin": "Chennai Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Chennai Port export grade Pyros Rose Wood Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_himalayan_blue_granite.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "rose-wood-granite"
+  },
+  {
+    "id": "millenium-cream-granite",
+    "name": "Millenium Cream Granite",
+    "category": "granite",
+    "origin": "Chennai Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Chennai Port export grade Pyros Millenium Cream Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "millenium-cream-granite"
+  },
+  {
+    "id": "bhama-gold-granite",
+    "name": "Bhama Gold Granite",
+    "category": "granite",
+    "origin": "Chennai Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Chennai Port export grade Pyros Bhama Gold Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/sai-pebble-black-granite.jpg",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "bhama-gold-granite"
+  },
+  {
+    "id": "imperial-gold-granite",
+    "name": "Imperial Gold Granite",
+    "category": "granite",
+    "origin": "Chennai Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Chennai Port export grade Pyros Imperial Gold Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_jaisalmer_yellow_sandstone.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "imperial-gold-granite"
+  },
+  {
+    "id": "vegas-gold-granite",
+    "name": "Vegas Gold Granite",
+    "category": "granite",
+    "origin": "Chennai Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Chennai Port export grade Pyros Vegas Gold Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_jaisalmer_yellow_sandstone.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "vegas-gold-granite"
+  },
+  {
+    "id": "canyon-gold-granite",
+    "name": "Canyon Gold Granite",
+    "category": "granite",
+    "origin": "Chennai Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Chennai Port export grade Pyros Canyon Gold Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/mundra-indian-lilac.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "canyon-gold-granite"
+  },
+  {
+    "id": "astoria-pink-granite",
+    "name": "Astoria Pink Granite",
+    "category": "granite",
+    "origin": "Chennai Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Chennai Port export grade Pyros Astoria Pink Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_copper_slate.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "astoria-pink-granite"
+  },
+  {
+    "id": "astoria-ivory-granite",
+    "name": "Astoria Ivory Granite",
+    "category": "granite",
+    "origin": "Chennai Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Chennai Port export grade Pyros Astoria Ivory Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "astoria-ivory-granite"
+  },
+  {
+    "id": "kashmir-gold-granite",
+    "name": "Kashmir Gold Granite",
+    "category": "granite",
+    "origin": "Chennai Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Chennai Port export grade Pyros Kashmir Gold Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_jaisalmer_yellow_sandstone.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "kashmir-gold-granite"
+  },
+  {
+    "id": "crystal-gold-granite",
+    "name": "Crystal Gold Granite",
+    "category": "granite",
+    "origin": "Chennai Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Chennai Port export grade Pyros Crystal Gold Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/mundra-blue-flower.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "crystal-gold-granite"
+  },
+  {
+    "id": "colonial-cream-granite",
+    "name": "Colonial Cream Granite",
+    "category": "granite",
+    "origin": "Chennai Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Chennai Port export grade Pyros Colonial Cream Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/mundra-azul-nueva.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "colonial-cream-granite"
+  },
+  {
+    "id": "flash-blue-granite",
+    "name": "Flash Blue Granite",
+    "category": "granite",
+    "origin": "Chennai Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Chennai Port export grade Pyros Flash Blue Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_himalayan_blue_granite.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "flash-blue-granite"
+  },
+  {
+    "id": "prada-gold-granite",
+    "name": "Prada Gold Granite",
+    "category": "granite",
+    "origin": "Chennai Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Chennai Port export grade Pyros Prada Gold Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/sai-starlight-granite.jpg",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "prada-gold-granite"
+  },
+  {
+    "id": "supreme-white-granite",
+    "name": "Supreme White Granite",
+    "category": "granite",
+    "origin": "Chennai Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Chennai Port export grade Pyros Supreme White Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/mundra-markino-black.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "supreme-white-granite"
+  },
+  {
+    "id": "burgundy-white-granite",
+    "name": "Burgundy White Granite",
+    "category": "granite",
+    "origin": "Chennai Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Chennai Port export grade Pyros Burgundy White Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "burgundy-white-granite"
+  },
+  {
+    "id": "lavender-blue-granite",
+    "name": "Lavender Blue Granite",
+    "category": "granite",
+    "origin": "Chennai Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Chennai Port export grade Pyros Lavender Blue Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_himalayan_blue_granite.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "lavender-blue-granite"
+  },
+  {
+    "id": "vizag-blue-granite",
+    "name": "Vizag Blue Granite",
+    "category": "granite",
+    "origin": "Chennai Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Chennai Port export grade Pyros Vizag Blue Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/sai-jasper-white-granite.jpg",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "vizag-blue-granite"
+  },
+  {
+    "id": "snow-white-granite",
+    "name": "Snow White Granite",
+    "category": "granite",
+    "origin": "Chennai Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Chennai Port export grade Pyros Snow White Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "snow-white-granite"
+  },
+  {
+    "id": "white-galaxy-granite",
+    "name": "White Galaxy Granite",
+    "category": "granite",
+    "origin": "Chennai Port, India",
+    "finishes": [
+      "High Gloss",
+      "Polished",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.70 g/cm\u00b3",
+    "waterAbsorption": "0.12%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm"
+    ],
+    "description": "Premium Chennai Port export grade Pyros White Galaxy Granite. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
+    "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
+    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
+    "baseId": "white-galaxy-granite"
   }
 ];
 

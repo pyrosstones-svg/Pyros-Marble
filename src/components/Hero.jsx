@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowDown, Container } from 'lucide-react';
+import Marble3DCube from './Marble3DCube';
 
 export default function Hero({ onExploreClick }) {
   return (
@@ -70,24 +71,9 @@ export default function Hero({ onExploreClick }) {
             Pyros is a leading <strong className="text-white font-semibold">Marble Exporter from India</strong> and trusted <strong className="text-white font-semibold">Granite Exporter from India</strong>, delivering premium <strong className="text-white font-semibold">marble slabs, granite slabs, marble tiles, granite tiles, quartzite, and natural stone</strong> to architects, builders, importers, wholesalers, and distributors worldwide.
           </p>
 
-          {/* Marble Block Image Card */}
-          <div className="w-full aspect-[16/10] sm:aspect-[16/9] rounded-2xl overflow-hidden border border-white/20 shadow-2xl relative group bg-transparent mt-2 flex items-center justify-center p-3">
-            <div className="w-full h-full relative flex items-center justify-center p-2">
-              <img 
-                src="/marble_cube_hero.png" 
-                alt="Premium Calibrated 3D Marble Block Specimen" 
-                className="max-w-full max-h-full object-contain object-center group-hover:scale-105 transition-transform duration-700 drop-shadow-[0_25px_40px_rgba(0,0,0,0.9)]" 
-              />
-            </div>
-            <div className="absolute bottom-3 left-4 right-4 flex items-center justify-between pointer-events-none z-10">
-              <span className="text-[10px] font-mono tracking-widest text-[#D4AF37] uppercase font-bold bg-black/70 backdrop-blur-md px-3 py-1.5 rounded-lg border border-white/10 shadow-md flex items-center gap-1.5">
-                <span className="w-2 h-2 rounded-full bg-[#D4AF37] animate-pulse shrink-0" />
-                PREMIUM EXPORT GRADE NATURAL STONE
-              </span>
-              <span className="text-[9px] font-mono text-white/80 bg-black/60 backdrop-blur-md px-2.5 py-1 rounded hidden sm:inline-block border border-white/5">
-                20mm / 30mm Precision Calibrated Slabs
-              </span>
-            </div>
+          {/* Interactive 360° Rotatable Marble Cube */}
+          <div className="mt-2">
+            <Marble3DCube />
           </div>
 
         </div>
