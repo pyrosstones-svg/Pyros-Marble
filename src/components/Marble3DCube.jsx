@@ -51,42 +51,42 @@ export default function Marble3DCube() {
 
   const [zoom, setZoom] = useState(1.0);
 
-  // Cube Faces with high-res HD stone textures
+  // Cube Faces with high-res real stone textures from collection
   const cubeFaces = [
     { 
-      name: 'Viscon White', 
+      name: 'Alaska Gold', 
       type: 'GRANITE', 
-      img: '/images/stones/hd_viscount_white_granite.png',
+      img: '/granite IMAGS/ALASKA GOLD - SS.JPG',
       transform: 'translateZ(72px)'
     },
     { 
-      name: 'Absolute Black', 
-      type: 'GRANITE', 
-      img: '/images/stones/hd_absolute_black_granite_full_texture.png',
+      name: 'Indian Statuario', 
+      type: 'MARBLE', 
+      img: '/granite IMAGS/INDIAN STATUARIO PGM.JPG',
       transform: 'rotateY(180deg) translateZ(72px)'
     },
     { 
-      name: 'Himalayan Blue', 
-      type: 'GRANITE', 
-      img: '/images/stones/hd_himalayan_blue_granite.png',
+      name: 'Patagonia Exotic', 
+      type: 'QUARTZITE', 
+      img: '/granite IMAGS/PATAGONIA - MMS.JPG',
       transform: 'rotateY(90deg) translateZ(72px)'
     },
     { 
-      name: 'Black Galaxy', 
+      name: 'Blue Dunes', 
       type: 'GRANITE', 
-      img: '/images/stones/hd_black_galaxy_granite_full_texture.png',
+      img: '/granite IMAGS/BLUE DUNES - FST.JPG',
       transform: 'rotateY(-90deg) translateZ(72px)'
     },
     { 
-      name: 'Super White', 
-      type: 'QUARTZITE', 
-      img: '/images/stones/hd_super_white_quartzite_full_texture.png',
+      name: 'River Blue', 
+      type: 'MARBLE', 
+      img: '/granite IMAGS/RIVER BLUE - MMC.JPG',
       transform: 'rotateX(90deg) translateZ(72px)'
     },
     { 
-      name: 'Jaisalmer Gold', 
-      type: 'SANDSTONE', 
-      img: '/images/stones/hd_jaisalmer_yellow_sandstone.png',
+      name: 'Cosmos Black', 
+      type: 'GRANITE', 
+      img: '/granite IMAGS/COSMOS BLACK MT.JPG',
       transform: 'rotateX(-90deg) translateZ(72px)'
     }
   ];

@@ -1,5 +1,43 @@
 import React, { useState } from 'react';
-import { Ship, Anchor, CheckCircle2, ChevronLeft, ChevronRight, MessageSquare, ArrowRight } from 'lucide-react';
+import { Ship, Anchor, CheckCircle2, ChevronLeft, ChevronRight, MessageSquare } from 'lucide-react';
+import { stones } from '../data/stoneData';
+
+// Top newly added stones for Mundra Port (North & West India marble, quartzite, granite, sandstone)
+const mundraProductIds = [
+  'pyros-indian-statuario-marble',
+  'pyros-alaska-gold-ss',
+  'pyros-patagonia-quartzite-mms',
+  'pyros-blue-dunes-fst',
+  'pyros-fantasy-brown-marble',
+  'pyros-river-blue-marble',
+  'pyros-indian-taj-mahal-quartzite',
+  'pyros-teak-wood-sandstone'
+];
+
+// Top newly added stones for Chennai Port (South India granite, exotic quartzite & dark granites)
+const chennaiProductIds = [
+  'pyros-cosmos-black-granite',
+  'pyros-cosmos-gold-rbg',
+  'pyros-river-white-granite',
+  'pyros-black-fantasy-granite',
+  'pyros-cristallo-oro-quartzite',
+  'pyros-chocolate-brown-granite',
+  'pyros-azul-novae-granite',
+  'pyros-ocean-black-granite'
+];
+
+const getPortProducts = (idList) => {
+  return idList
+    .map(id => stones.find(s => s.id === id))
+    .filter(Boolean)
+    .map(s => ({
+      id: s.id,
+      category: s.category.toUpperCase(),
+      name: s.name,
+      description: s.description,
+      image: s.image
+    }));
+};
 
 const portsList = [
   { 
@@ -14,36 +52,7 @@ const portsList = [
       '24/7 Container Operations', 
       'Saudi Arabia • UAE • Europe'
     ],
-    products: [
-      {
-        id: 'crystalo-white-quartzite',
-        category: 'QUARTZITE',
-        name: 'Crystalo White Quartzite',
-        description: 'Luxury natural quartzite with exceptional durability, elegant veining, and premium finish for luxury interiors, countertops, feature walls, and architectural applications.',
-        image: '/Crestalo White North.jpg'
-      },
-      {
-        id: 'maharaja-white-marble',
-        category: 'MARBLE',
-        name: 'Maharaja White Marble',
-        description: 'Premium Indian marble featuring timeless white aesthetics, refined natural patterns, and superior strength for residential, hospitality, and commercial projects.',
-        image: '/Maharaja White North.jpg'
-      },
-      {
-        id: 'calacatta-quartz',
-        category: 'QUARTZ',
-        name: 'Calacatta Quartz',
-        description: 'Engineered quartz with luxurious Calacatta-inspired veining, designed for modern kitchens, bathrooms, commercial interiors, and premium architectural spaces.',
-        image: '/images/stones/calacatta-quartz.png'
-      },
-      {
-        id: 'teakwood-sandstone',
-        category: 'SANDSTONE',
-        name: 'Teakwood Sandstone',
-        description: 'Natural Indian sandstone with warm wood-like textures, ideal for exterior facades, landscape architecture, flooring, and wall cladding applications.',
-        image: '/images/stones/teakwood-honed.jpg'
-      }
-    ]
+    products: getPortProducts(mundraProductIds)
   },
   { 
     id: 'chennai',
@@ -57,36 +66,7 @@ const portsList = [
       'Global Shipping Network', 
       'Asia • Australia • GCC'
     ],
-    products: [
-      {
-        id: 'crystalo-white-quartzite-chennai',
-        category: 'QUARTZITE',
-        name: 'Crystalo White Quartzite',
-        description: 'Luxury natural quartzite with exceptional durability, elegant veining, and premium finish for luxury interiors, countertops, feature walls, and architectural applications.',
-        image: '/Crestalo White North.jpg'
-      },
-      {
-        id: 'maharaja-white-marble-chennai',
-        category: 'MARBLE',
-        name: 'Maharaja White Marble',
-        description: 'Premium Indian marble featuring timeless white aesthetics, refined natural patterns, and superior strength for residential, hospitality, and commercial projects.',
-        image: '/Maharaja White North.jpg'
-      },
-      {
-        id: 'calacatta-quartz-chennai',
-        category: 'QUARTZ',
-        name: 'Calacatta Quartz',
-        description: 'Engineered quartz with luxurious Calacatta-inspired veining, designed for modern kitchens, bathrooms, commercial interiors, and premium architectural spaces.',
-        image: '/images/stones/calacatta-quartz.png'
-      },
-      {
-        id: 'teakwood-sandstone-chennai',
-        category: 'SANDSTONE',
-        name: 'Teakwood Sandstone',
-        description: 'Natural Indian sandstone with warm wood-like textures, ideal for exterior facades, landscape architecture, flooring, and wall cladding applications.',
-        image: '/images/stones/teakwood-honed.jpg'
-      }
-    ]
+    products: getPortProducts(chennaiProductIds)
   }
 ];
 
