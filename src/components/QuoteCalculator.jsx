@@ -26,22 +26,21 @@ export default function QuoteCalculator({ selectedStoneFromCatalog, clearSelecte
 
   const currentStone = stones.find(s => s.id === selectedStoneId) || stones[0];
 
-  // Logic Calculations
-  const density = currentStone ? parseFloat(currentStone.density) : 2.7;
+  // Logic Calculations: 1 Standard Gangsaw Slab = 500 kg (0.50 Tons for 20mm, 0.75 Tons for 30mm)
+  const weightPerSlabTons = thickness === 30 ? 0.75 : 0.50;
   
   let totalSqm = 0;
+  let totalWeightTons = 0;
   if (quantityType === 'slabs') {
-    // Assume average slab size is 3.0m x 1.8m = 5.4 sqm
+    // Standard slab size is 3.0m x 1.8m = 5.4 sqm
     totalSqm = quantity * 5.4;
+    totalWeightTons = quantity * weightPerSlabTons;
   } else {
     totalSqm = quantity;
+    totalWeightTons = (totalSqm / 5.4) * weightPerSlabTons;
   }
 
-  const thicknessInMeters = thickness / 1000;
-  const totalVolumeM3 = totalSqm * thicknessInMeters;
-  const totalWeightTons = totalVolumeM3 * density;
-
-  const maxWeightPerContainer = destination === 'US' ? 20.5 : destination === 'UK' ? 23.5 : 27.5;
+  const maxWeightPerContainer = 27.0; // Max 27T Limit across all ports
   const containersNeeded = Math.ceil(totalWeightTons / maxWeightPerContainer) || 0;
 
   // Max 7 to 8 wooden A-frame bundles per 20ft heavy container (~55-60 sqm per bundle)
@@ -98,84 +97,104 @@ export default function QuoteCalculator({ selectedStoneFromCatalog, clearSelecte
         
         {/* Header */}
         <div className="flex flex-col items-center text-center mb-16">
-          <span className="font-outfit text-xs tracking-[0.25em] text-[#D4AF37] uppercase font-semibold mb-2">Export Configurator</span>
-          <h2 className="font-cormorant text-4xl sm:text-5xl font-medium tracking-wide text-[#1C1C21]">
-            Container Load Estimator
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/10 text-[#D4AF37] text-xs uppercase tracking-widest font-mono mb-4">
+            <Scale className="w-3.5 h-3.5" />
+            <span>Interactive Freight Configurator</span>
+          </div>
+          
+          <h2 className="font-cormorant text-4xl sm:text-5xl font-light text-[#1C1C21] tracking-tight">
+            Direct Container Weight & Load Calculator
           </h2>
-          <p className="font-inter text-sm text-[#4E4E59] max-w-2xl mt-4 font-light leading-relaxed">
-            Configure custom marble or granite slab shipments to calculate volumetric displacement, container gross weight, and wooden bundle packing.
+          <div className="w-12 h-0.5 bg-[#D4AF37] my-4" />
+          <p className="font-inter text-sm sm:text-base text-[#4E4E59] max-w-2xl font-light">
+            Plan your export shipment directly from India's leading natural stone manufacturer. Calculate net tonnage, 20ft container count, and ISPM-15 wooden bundle packing instantly.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-stretch">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           
-          {/* Left Side: Inputs (7 cols) */}
-          <div className="lg:col-span-7 bg-white border border-[#E5E7EB] rounded-xl p-6 md:p-8 shadow-sm">
-            <h3 className="font-outfit text-base font-bold text-[#1C1C21] mb-6 border-b border-black/5 pb-4 flex items-center gap-2">
-              <Scale className="w-5 h-5 text-[#D4AF37]" />
-              Shipping Specifications
-            </h3>
+          {/* CONFIGURATOR CONTROLS */}
+          <div className="lg:col-span-7 bg-white border border-[#E5E7EB] rounded-2xl p-6 sm:p-8 shadow-sm space-y-6">
+            <div className="flex items-center justify-between border-b border-[#E5E7EB] pb-4">
+              <h3 className="font-outfit text-sm tracking-wider uppercase text-[#1C1C21] font-bold">1. Configure Material & Cargo Specs</h3>
+              <span className="text-[10px] text-[#D4AF37] font-mono font-semibold">EXPORT SPEC ENGINE</span>
+            </div>
 
-            <form onSubmit={handleSubmit} className="space-y-6">
+            <div className="space-y-5">
               
-              {/* Stone variant selector */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <div className="flex flex-col">
-                  <label className="text-[10px] uppercase tracking-wider text-[#4E4E59] mb-2 font-semibold">Select Stone Variant</label>
-                  <select
-                    value={selectedStoneId}
-                    onChange={(e) => setSelectedStoneId(e.target.value)}
-                    className="w-full bg-white border border-[#E2E8F0] rounded-md px-4 py-3 text-xs text-[#1C1C21] focus:border-[#D4AF37] focus:outline-none"
-                  >
-                    {stones.map((s) => (
-                      <option key={s.id} value={s.id} className="bg-white text-[#1C1C21]">{s.name} ({s.category.toUpperCase()})</option>
-                    ))}
-                  </select>
-                </div>
+              {/* Stone Selection */}
+              <div className="flex flex-col">
+                <label className="text-[10px] uppercase tracking-wider text-[#4E4E59] mb-1.5 font-semibold">Select Stone Variety</label>
+                <select
+                  value={selectedStoneId}
+                  onChange={(e) => setSelectedStoneId(e.target.value)}
+                  className="w-full bg-white border border-[#E2E8F0] rounded-md px-4 py-3 text-xs text-[#1C1C21] font-medium focus:border-[#D4AF37] focus:outline-none"
+                >
+                  {stones.map((s) => (
+                    <option key={s.id} value={s.id}>
+                      {s.name} ({s.category.toUpperCase()}) - Density: {s.density}
+                    </option>
+                  ))}
+                </select>
+              </div>
 
-                {/* Thickness */}
-                <div className="flex flex-col">
-                  <label className="text-[10px] uppercase tracking-wider text-[#4E4E59] mb-2 font-semibold">Slab Thickness</label>
-                  <select
-                    value={thickness}
-                    onChange={(e) => setThickness(parseInt(e.target.value))}
-                    className="w-full bg-white border border-[#E2E8F0] rounded-md px-4 py-3 text-xs text-[#1C1C21] focus:border-[#D4AF37] focus:outline-none"
-                  >
-                    <option value={20} className="bg-white text-[#1C1C21]">20 mm (Premium Countertops)</option>
-                    <option value={30} className="bg-white text-[#1C1C21]">30 mm (Heavy-Duty & Exterior)</option>
-                  </select>
+              {/* Thickness Selector */}
+              <div className="flex flex-col">
+                <label className="text-[10px] uppercase tracking-wider text-[#4E4E59] mb-1.5 font-semibold">Slab / Tile Thickness</label>
+                <div className="grid grid-cols-2 gap-4">
+                  {[
+                    { val: 20, label: '20 mm (Standard Gangsaw Slab)' },
+                    { val: 30, label: '30 mm (Heavy Duty Countertop Slab)' }
+                  ].map((t) => (
+                    <button
+                      key={t.val}
+                      type="button"
+                      onClick={() => setThickness(t.val)}
+                      className={`py-3 px-4 rounded-lg border text-xs font-mono transition-all text-center ${
+                        thickness === t.val 
+                          ? 'border-[#D4AF37] bg-[#D4AF37]/10 text-[#1C1C21] font-bold' 
+                          : 'border-[#E5E7EB] bg-white text-[#4E4E59] hover:border-[#D4AF37]'
+                      }`}
+                    >
+                      {t.label}
+                    </button>
+                  ))}
                 </div>
               </div>
 
-              {/* Quantity */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              {/* Quantity input */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="flex flex-col">
-                  <label className="text-[10px] uppercase tracking-wider text-[#4E4E59] mb-2 font-semibold">Quantity Mode</label>
-                  <div className="grid grid-cols-2 gap-2 bg-black/5 p-1 border border-[#E2E8F0] rounded-md">
+                  <label className="text-[10px] uppercase tracking-wider text-[#4E4E59] mb-1.5 font-semibold">Unit Type</label>
+                  <div className="grid grid-cols-2 gap-2">
                     <button
                       type="button"
                       onClick={() => { setQuantityType('slabs'); setQuantity(120); }}
-                      className={`py-2 text-[10px] tracking-wider uppercase font-semibold rounded transition-all ${
-                        quantityType === 'slabs' ? 'bg-[#D4AF37] text-black shadow-sm font-bold' : 'text-[#4E4E59] hover:text-[#1C1C21]'
+                      className={`py-2.5 rounded-md border text-xs font-mono ${
+                        quantityType === 'slabs' 
+                          ? 'border-[#D4AF37] bg-[#D4AF37]/10 text-[#1C1C21] font-bold' 
+                          : 'border-[#E5E7EB] bg-white text-[#4E4E59]'
                       }`}
                     >
-                      Slabs Count
+                      Slabs (~5.4 sqm)
                     </button>
                     <button
                       type="button"
                       onClick={() => { setQuantityType('sqm'); setQuantity(650); }}
-                      className={`py-2 text-[10px] tracking-wider uppercase font-semibold rounded transition-all ${
-                        quantityType === 'sqm' ? 'bg-[#D4AF37] text-black shadow-sm font-bold' : 'text-[#4E4E59] hover:text-[#1C1C21]'
+                      className={`py-2.5 rounded-md border text-xs font-mono ${
+                        quantityType === 'sqm' 
+                          ? 'border-[#D4AF37] bg-[#D4AF37]/10 text-[#1C1C21] font-bold' 
+                          : 'border-[#E5E7EB] bg-white text-[#4E4E59]'
                       }`}
                     >
-                      Total Area (SQM)
+                      Sq. Meters
                     </button>
                   </div>
                 </div>
 
                 <div className="flex flex-col">
-                  <label className="text-[10px] uppercase tracking-wider text-[#4E4E59] mb-2 font-semibold">
-                    {quantityType === 'slabs' ? 'Number of Slabs' : 'Total Area (Sq. Meters)'}
+                  <label className="text-[10px] uppercase tracking-wider text-[#4E4E59] mb-1.5 font-semibold">
+                    Quantity ({quantityType === 'slabs' ? 'Number of Slabs' : 'Total Sq. Metres'})
                   </label>
                   <input
                     type="number"
@@ -192,9 +211,9 @@ export default function QuoteCalculator({ selectedStoneFromCatalog, clearSelecte
                 <label className="text-[10px] uppercase tracking-wider text-[#4E4E59] mb-2 font-semibold">Export Destination Regulations</label>
                 <div className="grid grid-cols-3 gap-3">
                   {[
-                    { code: 'US', label: 'USA (Max 20.5 Tons)', info: 'Strict 20ft road limits' },
-                    { code: 'UK', label: 'UK / Europe (Max 23.5 Tons)', info: 'Standard EU highway' },
-                    { code: 'Arab', label: 'Arab Nations (Max 27.5 Tons)', info: '7-8 bundles per 20ft container' }
+                    { code: 'US', label: 'USA & Canada (Max 27 Tons)', info: 'Max 27T per 20ft container' },
+                    { code: 'UK', label: 'UK & Europe (Max 27 Tons)', info: 'Max 27T per 20ft container' },
+                    { code: 'Arab', label: 'GCC & Middle East (Max 27 Tons)', info: 'Max 27T per 20ft container' }
                   ].map((m) => (
                     <button
                       key={m.code}

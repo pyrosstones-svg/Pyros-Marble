@@ -29,14 +29,12 @@ export default function ProductDetails({ stoneId, onBack }) {
     );
   }
 
-  // Logistic Engine Calculations
-  const density = parseFloat(currentStone.density);
+  // Logistic Engine Calculations: 1 Standard Gangsaw Slab = 500 kg (0.50 Tons for 20mm, 0.75 Tons for 30mm)
   const totalSqm = quantity * 5.4;
-  const thicknessInMeters = thickness / 1000;
-  const totalVolumeM3 = totalSqm * thicknessInMeters;
-  const totalWeightTons = totalVolumeM3 * density;
+  const weightPerSlabTons = thickness === 30 ? 0.75 : 0.50;
+  const totalWeightTons = quantity * weightPerSlabTons;
 
-  const maxWeightPerContainer = destination === 'US' ? 20.5 : destination === 'UK' ? 23.5 : 27.5;
+  const maxWeightPerContainer = 27.0; // Max 27T limit across all destination ports
   const containersNeeded = Math.ceil(totalWeightTons / maxWeightPerContainer) || 0;
   // Max 7 to 8 wooden A-frame bundles per 20ft heavy container (~55-60 sqm per bundle)
   const bundlesNeeded = Math.ceil(totalSqm / 55) || 0;
@@ -315,9 +313,9 @@ export default function ProductDetails({ stoneId, onBack }) {
                   onChange={(e) => setDestination(e.target.value)}
                   className="bg-[#FAF9F6] border border-[#E2E8F0] rounded-lg px-4 py-2.5 text-xs text-[#1C1C21] focus:border-[#D4AF37] focus:outline-none"
                 >
-                  <option value="US">USA & Canada (Max 20.5T Limit)</option>
-                  <option value="UK">UK & Europe (Max 23.5T Limit)</option>
-                  <option value="Arab">GCC & Middle East (Max 26.5T Limit)</option>
+                  <option value="US">USA & Canada (Max 27T Limit)</option>
+                  <option value="UK">UK & Europe (Max 27T Limit)</option>
+                  <option value="Arab">GCC & Middle East (Max 27T Limit)</option>
                 </select>
               </div>
             </div>
