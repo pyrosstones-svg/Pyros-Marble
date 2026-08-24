@@ -1,5 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { Shield, Award, Clock, Users, CheckCircle, HelpCircle, ArrowRight, Layers, Sparkles, Ship, Landmark, Quote, Globe, X, Target, Eye, Compass, CheckCircle2 } from 'lucide-react';
+import { navigate } from '../utils/navigation';
 
 // Intersection Observer based progress bar component
 function ProgressBar({ label, percentage, icon: Icon }) {
@@ -128,7 +129,7 @@ export default function AboutUs() {
                     if (window.openEnquiryModal) {
                       window.openEnquiryModal();
                     } else {
-                      window.location.hash = '#/contact';
+                      navigate('/contact');
                     }
                   }}
                   className="absolute w-12 h-12 bg-[#D4AF37] text-black rounded-full flex items-center justify-center shadow-lg border border-white/20 cursor-pointer hover:bg-black hover:text-[#D4AF37] transition-all duration-300"
@@ -311,7 +312,7 @@ export default function AboutUs() {
                       if (window.openEnquiryModal) {
                         window.openEnquiryModal();
                       } else {
-                        window.location.hash = '#/contact';
+                        navigate('/contact');
                       }
                     }}
                     className="px-5 py-2.5 bg-[#D4AF37] hover:bg-[#b59228] text-black text-xs font-bold uppercase tracking-wider rounded-lg transition-all shadow-md w-full sm:w-auto"
@@ -494,7 +495,7 @@ export default function AboutUs() {
                   if (window.openEnquiryModal) {
                     window.openEnquiryModal();
                   } else {
-                    window.location.hash = '#/contact';
+                    navigate('/contact');
                   }
                 }}
                 className="px-6 py-3.5 bg-[#D4AF37] hover:bg-[#b59228] text-black text-xs font-bold uppercase tracking-widest rounded-xl transition-all shadow-lg"

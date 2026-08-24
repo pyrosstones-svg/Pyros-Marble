@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Ship, Anchor, CheckCircle2, ChevronLeft, ChevronRight, MessageSquare } from 'lucide-react';
 import { stones } from '../data/stoneData';
+import { navigate } from '../utils/navigation';
 
 // Top newly added stones for Mundra Port (North & West India marble, quartzite, granite, sandstone)
 const mundraProductIds = [
@@ -79,7 +80,7 @@ export default function PortsShowcase() {
     if (window.openEnquiryModal) {
       window.openEnquiryModal(stoneName);
     } else {
-      window.location.hash = `#/contact?product=${encodeURIComponent(stoneName)}`;
+      navigate(`/contact?product=${encodeURIComponent(stoneName)}`);
     }
   };
 

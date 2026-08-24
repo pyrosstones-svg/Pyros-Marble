@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { stones, stoneCategories } from '../data/stoneData';
 import { Search, Eye } from 'lucide-react';
+import { navigate } from '../utils/navigation';
 
 export default function Catalog({ initialCategory = 'marble', onCategoryChange, onSelectForCalculator }) {
   const activeCategory = (initialCategory === 'all' || !initialCategory) ? 'marble' : initialCategory;
@@ -17,7 +18,7 @@ export default function Catalog({ initialCategory = 'marble', onCategoryChange, 
     if (onCategoryChange) {
       onCategoryChange(catId);
     }
-    window.location.hash = `#/catalog/${catId}`;
+    navigate(`/${catId}`);
   };
 
   const categoryTitles = {
@@ -121,7 +122,7 @@ export default function Catalog({ initialCategory = 'marble', onCategoryChange, 
 
                   {/* Eye hover trigger */}
                   <div 
-                    onClick={() => window.location.hash = `#/product/${stone.id}`}
+                    onClick={() => navigate(`/product/${stone.id}`)}
                     className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-white/80 backdrop-blur-xs transition-opacity duration-300 cursor-pointer"
                   >
                     <div className="px-5 py-2.5 bg-[#D4AF37] text-black font-semibold text-xs tracking-wider uppercase rounded flex items-center gap-2 shadow-lg">
@@ -135,7 +136,7 @@ export default function Catalog({ initialCategory = 'marble', onCategoryChange, 
                 <div className="p-6">
                   <div className="flex justify-between items-start mb-2">
                     <h3 
-                      onClick={() => window.location.hash = `#/product/${stone.id}`}
+                      onClick={() => navigate(`/product/${stone.id}`)}
                       className="font-outfit text-xl font-bold tracking-wide group-hover:text-[#D4AF37] transition-colors cursor-pointer text-[#1C1C21]"
                     >
                       {stone.name}
@@ -154,7 +155,7 @@ export default function Catalog({ initialCategory = 'marble', onCategoryChange, 
                       <span className="text-xs text-[#1C1C21] mt-0.5 font-medium">20mm / 30mm</span>
                     </div>
                     <button 
-                      onClick={() => window.location.hash = `#/product/${stone.id}`}
+                      onClick={() => navigate(`/product/${stone.id}`)}
                       className="px-4 py-2 bg-transparent hover:bg-[#D4AF37] border border-[#D4AF37]/50 text-[#D4AF37] hover:text-black text-[10px] tracking-widest uppercase font-semibold rounded transition-all duration-300"
                     >
                       Configure Load

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Globe, ChevronDown } from 'lucide-react';
+import { navigate } from '../utils/navigation';
 
 export default function Header({ activeSection, setActiveSection }) {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -41,11 +42,11 @@ export default function Header({ activeSection, setActiveSection }) {
     setActiveSection(id);
     setIsOpen(false);
     if (id === 'hero') {
-      window.location.hash = '#/';
+      navigate('/');
     } else if (id === 'catalog') {
-      window.location.hash = '#/marble';
+      navigate('/marble');
     } else {
-      window.location.hash = `#/${id}`;
+      navigate(`/${id}`);
     }
   };
 
@@ -53,7 +54,7 @@ export default function Header({ activeSection, setActiveSection }) {
     const target = catId || 'marble';
     setActiveSection(target);
     setIsOpen(false);
-    window.location.hash = `#/${target}`;
+    navigate(`/${target}`);
   };
 
   return (

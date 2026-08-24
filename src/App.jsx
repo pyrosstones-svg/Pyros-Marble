@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { navigate } from './utils/navigation';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Catalog from './components/Catalog';
@@ -179,74 +180,95 @@ export default function App() {
     };
   }, [currentPage]);
 
-  // Dynamic Hash Route Parser
+  // Dynamic Clean Route Parser (Pathname + Legacy Hash Support)
   useEffect(() => {
-    const handleHashChange = () => {
-      const hash = window.location.hash || '#/';
+    const handleRouteChange = () => {
+      let path = window.location.pathname.toLowerCase() || '/';
+      const hash = window.location.hash || '';
 
-      if (hash.startsWith('#/product/')) {
-        const id = hash.replace('#/product/', '');
+      // If user navigated with legacy hash (e.g., /#/granite), clean it up in the address bar
+      if (hash && hash.startsWith('#/')) {
+        path = hash.replace(/^#\/?/, '/').toLowerCase();
+        window.history.replaceState({}, '', path);
+      } else if (hash && hash.startsWith('#')) {
+        path = '/' + hash.replace(/^#/, '').toLowerCase();
+        window.history.replaceState({}, '', path);
+      }
+
+      if (path.startsWith('/product/')) {
+        const id = window.location.pathname.replace(/^\/product\//i, '').replace(/\/$/, '');
         setSelectedProductId(id);
         setCurrentPage('product');
-      } else if (hash === '#/about-us' || hash === '#about-us') {
+      } else if (path === '/about-us' || path === '/about') {
         setCurrentPage('about-us');
-      } else if (hash === '#/marble' || hash === '#/catalog/marble') {
+      } else if (path === '/marble' || path === '/catalog/marble') {
         setCurrentPage('marble');
-      } else if (hash === '#/granite' || hash === '#/catalog/granite') {
+      } else if (path === '/granite' || path === '/catalog/granite') {
         setCurrentPage('granite');
-      } else if (hash === '#/quartzite' || hash === '#/catalog/quartzite') {
+      } else if (path === '/quartzite' || path === '/catalog/quartzite') {
         setCurrentPage('quartzite');
-      } else if (hash === '#/sandstone' || hash === '#/catalog/sandstone') {
+      } else if (path === '/sandstone' || path === '/catalog/sandstone') {
         setCurrentPage('sandstone');
-      } else if (hash === '#/slate' || hash === '#/catalog/slate') {
+      } else if (path === '/slate' || path === '/catalog/slate') {
         setCurrentPage('slate');
-      } else if (hash === '#/limestone' || hash === '#/catalog/limestone') {
+      } else if (path === '/limestone' || path === '/catalog/limestone') {
         setCurrentPage('limestone');
-      } else if (hash === '#/wall-cladding' || hash === '#/catalog/wall-cladding') {
+      } else if (path === '/wall-cladding' || path === '/catalog/wall-cladding') {
         setCurrentPage('wall-cladding');
-      } else if (hash === '#/porcelain' || hash === '#/catalog/porcelain') {
+      } else if (path === '/porcelain' || path === '/catalog/porcelain') {
         setCurrentPage('porcelain');
-      } else if (hash === '#/export/usa' || hash === '#/usa' || hash === '#usa') {
+      } else if (path === '/export/usa' || path === '/usa') {
         setCurrentPage('export-usa');
-      } else if (hash === '#/export/europe' || hash === '#/europe' || hash === '#europe') {
+      } else if (path === '/export/europe' || path === '/europe') {
         setCurrentPage('export-europe');
-      } else if (hash === '#/export/australia' || hash === '#/australia' || hash === '#australia') {
+      } else if (path === '/export/australia' || path === '/australia') {
         setCurrentPage('export-australia');
-      } else if (hash === '#/export/uae' || hash === '#/uae' || hash === '#uae') {
+      } else if (path === '/export/uae' || path === '/uae') {
         setCurrentPage('export-uae');
-      } else if (hash === '#/export/saudi' || hash === '#/saudi' || hash === '#saudi' || hash === '#/saudi-trade') {
+      } else if (path === '/export/saudi' || path === '/saudi' || path === '/saudi-trade') {
         setCurrentPage('export-saudi');
-      } else if (hash.startsWith('#/catalog') || hash.startsWith('#catalog')) {
-        const cleanHash = hash.replace(/^#\/?/, '');
-        const parts = cleanHash.split('/');
-        const cat = (parts.length > 1 && parts[1] && parts[1] !== 'all') ? parts[1] : 'marble';
+      } else if (path.startsWith('/catalog')) {
+        const clean = path.replace(/^\/catalog\/?/, '');
+        const cat = clean && clean !== 'all' ? clean : 'marble';
         setCurrentPage(cat);
-      } else if (hash === '#/blog' || hash === '#blog') {
+      } else if (path === '/blog') {
         setCurrentPage('blog');
-      } else if (hash === '#/contact' || hash === '#contact') {
+      } else if (path === '/contact') {
         setCurrentPage('contact');
-      } else {
+      } else if (path === '/' || path === '') {
         setCurrentPage('home');
+      } else {
+        // Fallback check for standard section names
+        const cleanSection = path.replace(/^\//, '');
+        if (['marble', 'granite', 'quartzite', 'sandstone', 'slate', 'limestone', 'wall-cladding', 'porcelain'].includes(cleanSection)) {
+          setCurrentPage(cleanSection);
+        } else {
+          setCurrentPage('home');
+        }
       }
       window.scrollTo(0, 0);
     };
 
-    window.addEventListener('hashchange', handleHashChange);
-    handleHashChange(); // parse initial hash load
+    window.addEventListener('popstate', handleRouteChange);
+    window.addEventListener('hashchange', handleRouteChange);
+    handleRouteChange(); // parse initial URL on load
 
-    return () => window.removeEventListener('hashchange', handleHashChange);
+    return () => {
+      window.removeEventListener('popstate', handleRouteChange);
+      window.removeEventListener('hashchange', handleRouteChange);
+    };
   }, []);
 
   const navigateTo = (pageId) => {
-    if (pageId === 'home') {
-      window.location.hash = '#/';
+    if (pageId === 'home' || pageId === 'hero') {
+      navigate('/');
     } else {
-      window.location.hash = `#/${pageId}`;
+      navigate(`/${pageId}`);
     }
   };
 
   const handleSelectForCalculator = (stone) => {
-    window.location.hash = `#/product/${stone.id}`;
+    navigate(`/product/${stone.id}`);
   };
 
   const scrollToTop = () => {
@@ -1207,15 +1229,15 @@ export default function App() {
             </h4>
             <ul className="space-y-2.5 font-light text-neutral-200 text-[13px]">
               {[
-                { name: '🇺🇸 USA Export Market', hash: '#/export/usa' },
-                { name: '🇪🇺 Europe & UK Export', hash: '#/export/europe' },
-                { name: '🇦🇺 Australia Export Market', hash: '#/export/australia' },
-                { name: '🇦🇪 UAE (Dubai) Export', hash: '#/export/uae' },
-                { name: '🇸🇦 Saudi Arabia Export', hash: '#/export/saudi' }
+                { name: '🇺🇸 USA Export Market', path: '/export/usa' },
+                { name: '🇪🇺 Europe & UK Export', path: '/export/europe' },
+                { name: '🇦🇺 Australia Export Market', path: '/export/australia' },
+                { name: '🇦🇪 UAE (Dubai) Export', path: '/export/uae' },
+                { name: '🇸🇦 Saudi Arabia Export', path: '/export/saudi' }
               ].map((item, idx) => (
                 <li key={idx}>
                   <button
-                    onClick={() => { window.location.hash = item.hash; }}
+                    onClick={() => { navigate(item.path); }}
                     className="hover:text-[#D4AF37] hover:translate-x-1 transition-all duration-300 text-left block"
                   >
                     {item.name}

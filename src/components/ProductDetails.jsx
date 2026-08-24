@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { stones } from '../data/stoneData';
 import { Container, Scale, Check, ArrowLeft, Send, CheckCircle2, MessageSquare, PhoneCall } from 'lucide-react';
+import { navigate } from '../utils/navigation';
 
 export default function ProductDetails({ stoneId, onBack }) {
   const currentStone = stones.find(s => s.id === stoneId);
@@ -457,7 +458,7 @@ export default function ProductDetails({ stoneId, onBack }) {
                   <div
                     key={variant.id}
                     onClick={() => {
-                      window.location.hash = `#/product/${variant.id}`;
+                      navigate(`/product/${variant.id}`);
                     }}
                     className="group cursor-pointer bg-white rounded-lg overflow-hidden border border-[#E5E7EB] hover:border-[#D4AF37]/50 transition-all duration-300 shadow-sm hover:shadow-md"
                   >

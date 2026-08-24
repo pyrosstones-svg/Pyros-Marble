@@ -12,16 +12,22 @@ export default function Contact() {
   const [submitted, setSubmitted] = useState(false);
 
   useEffect(() => {
-    const hash = window.location.hash || '';
-    if (hash.includes('?product=')) {
-      const parts = hash.split('?product=');
-      if (parts[1]) {
-        const productName = decodeURIComponent(parts[1]);
-        setFormData(prev => ({
-          ...prev,
-          message: `Hello, I would like to get a quote and check container cargo availability for "${productName}". Please provide pricing details.`
-        }));
+    const urlParams = new URLSearchParams(window.location.search);
+    let productName = urlParams.get('product');
+
+    if (!productName) {
+      const hash = window.location.hash || '';
+      if (hash.includes('?product=')) {
+        const parts = hash.split('?product=');
+        if (parts[1]) productName = decodeURIComponent(parts[1]);
       }
+    }
+
+    if (productName) {
+      setFormData(prev => ({
+        ...prev,
+        message: `Hello, I would like to get a quote and check container cargo availability for "${productName}". Please provide pricing details.`
+      }));
     }
   }, []);
 

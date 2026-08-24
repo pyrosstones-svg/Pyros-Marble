@@ -1,17 +1,18 @@
 import React from 'react';
 import { MessageSquare, ArrowRight } from 'lucide-react';
+import { navigate } from '../utils/navigation';
 
 export default function CallToAction() {
   const handlePricingRedirect = () => {
     if (window.openEnquiryModal) {
       window.openEnquiryModal();
     } else {
-      window.location.hash = '#/contact';
+      navigate('/contact');
     }
   };
 
   const handleGalleryRedirect = () => {
-    window.location.hash = '#/catalog';
+    navigate('/marble');
   };
 
   return (

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Search, Calendar, Clock, User, ArrowLeft, ArrowRight, MessageSquare, Tag, Bookmark, Share2 } from 'lucide-react';
+import { navigate } from '../utils/navigation';
 
 const blogPosts = [
   {
@@ -160,7 +161,7 @@ export default function Blog() {
     if (window.openEnquiryModal) {
       window.openEnquiryModal(stoneName);
     } else {
-      window.location.hash = `#/contact?product=${encodeURIComponent(stoneName)}`;
+      navigate(`/contact?product=${encodeURIComponent(stoneName)}`);
     }
   };
 
