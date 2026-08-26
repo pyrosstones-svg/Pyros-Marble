@@ -3309,7 +3309,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium Mundra Port export grade Pyros Copper Slate. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
-    "image": "/images/stones/hd_copper_slate.png",
+    "image": "/Slate Stone/copper slate stone.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "copper-slate"
   },
@@ -3355,7 +3355,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium Mundra Port export grade Pyros Marine Black Slate. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
-    "image": "/images/stones/hd_absolute_black_granite_full_texture.png",
+    "image": "/Slate Stone/Marine Black Slate.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "marine-black-slate"
   },
@@ -3378,7 +3378,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium Mundra Port export grade Pyros Ocean Black Slate. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
-    "image": "/images/stones/hd_absolute_black_granite_full_texture.png",
+    "image": "/Slate Stone/Ocean Black Slate.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "ocean-black-slate"
   },
@@ -3401,7 +3401,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium Mundra Port export grade Pyros Silver Grey Slate. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
-    "image": "/images/stones/mundra-red-flamingo.png",
+    "image": "/Slate Stone/silver gray slate_.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "silver-grey-slate"
   },
@@ -3424,7 +3424,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium Mundra Port export grade Pyros Silver Grey Fish Swan Slate. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
-    "image": "/images/stones/hd_himalayan_blue_granite.png",
+    "image": "/Slate Stone/Silver Grey Fish Swan Slate.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "silver-grey-fish-swan-slate"
   },
@@ -3447,7 +3447,7 @@ export const stones = [
       "60x120x20mm"
     ],
     "description": "Premium Mundra Port export grade Pyros Zeera Green Slate. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
-    "image": "/images/stones/hd_spider_green_marble_full_texture.png",
+    "image": "/Slate Stone/zeera green slate stone.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "zeera-green-slate"
   },
