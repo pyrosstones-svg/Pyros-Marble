@@ -3314,29 +3314,6 @@ export const stones = [
     "baseId": "copper-slate"
   },
   {
-    "id": "deoil-green-slate",
-    "name": "Deoil Green Slate",
-    "category": "slate",
-    "origin": "Mundra Port, India",
-    "finishes": [
-      "High Gloss",
-      "Polished",
-      "Leathered",
-      "Honed"
-    ],
-    "density": "2.70 g/cm³",
-    "waterAbsorption": "0.12%",
-    "sizes": [
-      "120x240x20mm",
-      "160x320x30mm",
-      "60x120x20mm"
-    ],
-    "description": "Premium Mundra Port export grade Pyros Deoil Green Slate. Sourced directly from quarry reserves in India and processed using advanced gangsaw 20mm & 30mm thickness calibration for high-end luxury architectural projects worldwide.",
-    "image": "/images/stones/mundra-blue-pearl.png",
-    "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
-    "baseId": "deoil-green-slate"
-  },
-  {
     "id": "marine-black-slate",
     "name": "Marine Black Slate",
     "category": "slate",
