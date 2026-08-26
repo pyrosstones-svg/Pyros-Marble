@@ -214,7 +214,7 @@
   50% { opacity: 0.95; }
 }
 
-.animate-[#D4AF37] {
+.animate-pulse-slow {
   animation: pulse-slow 3s ease-in-out infinite;
 }
 
@@ -264,7 +264,7 @@
   transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
-.translate-3d-[#D4AF37] {
+.translate-3d-title {
   transform: translateZ(15px);
   transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
 }

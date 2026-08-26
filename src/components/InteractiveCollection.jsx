@@ -16,7 +16,7 @@ export default function InteractiveCollection() {
         { label: 'Water Porosity', value: '< 0.04% hydrophobic' },
         { label: 'Sourcing Hub', value: 'Rajasthan Quarry Reserves (IN)' }
       ],
-      stoneCloseUp: 'https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=600&auto=format&fit=crop',
+      stoneCloseUp: '/Marble Final/Indian Statuario Marble.png',
       interiorMockup: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop',
       icon: Gem
     },
@@ -31,7 +31,7 @@ export default function InteractiveCollection() {
         { label: 'Slab Dimension', value: 'Jumbo sizes (300cm x 190cm)' },
         { label: 'Sourcing Hub', value: 'Andhra Pradesh / Rajasthan (IN)' }
       ],
-      stoneCloseUp: 'https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=600&auto=format&fit=crop',
+      stoneCloseUp: '/granite IMAGS/ALASKA GOLD - SS.JPG',
       interiorMockup: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=800&auto=format&fit=crop',
       icon: Layers
     },
@@ -46,8 +46,8 @@ export default function InteractiveCollection() {
         { label: 'Resin Bonding', value: 'Ultra-clear 3G vacuum bonded' },
         { label: 'Sourcing Hub', value: 'Brazil Quarries / Bangalore (IN)' }
       ],
-      stoneCloseUp: 'https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?q=80&w=600&auto=format&fit=crop',
-      interiorMockup: 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=800&auto=format&fit=crop',
+      stoneCloseUp: '/granite IMAGS/CRYSTALLO ORO - SJQ.JPG',
+      interiorMockup: 'https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?q=80&w=600&auto=format&fit=crop',
       icon: Sparkles
     },
     {
@@ -61,7 +61,7 @@ export default function InteractiveCollection() {
         { label: 'Weather Integrity', value: 'Frost & thermal shock proof' },
         { label: 'Sourcing Hub', value: 'Kota & Rajasthan Quarry Belts (IN)' }
       ],
-      stoneCloseUp: 'https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?q=80&w=600&auto=format&fit=crop',
+      stoneCloseUp: '/Sand Stone Final/Rainbow Sandstone.png',
       interiorMockup: 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=800&auto=format&fit=crop',
       icon: Landmark
     }
