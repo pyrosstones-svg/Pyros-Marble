@@ -18,12 +18,13 @@ const STONE_COLLECTION = [
   { name: 'Bruno White', type: 'MARBLE', img: '/Marble Final/Bruno White Marble.png' },
   { name: 'Red Flamingo', type: 'MARBLE', img: '/Marble Final/Red Flamingo Marble_.png' },
   { name: 'Alaska Gold', type: 'GRANITE', img: '/granite IMAGS/ALASKA GOLD - SS.JPG' },
-  { name: 'Patagonia Exotic', type: 'QUARTZITE', img: '/granite IMAGS/PATAGONIA - MMS.JPG' },
+  { name: 'Patagonia Exotic', type: 'QUARTZITE', img: '/Quartzite/Patagonia.png' },
   { name: 'Black Fantasy', type: 'GRANITE', img: '/granite IMAGS/BLACK FANTASY BS.JPG' },
-  { name: 'Crystallo Oro', type: 'QUARTZITE', img: '/granite IMAGS/CRYSTALLO ORO - SJQ.JPG' },
+  { name: 'Crystallo Oro', type: 'QUARTZITE', img: '/Quartzite/Cristallo Oro Quartzite.png' },
   { name: 'Cosmos Black', type: 'GRANITE', img: '/granite IMAGS/COSMOS BLACK MT.JPG' },
-  { name: 'Blue Dunes', type: 'GRANITE', img: '/granite IMAGS/BLUE DUNES - FST.JPG' },
-  { name: 'Da Vinci', type: 'QUARTZITE', img: '/granite IMAGS/DA VINCI - SNS.JPG' },
+  { name: 'Azul Nueva', type: 'QUARTZITE', img: '/Quartzite/Azul Nueva.png' },
+  { name: 'Da Vinci', type: 'QUARTZITE', img: '/Quartzite/Da Vinci Exotic Quartzite.png' },
+  { name: 'Pink Patagonia', type: 'QUARTZITE', img: '/Quartzite/Pink Patagonia Exotic Quartzite.png' },
   { name: 'Alpine Forest', type: 'GRANITE', img: '/granite IMAGS/ALPINE FOREST AQ.JPG' },
   { name: 'Bianco Typhoon', type: 'GRANITE', img: '/granite IMAGS/BIANCO TYPHOON TG.JPG' }
 ];

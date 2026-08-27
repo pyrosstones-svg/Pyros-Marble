@@ -46,7 +46,7 @@ export default function InteractiveCollection() {
         { label: 'Resin Bonding', value: 'Ultra-clear 3G vacuum bonded' },
         { label: 'Sourcing Hub', value: 'Brazil Quarries / Bangalore (IN)' }
       ],
-      stoneCloseUp: '/granite IMAGS/CRYSTALLO ORO - SJQ.JPG',
+      stoneCloseUp: '/Quartzite/Cristallo Oro Quartzite.png',
       interiorMockup: 'https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?q=80&w=600&auto=format&fit=crop',
       icon: Sparkles
     },

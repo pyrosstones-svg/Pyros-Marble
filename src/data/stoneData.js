@@ -352,7 +352,7 @@ export const stones = [
       "Custom Gangsaw Slabs"
     ],
     "description": "Ultra-luxurious Corteccia Quartzite showcasing distinctive bark-like linear patterns with rich earth, ivory, and taupe tones. Extreme scratch and heat resistance.",
-    "image": "/granite IMAGS/CORTECCIA QUARTZITE - MMM.JPG",
+    "image": "/Quartzite/Corteccia Quartzite.jpg.png",
     "recommendedUse": "Chef kitchens, waterfall counters, backlight bar tops, luxury wall cladding.",
     "baseId": "pyros-corteccia-quartzite"
   },
@@ -375,7 +375,7 @@ export const stones = [
       "Custom Gangsaw Slabs"
     ],
     "description": "Rare Cosmopolitan Quartzite with vibrant raspberry-pink, ruby, and burgundy crystalline formations. A true statement stone for high-end luxury interiors.",
-    "image": "/granite IMAGS/COSMOPOLITINE QUARTZITE - UM.JPG",
+    "image": "/Quartzite/Cosmopolitan quartzite.png",
     "recommendedUse": "Backlit feature walls, luxury bar counters, designer bathroom vanities, boutique hotel lobbies.",
     "baseId": "pyros-cosmopolitan-quartzite"
   },
@@ -467,7 +467,7 @@ export const stones = [
       "Custom Gangsaw Slabs"
     ],
     "description": "Mesmerizing Cristallo Quartzite with crystal-clear translucency, subtle amber veins, and pure crystalline structure. Perfect for dramatic rear-illumination.",
-    "image": "/granite IMAGS/CRYSTALLO - OM.JPG",
+    "image": "/Quartzite/Cristallo Translucent Quartzite.png",
     "recommendedUse": "Backlit countertops, glowing architectural feature walls, luxury reception desks, spa retreats.",
     "baseId": "pyros-cristallo-quartzite"
   },
@@ -490,7 +490,7 @@ export const stones = [
       "Custom Gangsaw Slabs"
     ],
     "description": "Pure semi-translucent Cristallo Quartzite infused with warm golden-amber (Oro) crystalline veining. Delivers unmatched radiance when backlit.",
-    "image": "/granite IMAGS/CRYSTALLO ORO - SJQ.JPG",
+    "image": "/Quartzite/Cristallo Oro Quartzite.png",
     "recommendedUse": "Backlit island counters, luxury bathroom suites, hotel bar facades, VIP executive lounges.",
     "baseId": "pyros-cristallo-oro-quartzite"
   },
@@ -513,7 +513,7 @@ export const stones = [
       "Custom Gangsaw Slabs"
     ],
     "description": "Dazzling Crystansa Quartzite featuring a frosty crystalline white matrix with undulating grey and golden mica ribbons. Extremely dense and impervious.",
-    "image": "/granite IMAGS/CRYSTANSA QURTZITE - ARV.JPG",
+    "image": "/Quartzite/Crystansa Quartzite.png",
     "recommendedUse": "High-traffic kitchen countertops, master bathroom walls, luxury dining tables.",
     "baseId": "pyros-crystansa-quartzite"
   },
@@ -559,7 +559,7 @@ export const stones = [
       "Custom Gangsaw Slabs"
     ],
     "description": "Masterpiece Da Vinci Quartzite displaying artistic swirl patterns of sage green, ivory, cream, and soft bronze reminiscent of Renaissance paintings.",
-    "image": "/granite IMAGS/DA VINCI - SNS.JPG",
+    "image": "/Quartzite/Da Vinci Exotic Quartzite.png",
     "recommendedUse": "Statement kitchen countertops, luxury powder rooms, wall art panels, bespoke furniture.",
     "baseId": "pyros-da-vinci-quartzite"
   },
@@ -723,7 +723,7 @@ export const stones = [
       "Custom Gangsaw Slabs"
     ],
     "description": "Prestigious Grey Macaubas Quartzite boasting linear parallel veins of smoky slate grey over an ivory-white background. Combines marble aesthetics with granite strength.",
-    "image": "/granite IMAGS/GREY MACAUBAS.JPG",
+    "image": "/Quartzite/Grey Macaubas Quartzite.png",
     "recommendedUse": "Kitchen worktops, bookmatched feature walls, luxury flooring, exterior wall panels.",
     "baseId": "pyros-grey-macaubas-quartzite"
   },
@@ -818,7 +818,7 @@ export const stones = [
       "Custom Gangsaw Slabs"
     ],
     "description": "World-renowned Taj Mahal Quartzite exhibiting soft creamy-white tones with gentle gold and grey waves. Resembles Italian marble but provides superior hardness.",
-    "image": "/granite IMAGS/INDIAN TAJMAHAL - RKS01 - 3 CM - (129” X 79”) (327 X 200 CM)- 37 NOS (#19).JPG",
+    "image": "/Quartzite/Indian Taj Mahal Quartzite.png",
     "recommendedUse": "Gourmet kitchen countertops, island waterfalls, bathroom vanities, luxury floor tiles.",
     "baseId": "pyros-indian-taj-mahal-quartzite"
   },
@@ -841,7 +841,7 @@ export const stones = [
       "Custom Gangsaw Slabs"
     ],
     "description": "Regal Maharaja Quartzite displaying rich golden, copper, and charcoal crystal formations for royal, opulent interiors.",
-    "image": "/granite IMAGS/MAHARAJA QUARTZITE - VKG.JPG",
+    "image": "/Quartzite/Maharaja Quartzite.png",
     "recommendedUse": "Palatial flooring, luxury villa facades, executive suites, kitchen countertops.",
     "baseId": "pyros-maharaja-quartzite"
   },
@@ -888,7 +888,7 @@ export const stones = [
       "Custom Gangsaw Slabs"
     ],
     "description": "Exotic Monalisa Quartzite featuring fluid artistic waves of mocha, ivory, taupe, and soft grey quartz crystals.",
-    "image": "/granite IMAGS/MONALISA - CM.JPG",
+    "image": "/Quartzite/Monalisa Quartzite.png",
     "recommendedUse": "Luxury kitchen countertops, reception backdrops, fireplace cladding, bathroom surfaces.",
     "baseId": "pyros-monalisa-quartzite"
   },
@@ -958,7 +958,7 @@ export const stones = [
       "Custom Gangsaw Slabs"
     ],
     "description": "World-famous Patagonia Quartzite featuring translucent quartz chunks embedded in a dramatic matrix of beige feldspar, black tourmaline, and golden crystals.",
-    "image": "/granite IMAGS/PATAGONIA - MMS.JPG",
+    "image": "/Quartzite/Patagonia Quartzite (MMS Selection).png",
     "recommendedUse": "Backlit island counters, luxury bar fronts, statement feature walls, high-end furniture.",
     "baseId": "pyros-patagonia-quartzite-mms"
   },
@@ -981,7 +981,7 @@ export const stones = [
       "Custom Gangsaw Slabs"
     ],
     "description": "Ultra-luxury Patagonia Quartzite with large luminous crystal pockets and bold mineral contrast for backlit architectural centerpieces.",
-    "image": "/granite IMAGS/PATAGONIA - PN.JPG",
+    "image": "/Quartzite/Patagonia Quartzite (PN Selection).png",
     "recommendedUse": "Backlit feature installations, luxury kitchens, designer vanities, elite corporate lounges.",
     "baseId": "pyros-patagonia-quartzite-pn"
   },
@@ -1004,7 +1004,7 @@ export const stones = [
       "Custom Gangsaw Slabs"
     ],
     "description": "Hand-selected Patagonia Quartzite slab with high crystal transparency and golden-amber highlights.",
-    "image": "/granite IMAGS/PATAGONIA - SRW.JPG",
+    "image": "/Quartzite/Patagonia Quartzite (SRW Selection).jpg.png",
     "recommendedUse": "Bar tops, statement kitchen countertops, backlit feature walls, luxury flooring.",
     "baseId": "pyros-patagonia-quartzite-srw"
   },
@@ -1027,7 +1027,7 @@ export const stones = [
       "Custom Gangsaw Slabs"
     ],
     "description": "Extremely rare Pink Patagonia Quartzite combining rose quartz crystals with cream, golden, and dark mineral patches.",
-    "image": "/granite IMAGS/PINK PATAGONIA - MK.JPG",
+    "image": "/Quartzite/Pink Patagonia Exotic Quartzite.png",
     "recommendedUse": "Exclusive boutique counters, luxury master baths, illuminated decorative panels.",
     "baseId": "pyros-pink-patagonia-quartzite"
   },
@@ -4623,6 +4623,102 @@ export const stones = [
     "image": "/images/stones/hd_albeta_white_marble_full_texture.png",
     "recommendedUse": "High-end flooring, kitchen worktops, luxury wall cladding, vanity tops, executive boardrooms.",
     "baseId": "white-galaxy-granite"
+  },
+  {
+    "id": "pyros-azul-nueva-quartzite",
+    "name": "Azul Nueva Quartzite",
+    "category": "quartzite",
+    "origin": "India / Exotic Reserves",
+    "finishes": [
+      "Polished",
+      "High Gloss",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.78 g/cm³",
+    "waterAbsorption": "0.08%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm",
+      "Custom Gangsaw Slabs"
+    ],
+    "description": "Exquisite Azul Nueva Quartzite featuring dramatic deep sky-blue and crystalline navy ribbons intertwined with luminous quartz formations.",
+    "image": "/Quartzite/Azul Nueva.png",
+    "recommendedUse": "Backlit feature walls, luxury kitchen islands, bathroom suites, high-end hospitality lobbies.",
+    "baseId": "pyros-azul-nueva-quartzite"
+  },
+  {
+    "id": "pyros-blue-dunes-quartzite",
+    "name": "Blue Dunes Quartzite",
+    "category": "quartzite",
+    "origin": "Rajasthan, India",
+    "finishes": [
+      "Polished",
+      "Leathered",
+      "Lapatro",
+      "Honed"
+    ],
+    "density": "2.76 g/cm³",
+    "waterAbsorption": "0.09%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm",
+      "Custom Gangsaw Slabs"
+    ],
+    "description": "Striking Blue Dunes Quartzite displaying undulating river-like waves of steel-blue, warm cream, and smoky charcoal crystals.",
+    "image": "/Quartzite/Blue Dunes.png",
+    "recommendedUse": "Kitchen worktops, luxury waterfall countertops, architectural wall panels, executive suites.",
+    "baseId": "pyros-blue-dunes-quartzite"
+  },
+  {
+    "id": "pyros-copenhagen-white-quartzite",
+    "name": "Copenhagen White Quartzite",
+    "category": "quartzite",
+    "origin": "Exotic Reserve Quarry",
+    "finishes": [
+      "Polished",
+      "High Gloss",
+      "Leathered",
+      "Honed"
+    ],
+    "density": "2.77 g/cm³",
+    "waterAbsorption": "0.07%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm",
+      "Custom Gangsaw Slabs"
+    ],
+    "description": "Ultra-luxurious Copenhagen White Quartzite featuring a pristine crystalline white background interlaced with soft taupe, silver, and amber veins.",
+    "image": "/Quartzite/Copenhagen White.png",
+    "recommendedUse": "Master suite vanities, gourmet kitchen islands, bookmatched living room feature walls.",
+    "baseId": "pyros-copenhagen-white-quartzite"
+  },
+  {
+    "id": "pyros-patagonia-exotic-quartzite",
+    "name": "Patagonia Exotic Quartzite",
+    "category": "quartzite",
+    "origin": "Exotic Reserve Quarry",
+    "finishes": [
+      "Polished",
+      "High Gloss",
+      "Leathered",
+      "Bookmatch"
+    ],
+    "density": "2.80 g/cm³",
+    "waterAbsorption": "0.06%",
+    "sizes": [
+      "120x240x20mm",
+      "160x320x30mm",
+      "60x120x20mm",
+      "Custom Gangsaw Slabs"
+    ],
+    "description": "World-famous Patagonia Exotic Quartzite exhibiting semi-translucent volcanic crystalline pockets blended with rich golden-amber and dark feldspar mineral clusters.",
+    "image": "/Quartzite/Patagonia.png",
+    "recommendedUse": "Backlit statement countertops, luxury bar cladding, bookmatched reception feature panels.",
+    "baseId": "pyros-patagonia-exotic-quartzite"
   }
 ];
 
