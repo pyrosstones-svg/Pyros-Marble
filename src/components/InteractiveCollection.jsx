@@ -16,52 +16,52 @@ export default function InteractiveCollection() {
         { label: 'Water Porosity', value: '< 0.04% hydrophobic' },
         { label: 'Sourcing Hub', value: 'Rajasthan Quarry Reserves (IN)' }
       ],
-      stoneCloseUp: '/Marble Final/Indian Statuario Marble.png',
+      stoneCloseUp: '/Marble Final 2/Indian Statuario Marble.png',
       interiorMockup: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop',
       icon: Gem
     },
     {
       id: 1,
-      title: 'Premium Granite Surfaces',
-      name: 'Absolute Black & Alaska Gold',
-      application: 'Heavy-Duty Kitchen Worktops & Facades',
+      title: 'Architectural Sandstone',
+      name: 'Rainbow Sandstone & Teakwood',
+      application: 'Exterior Patios, Pool Decks & Villa Facades',
       specifications: [
-        { label: 'Hardness Rating', value: '6.5 Mohs density scale' },
-        { label: 'Heat Tolerance', value: 'Up to 900°C fire-rated' },
-        { label: 'Slab Dimension', value: 'Jumbo sizes (300cm x 190cm)' },
-        { label: 'Sourcing Hub', value: 'Andhra Pradesh / Rajasthan (IN)' }
+        { label: 'Surface Texture', value: 'Natural Cleft / Sawn / Honed' },
+        { label: 'Slip Coefficient', value: 'R11 safety rating' },
+        { label: 'Weather Integrity', value: '100% Frost & Thermal Shock Proof' },
+        { label: 'Sourcing Hub', value: 'Rajasthan Quarry Belts (IN)' }
       ],
-      stoneCloseUp: '/granite IMAGS/ALASKA GOLD - SS.JPG',
+      stoneCloseUp: '/Sand Stone Final 2/Rainbow Sandstone.png',
       interiorMockup: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=800&auto=format&fit=crop',
       icon: Layers
     },
     {
       id: 2,
-      title: 'Exotic Quartz & Quartzites',
-      name: 'Taj Mahal & Super White Quartzite',
-      application: 'Stain-Proof Islands & Luxury Vanities',
+      title: 'Natural Limestone & Kota Stone',
+      name: 'Kota Blue & Tandur Yellow',
+      application: 'High-Traffic Commercial Flooring & Paving',
       specifications: [
-        { label: 'Acid Resistance', value: '100% chemically inert' },
-        { label: 'Scratch Proofing', value: 'High diamond segment segment' },
-        { label: 'Resin Bonding', value: 'Ultra-clear 3G vacuum bonded' },
-        { label: 'Sourcing Hub', value: 'Brazil Quarries / Bangalore (IN)' }
+        { label: 'Water Porosity', value: '< 0.30% low absorption' },
+        { label: 'Durability', value: 'Heavy foot-traffic rated' },
+        { label: 'Surface Finish', value: 'Mirror Polished / Calibrated' },
+        { label: 'Sourcing Hub', value: 'Kota & Tandur Reserves (IN)' }
       ],
-      stoneCloseUp: '/Quartzite/Cristallo Oro Quartzite.png',
+      stoneCloseUp: '/Lime Stone/Kota Blue Limestone.png',
       interiorMockup: 'https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?q=80&w=600&auto=format&fit=crop',
       icon: Sparkles
     },
     {
       id: 3,
-      title: 'Architectural Landscaping',
-      name: 'Teakwood Sandstone & Kota Blue',
-      application: 'Exterior Patios, Pool Decks & Columns',
+      title: 'Slate Stone & Cladding',
+      name: 'Copper Slate & Marine Black',
+      application: '3D Feature Wall Cladding & Exterior Facades',
       specifications: [
-        { label: 'Surface Texture', value: 'Natural Cleft / Sandblasted' },
-        { label: 'Slip Coefficient', value: 'R11 safety rating' },
+        { label: 'Surface Texture', value: 'Natural Split / Metallic Sheen' },
+        { label: 'Slip Coefficient', value: 'R12 safety rating' },
         { label: 'Weather Integrity', value: 'Frost & thermal shock proof' },
-        { label: 'Sourcing Hub', value: 'Kota & Rajasthan Quarry Belts (IN)' }
+        { label: 'Sourcing Hub', value: 'Deoli & Kund Quarries (IN)' }
       ],
-      stoneCloseUp: '/Sand Stone Final/Rainbow Sandstone.png',
+      stoneCloseUp: '/Slate Stone/copper slate stone.png',
       interiorMockup: 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=800&auto=format&fit=crop',
       icon: Landmark
     }

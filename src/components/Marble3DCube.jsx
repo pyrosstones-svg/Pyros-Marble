@@ -1,32 +1,32 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { RotateCw, Compass, Sparkles, Shuffle } from 'lucide-react';
 
-// Curated pool of exotic marble, granite, quartzite and natural stones
+// Curated pool of active natural stones (Marble, Sandstone, Limestone, Slate)
 const STONE_COLLECTION = [
-  { name: 'Indian Statuario', type: 'MARBLE', img: '/Marble Final/Indian Statuario Marble.png' },
-  { name: 'River Blue', type: 'MARBLE', img: '/Marble Final/River Blue Marble_.png' },
-  { name: 'Spider Green', type: 'MARBLE', img: '/Marble Final/Spider Green Marble.png' },
-  { name: 'Aqua Marine', type: 'MARBLE', img: '/Marble Final/Aqua Marine Marble.png' },
-  { name: 'Rosso Levanto', type: 'MARBLE', img: '/Marble Final/Rosso Levanto.png' },
-  { name: 'Lady Onyx', type: 'MARBLE', img: '/Marble Final/Lady Onyx Marble.png' },
-  { name: 'Rainbow Sandstone', type: 'SANDSTONE', img: '/Sand Stone Final/Rainbow Sandstone.png' },
-  { name: 'Teakwood Sandstone', type: 'SANDSTONE', img: '/Sand Stone Final/Teakwood Sandstone.png' },
-  { name: 'Jaisalmer Gold', type: 'SANDSTONE', img: '/Sand Stone Final/Jaisalmer Gold Sandstone.png' },
-  { name: 'Kota Blue', type: 'SANDSTONE', img: '/Sand Stone Final/Kota Blue Sandstone.png' },
-  { name: 'Dholpur Red', type: 'SANDSTONE', img: '/Sand Stone Final/dholpur red sandstone.png' },
-  { name: 'Fantasy Brown', type: 'MARBLE', img: '/Marble Final/Fantasy Brown Marble.png' },
-  { name: 'Bruno White', type: 'MARBLE', img: '/Marble Final/Bruno White Marble.png' },
-  { name: 'Red Flamingo', type: 'MARBLE', img: '/Marble Final/Red Flamingo Marble_.png' },
-  { name: 'Alaska Gold', type: 'GRANITE', img: '/granite IMAGS/ALASKA GOLD - SS.JPG' },
-  { name: 'Patagonia Exotic', type: 'QUARTZITE', img: '/Quartzite/Patagonia.png' },
-  { name: 'Black Fantasy', type: 'GRANITE', img: '/granite IMAGS/BLACK FANTASY BS.JPG' },
-  { name: 'Crystallo Oro', type: 'QUARTZITE', img: '/Quartzite/Cristallo Oro Quartzite.png' },
-  { name: 'Cosmos Black', type: 'GRANITE', img: '/granite IMAGS/COSMOS BLACK MT.JPG' },
-  { name: 'Azul Nueva', type: 'QUARTZITE', img: '/Quartzite/Azul Nueva.png' },
-  { name: 'Da Vinci', type: 'QUARTZITE', img: '/Quartzite/Da Vinci Exotic Quartzite.png' },
-  { name: 'Pink Patagonia', type: 'QUARTZITE', img: '/Quartzite/Pink Patagonia Exotic Quartzite.png' },
-  { name: 'Alpine Forest', type: 'GRANITE', img: '/granite IMAGS/ALPINE FOREST AQ.JPG' },
-  { name: 'Bianco Typhoon', type: 'GRANITE', img: '/granite IMAGS/BIANCO TYPHOON TG.JPG' }
+  { name: 'Indian Statuario', type: 'MARBLE', img: '/Marble Final 2/Indian Statuario Marble.png' },
+  { name: 'River Blue', type: 'MARBLE', img: '/Marble Final 2/River Blue Marble_.png' },
+  { name: 'Spider Green', type: 'MARBLE', img: '/Marble Final 2/Spider Green Marble.png' },
+  { name: 'Aqua Marine', type: 'MARBLE', img: '/Marble Final 2/Aqua Marine Marble.png' },
+  { name: 'Rosso Levanto', type: 'MARBLE', img: '/Marble Final 2/Rosso Levanto.png' },
+  { name: 'Lady Onyx', type: 'MARBLE', img: '/Marble Final 2/Lady Onyx Marble.png' },
+  { name: 'Fantasy Brown', type: 'MARBLE', img: '/Marble Final 2/Fantasy Brown Marble.png' },
+  { name: 'Bruno White', type: 'MARBLE', img: '/Marble Final 2/Bruno White Marble.png' },
+  { name: 'Red Flamingo', type: 'MARBLE', img: '/Marble Final 2/Red Flamingo Marble_.png' },
+  { name: 'Rainbow Sandstone', type: 'SANDSTONE', img: '/Sand Stone Final 2/Rainbow Sandstone.png' },
+  { name: 'Teakwood Sandstone', type: 'SANDSTONE', img: '/Sand Stone Final 2/Teakwood Sandstone.png' },
+  { name: 'Jaisalmer Gold', type: 'SANDSTONE', img: '/Sand Stone Final 2/Jaisalmer Gold Sandstone.png' },
+  { name: 'Kota Blue Sandstone', type: 'SANDSTONE', img: '/Sand Stone Final 2/Kota Blue Sandstone.png' },
+  { name: 'Dholpur Red', type: 'SANDSTONE', img: '/Sand Stone Final 2/dholpur red sandstone.png' },
+  { name: 'Bijoliya Autumn Brown', type: 'SANDSTONE', img: '/Sand Stone Final 2/Bijoliya Autumn Brown Sandstone.png' },
+  { name: 'Kota Blue Limestone', type: 'LIMESTONE', img: '/Lime Stone/Kota Blue Limestone.png' },
+  { name: 'Kadappa Black', type: 'LIMESTONE', img: '/Lime Stone/Kadappa Black Limestone.png' },
+  { name: 'Tandur Yellow', type: 'LIMESTONE', img: '/Lime Stone/Tandur Yellow Limestone.png' },
+  { name: 'Chittor Black', type: 'LIMESTONE', img: '/Lime Stone/Chittor Black Limestone.png' },
+  { name: 'Copper Slate', type: 'SLATE', img: '/Slate Stone/copper slate stone.png' },
+  { name: 'Marine Black Slate', type: 'SLATE', img: '/Slate Stone/Marine Black Slate.png' },
+  { name: 'Ocean Black Slate', type: 'SLATE', img: '/Slate Stone/Ocean Black Slate.png' },
+  { name: 'Silver Fish Swan Slate', type: 'SLATE', img: '/Slate Stone/Silver Grey Fish Swan Slate.png' },
+  { name: 'Zeera Green Slate', type: 'SLATE', img: '/Slate Stone/zeera green slate stone.png' }
 ];
 
 const FACE_TRANSFORMS = [
