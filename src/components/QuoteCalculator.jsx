@@ -114,7 +114,7 @@ export default function QuoteCalculator({ selectedStoneFromCatalog, clearSelecte
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           
           {/* CONFIGURATOR CONTROLS */}
-          <div className="lg:col-span-7 bg-white border border-[#E5E7EB] rounded-2xl p-6 sm:p-8 shadow-sm space-y-6">
+          <form onSubmit={handleSubmit} className="lg:col-span-7 bg-white border border-[#E5E7EB] rounded-2xl p-6 sm:p-8 shadow-sm space-y-6">
             <div className="flex items-center justify-between border-b border-[#E5E7EB] pb-4">
               <h3 className="font-outfit text-sm tracking-wider uppercase text-[#1C1C21] font-bold">1. Configure Material & Cargo Specs</h3>
               <span className="text-[10px] text-[#D4AF37] font-mono font-semibold">EXPORT SPEC ENGINE</span>
@@ -291,8 +291,8 @@ export default function QuoteCalculator({ selectedStoneFromCatalog, clearSelecte
                 )}
               </div>
 
-            </form>
-          </div>
+            </div>
+          </form>
 
           {/* Right Side: Outputs (5 cols) */}
           <div className="lg:col-span-5 flex flex-col gap-6">
@@ -351,7 +351,7 @@ export default function QuoteCalculator({ selectedStoneFromCatalog, clearSelecte
                 <div className="space-y-3 text-xs">
                   <div className="flex justify-between items-center text-[#4E4E59]">
                     <span>Standard Density:</span>
-                    <span className="text-[#1C1C21] font-mono font-medium">{density.toFixed(2)} g/cm³</span>
+                    <span className="text-[#1C1C21] font-mono font-medium">{currentStone?.density || '2.70 g/cm³'}</span>
                   </div>
                   <div className="flex justify-between items-center text-[#4E4E59]">
                     <span>Cargo Target Port:</span>
