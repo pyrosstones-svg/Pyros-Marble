@@ -1312,7 +1312,6 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-6 border-t border-white/5 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-neutral-500">
           <span>&copy; {new Date().getFullYear()} Pyros Marble & Granite Surfaces. Powered by Pyros. All rights reserved.</span>
           <div className="flex items-center gap-4">
-            <span className="flex items-center gap-1 font-light">Made with <Heart className="w-3 h-3 text-[#D4AF37] fill-[#D4AF37]" /> for global luxury builders.</span>
             <button
               onClick={scrollToTop}
               className="p-2 bg-neutral-900 hover:bg-[#D4AF37] hover:text-black border border-neutral-800 rounded-md transition-all hover:scale-105 shadow-sm text-neutral-400"

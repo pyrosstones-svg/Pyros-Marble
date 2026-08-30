@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { stones } from '../data/stoneData';
 import { Container, Scale, Check, ArrowLeft, Send, CheckCircle2, MessageSquare, PhoneCall } from 'lucide-react';
 import { navigate } from '../utils/navigation';
+import CategoryCTA from './CategoryCTA';
 
 export default function ProductDetails({ stoneId, onBack }) {
   const currentStone = stones.find(s => s.id === stoneId);
@@ -483,6 +484,9 @@ export default function ProductDetails({ stoneId, onBack }) {
             </div>
           </div>
         )}
+
+        {/* Dynamic Category CTA for the current stone */}
+        <CategoryCTA category={currentStone.category} />
 
       </div>
     </section>

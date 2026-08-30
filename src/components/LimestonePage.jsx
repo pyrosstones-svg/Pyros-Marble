@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { stones } from '../data/stoneData';
 import { Search, Eye, ArrowRight, Layers } from 'lucide-react';
 import { navigate } from '../utils/navigation';
+import CategoryCTA from './CategoryCTA';
 
 export default function LimestonePage() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -76,7 +77,7 @@ export default function LimestonePage() {
                 >
                   <div className="px-5 py-2.5 bg-[#D4AF37] text-black font-semibold text-xs tracking-wider uppercase rounded flex items-center gap-2 shadow-lg">
                     <Eye className="w-3.5 h-3.5" />
-                    Inspect Limestone Tile
+                    Inspect Limestone
                   </div>
                 </div>
               </div>
@@ -104,6 +105,9 @@ export default function LimestonePage() {
             </div>
           ))}
         </div>
+
+        {/* Dynamic Category CTA Block */}
+        <CategoryCTA category="limestone" />
       </div>
     </div>
   );

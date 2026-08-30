@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { stones } from '../data/stoneData';
 import { Search, Eye, ArrowRight, CheckCircle2, Sparkles, Gem, Package } from 'lucide-react';
 import { navigate } from '../utils/navigation';
+import CategoryCTA from './CategoryCTA';
 
 export default function QuartzitePage() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -46,7 +47,7 @@ export default function QuartzitePage() {
             <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-400" />
             <input 
               type="text" 
-              placeholder="Search Quartzite by name..."
+              placeholder="Search Quartzite by name..." 
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full pl-10 pr-4 py-2.5 bg-white border border-[#E5E7EB] rounded-lg text-xs font-inter focus:outline-none focus:border-[#D4AF37] shadow-sm"
@@ -57,7 +58,7 @@ export default function QuartzitePage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {quartziteStones.map((stone) => (
             <div 
-              key={stone.id}
+              key={stone.id} 
               className="group relative bg-white rounded-lg overflow-hidden border border-[#E5E7EB] hover:border-[#D4AF37]/50 transition-all duration-500 hover:-translate-y-1 shadow-sm hover:shadow-md"
             >
               <div className="aspect-[4/3] w-full overflow-hidden relative bg-neutral-100">
@@ -104,6 +105,9 @@ export default function QuartzitePage() {
             </div>
           ))}
         </div>
+
+        {/* Dynamic Category CTA Block */}
+        <CategoryCTA category="quartzite" />
       </div>
     </div>
   );

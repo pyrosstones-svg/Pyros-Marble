@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { stones } from '../data/stoneData';
 import { Search, Eye, ArrowRight, Layers } from 'lucide-react';
 import { navigate } from '../utils/navigation';
+import CategoryCTA from './CategoryCTA';
 
 export default function PorcelainPage() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -104,6 +105,9 @@ export default function PorcelainPage() {
             </div>
           ))}
         </div>
+
+        {/* Dynamic Category CTA Block */}
+        <CategoryCTA category="porcelain" />
       </div>
     </div>
   );
