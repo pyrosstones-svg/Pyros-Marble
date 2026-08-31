@@ -31,9 +31,9 @@ export default function ProductDetails({ stoneId, onBack }) {
     );
   }
 
-  // Logistic Engine Calculations: 1 Standard Gangsaw Slab = 500 kg (0.50 Tons for 20mm, 0.75 Tons for 30mm)
+  // Logistic Engine Calculations: 1 Standard Gangsaw Slab = 320 kg for 20mm (0.32 Tons), 500 kg for 30mm (0.50 Tons)
   const totalSqm = quantity * 5.4;
-  const weightPerSlabTons = thickness === 30 ? 0.75 : 0.50;
+  const weightPerSlabTons = thickness === 30 ? 0.50 : 0.32;
   const totalWeightTons = quantity * weightPerSlabTons;
 
   const maxWeightPerContainer = 27.0; // Max 27T limit across all destination ports

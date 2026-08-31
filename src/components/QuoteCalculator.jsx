@@ -26,8 +26,8 @@ export default function QuoteCalculator({ selectedStoneFromCatalog, clearSelecte
 
   const currentStone = stones.find(s => s.id === selectedStoneId) || stones[0];
 
-  // Logic Calculations: 1 Standard Gangsaw Slab = 500 kg (0.50 Tons for 20mm, 0.75 Tons for 30mm)
-  const weightPerSlabTons = thickness === 30 ? 0.75 : 0.50;
+  // Logic Calculations: 1 Standard Gangsaw Slab = 320 kg (0.32 Tons for 20mm / 2cm, 500 kg / 0.50 Tons for 30mm / 3cm)
+  const weightPerSlabTons = thickness === 30 ? 0.50 : 0.32;
   
   let totalSqm = 0;
   let totalWeightTons = 0;
