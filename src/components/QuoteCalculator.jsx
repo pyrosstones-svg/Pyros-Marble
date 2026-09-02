@@ -6,7 +6,7 @@ export default function QuoteCalculator({ selectedStoneFromCatalog, clearSelecte
   const [selectedStoneId, setSelectedStoneId] = useState('');
   const [thickness, setThickness] = useState(20); // mm
   const [quantityType, setQuantityType] = useState('slabs'); // slabs or sqm
-  const [quantity, setQuantity] = useState(120); 
+  const [quantity, setQuantity] = useState(120);
   const [destination, setDestination] = useState('Arab'); // US, UK, Arab
   const [isSubmitted, setIsSubmitted] = useState(false);
 
@@ -28,7 +28,7 @@ export default function QuoteCalculator({ selectedStoneFromCatalog, clearSelecte
 
   // Logic Calculations: 1 Standard Gangsaw Slab = 320 kg (0.32 Tons for 20mm / 2cm, 500 kg / 0.50 Tons for 30mm / 3cm)
   const weightPerSlabTons = thickness === 30 ? 0.50 : 0.32;
-  
+
   let totalSqm = 0;
   let totalWeightTons = 0;
   if (quantityType === 'slabs') {
@@ -94,14 +94,14 @@ export default function QuoteCalculator({ selectedStoneFromCatalog, clearSelecte
   return (
     <section id="calculator" className="py-24 bg-[#FAF9F6] text-[#1C1C21]">
       <div className="max-w-7xl mx-auto px-6">
-        
+
         {/* Header */}
         <div className="flex flex-col items-center text-center mb-16">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/10 text-[#D4AF37] text-xs uppercase tracking-widest font-mono mb-4">
             <Scale className="w-3.5 h-3.5" />
             <span>Interactive Freight Configurator</span>
           </div>
-          
+
           <h2 className="font-cormorant text-4xl sm:text-5xl font-light text-[#1C1C21] tracking-tight">
             Direct Container Weight & Load Calculator
           </h2>
@@ -112,7 +112,7 @@ export default function QuoteCalculator({ selectedStoneFromCatalog, clearSelecte
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-          
+
           {/* CONFIGURATOR CONTROLS */}
           <form onSubmit={handleSubmit} className="lg:col-span-7 bg-white border border-[#E5E7EB] rounded-2xl p-6 sm:p-8 shadow-sm space-y-6">
             <div className="flex items-center justify-between border-b border-[#E5E7EB] pb-4">
@@ -121,7 +121,7 @@ export default function QuoteCalculator({ selectedStoneFromCatalog, clearSelecte
             </div>
 
             <div className="space-y-5">
-              
+
               {/* Stone Selection */}
               <div className="flex flex-col">
                 <label className="text-[10px] uppercase tracking-wider text-[#4E4E59] mb-1.5 font-semibold">Select Stone Variety</label>
@@ -150,11 +150,10 @@ export default function QuoteCalculator({ selectedStoneFromCatalog, clearSelecte
                       key={t.val}
                       type="button"
                       onClick={() => setThickness(t.val)}
-                      className={`py-3 px-4 rounded-lg border text-xs font-mono transition-all text-center ${
-                        thickness === t.val 
-                          ? 'border-[#D4AF37] bg-[#D4AF37]/10 text-[#1C1C21] font-bold' 
+                      className={`py-3 px-4 rounded-lg border text-xs font-mono transition-all text-center ${thickness === t.val
+                          ? 'border-[#D4AF37] bg-[#D4AF37]/10 text-[#1C1C21] font-bold'
                           : 'border-[#E5E7EB] bg-white text-[#4E4E59] hover:border-[#D4AF37]'
-                      }`}
+                        }`}
                     >
                       {t.label}
                     </button>
@@ -170,22 +169,20 @@ export default function QuoteCalculator({ selectedStoneFromCatalog, clearSelecte
                     <button
                       type="button"
                       onClick={() => { setQuantityType('slabs'); setQuantity(120); }}
-                      className={`py-2.5 rounded-md border text-xs font-mono ${
-                        quantityType === 'slabs' 
-                          ? 'border-[#D4AF37] bg-[#D4AF37]/10 text-[#1C1C21] font-bold' 
+                      className={`py-2.5 rounded-md border text-xs font-mono ${quantityType === 'slabs'
+                          ? 'border-[#D4AF37] bg-[#D4AF37]/10 text-[#1C1C21] font-bold'
                           : 'border-[#E5E7EB] bg-white text-[#4E4E59]'
-                      }`}
+                        }`}
                     >
                       Slabs (~5.4 sqm)
                     </button>
                     <button
                       type="button"
                       onClick={() => { setQuantityType('sqm'); setQuantity(650); }}
-                      className={`py-2.5 rounded-md border text-xs font-mono ${
-                        quantityType === 'sqm' 
-                          ? 'border-[#D4AF37] bg-[#D4AF37]/10 text-[#1C1C21] font-bold' 
+                      className={`py-2.5 rounded-md border text-xs font-mono ${quantityType === 'sqm'
+                          ? 'border-[#D4AF37] bg-[#D4AF37]/10 text-[#1C1C21] font-bold'
                           : 'border-[#E5E7EB] bg-white text-[#4E4E59]'
-                      }`}
+                        }`}
                     >
                       Sq. Meters
                     </button>
@@ -219,11 +216,10 @@ export default function QuoteCalculator({ selectedStoneFromCatalog, clearSelecte
                       key={m.code}
                       type="button"
                       onClick={() => setDestination(m.code)}
-                      className={`p-3 border rounded-lg text-left transition-all ${
-                        destination === m.code
+                      className={`p-3 border rounded-lg text-left transition-all ${destination === m.code
                           ? 'border-[#D4AF37] bg-[#D4AF37]/10 text-[#1C1C21] font-semibold'
                           : 'border-[#E5E7EB] bg-white text-[#4E4E59] hover:text-[#1C1C21] hover:border-[#D4AF37]'
-                      }`}
+                        }`}
                     >
                       <div className="font-outfit text-xs font-bold">{m.label}</div>
                       <div className="text-[9px] mt-1 font-light opacity-80">{m.info}</div>
@@ -235,7 +231,7 @@ export default function QuoteCalculator({ selectedStoneFromCatalog, clearSelecte
               {/* Lead Request Details */}
               <div className="border-t border-black/5 pt-6 mt-8 space-y-4">
                 <h4 className="font-outfit text-xs tracking-wider uppercase text-[#1C1C21] font-semibold">Receive Formal Ocean Freight Quote</h4>
-                
+
                 {!isSubmitted ? (
                   <div className="space-y-4">
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -279,9 +275,9 @@ export default function QuoteCalculator({ selectedStoneFromCatalog, clearSelecte
                     <div className="flex flex-col text-xs">
                       <span className="font-semibold text-[#D4AF37]">Export Request Logged Successfully</span>
                       <span className="leading-relaxed mt-1 text-[#4E4E59]">Thank you {leadName}. Our India-based export desk will compute exact ocean freight to your target port and email you within 4 hours.</span>
-                      <button 
-                        type="button" 
-                        onClick={handleReset} 
+                      <button
+                        type="button"
+                        onClick={handleReset}
                         className="text-[10px] underline hover:text-[#1C1C21] text-[#D4AF37] font-bold text-left mt-3 uppercase tracking-wider transition-colors"
                       >
                         New Estimation
@@ -296,10 +292,10 @@ export default function QuoteCalculator({ selectedStoneFromCatalog, clearSelecte
 
           {/* Right Side: Outputs (5 cols) */}
           <div className="lg:col-span-5 flex flex-col gap-6">
-            
+
             {/* Calculation summary card */}
             <div className="bg-white border border-[#E5E7EB] rounded-xl p-6 md:p-8 flex flex-col justify-between h-full shadow-sm text-[#1C1C21]">
-              
+
               <div className="space-y-6">
                 <div className="border-b border-black/5 pb-4">
                   <span className="text-[10px] tracking-wider uppercase text-[#D4AF37] font-bold">Calculation Summary</span>

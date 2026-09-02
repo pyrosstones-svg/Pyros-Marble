@@ -310,6 +310,34 @@ export const stones = [
     image: "/Marble Final 2/Toronto Marble.png",
     recommendedUse: "Living room floors, corporate reception desks, bathroom counters, wall cladding."
   },
+  {
+    id: "pyros-river-white-marble",
+    baseId: "pyros-river-white-marble",
+    name: "River White Marble",
+    category: "marble",
+    origin: "India",
+    finishes: ["Polished", "Honed", "Leathered", "High Gloss"],
+    density: "2.70 g/cm³",
+    waterAbsorption: "0.14%",
+    sizes: ["120x240x20mm", "160x320x30mm", "60x120x20mm", "Custom Gangsaw Slabs"],
+    description: "Elegant River White Marble showcasing delicate grey rivers and soft mineral textures flowing across a clean ivory-white backdrop.",
+    image: "/CATLOG/Granite/RIVER WHITE - JE.JPG",
+    recommendedUse: "Kitchen worktops, master bath vanities, luxury flooring, accent wall cladding."
+  },
+  {
+    id: "pyros-fantasy-silver-marble",
+    baseId: "pyros-fantasy-silver-marble",
+    name: "Fantasy Silver Marble",
+    category: "marble",
+    origin: "Rajasthan, India",
+    finishes: ["Polished", "Leathered", "Honed", "Bookmatch", "High Gloss"],
+    density: "2.72 g/cm³",
+    waterAbsorption: "0.13%",
+    sizes: ["120x240x20mm", "160x320x30mm", "60x120x20mm", "Custom Gangsaw Slabs"],
+    description: "Stunning Fantasy Silver Marble with icy silver, platinum, and smoke swirls delivering high visual impact.",
+    image: "/CATLOG/Granite/FANTASY SILVER IM.JPG",
+    recommendedUse: "Kitchen islands, master bathroom vanities, statement wall panels, luxury bookmatched flooring."
+  },
 
   // ==========================================
   // GRANITE COLLECTION (37 Products)
@@ -329,18 +357,18 @@ export const stones = [
     recommendedUse: "Kitchen worktops, commercial flooring, facade cladding, vanity tops."
   },
   {
-    id: "pyros-alaska-gold-vks-granite",
-    baseId: "pyros-alaska-gold-vks-granite",
-    name: "Alaska Gold Granite (VKS)",
+    id: "pyros-blue-flower-granite",
+    baseId: "pyros-blue-flower-granite",
+    name: "Blue Flower Granite",
     category: "granite",
     origin: "Rajasthan, India",
-    finishes: ["Polished", "Leathered", "Lapatro", "Honed"],
-    density: "2.68 g/cm³",
-    waterAbsorption: "0.18%",
+    finishes: ["Polished", "Leathered", "Lapatro", "Honed", "Flamed"],
+    density: "2.72 g/cm³",
+    waterAbsorption: "0.14%",
     sizes: ["120x240x20mm", "160x320x30mm", "60x120x20mm", "Custom Gangsaw Slabs"],
-    description: "Selected lot Alaska Gold Granite with high golden-quartz density and dynamic natural veining.",
+    description: "Distinctive Blue Flower Granite featuring frosty silver-grey fields adorned with icy blue-grey floral clusters and mineral veining.",
     image: "/CATLOG/Granite/ALASKA GOLD - VKS.JPG",
-    recommendedUse: "Premium kitchen countertops, commercial flooring, wall claddings."
+    recommendedUse: "Waterfall kitchen islands, master bathroom vanities, boutique hotel flooring, wall cladding."
   },
   {
     id: "pyros-alpine-forest-granite",
@@ -595,20 +623,6 @@ export const stones = [
     recommendedUse: "Kitchen counters, luxury bathroom flooring, corporate interiors."
   },
   {
-    id: "pyros-fantasy-silver-granite",
-    baseId: "pyros-fantasy-silver-granite",
-    name: "Fantasy Silver Granite",
-    category: "granite",
-    origin: "Rajasthan, India",
-    finishes: ["Polished", "Leathered", "Honed", "Bookmatch"],
-    density: "2.72 g/cm³",
-    waterAbsorption: "0.13%",
-    sizes: ["120x240x20mm", "160x320x30mm", "60x120x20mm", "Custom Gangsaw Slabs"],
-    description: "Stunning Fantasy Silver Granite with icy silver, platinum, and smoke swirls delivering high visual impact.",
-    image: "/CATLOG/Granite/FANTASY SILVER IM.JPG",
-    recommendedUse: "Kitchen islands, master bathroom vanities, statement wall panels."
-  },
-  {
     id: "pyros-glacier-white-granite",
     baseId: "pyros-glacier-white-granite",
     name: "Glacier White Granite",
@@ -665,20 +679,6 @@ export const stones = [
     recommendedUse: "Kitchen countertops, bathroom vanities, apartment flooring."
   },
   {
-    id: "pyros-ocean-black-granite",
-    baseId: "pyros-ocean-black-granite",
-    name: "Ocean Black Granite",
-    category: "granite",
-    origin: "Rajasthan, India",
-    finishes: ["Polished", "Leathered", "Flamed", "Honed"],
-    density: "2.79 g/cm³",
-    waterAbsorption: "0.09%",
-    sizes: ["120x240x20mm", "160x320x30mm", "60x120x20mm", "Custom Gangsaw Slabs"],
-    description: "Deep Ocean Black Granite with dark oceanic wave textures and exceptional scratch and stain resistance.",
-    image: "/CATLOG/Granite/OCEAN BLACK - MS.JPG",
-    recommendedUse: "Outdoor kitchens, contemporary countertops, staircase treads."
-  },
-  {
     id: "pyros-oyster-blue-granite",
     baseId: "pyros-oyster-blue-granite",
     name: "Oyster Blue Granite",
@@ -707,20 +707,6 @@ export const stones = [
     recommendedUse: "Commercial building flooring, airports, residential countertops."
   },
   {
-    id: "pyros-river-white-granite",
-    baseId: "pyros-river-white-granite",
-    name: "River White Granite",
-    category: "granite",
-    origin: "India",
-    finishes: ["Polished", "Leathered", "Honed"],
-    density: "2.70 g/cm³",
-    waterAbsorption: "0.15%",
-    sizes: ["120x240x20mm", "160x320x30mm", "60x120x20mm", "Custom Gangsaw Slabs"],
-    description: "Classic River White Granite showcasing delicate grey rivers and cranberry garnet mineral spots across white quartz.",
-    image: "/CATLOG/Granite/RIVER WHITE - JE.JPG",
-    recommendedUse: "Kitchen worktops, master bath vanities, kitchen backsplashes."
-  },
-  {
     id: "pyros-silver-falls-granite",
     baseId: "pyros-silver-falls-granite",
     name: "Silver Falls Granite",
@@ -733,20 +719,6 @@ export const stones = [
     description: "Silver Falls Granite featuring cascading waterfall currents of silver-grey, pewter, and white crystal.",
     image: "/CATLOG/Granite/SILVER FALLS - HM.JPG",
     recommendedUse: "Waterfall countertops, luxury kitchen islands, staircase walls."
-  },
-  {
-    id: "pyros-teak-wood-granite",
-    baseId: "pyros-teak-wood-granite",
-    name: "Teak Wood Granite",
-    category: "granite",
-    origin: "Rajasthan, India",
-    finishes: ["Polished", "Honed", "Leathered", "Sawn"],
-    density: "2.66 g/cm³",
-    waterAbsorption: "0.20%",
-    sizes: ["120x240x20mm", "160x320x30mm", "60x120x20mm", "Custom Gangsaw Slabs"],
-    description: "Earthy Teak Wood Granite exhibiting timber-like striations and warm golden-amber waves.",
-    image: "/CATLOG/Granite/TEAK WOOD -SST.JPG",
-    recommendedUse: "Kitchen counters, landscape architecture, exterior cladding."
   },
   {
     id: "pyros-volcanic-white-granite",
@@ -1084,20 +1056,6 @@ export const stones = [
     description: "Sunlit Crystal Yellow Granite featuring warm mustard-gold crystals and fine dark mineral granules with high hardness.",
     image: "/Granite/Crystal Yellow Granite.png",
     recommendedUse: "Exterior elevations, commercial flooring, kitchen worktops."
-  },
-  {
-    id: "pyros-crystalite-white-granite",
-    baseId: "pyros-crystalite-white-granite",
-    name: "Crystalite White Granite",
-    category: "granite",
-    origin: "Rajasthan, India",
-    finishes: ["Polished", "Leathered", "Lapatro", "Honed", "Flamed"],
-    density: "2.72 g/cm³",
-    waterAbsorption: "0.14%",
-    sizes: ["120x240x20mm", "160x320x30mm", "60x120x20mm", "Custom Gangsaw Slabs"],
-    description: "Brilliant Crystalite White Granite with crystalline white quartz clusters and soft grey veining for modern architectural surfaces.",
-    image: "/Granite/Crystalite White Granite.png",
-    recommendedUse: "Kitchen worktops, staircase risers, luxury apartment flooring."
   },
   {
     id: "pyros-desert-gold-granite",
@@ -2073,6 +2031,20 @@ export const stones = [
     image: "/Sand Stone Final 2/dholpur red sandstone.png",
     recommendedUse: "Monumental facades, historical restoration, garden walkways, fortress style elevations."
   },
+  {
+    id: "pyros-ocean-black-sandstone",
+    baseId: "pyros-ocean-black-sandstone",
+    name: "Ocean Black Sandstone",
+    category: "sandstone",
+    origin: "Bijoliya, Rajasthan, India",
+    finishes: ["Natural Cleft", "Calibrated", "Honed", "Shotblasted", "Tumbled"],
+    density: "2.58 g/cm³",
+    waterAbsorption: "0.85%",
+    sizes: ["60x60x20mm", "60x90x20mm", "Patio Project Packs", "Gangsaw Slabs"],
+    description: "Deep Ocean Black Sandstone with dark oceanic wave textures, excellent slip-resistance, and rugged all-weather durability.",
+    image: "/CATLOG/Granite/OCEAN BLACK - MS.JPG",
+    recommendedUse: "Garden patios, poolside decking, driveway paving, exterior wall cladding, step treads."
+  },
 
   // ==========================================
   // LIMESTONE COLLECTION (7 Products)
@@ -2192,20 +2164,6 @@ export const stones = [
     description: "High-grade Marine Black Slate with a rich matte black surface and natural fine-grained cleavage for modern architecture.",
     image: "/Slate Stone/Marine Black Slate.png",
     recommendedUse: "Feature wall cladding, bathroom floor & walls, fireplace surrounds, slate roofing."
-  },
-  {
-    id: "pyros-ocean-black-slate",
-    baseId: "pyros-ocean-black-slate",
-    name: "Ocean Black Slate",
-    category: "slate",
-    origin: "Rajasthan, India",
-    finishes: ["Natural Split", "Calibrated", "Honed", "Antique"],
-    density: "2.79 g/cm³",
-    waterAbsorption: "0.18%",
-    sizes: ["30x30x12mm", "60x30x12mm", "60x60x15mm"],
-    description: "Deep Ocean Black Slate offering a dark nautical sheen with ultra-low water permeability and exceptional split durability.",
-    image: "/Slate Stone/Ocean Black Slate.png",
-    recommendedUse: "Exterior wall cladding, poolside non-slip borders, luxury wet areas, kitchen splashbacks."
   },
   {
     id: "pyros-silver-grey-fish-swan-slate",
