@@ -1209,13 +1209,20 @@ export default function App() {
           <div className="flex flex-col gap-4 text-left">
             <h4 className="font-outfit text-xs tracking-widest uppercase text-white font-bold pb-2 border-b border-white/5">Our Collection</h4>
             <ul className="space-y-2.5 font-light text-neutral-200 text-[13px]">
-              {['Marble & Granite', 'Quartz & Quartzite', 'Sandstone & Slate', 'Wall Cladding', 'Porcelain Surfaces'].map((item, idx) => (
+              {[
+                { name: 'Marble Slabs', path: '/marble' },
+                { name: 'Granite Countertops', path: '/granite' },
+                { name: 'Quartz & Quartzite', path: '/quartzite' },
+                { name: 'Sandstone & Slate', path: '/sandstone' },
+                { name: 'Wall Cladding Panels', path: '/wall-cladding' },
+                { name: 'Porcelain & Sintered Slabs', path: '/porcelain' }
+              ].map((item, idx) => (
                 <li key={idx}>
                   <button
-                    onClick={() => navigateTo('catalog')}
+                    onClick={() => { navigate(item.path); }}
                     className="hover:text-[#D4AF37] hover:translate-x-1 transition-all duration-300 text-left block"
                   >
-                    {item}
+                    {item.name}
                   </button>
                 </li>
               ))}
